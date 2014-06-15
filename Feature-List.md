@@ -13,6 +13,7 @@
  * Stronger community integration (eg: Quakelive's homepage)
 * Global authentication + protection
  * Global stats
+ * Like jabber: multiple server (multiple domains)
 * Dynamic Content
  * destructible maps
  * movables
