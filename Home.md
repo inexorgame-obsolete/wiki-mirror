@@ -1,5 +1,6 @@
 # Sauerbraten Fork Documentation
 
+* [Communication](Communication)
 * [Existing Mods](Existing Mods)
 
 State of the Nation
