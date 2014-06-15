@@ -41,6 +41,10 @@
  * admin focused improvements
  * extinfo console client
 * zero mod
+* Zombie-Menu                                             Clientscript
+ * >60 in-game mini-tutorials/manuals
+ * playerlist with frequent commands
+ * made for managing MMO coop-maps
 * Sauerworld
  * Community-Improvements
 * crapmod
