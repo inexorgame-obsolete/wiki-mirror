@@ -1,2 +1,0 @@
-* Sauerbomber
-* Nooblauncher
