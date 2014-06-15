@@ -1,3 +1,7 @@
+
+
+
+## Rules
 # Code Syntax:
 Sauerbraten alike (char *, void foo()\n {, structures instead of classes, ..)
 
