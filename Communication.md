@@ -1,0 +1,5 @@
+# Communication
+
+* IRC
+* Mumble
+* Mailinglisten
