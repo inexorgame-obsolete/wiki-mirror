@@ -3,3 +3,5 @@
 * IRC
 * Mumble
 * Mailinglisten
+* Forum
+
