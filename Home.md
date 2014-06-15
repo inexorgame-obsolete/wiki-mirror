@@ -1,14 +1,15 @@
 # Sauerbraten Fork Documentation
 
 * [Existing Mods](Existing Mods)
+* [Communication](Communication)
 
-State of the Nation
+### State of the Nation
 
 * Automatically synced Git mirror of Sauerbraten and Tesseract repo exists
 * History of Sauerbraten divided in only-code, only-data and only-build deps
 * Pull Sauerbraten contents during build to bypass license restrictions
 
-Communication
+### Communication
 * irc://gamesurge.net/#sauerfork
 * Mumble
 * Mailinglisten
