@@ -1,4 +1,4 @@
-Sauerbraten Fork Documentation
+# Sauerbraten Fork Documentation
 
 * [Existing Mods](Existing Mods)
 
