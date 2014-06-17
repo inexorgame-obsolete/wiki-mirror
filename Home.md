@@ -1,9 +1,9 @@
 # Sauerbraten Fork Documentation
 
 * [Existing Mods](Existing Mods)
-* [Communication](Communication)
 * [Feature List](Feature List)
 * [Development Environment](Development Environment)
+* [Name finding](Name Finding)
 
 ### State of the Nation
 
