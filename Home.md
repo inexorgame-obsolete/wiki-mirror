@@ -3,7 +3,7 @@
 * [Existing Mods](Existing Mods)
 * [Feature List](Feature List)
 * [Development Environment](Development Environment)
-* [Name finding](Name Finding)
+* [Branding](Branding)
 
 ### State of the Nation
 
