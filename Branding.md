@@ -10,7 +10,7 @@ _Please vote for a name soon: add suggestions to the list below; state your supp
 * Fast Fire                 [a_teammate]
 * Eris in Finity            [mapc]
 * LBC – Large Bullet Collider [mapc]
-* fuddy-duddy               [a_teammate] {negative word for an old-fashioned person who does not accept modern  trends.}
+* fuddy-duddy             [a_teammate] `negative word for an old-fashioned person who does not accept modern  trends.`
 * Stop! Sauer Time!         [mapc]
 * Hannibal                  [Fohlen] 
 
