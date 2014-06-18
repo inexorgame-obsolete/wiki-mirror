@@ -6,7 +6,6 @@
 
 _Please vote for a name soon: add suggestions to the list below; state your support by leaving your nick; use your veto by moving suggestions to the *Bad Names* list._
 
-* Möbius [mapc]
 * Tensor Reloaded [mapc]
 * FFT – Fast Fire Transform [mapc]
 * Eris in Finity [mapc]
@@ -17,7 +16,7 @@ _Please vote for a name soon: add suggestions to the list below; state your supp
 ### Bad Names
 
 * Schnitzel [**veto by mapc, Fohlen**]
-
+* Möbius [**veto by a_teammate, mapc**]
 # Logo
 
 _anyone?_
