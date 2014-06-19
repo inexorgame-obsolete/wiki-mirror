@@ -23,3 +23,8 @@ _Please vote for a name soon: add suggestions to the list below; state your supp
 # Logo
 
 _anyone?_
+
+# Social Networks
+
+* twitter?
+* Facebook?
