@@ -6,6 +6,8 @@
 
 _Please vote for a name soon: add suggestions to the list below; state your support by leaving your nick; use your veto by moving suggestions to the *Bad Names* list._
 
+* **Sauerbraten 2.0**             _[a_teammate]_ `this will be my favorite vote, since this will transform most of the players of Sauerbraten to our fork. Other names will make it appear as another game.`
+* **The best game ever**             _[a_teammate]_ 'what are you playing? I'm playing the ..'
 * **FFT – Fast Fire Transform** _[mapc]_
 * **Fast Fire**             _[a_teammate]_
 * **Eris in Finity**           _[mapc]_
