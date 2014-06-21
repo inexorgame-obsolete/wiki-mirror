@@ -6,7 +6,7 @@
 
 _Please vote for a name soon: add suggestions to the list below; state your support by leaving your nick; use your veto by moving suggestions to the *Bad Names* list._
 
-* **Sauerbraten 2.0**             _[a_teammate]_ `this will be my favorite vote, since this will transform most of the players of Sauerbraten to our fork. Other names will make it appear as another game.`
+* **Sauerbraten 2.0**             _[a_teammate, Nooby]_ `this will be my favorite vote, since this will transform most of the players of Sauerbraten to our fork. Other names will make it appear as another game.` `the press would likely going to call it a sequel of sauer, means free advertising`
 * **FFT – Fast Fire Transform**
 * **Fast Fire**             _[a_teammate]_
 * **Eris in Finity**           _[mapc]_
