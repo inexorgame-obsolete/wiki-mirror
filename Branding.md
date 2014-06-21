@@ -8,13 +8,13 @@ _Please vote for a name soon: add suggestions to the list below; state your supp
 
 * **Sauerbraten 2.0**             _[a_teammate]_ `this will be my favorite vote, since this will transform most of the players of Sauerbraten to our fork. Other names will make it appear as another game.`
 * **The best game ever**             _[a_teammate]_ 'what are you playing? I'm playing the ..'
-* **FFT – Fast Fire Transform** _[mapc]_
+* **FFT – Fast Fire Transform**
 * **Fast Fire**             _[a_teammate]_
 * **Eris in Finity**           _[mapc]_
 * **LBC – Large Bullet Collider** _[mapc]_
 * **fuddy-duddy**             _[a_teammate]_ `negative word for an old-fashioned person who does not accept modern  trends.`
-* **Stop! Sauer Time!**        _[mapc]_
-* **Hannibal**                 _[Fohlen]_
+* **Stop! Sauer Time!**        
+b
 * **Cone** _[mapc]_
 * **Square** _[mapc]_
 
