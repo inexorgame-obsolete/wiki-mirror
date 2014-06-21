@@ -15,6 +15,8 @@ _Please vote for a name soon: add suggestions to the list below; state your supp
 * **fuddy-duddy**             _[a_teammate]_ `negative word for an old-fashioned person who does not accept modern  trends.`
 * **Stop! Sauer Time!**        _[mapc]_
 * **Hannibal**                 _[Fohlen]_
+* **Cone** _[mapc]_
+* **Square** _[mapc]_
 
 ### Bad Names
 
