@@ -16,6 +16,8 @@
 checking the sourcebase of sauerbomber.
 ###Fohlen
 making the website to handle all this
+###Hanack
+make the makefile work well
 
 # What do you want to do next?
 ###a_teammate
