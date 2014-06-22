@@ -13,6 +13,7 @@ _Please vote for a name soon: add suggestions to the list below; state your supp
 * **Cone** _[mapc]_
 * **Square** _[mapc]_
 * **Hannibal** _[mapc, Fohlen]_
+* **S** _[Hanack]_
 
 ### Bad Names
 
