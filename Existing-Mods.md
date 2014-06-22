@@ -32,7 +32,8 @@
  * electronic circuit simulator
 * NoobMod (C und LUA)                               Servermod
  * Destructible Maps
- * Terrain Generation
+ * Terrain Generation (3D/4D)
+ * L-Systems
  * Outlawzone (modded gamemodes)
 * NL-Admin-Client                                          Clientmod
  * Visualisation player trace
