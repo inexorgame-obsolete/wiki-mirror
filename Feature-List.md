@@ -5,7 +5,8 @@
  * Make the game itself forkable
  * Content can be delivered by servers / repositories
 * Easy modability and mod delivery
- * Maps download
+ * Maps, Textures, Mapmodels download
+ * Packaging / Dependency Management for Content
  * Gamemode download (Scriptable)
  * Weapon download / Weapon settings (again, reffer to Counter Strike)
 * Deliver Sauerbraten on Steam 
