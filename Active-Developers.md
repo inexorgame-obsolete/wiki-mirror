@@ -13,7 +13,7 @@
 
 # Who is doing what?
 ###a_teammate 
-checking the sourcebase of sauerbomber.
+ingame package download
 ###Fohlen
 making the website to handle all this
 ###Hanack
