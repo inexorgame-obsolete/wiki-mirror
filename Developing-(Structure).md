@@ -1,3 +1,7 @@
+##Meetings
+We meet on mumble on "nooblounge.net", default-port.
+Meeting time open for discussion.
+Meetings will be weekly.
 
 
 ## Rules
