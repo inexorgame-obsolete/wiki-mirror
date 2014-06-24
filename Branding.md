@@ -15,7 +15,7 @@ _Please vote for a name soon: add suggestions to the list below; state your supp
 * **The Fork** _[aschaeffer]_
 * **Trident** _[mapc]_
 * **retari** _[mapc]_
-* **zefix** _[hanack,mapc]_
+* **zefix** _[aschaeffer,mapc]_
 * **HyperCube: Next Generation** _[Nooby]_
 
 ### Bad Names
