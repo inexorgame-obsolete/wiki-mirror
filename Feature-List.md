@@ -12,13 +12,15 @@
 * Deliver Sauerbraten on Steam 
  * Bigger audience / more PR
  * Stronger community integration (eg: Quakelive's homepage)
-* Global authentication + protection
+* Community functions
+ * Global dezentralized authentication + protection
+  * Like jabber: multiple servers (multiple domains)
  * Global stats
- * Like jabber: multiple server (multiple domains)
 * Dynamic Content
- * destructible maps
- * movables
-* Multiple Masterservers
+ * Destructible map geometry
+ * Movable, destructible objects
+* Dezentralization
+ * Multiple Masterservers
 * Security
  * Anti-DDOS
  * Load Balancing
