@@ -2,6 +2,8 @@
 
 ## Names
 
+**You can vote for a name [here](https://docs.google.com/forms/d/1GoqLLSbzWyXg25deYcZcC5vTUckEkbnkkM0Znq5s6UE/viewform)!
+
 **On another note, NO NAME CONTAINING FOOD WILL BE TAKEN!**
 
 _Please vote for a name soon: add suggestions to the list below; state your support by leaving your nick; use your veto by moving suggestions to the *Bad Names* list._
