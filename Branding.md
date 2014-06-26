@@ -17,6 +17,7 @@ _Please vote for a name soon: add suggestions to the list below; state your supp
 * **retari** _[mapc]_
 * **zefix** _[aschaeffer,mapc]_
 * **HyperCube: Next Generation** _[Nooby]_
+* **Cube2: Ehnet** _[Fohlen]_
 
 ### Bad Names
 
