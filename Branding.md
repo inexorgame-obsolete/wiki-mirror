@@ -2,7 +2,7 @@
 
 ## Names
 
-**You can vote for a name [here](https://docs.google.com/forms/d/1GoqLLSbzWyXg25deYcZcC5vTUckEkbnkkM0Znq5s6UE/viewform)!
+**You can vote for a name [here](https://docs.google.com/forms/d/1GoqLLSbzWyXg25deYcZcC5vTUckEkbnkkM0Znq5s6UE/viewform)!**
 
 **On another note, NO NAME CONTAINING FOOD WILL BE TAKEN!**
 
