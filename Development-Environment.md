@@ -3,9 +3,12 @@
 * Doxygen Code documentation
  * http://www.stack.nl/~dimitri/doxygen/
 * git / svn
+ * https://github.com/sauerbraten-fork/sauerbraten-fork/
  * http://git-scm.com/
 * wiki
+ * https://github.com/sauerbraten-fork/sauerbraten-fork/wiki
 * bugtracking
+ * https://github.com/sauerbraten-fork/sauerbraten-fork/issues
 * build server
  * http://jenkins-ci.org/
 * automated tests
