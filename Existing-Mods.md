@@ -46,7 +46,7 @@ At this point we collect existing mods, forks and other projects in the cube 2 u
 * cubic-matter(cm)? Mod
  * Type: Clientmod
  * electronic circuit simulator
-* NoobMod (C und LUA)                               Servermod
+* NoobMod (C und LUA)
  * Type: Servermod
  * Destructible Maps
  * Terrain Generation (3D/4D)
@@ -59,7 +59,9 @@ At this point we collect existing mods, forks and other projects in the cube 2 u
  * anti-cheat control
  * admin focused improvements
  * extinfo console client
-* zero mod
+* zeromod
+ * Type: servermod
+ * coop: editmute, nodamage, autosendmap (after somebody did /sendmap), autosendmap on connect
 * Zombie-Menu
  * Type: Client Script (only cubescript)
  * >60 in-game mini-tutorials/manuals
@@ -68,3 +70,11 @@ At this point we collect existing mods, forks and other projects in the cube 2 u
 * Sauerworld
  * Community-Improvements
 * crapmod
+ * Type: Client Script
+ * extended serverbrowser
+* Revelade Revolution
+ * Type: standalone game
+* BananaBread
+ * Type: standalone web port of sauerbraten
+ * problem: can't use content of sauer because of non-free content
+
