@@ -13,6 +13,7 @@ At this point we collect existing mods, forks and other projects in the cube 2 u
  * New theme, Improved UI
 * SuperSauer
  * Type: Clientmod
+ * Homepage: [http://supersauer.blogspot.de/](http://supersauer.blogspot.de/)
 * Wahn-/Wonderclient
  * Type: Clientmod
 * Tesseract
