@@ -27,18 +27,29 @@ Jump to...
 * SuperSauer
  * Homepage: [http://supersauer.blogspot.de](http://supersauer.blogspot.de)
 * Wahn-/Wonderclient
-* Pisto's spagetthi Mod
- * anticheats
+* SDOS Client
+ * SDL2
+ * multipoll (lag free vertical synch, zero tearing)
+ * anticheat (closed source)
 * cm-edition (cubic-matter edition)
  * Lua scripting
  * electronic circuit simulator
-* NL-Admin-Client
+* Nooblounge Client (NL-Admin-Client)
+ * Bézier curve API
+ * ExtInfo API / console client
+ * ExtInfo scoreboard synchronisation
+ * *TOOL* ExtInfo Console Application
+ * recording player particles
+ * customizable killcam
+ * game fraghud
+ * spectator overlay
+ * advanced scoreboard
+ * Console: auto completion + parameter help
  * Visualisation player trace
  * kill cam
  * anti-cheat control
  * admin focused improvements
- * extinfo console client
-* Sauerbomber                                                  
+* Sauerbomber
  * Game Mod Bomberman + Bomberman Team
  * Native Race Mode in C++
  * Native Hide and Seek Mode
@@ -57,11 +68,14 @@ Jump to...
  * Terrain Generation (3D/4D)
  * L-Systems
  * Outlawzone (modded gamemodes)
-* zeromod
+* Zeromod
  * coop: editmute, nodamage, autosendmap (after somebody did /sendmap), autosendmap on connect
-* remod
+* Remod
  * modable via CubeScript, also with event system and other stuff
  * can save and load maps directly on the server
+* Spagetthi Mod
+ * anticheats
+ * Lua access to low level C++ sauer code (you need to know what you're doing)
 
 #### Standalone game/fork
 * Tesseract
@@ -76,6 +90,7 @@ Jump to...
  * zombie styled game
 * BananaBread
  * standalone web port of sauerbraten
+ * All free content (Creative Commons)
  * problem: can't use content of sauer because of non-free content
 
 #### Anything left
