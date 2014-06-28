@@ -2,6 +2,14 @@
 
 At this point we collect existing mods, forks and other projects in the cube 2 universe. We think there are lots of good ideas which never got into sauerbraten. We list these ideas and may integrate these work into the fork.
 
+Jump to...
+* [Client scripts](#client-scripts)
+* [Client mods](#client-mods)
+* [Standalone game/fork](#standalone-gamefork)
+* [Anything left](#anything-left)
+
+***
+
 #### Client scripts
 * Nooblauncher
  * Plugin system
@@ -13,7 +21,7 @@ At this point we collect existing mods, forks and other projects in the cube 2 u
  * playerlist with frequent commands
  * made for managing MMO coop-maps
 
-#### Client Mods
+#### Client mods
 * Sauerbraten Enhanced
  * New theme, Improved UI
 * SuperSauer
@@ -51,6 +59,9 @@ At this point we collect existing mods, forks and other projects in the cube 2 u
  * Outlawzone (modded gamemodes)
 * zeromod
  * coop: editmute, nodamage, autosendmap (after somebody did /sendmap), autosendmap on connect
+* remod
+ * modable via CubeScript, also with event system and other stuff
+ * can save and load maps directly on the server
 
 #### Standalone game/fork
 * Tesseract
