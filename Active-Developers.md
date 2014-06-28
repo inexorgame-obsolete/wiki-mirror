@@ -9,6 +9,7 @@
 * sanitizer
 * Shadow-Dragon
 * supertux
+* Nooby
 
 
 # Who is doing what?
