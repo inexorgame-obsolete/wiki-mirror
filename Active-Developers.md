@@ -17,7 +17,8 @@ ingame package download
 ###Fohlen
 making the website to handle all this
 ###Hanack
-make the makefile work well
+* make the makefile work well
+* remove static file paths
 
 # What do you want to do next?
 ###a_teammate
