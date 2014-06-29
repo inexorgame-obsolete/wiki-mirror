@@ -43,3 +43,79 @@ Content depends on other content. The goal is to reduce redundancy which makes t
  * Map sounds
  * Skyboxes
 
+### Unlimited types of game modes
+
+* The game logic must be loaded dynamically (for example a javascript)
+* Game mode configuration
+ * spawn/respawn states
+  * team modifiers
+  * specify allowed weapons, ammo, reload time, ...
+  * specify health, armor, ...
+ * specify engine/physics modifiers
+* API for adding features to the HUD
+ * New elements on the HUD
+ * Minimap
+
+### New dynamic particle system
+
+Replace the old particle system by a more dynamic one.
+
+* Emitters (different types, configurable)
+ * Different types
+  * Point
+  * Line
+  * Plane
+  * Circle
+  * Sphere
+  * 2D Raster Field
+  * 3D Raster Field, ...
+ * Configurable
+  * Emitter rate
+  * Initial Velocity
+  * Scatter
+  * Renderer to use
+  * Modifiers to use
+* Particle Modifiers
+ * Mass-Spring
+  * Particle <-Spring-> Particle
+  * Fixed Coordinate <-Spring-> Particle
+ * Brownian Motion
+ * Velocity Damper
+ * Branching Particles
+ * Bounding Box Particle Culling
+ * Geometry Collision
+* Particle Rendering
+ * Point-Based (Billboards)
+  * Smoke
+  * Fire
+  * Lava
+  * Poison
+  * Snow
+  * Flares (Lightnings, Rain)
+ * Geometry-Based
+  * 2D: Triangles, Quads, Rings, ...
+  * 3D: Tetrahedrons, Cubes, Tubes (Hair), ...
+ * Model-Based
+ * Meta Balls
+  * Merge multiple particles into a blub
+ * Combined (Geometry + Faces + Mass-Spring)
+  * Cloth
+* Reaction with environment
+ * Gravity Points, Planes (only applies on particles)
+  * Constant Gravity
+  * Pulsing Gravity
+* Performance
+ * Use pools
+ * Use shaders
+ * Use billboarding
+ * Particle Limiter
+ * Particle Culling
+* Full control for map makers
+ * Scripting particle effects using JavaScript
+
+### New dynamic entity system
+
+* Unlimited types of entities
+ * Map Models
+ * Particle Gravity Point
+* 
