@@ -35,6 +35,9 @@ Jump to...
 * [cm-edition (cubic-matter edition)](https://sourceforge.net/projects/cmsauerbraten/)
  * Lua scripting
  * electronic circuit simulator
+ * build images with cubes (best textures match)
+ * 1st person minesweeper game mode
+ * sokoban game mode with .sok level loader
 * [Nooblounge Client (NL-Admin-Client)](http://forge.nooblounge.net/projects/nl-adminclient) (not yet public)
  * Bézier curve API
  * ExtInfo API
@@ -66,8 +69,12 @@ Jump to...
  * Event based system
 * [NoobMod (C und LUA)](http://forge.nooblounge.net/projects/noobmod)
  * Destructible Maps
+ * Geometry modification
+ * Load / save maps on server side
+ * Load entities from maps on server side
  * Terrain Generation (3D/4D)
  * L-Systems
+ * Cube Font - write text build out of cubes
  * Outlawzone (modded gamemodes)
 * [Zeromod](https://github.com/andrius4669/zeromod)
  * coop: editmute, nodamage, autosendmap (after somebody did /sendmap), autosendmap on connect
