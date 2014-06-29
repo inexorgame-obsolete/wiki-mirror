@@ -2,6 +2,8 @@
 
 At this point we collect existing mods, forks and other projects in the cube 2 universe. We think there are lots of good ideas which never got into sauerbraten. We list these ideas and may integrate these work into the fork.
 
+To discuss the pros/cons of the projects use our [Etherpad](https://piratenpad.de/p/SauerbratenFork).
+
 Jump to...
 * [Client scripts](#client-scripts)
 * [Client mods](#client-mods)
