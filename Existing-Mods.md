@@ -77,6 +77,10 @@ Jump to...
 * [Spagetthi Mod](https://github.com/pisto/spaghettimod)
  * anticheats
  * Lua access to low level C++ sauer code (you need to know what you're doing)
+* [SPYD](https://github.com/fdChasm/spyd)
+ * pure Python implementation of the server
+* [Waiter](https://github.com/sauerbraten/waiter)
+ * pure Go implementation of the server
 
 #### Standalone game/fork
 * [Tesseract](http://tesseract.gg)
@@ -100,3 +104,6 @@ Jump to...
 * [Crapmod](http://crapmod.net)
  * extended serverbrowser
  * masterserver which allowing modded servers
+* ["extinfo"](https://github.com/sauerbraten/extinfo)
+ * A Go package to query information ('extinfo') from a Sauerbraten game server
+ * A web app to use that can be found [here](https://github.com/sauerbraten/extinfo-web)
