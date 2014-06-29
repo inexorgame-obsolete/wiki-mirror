@@ -4,6 +4,7 @@
 * [Feature List](Feature List)
 * [Development Environment](Development Environment)
 * [Branding](Branding)
+* [Recruting](Recruting)
 
 ### Objectives
 
