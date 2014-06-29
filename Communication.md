@@ -5,4 +5,5 @@
 * Mumble
 * Mailinglisten
 * Forum
+* [Discussion Pad](https://piratenpad.de/p/SauerbratenFork)
 
