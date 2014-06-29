@@ -76,6 +76,8 @@ Jump to...
  * L-Systems
  * Cube Font - write text build out of cubes
  * Outlawzone (modded gamemodes)
+ * MapBattle (tm)
+ * Event based moves detection system
 * [Zeromod](https://github.com/andrius4669/zeromod)
  * coop: editmute, nodamage, autosendmap (after somebody did /sendmap), autosendmap on connect
 * [Remod](https://code.google.com/p/remod-sauerbraten/)
