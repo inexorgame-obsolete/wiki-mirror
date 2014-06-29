@@ -11,32 +11,31 @@ Jump to...
 ***
 
 #### Client scripts
-* Nooblauncher
+* [Nooblauncher](http://forge.nooblounge.net/projects/nooblauncher)
  * Plugin system
  * UI API
  * Event based system
  * > 50 plugins
-* Zombie-Menu
+* [Zombie-Menu](https://github.com/zombie-crew/zombie-menu)
  * >60 in-game mini-tutorials/manuals
  * playerlist with frequent commands
  * made for managing MMO coop-maps
 
 #### Client mods
-* Sauerbraten Enhanced
+* [Sauerbraten Enhanced](https://sourceforge.net/projects/sauerenhanced/)
  * New theme, Improved UI
-* SuperSauer
- * Homepage: [http://supersauer.blogspot.de](http://supersauer.blogspot.de)
-* Wahn-/Wonderclient
-* SDOS Client
+* [SuperSauer](http://supersauer.blogspot.de)
+* [WC-Client (Wahn-/Wonderclient)](http://ogros.org/forum/viewtopic.php?f=77&t=1733)
+* [SDOS Client](https://github.com/pisto/sdos-test)
  * SDL2
  * multipoll (lag free vertical synch, zero tearing)
  * anticheat (closed source)
-* cm-edition (cubic-matter edition)
+* [cm-edition (cubic-matter edition)](https://sourceforge.net/projects/cmsauerbraten/)
  * Lua scripting
  * electronic circuit simulator
-* Nooblounge Client (NL-Admin-Client)
+* [Nooblounge Client (NL-Admin-Client)](http://forge.nooblounge.net/projects/nl-adminclient) (not yet public)
  * Bézier curve API
- * ExtInfo API / console client
+ * ExtInfo API
  * ExtInfo scoreboard synchronisation
  * *TOOL* ExtInfo Console Application
  * recording player particles
@@ -49,53 +48,53 @@ Jump to...
  * kill cam
  * anti-cheat control
  * admin focused improvements
-* Sauerbomber
+* [Sauerbomber](http://forge.nooblounge.net/projects/bomberman)
  * Game Mod Bomberman + Bomberman Team
  * Native Race Mode in C++
  * Native Hide and Seek Mode
  * Configurable physics
 
 #### Server Mods
-* HopMod
+* [HopMod](https://code.google.com/p/hopmod/)
  * LUA Integration
  * Event based system
  * Anticheats
-* XSBS
+* [XSBS](http://xsbs.greghaynes.net) [(GitHub Repo)](https://github.com/greghaynes/xsbs)
  * Python Integration
  * Event based system
-* NoobMod (C und LUA)
+* [NoobMod (C und LUA)](http://forge.nooblounge.net/projects/noobmod)
  * Destructible Maps
  * Terrain Generation (3D/4D)
  * L-Systems
  * Outlawzone (modded gamemodes)
-* Zeromod
+* [Zeromod](https://github.com/andrius4669/zeromod)
  * coop: editmute, nodamage, autosendmap (after somebody did /sendmap), autosendmap on connect
-* Remod
+* [Remod](https://code.google.com/p/remod-sauerbraten/)
  * modable via CubeScript, also with event system and other stuff
  * can save and load maps directly on the server
-* Spagetthi Mod
+* [Spagetthi Mod](https://github.com/pisto/spaghettimod)
  * anticheats
  * Lua access to low level C++ sauer code (you need to know what you're doing)
 
 #### Standalone game/fork
-* Tesseract
+* [Tesseract](http://tesseract.gg)
  * New graphics stack
  * New content
  * New gamemodes
-* Redeclipse
+* [Redeclipse](http://redeclipse.net)
  * New gamemodes
  * New content
  * All free content (Creative Commons)
-* Revelade Revolution
+* [Revelade Revolution](http://theintercooler.com/reveladerevolution.html)
  * zombie styled game
-* BananaBread
+* [BananaBread](https://github.com/kripken/BananaBread)
  * standalone web port of sauerbraten
  * All free content (Creative Commons)
  * problem: can't use content of sauer because of non-free content
 
 #### Anything left
-* Sauerworld
+* [Sauerworld](http://www.sauerworld.org/)(?)
  * Community-Improvements
-* crapmod
+* [Crapmod](http://crapmod.net)
  * extended serverbrowser
  * masterserver which allowing modded servers
