@@ -119,4 +119,12 @@ Replace the old particle system by a more dynamic one.
 * Unlimited types of entities
  * Map Models
  * Particle Gravity Point
-* 
+
+### Destructible geometry
+
+* Modify geometry
+ * Shot based
+ * Explosion based
+* Modify lightmaps
+* Synchronize geometry of all players
+* Synchronize lightmaps
