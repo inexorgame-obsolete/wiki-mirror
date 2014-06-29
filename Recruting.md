@@ -19,8 +19,9 @@ To make the fork successful we need your help. We need different types of skills
 * Coders
  * C/C++
  * JavaScript
- * HTML5
 * Web Developers
+ * HTML5
+ * JavaScript
 * Community Managers
 
 ### How you get involved
