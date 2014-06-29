@@ -18,7 +18,7 @@ Jump to...
  * UI API
  * Event based system
  * > 50 plugins
-* [Zombie-Menu](https://github.com/zombie-crew/zombie-menu)
+* [Zombie-Menu](https://github.com/zombie-crew/zombie-menu) [(Quadropolis node)](http://www.quadropolis.us/node/3716)
  * >60 in-game mini-tutorials/manuals
  * playerlist with frequent commands
  * made for managing MMO coop-maps
