@@ -14,7 +14,7 @@ Sauerbraten-Fork uses Git as Source Code Management system (SCM). To get the sou
 
 Both do have advantages and disadvantages, though the latter one has a GUI, which might be easier to use for you. If you know how to use the CMD, then you can also go for MSYSGit.
 
-### You decided to go for the noob way (aka downloading GitHub for Windows)
+### You decided to download GitHub for Windows
 
 > Beware: You need Windows Vista or better!
 
