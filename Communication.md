@@ -1,9 +1,9 @@
 # Communication
 
 * IRC
- * irc://gamesurge.net/#sauerfork
+ * [#sauerfork on GameSurge](irc://gamesurge.net/#sauerfork)
 * Mumble
-* Mailinglisten
-* Forum
+* mailing lists
+* forums
 * [Discussion Pad](https://piratenpad.de/p/SauerbratenFork)
 
