@@ -9,8 +9,8 @@ This Guide will help you find out how to download the sources and start coding i
 
 Sauerbraten-Fork uses Git as Source Code Management system (SCM). To get the sources, you need to install Git on Windows. There are two options:
 
-* Getting MSYSGit
-* Getting Github for Windows
+* Getting Github for Windows (has a fancy GUI)
+* Getting MSYSGit (beware: you need to use the command line!)
 
 Both do have advantages and disadvantages, though the latter one has a GUI, which might be easier to use for you. If you know how to use the CMD, then you can also go for MSYSGit.
 
