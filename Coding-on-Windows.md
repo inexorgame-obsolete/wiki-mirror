@@ -1,0 +1,3 @@
+This guide is for people in the following situation
+You're new to programming, and think "Hey, why not start coding on Sauerbraten-Fork? I mean, I can do something useful, and maybe learn something new!" You don't know what Git is or how to use it, the same applies for CMake. You know how to use Visual Studio though.
+This Guide will help you find out how to download the sources and start coding in Visual Studio.
