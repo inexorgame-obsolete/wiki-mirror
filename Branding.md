@@ -17,8 +17,9 @@ _Please vote for a name soon: add suggestions to the list below; state your supp
 * **The Fork** _[aschaeffer]_
 * **retari** _[mapc]_
 * **zefix** _[aschaeffer,mapc]_
-* **HyperCube: Next Generation** _[Nooby]_
+* **HyperCube: Next Generation** _[Croydon]_
 * **Cube2: Ehnet** _[Fohlen]_
+* **Cube 2: Age of Rage*
 
 ### Bad Names
 
