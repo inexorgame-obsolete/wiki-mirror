@@ -19,7 +19,7 @@ _Please vote for a name soon: add suggestions to the list below; state your supp
 * **zefix** _[aschaeffer,mapc]_
 * **HyperCube: Next Generation** _[Croydon]_
 * **Cube2: Ehnet** _[Fohlen]_
-* **Cube 2: Age of Rage*
+* **Cube 2: Age of Rage** _[Croydon]_
 
 ### Bad Names
 
