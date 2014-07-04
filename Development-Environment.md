@@ -11,6 +11,7 @@
  * https://github.com/sauerbraten-fork/sauerbraten-fork/issues
 * build server
  * http://jenkins-ci.org/
+ * [Travis](https://travis-ci.org/sauerbraten-fork/sauerbraten-fork)
 * automated tests
  * https://code.google.com/p/googletest/
 * code review
