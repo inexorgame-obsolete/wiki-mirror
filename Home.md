@@ -5,6 +5,7 @@
 * [Development Environment](Development Environment)
 * [Branding](Branding)
 * [Recruting](Recruting)
+* [Build](Build)
 
 ### Objectives
 
