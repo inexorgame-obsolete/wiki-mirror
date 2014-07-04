@@ -6,6 +6,10 @@
 
 > sudo apt-get install git cmake build-essential libsdl{,-mixer,-image}1.2-dev libgl1-mesa-dev
 
+#### Checkout From Git Repository
+
+> git clone https://github.com/sauerbraten-fork/sauerbraten-fork.git
+
 #### Update Submodules
 
 > git submodule update --init
