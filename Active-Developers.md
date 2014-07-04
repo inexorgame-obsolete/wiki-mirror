@@ -39,6 +39,7 @@
 
 ###killme
 * CMake
+* Lua scripting
 
 # What do you want to do next?
 
