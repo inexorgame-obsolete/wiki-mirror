@@ -35,7 +35,7 @@ _Please vote for a name soon: add suggestions to the list below; state your supp
 
 # Logo
 
-_anyone?_
+![Logo](https://raw.githubusercontent.com/sauerbraten-fork/website/master/sites/all/logo.png)
 
 # Social Networks
 
