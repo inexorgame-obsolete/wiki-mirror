@@ -14,7 +14,7 @@ Some features might be on strategical nature or might be an architectural change
 
 ### Experiments allowed
 
-Experiments are allowed and encouraged. But: use your own branch and don't be upset if it don't find it's way into the master branch.
+Experiments are allowed and encouraged. But: use your own branch and don't be upset if it don't find it's way into the master branch. If a feature is not a core functionality or controversial, better develop it as a plugin.
 
 ### Develop modular, clean and document your work
 
