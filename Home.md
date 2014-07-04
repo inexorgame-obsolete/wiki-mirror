@@ -14,6 +14,7 @@
 ### How to get involved
 
 * [How to get involved](Recruting)
+* [Communication](Communication)
 
 ### Development
 
@@ -25,10 +26,3 @@
 ### Pending Feature requests
 
 * see [Feature List](Feature List)
-
-### Communication
-* irc://gamesurge.net/#sauerfork
-* Mumble
-* Mailinglisten
-* Forum
-* [Discussion Pad](https://piratenpad.de/p/SauerbratenFork)
