@@ -3,3 +3,4 @@
 ## 0.1 alpha
 
 * Example: Renamed everything to sauerbraten-fork (_githubname_)
+* (killme) Replaced make by cmake
