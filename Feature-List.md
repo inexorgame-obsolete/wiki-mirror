@@ -9,6 +9,7 @@
  * Packaging / Dependency Management for Content
  * Gamemode download (Scriptable)
  * Weapon download / Weapon settings (again, reffer to Counter Strike)
+* Refactor GUI and overall look/feel
 * Deliver Sauerbraten on Steam 
  * Bigger audience / more PR
  * Stronger community integration (eg: Quakelive's homepage)
