@@ -1,22 +1,28 @@
 # Sauerbraten Fork Documentation
 
-* [Existing Mods](Existing Mods)
-* [Feature List](Feature List)
-* [Development Environment](Development Environment)
-* [Branding](Branding)
-* [Recruting](Recruting)
-* [Build](Build)
-
 ### Objectives
 
 * Fork of sauerbraten in order to replace sauerbraten (no mod)
 * Bigger audience for sauerbraten
 * Keep sauerbraten alive for the future
 
+### Analysis
+
+* [Existing Mods](Existing Mods)
+* [Branding](Branding)
+
+### How to get involved
+
+* [Recruting](Recruting)
+
+### Development
+
+* [Development Environment](Development Environment)
+* [Build](Build)
+
 ### Pending Feature requests
 
-* Integrate a system to make weapons, gamemodes, maps, textures... dynamic
-* Refactor GUI and overall look/feel
+* see [Feature List](Feature List)
 
 ### State of the Nation
 
