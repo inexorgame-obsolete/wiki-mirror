@@ -4,7 +4,7 @@
 
 #### Install required packages
 
-> sudo apt-get install git libsdl{,-mixer,-image}1.2-dev cmake build-essential libgl1-mesa-dev
+> sudo apt-get install git cmake build-essential libsdl{,-mixer,-image}1.2-dev libgl1-mesa-dev
 
 #### Update Submodules
 
