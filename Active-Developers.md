@@ -10,6 +10,7 @@
 * Shadow-Dragon
 * supertux
 * Nooby
+* killme
 
 
 # Who is doing what?
@@ -21,7 +22,6 @@
 * making the website to handle all this
 
 ###Hanack
-* make the makefile work well
 * remove static file paths
 
 ###mapc
@@ -36,6 +36,9 @@
 
 ###sanitizer
 * design homepage
+
+###killme
+* CMake
 
 # What do you want to do next?
 
