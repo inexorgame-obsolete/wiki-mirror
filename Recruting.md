@@ -6,7 +6,7 @@ We would be happy if you are interested in joining our team.
 
 To make the fork successful we need your help. We need different types of skills:
 
-* Content Creators
+* **Content Creators**
  * Maps
  * Textures
  * Map Models
@@ -16,13 +16,16 @@ To make the fork successful we need your help. We need different types of skills
  * Music
  * Sound FX
  * Voice Acting (TOMYC!!!)
-* Coders
+* **Coders**
  * C/C++
  * JavaScript
-* Web Developers
+* **Web Developers**
  * HTML5
  * JavaScript
-* Community Managers
+* **Community Managers**
+ * Marketing / Make the game more popular
+ * Write announcements for releases
+ * Moderate Forums
 
 ### How you get involved
 
