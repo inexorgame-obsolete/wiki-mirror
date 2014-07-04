@@ -13,7 +13,7 @@
 
 ### How to get involved
 
-* [Recruting](How to get involved)
+* [How to get involved](Recruting)
 
 ### Development
 
