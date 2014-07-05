@@ -13,7 +13,8 @@ On linux you will need cmake, make, gcc (or clang) and the dev packages of mesa,
 ## Running CMake
 
 The next step is to run CMake, this tool generates project files for your favourite IDE or tool.
-If you have cmake in your path you can run `(mkdir build && cmake ..)`, you probably will need to add a `-G "<generator>"` flag to make it generate a project file for your precious IDE (you do not need this for makefiles on linux).      
+If you have cmake in your path you can run `(mkdir build && cmake ..)`, you probably will need to add a `-G "<generator>"` flag to make it generate a project file for your precious IDE (you do not need this for makefiles on linux).
+
 The most commonly used generators will probably include `Visual Studio`, `MinGW Makefiles`, `Unix Makefiles` and `Xcode`. There are also makefiles for Eclipse, CodeBlocks, Sublime Text and a lot others. The complete list can be found [here!](http://www.cmake.org/cmake/help/v2.8.11/cmake.html#Generators).
 
 ### Examples
