@@ -2,8 +2,7 @@
 
 The first step of building this project is rather obvious, but for sake of completeness here you have it.
 
-* Download the repository, you can either use the command line `git clone https://github.com/sauerbraten-fork/sauerbraten-fork.git` or your favourite git GUI.
-* Make sure you download the submodules, you can do that using the following command `git submodule update --init` or again using your favourite git GUI.
+* Download the repository, you can either use the command line `git clone --recursive https://github.com/sauerbraten-fork/sauerbraten-fork.git` or your favourite git GUI.
 
 ## Downloading the dependencies
 
