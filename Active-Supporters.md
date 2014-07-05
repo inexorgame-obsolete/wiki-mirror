@@ -1,7 +1,8 @@
 # Who are we?
-* a_teammate
-* Fohlen
-* Hanack
+`Sauerbraten nickname (Github account)`
+* a_teammate ([a-teammate](https://github.com/a-teammate))
+* Fohlen ([Fohlen](https://github.com/Fohlen))
+* Hanack ([aschaeffer](https://github.com/aschaeffer))
 * Hanni
 * mapc
 * Nothing
@@ -9,8 +10,8 @@
 * sanitizer
 * Shadow-Dragon
 * supertux
-* Nooby
-* killme
+* Nooby ([Croydon](https://github.com/Croydon))
+* killme ([killme](https://github.com/killme))
 
 
 # Who is doing what?
