@@ -55,3 +55,13 @@ You can specify them from the command line like this: `-D<variable name>=<value>
 
   The path to the toolchain file to use for cross compiling. Change this to `../src/platform_windows/linux-toolchain-mingw.cmake` to cross compile for windows.
   
+## Troubleshooting
+
+This is a list of common problems and their solutions
+
+* `Keep your directories clean, don't build in the main directory!`
+  
+   This error means that you are telling CMake to generate project files inside the project's root directory.
+   You should keep your root directory clean and create a directory named build inside the root directory.
+   Then tell CMake to generate to that directory instead of the root directory.
+   To do this from the commandline, just use `(mkdir build; cd build && cmake -G "<your generator>" ..)`.
