@@ -20,8 +20,8 @@ The most commonly used generators will probably include `Visual Studio`, `MinGW 
 ### Examples
 
 ```shell
-mkdir build && cd build && cmake .. && make # Should work on mingw, linux and mac
-mkdir xcode && cd xcode && cmake .. -G Xcode # Generate an xcode project
+(mkdir build; cd build && cmake .. && make) # Should work on mingw (you may need -G "MinGW Makefiles"), linux and mac
+(mkdir xcode; cd xcode && cmake .. -G Xcode) # Generate an xcode project
 md vstudio && cd vstudio && cmake .. -G "Visual Studio 12" :: Generate a Visual Studio 12 Project
 
 ```
