@@ -52,3 +52,6 @@
 ###Hanack
 * new particle system
 * new 2d effect system
+
+###killme
+* Make more things scriptable
