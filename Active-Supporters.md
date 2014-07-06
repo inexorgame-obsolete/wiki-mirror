@@ -4,7 +4,7 @@
 * Fohlen ([Fohlen](https://github.com/Fohlen))
 * Hanack ([aschaeffer](https://github.com/aschaeffer))
 * Hanni ([IAmNotHanni](https://github.com/IAmNotHanni))
-* mapc ([koora](https://github.com/koraa))
+* mapc ([koraa](https://github.com/koraa))
 * Nothing
 * pisto ([pisto](https://github.com/pisto/))
 * sanitizer ([movabo](https://github.com/movabo))
