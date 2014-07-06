@@ -22,6 +22,7 @@
 
 ###Fohlen
 * making the website to handle all this
+* Preparing the content release
 
 ###Hanack
 * remove static file paths
