@@ -3,15 +3,16 @@
 * a_teammate ([a-teammate](https://github.com/a-teammate))
 * Fohlen ([Fohlen](https://github.com/Fohlen))
 * Hanack ([aschaeffer](https://github.com/aschaeffer))
-* Hanni
-* mapc
+* Hanni ([IAmNotHanni](https://github.com/IAmNotHanni))
+* mapc ([koora](https://github.com/koraa))
 * Nothing
-* pisto
-* sanitizer
+* pisto ([pisto](https://github.com/pisto/))
+* sanitizer ([movabo](https://github.com/movabo))
 * Shadow-Dragon
-* supertux
+* supertux ([super](https://github.com/super))
 * Nooby ([Croydon](https://github.com/Croydon))
 * killme ([killme](https://github.com/killme))
+* Wireless ([N0Wire](https://github.com/N0Wire))
 
 
 # Who is doing what?
