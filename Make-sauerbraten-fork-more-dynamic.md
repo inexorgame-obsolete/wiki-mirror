@@ -119,6 +119,30 @@ Replace the old particle system by a more dynamic one.
 * Unlimited types of entities
  * Map Models
  * Particle Gravity Point
+ * Particle Emitter
+* Unlimited attributes
+* Entity types attributes inheritance
+ * "mapmodel" inherits from "position"
+* Entity renderer
+* Entity modifier
+ * Modification of entities and their attributes
+  * Create entity
+  * Remove entity
+  * Add entity attribute
+  * Remove entity attribute
+  * Change entity attribute
+ * Examples
+  * Entity movement
+   * Move along segmented paths (bezier curve)
+    * Path: Segments
+    * Segment: Start, End, Speed
+  * Particle velocity function
+  * Particle emitter configuration
+* Event triggers
+ * Player distance
+ * Base captured
+ * Flag stolen
+ * Flag distance
 
 ### Destructible geometry
 
