@@ -65,3 +65,37 @@ This is a list of common problems and their solutions
    You should keep your root directory clean and create a directory named build inside the root directory.
    Then tell CMake to generate to that directory instead of the root directory.
    To do this from the commandline, just use `(mkdir build; cd build && cmake -G "<your generator>" ..)`.
+
+## Build Environment
+
+### One-Click Build environment
+
+The script `install-homunculus.sh` in the `tools` folder can be used to automatically compile Sauerbraten fork or to generate Eclipse, Code Blocks, Xcode projects. For Mingw users it can also generate visual studio projects.
+
+It works on OS X, Debian (and derivatives, e.g. Ubuntu), Arch Linux and MinGW.
+
+Just download and run it.
+
+Mac users will have to install XCode first.
+
+### Manual Installation of the Build Environment
+
+First you need to install the dependencies. Those boil down to:
+
+* Git
+* A compile (e.g. GCC)
+* A linker (e.g. GCC)
+* Cmake
+* OpenGL
+* SDL
+* SDL_Image
+* SDL_Mixer
+
+Depending on your environment you also need some of those:
+
+* make (linux, mingw)
+* Eclipse (if you want to use eclipse)
+** egit Plugin (install it using the Eclipse Marketplace)
+* Xcode (under Mac OS X)
+* CMake GUI (optional)
+* Github for Mac/Windows (optional)
