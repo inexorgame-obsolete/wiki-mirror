@@ -16,13 +16,17 @@ Some features might be on strategical nature or might be an architectural change
 
 Experiments are allowed and encouraged. But: use your own branch and don't be upset if it don't find it's way into the master branch. If a feature is not a core functionality or controversial, better develop it as a plugin.
 
+### Create documentation
+
+Creating documentation is an essential part of the software development process. We document the code and in the wiki.
+
+If you create a new feature or make a non-trivial change, it has to be documented in the [Changelog](Changelog).
+
 ### Develop modular, clean and document your work
 
 * No spaghetti code
 * No code duplication
 * Refactor your work
-* Document your code
-* Document the feature -> [Changelog]
 
 ### Content Contribution
 
