@@ -83,7 +83,7 @@ Mac users will have to install XCode first.
 First you need to install the dependencies. Those boil down to:
 
 * Git
-* A compile (e.g. GCC)
+* A compiler (e.g. GCC)
 * A linker (e.g. GCC)
 * Cmake
 * OpenGL
