@@ -26,3 +26,6 @@
  * Anti-DDOS
  * Load Balancing
  * Security Enhancements
+* New particle system
+* New entity system
+* Cooperative lightmapping
