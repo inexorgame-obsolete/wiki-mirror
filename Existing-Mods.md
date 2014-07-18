@@ -106,6 +106,9 @@ Jump to...
  * standalone web port of sauerbraten
  * All free content (Creative Commons)
  * problem: can't use content of sauer because of non-free content
+* [Marble Arena](http://www.marble-arena.com/)
+ * control a marble throught diverse levels and collect stars
+ * maybe the only game using the cube 2 engine which isn't a ego shooter or RPG?
 
 #### Anything left
 * [Sauerworld](http://www.sauerworld.org/)(?)
