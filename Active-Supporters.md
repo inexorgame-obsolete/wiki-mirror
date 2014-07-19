@@ -26,6 +26,7 @@
 
 ###Hanack
 * remove static file paths
+* new particle system
 
 ###mapc
 * integrate HTML5 and JavaScript engine
@@ -50,7 +51,6 @@
 * extending the demoheader
 
 ###Hanack
-* new particle system
 * new 2d effect system
 
 ###killme
