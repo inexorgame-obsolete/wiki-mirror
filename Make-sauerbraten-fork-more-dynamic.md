@@ -6,7 +6,7 @@ Sauerbraten is more or less a very static game. In future, we should reduce the 
 * Unlimited types of player models
 * Dependency management for content
 * Unlimited types of game modes
-* New dynamic particle system
+* [New dynamic particle system](Particle System)
 * New dynamic 2d effect system
 * New dynamic entity system
 * Destructible geometry
