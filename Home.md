@@ -21,7 +21,6 @@
 * [Build](Build)
 * [Contribution](How to contribute)
 * [Development Environment](Development Environment)
-* [Coding on Windows](Coding-on-Windows)
 
 ### Pending Feature requests
 
