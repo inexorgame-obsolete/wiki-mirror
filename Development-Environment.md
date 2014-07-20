@@ -1,8 +1,17 @@
+# Communication
+
+* IRC
+ * [#sauerfork on GameSurge](irc://gamesurge.net/#sauerfork)
+* Mumble
+ * nooblounge.net port 64738
+
+_History: [Discussion Pad](https://piratenpad.de/p/SauerbratenFork)_
+
 #Weekly Briefings
 
-We meet on mumble on "nooblounge.net", default-port.
+We meet on [mumble](http://mumble.sourceforge.net/) on "nooblounge.net", port 64738.
 
-Meeting time open for discussion, usually Sundays 21:00 CET.
+Meeting time usually Sundays 21:00 CET, but open for discussion.
 
 In advance to every meeting a pad will be created with topics to be discussed.
 
