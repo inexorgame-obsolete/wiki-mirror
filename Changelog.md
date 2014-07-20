@@ -3,4 +3,6 @@
 ## 0.1 alpha
 
 * Example: Renamed everything to sauerbraten-fork (_githubname_)
-* (killme) Replaced make by cmake
+* Replaced make by cmake (killme) 
+* Fading console lines instead of disappearing (a_teammate)
+* Console timestamps in fullscreen-console (a_teammate)
