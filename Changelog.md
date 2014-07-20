@@ -6,3 +6,4 @@
 * Replaced make by cmake (killme) 
 * Fading console lines instead of disappearing (a_teammate)
 * Console timestamps in fullscreen-console (a_teammate)
+* Save and load history (a_teammate)
