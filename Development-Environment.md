@@ -17,10 +17,6 @@ In advance to every meeting a pad will be created with topics to be discussed.
 
 _History:_ https://piratenpad.de/p/Sauerforkmeetingno1
 
-
-For more updates join #sauerfork on irc.gamesurge.net ([IRC-Chat](https://gamesurge.net/chat/?language=Deutsch))
-
-
 # Tools
 
 * Doxygen Code documentation
