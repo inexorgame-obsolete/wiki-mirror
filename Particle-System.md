@@ -4,9 +4,9 @@ In sauerbraten-fork we are about to implement an improved particle system.
 
 * Good performance though very dynamic
 * Generic abstraction layers
-** Multiple stateful and dynamically configurable particle emitter types
-** Multiple stateful and dynamically configurable particle renderer types
-** Multiple stateful and dynamically configurable particle modifier types
+ * Multiple stateful and dynamically configurable particle emitter types
+ * Multiple stateful and dynamically configurable particle renderer types
+ * Multiple stateful and dynamically configurable particle modifier types
 * Stateful particles
 * A rich set of useful emitters, renderers and modifiers
 
