@@ -25,5 +25,3 @@
 ### Pending Feature requests
 
 * see [Feature List](Feature List)
-
-Does this annoy the irc bot?
