@@ -19,7 +19,7 @@ selection tools and a roadmap how to implement those.
   * With diagonal edges
   * With multiple elements, not touching each other
   * With multiple cube sizes
-* 3D Extrusion
+* 3D Extrusion/Intrusion
   * Expansion? Objects just becoming bigger?
   * More modes?
 * Automatic selection
@@ -29,3 +29,8 @@ selection tools and a roadmap how to implement those.
 * Saving of selections
 * Undo/Redo
 * Programmatic selection. DSL?
+
+## UX
+
+* Add hints on which keys to use
+* Add GUI that can completely replace the keys
