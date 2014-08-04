@@ -21,6 +21,7 @@
 * [Build](Build)
 * [Contribution](How to contribute)
 * [Development Environment](Development Environment)
+* [Coding Standards](Coding Standards)
 
 ### Upcoming Features
 
