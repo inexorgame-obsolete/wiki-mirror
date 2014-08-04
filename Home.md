@@ -22,6 +22,8 @@
 * [Contribution](How to contribute)
 * [Development Environment](Development Environment)
 
-### Pending Feature requests
+### Upcoming Features
 
-* see [Feature List](Feature List)
+see [Ideas for Features](Feature List)
+
+* [Improved Selection](Improved Selection)

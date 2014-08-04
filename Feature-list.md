@@ -1,3 +1,5 @@
+# Feature Ideas
+
 * Free content
  * Reduced set on game modes and maps
  * All content is free (see #free-sauer project)
