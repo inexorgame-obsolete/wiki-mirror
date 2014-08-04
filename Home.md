@@ -23,7 +23,7 @@ We manly use #sauerfork on Gamesurge for communication, you
 can access it via [web client](http://irc.lc/gamesurge/sauerfork) or with a normal irc client: [irc://gamesurge.net/#sauerfork](irc://gamesurge.net/#sauerfork).
 
 We also have a mailing list for announcements and support:
-[https://lists.cupdev.net/listinfo/sauerfork](https://lists.cupdev.net/listinfo/sauerfork).
+[https://lists.cupdev.net/listinfo/sauerfork](https://lists.cupdev.net/listinfo/sauerfork) (please ignore the security warning an or install the [cacert root certificate](https://www.cacert.org/index.php?id=3)).
 
 ## How to get involved
 
