@@ -29,3 +29,7 @@ see [Ideas for Features](Feature List)
 
 * [Improved Selection](Improved Selection)
 * [Particle System](Particle System)
+* [Atom Integration](Atom Integration)
+* [Lua JIT](Lua JIT)
+* [Ambient Occlusion](Ambient Occlusion)
+* [Packaging System](Packaging System)
