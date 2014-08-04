@@ -1,29 +1,12 @@
 # Sauerbraten Fork Documentation
 
-### Objectives
+## Objectives
 
 * Fork of sauerbraten in order to replace sauerbraten (no mod)
 * Bigger audience for sauerbraten
 * Keep sauerbraten alive for the future
 
-### Analysis
-
-* [Existing Mods](Existing Mods)
-* [Branding](Branding)
-
-### How to get involved
-
-* [How to get involved](Recruting)
-* [Communication](Communication)
-
-### Development
-
-* [Build](Build)
-* [Contribution](How to contribute)
-* [Development Environment](Development Environment)
-* [Coding Standards](Coding Standards)
-
-### Upcoming Features
+## Upcoming Features
 
 see [Ideas for Features](Feature List)
 
@@ -33,3 +16,28 @@ see [Ideas for Features](Feature List)
 * [Lua JIT](Lua JIT)
 * [Ambient Occlusion](Ambient Occlusion)
 * [Packaging System](Packaging System)
+
+## Contact
+
+We manly use #sauerfork on Gamesurge for communication, you
+can access it via [web client](http://irc.lc/gamesurge/sauerfork) or with a normal irc client: [irc://gamesurge.net/#sauerfork](irc://gamesurge.net/#sauerfork).
+
+We also have a mailing list for announcements and support:
+[https://lists.cupdev.net/listinfo/sauerfork](https://lists.cupdev.net/listinfo/sauerfork).
+
+## How to get involved
+
+* [How to get involved](Recruting)
+* [Communication](Communication)
+
+## Development
+
+* [Build](Build)
+* [Contribution](How to contribute)
+* [Development Environment](Development Environment)
+* [Coding Standards](Coding Standards)
+
+## Analysis
+
+* [Existing Mods](Existing Mods)
+* [Branding](Branding)
