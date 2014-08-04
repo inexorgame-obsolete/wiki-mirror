@@ -27,3 +27,4 @@
 see [Ideas for Features](Feature List)
 
 * [Improved Selection](Improved Selection)
+* [Particle System](Particle System)
