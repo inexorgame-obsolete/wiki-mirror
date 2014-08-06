@@ -9,7 +9,7 @@
 * pisto ([pisto](https://github.com/pisto/))
 * sanitizer ([movabo](https://github.com/movabo))
 * Shadow-Dragon
-* supertux ([super](https://github.com/super))
+* supertux ([super-tux](https://github.com/super-tux))
 * Nooby ([Croydon](https://github.com/Croydon))
 * killme ([killme](https://github.com/killme))
 * Wireless ([N0Wire](https://github.com/N0Wire))
