@@ -17,7 +17,7 @@ Additionally every new populated code should be clearly understandable, not only
 The goal is to be get a quick overview by just reading the comments. 
 Commenting is not a hard task, but an important one. Your future self and other developers will appreciate the minutes you spend commenting.
 
-We currently do a huge job commenting commenting
+We currently do a huge job commenting the codebase.
 
 ## Sauerbraten Uniques
 
@@ -65,4 +65,4 @@ _(for more than the listed abilities check `tools.h`)_
 
 * **Length** receive the amount of entries in that vector with `int len = vectorname.length();`
 
-* **inrange** `bool hasi = vectorname.inrange(i);` tells you whether whether `vectorname[i]` is actually a thing. This could not be the case if e.g. i is below zero or higher than the amount of entries.
+* **inrange** `bool hasi = vectorname.inrange(i);` tells you whether `vectorname[i]` is actually a thing. This could not be the case if e.g. i is below zero or higher than the amount of entries.
