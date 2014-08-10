@@ -1,4 +1,4 @@
-## Coding Standards
+# Coding Standards
 ###Pointers
 Please use `char *pointer;` instead of `char* pointer;`
 ###Brackets
@@ -19,7 +19,7 @@ Commenting is not a hard task, but an important one. Your future self and other 
 
 We currently do a huge job commenting the codebase.
 
-## Sauerbraten Uniques
+# Sauerbraten Uniques
 
 ###strings 
 There are no "strings" as you may know them from C++, just clean char-arrays. 
