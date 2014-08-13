@@ -4,8 +4,9 @@ Please use `char *pointer;` instead of `char* pointer;`
 ###Brackets
 As you may see in the rest of the codebase, its always 
 
-> void function() 
-> { 
+> void function()
+
+> {
 
 Please use that to keep consistency.
 
