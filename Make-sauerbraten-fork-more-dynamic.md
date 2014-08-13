@@ -2,13 +2,13 @@ Sauerbraten is more or less a very static game. In future, we should reduce the 
 
 ## Dynamicification Possibilities
 
+* [New dynamic entity system](Entity System)
+* [New dynamic particle system](Particle System)
 * Unlimited types of weapons
 * Unlimited types of player models
 * Dependency management for content
 * Unlimited types of game modes
-* [New dynamic particle system](Particle System)
 * New dynamic 2d effect system
-* New dynamic entity system
 * Destructible geometry
 * Location based effects
 * Customizable HUD
@@ -56,36 +56,6 @@ Content depends on other content. The goal is to reduce redundancy which makes t
 * API for adding features to the HUD
  * New elements on the HUD
  * Minimap
-
-### New dynamic entity system
-
-* Unlimited types of entities
- * Map Models
- * Particle Gravity Point
- * Particle Emitter
-* Unlimited attributes
-* Entity types attributes inheritance
- * "mapmodel" inherits from "position"
-* Entity renderer
-* Entity modifier
- * Modification of entities and their attributes
-  * Create entity
-  * Remove entity
-  * Add entity attribute
-  * Remove entity attribute
-  * Change entity attribute
- * Examples
-  * Entity movement
-   * Move along segmented paths (bezier curve)
-    * Path: Segments
-    * Segment: Start, End, Speed
-  * Particle velocity function
-  * Particle emitter configuration
-* Event triggers
- * Player distance
- * Base captured
- * Flag stolen
- * Flag distance
 
 ### Destructible geometry
 
