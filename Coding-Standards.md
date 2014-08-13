@@ -5,7 +5,6 @@ Please use `char *pointer;` instead of `char* pointer;`
 As you may see in the rest of the codebase, its always 
 
 > void function() 
-
 > { 
 
 Please use that to keep consistency.
