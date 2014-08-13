@@ -12,6 +12,7 @@ see [Ideas for Features](Feature List)
 
 * [Improved Selection](Improved Selection)
 * [Particle System](Particle System)
+* [Entity System](Entity System)
 * [Atom Integration](Atom Integration)
 * [Lua JIT](Lua JIT)
 * [Ambient Occlusion](Ambient Occlusion)
