@@ -39,6 +39,7 @@ In sauerbraten-fork we are about to implement an improved particle system.
 * Mass-Spring
  * Particle <-Spring-> Particle
  * Fixed Coordinate <-Spring-> Particle
+ * http://www.henning-tjaden.com/_files/pdfs/projekt_618.pdf
 * Brownian Motion
 * Velocity Damper
 * Branching Particles
