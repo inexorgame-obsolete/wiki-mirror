@@ -58,6 +58,16 @@ Jump to...
  * Native Race Mode in C++
  * Native Hide and Seek Mode
  * Configurable physics
+* [Fanatic Edition](https://github.com/Incognito357/Sauer_FanaticEdition)
+ * Ingame IRC client
+ * Blender Import/Export
+ * Client side cheat detection
+ * Ingame file sharing function
+ * Highly improved quickedit and editing menu
+ * Send your maps - if calced - inclusive lightmaps
+ * Ultra fast calclight using player's position and radius
+ * New and improved shot effects inclusive additional hudguns
+ * Implemented Marching Cubes by Wrack
 
 #### Server Mods
 * [HopMod](https://code.google.com/p/hopmod/)
