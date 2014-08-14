@@ -67,7 +67,7 @@ Jump to...
  * Send your maps - if calced - inclusive lightmaps
  * Ultra fast calclight using player's position and radius
  * New and improved shot effects inclusive additional hudguns
- * Implemented Marching Cubes by Wrack
+ * Implemented [Marching Cubes](https://www.youtube.com/watch?v=TstJlsEKEHs) by Wrack
 
 #### Server Mods
 * [HopMod](https://code.google.com/p/hopmod/)
