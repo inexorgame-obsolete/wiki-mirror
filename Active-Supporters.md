@@ -45,6 +45,9 @@
 * CMake
 * Lua scripting
 
+###Nooby
+* working on the free-sauer project; will help us to get free content in our fork
+
 # What do you want to do next?
 
 ###a_teammate
