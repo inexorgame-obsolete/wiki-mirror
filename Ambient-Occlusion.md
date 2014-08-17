@@ -17,3 +17,14 @@ Even in other Branches (without this extension) and Sauerbraten Collect, your ma
 That is because it depends just on the calclight-process (/calclight 1).
 
 However calclighting may take a little longer. 
+
+### Developers
+
+a_teammate
+
+### Commands
+* `ambientocclusion <darkness>` where darkness is a value between 0 (for off) and 255 (really dark corners)
+* `ambientocclusionradius <thickness>` where radius is a value between 1.0 (thin line) and 10.0 (big shadow)
+
+_The Thickness furthermore also depends on what "lightprecision" you use, so a smaller value for that (32 is default: a normal resolution for your lightmap) means the resolution of your lightmap is bigger and hence your furthermore thick AO-Shadows can become thinner._
+ 
