@@ -63,7 +63,7 @@ Jump to...
  * Blender Import/Export
  * Client side cheat detection
  * Ingame file sharing function
- * Highly improved quickedit and editing menu
+ * Improved quickedit and editing menu
  * Send your maps - if calced - inclusive lightmaps
  * Ultra fast calclight using player's position and radius
  * New and improved shot effects inclusive additional hudguns
@@ -119,6 +119,10 @@ Jump to...
 * [Marble Arena](http://www.marble-arena.com/)
  * control a marble throught diverse levels and collect stars
  * maybe the only game using the cube 2 engine which isn't a ego shooter or RPG?
+* [AssaultCube](http://assault.cubers.net) ([GitHub Repo](https://github.com/assaultcube/AC)) (Original Cube Engine, not Cube 2)
+ * realistic environments
+ * only 40 MB package to download
+ * contains 12 multiplayer game modes, including: Deathmatch, Survivor, Capture the Flag, Hunt the Flag, Keep the Flag, Pistol Frenzy, Last Swiss Standing & One-Shot One-Kill (plus team versions of these modes). 
 
 #### Anything left
 * [Sauerworld](http://www.sauerworld.org/)(?)
