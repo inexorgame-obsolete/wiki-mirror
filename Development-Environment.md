@@ -11,11 +11,14 @@ _History: [Discussion Pad](https://piratenpad.de/p/SauerbratenFork)_
 
 We meet on [mumble](http://mumble.sourceforge.net/) on "nooblounge.net", port 64738.
 
-Meeting time usually Sundays 21:00 CET, but open for discussion.
+Meeting time usually Sundays 21:00 UTC+2, but open for discussion.
 
 In advance to every meeting a pad will be created with topics to be discussed.
 
-_History:_ https://piratenpad.de/p/Sauerforkmeetingno1
+_Protocols of old meetings:_ 
+* https://piratenpad.de/p/Sauerforkmeetingno1
+* https://piratenpad.de/p/Sauerforkmeetingno2
+
 
 # Tools
 
