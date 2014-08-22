@@ -5,6 +5,7 @@
 * Fork of sauerbraten in order to replace sauerbraten (no mod)
 * Bigger audience for sauerbraten
 * Keep sauerbraten alive for the future
+* maybe port sauerbraten to steam (Take a minute and think about all the advantages!)
 
 ## Upcoming Features
 
@@ -17,6 +18,7 @@ see [Ideas for Features](Feature List)
 * [Lua JIT](Lua JIT)
 * [Ambient Occlusion](Ambient Occlusion)
 * [Packaging System](Packaging System)
+* [3D flowchart leve scripts](3D flowchart level scripts)
 
 ## Contact
 
