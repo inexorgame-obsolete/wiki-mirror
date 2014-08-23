@@ -18,7 +18,7 @@ see [Ideas for Features](Feature List)
 * [Lua JIT](Lua JIT)
 * [Ambient Occlusion](Ambient Occlusion)
 * [Packaging System](Packaging System)
-* [3D flowchart leve scripts](3D flowchart level scripts)
+* [3D flowchart level scripts](3D flowchart level scripts)
 
 ## Contact
 
