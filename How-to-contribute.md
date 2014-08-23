@@ -2,7 +2,7 @@
 
 We pulled the complete commit history of sauerbraten and devided it in only-code, only-data and only-build parts. Why? Because checkouts and commits are much faster without binary blobs.
 
-Avoid committing binaries into the **source** repository, so the repository stays leigthweight.
+Avoid committing binaries into the **source** repository, so the repository stays ligthweight.
 
 ### Adding new features
 
@@ -14,7 +14,7 @@ Some features might be on strategical nature or might be an architectural change
 
 ### Experiments allowed
 
-Experiments are allowed and encouraged. But: use your own branch and don't be upset if it don't find it's way into the master branch. If a feature is not a core functionality or controversial, better develop it as a plugin.
+Experiments are allowed and encouraged. But: use your own branch and don't be upset if it doesn't find it's way into the master branch. If a feature is not a core functionality or controversial, better develop it as a plugin.
 
 ### Create documentation
 
@@ -27,7 +27,19 @@ If you create a new feature or make a non-trivial change, it has to be documente
 * No spaghetti code
 * No code duplication
 * Refactor your work
+* Use comments 
 
 ### Content Contribution
 
-TODO: license details
+Since sauerbraten-fork's content is cleanly free, you are only allowed to contribute to the main-game with a license which allows use in all kinds (including commercial).
+These are (list not complete):
+
+* CC-BY 3.0 (or greater)
+* CC-BY-SA
+* CC-0
+
+//TODO list
+
+_(e.g. CC-BY-NC is **not** a free license since you are not allowed to make commercial use of it)_
+
+Still, you are always allowed to provide license restricted material as an excluding contentpack and deploy it e.g. over your sauerbraten-fork server.
