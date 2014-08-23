@@ -22,7 +22,7 @@ see [Ideas for Features](Feature List)
 
 ## Contact
 
-We manly use #sauerfork on Gamesurge for communication, you
+We mainly use #sauerfork on Gamesurge for communication, you
 can access it via [web client](http://irc.lc/gamesurge/sauerfork) or with a normal irc client: [irc://gamesurge.net/#sauerfork](irc://gamesurge.net/#sauerfork).
 
 We also have a mailing list for announcements and support:
