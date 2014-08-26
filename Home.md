@@ -19,7 +19,7 @@ see [Ideas for Features](Feature List)
 * [Atom Integration](Atom Integration)
 * [3D flowchart level scripts](3D flowchart level scripts)
 
-### Planed
+### Planned
 
 * [Improved Selection](Improved Selection)
 * [Entity System](Entity System)
