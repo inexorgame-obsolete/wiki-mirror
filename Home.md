@@ -11,13 +11,18 @@
 
 see [Ideas for Features](Feature List)
 
-* [Improved Selection](Improved Selection)
+### In Progress
+
 * [Particle System](Particle System)
-* [Entity System](Entity System)
-* [Atom Integration](Atom Integration)
-* [Lua JIT](Lua JIT)
 * [Ambient Occlusion](Ambient Occlusion)
 * [Packaging System](Packaging System)
+* [Atom Integration](Atom Integration)
+
+### Planed
+
+* [Improved Selection](Improved Selection)
+* [Entity System](Entity System)
+* [Lua JIT](Lua JIT)
 * [3D flowchart level scripts](3D flowchart level scripts)
 
 ## Contact
