@@ -1,6 +1,6 @@
 **Please add only done and stable features!**
 
-Note: After releases can have a changelog anyway, do we need this page?
+Note: After releases can have a changelog anyway, do we need this page? People seems to forget this list.
 
 ## 0.1 alpha
 
