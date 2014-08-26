@@ -2,6 +2,11 @@
 
 Goal is to implement an flexible entity system.
 
+### Developers
+
+* Hanack
+* superTux
+
 ### Entities are used for
 
 * players
