@@ -1,6 +1,6 @@
 **Please add only done and stable features!**
 
-Note: After releases can have a changelog anyway, do we need this page? People seems to forget this list.
+Note: After releases can have a changelog anyway, do we need this page? People seems to forget this list. => Yes, we collect changes here and we don't want to comb through the whole git history...
 
 ## 0.1 alpha
 
