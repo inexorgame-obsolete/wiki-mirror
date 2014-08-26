@@ -8,8 +8,8 @@ In sauerbraten-fork we are about to implement an improved highly dynamic particl
 
 ## Features
 
-* Good performance though very dynamic
-* Component Types
+* **Good performance** (not best) though **very dynamic**
+* **Component Types**
  * Emitters
  * Initializers
  * Modifiers
@@ -25,7 +25,7 @@ In sauerbraten-fork we are about to implement an improved highly dynamic particl
 
 ### The architecture of the particle system
 
-The architecture of the particle system is designed to allow extend the particle system. It is based on a clear matrix structure: `component type x abstraction layer`.
+The architecture of the particle system is designed to allow extend the particle system. It is based on a clear matrix structure: `component type` x `abstraction layer`.
 
 The abstraction layers divide implementations, configurations and runtime instances. Implementations are designed to read parameters and dynamic attributes from the instances or types. For example each emitter implementation needs a position from the concrete emitter instance to spawn new particles. Types holds configuration with information about the "what" not "where and when". These information is known in beforehand, like a "fire emitter type" should define the particle type to be used as well as the particle rate and the batch size. On type level it would be useless to define the position for example. Therefore the position of a fire is set on instance level. Most of the emitter type parameters are overrideable on instance level.
 
@@ -35,11 +35,11 @@ More technically speaking (skip this if you are not a programmer) implemenations
 
 ### Dynamic attributes
 
-One of the main disadvantages of particle systems is that they are limited in extendibility. Therefore each type and instance of any component type is able to store dynamic attributes. If there is no attribute for, for example, the _drift_ of a particle, you can store it in the dynamic attributes. Dynamic attributes of the type level are copied into the instance level on creation time. For example by creating an emitter instance, the dynamic attributes of the parent emitter type is copied.
+One of the main disadvantages of particle systems is that they are limited in extensibility. Therefore each type and instance of any component type is able to store **dynamic attributes**. If there is no attribute for, for example, the _drift_ of a particle, you can store it in the dynamic attributes. Dynamic attributes of the type level are copied into the instance level on creation time. For example by creating an emitter instance, the dynamic attributes of the parent emitter type is copied.
 
 ### Particles
 
-Particles are the little things flying around? Wrong. For the particle system they are only data objects. What to do with them is up on the configuration of the system. In general you can do what you want with them. You will need all of the other component types described below.
+Particles are the little things flying around? Wrong. For the particle system they are only **data objects**. What to do with them is up on the configuration of the system. In general you can do what you want with them. You will need all of the other component types described below.
 
 So, here we will only describe the attributes of an particle object:
 
@@ -67,7 +67,7 @@ Emitters are spawning particles. How often, how many, which particle types and w
 * Raster field emitter (1D = Dotted line, 2D = Raster, 3D = Cubic Raster)
 * Bezier curve emitter
 
-Each of them is configurable and you'll be able to create complex setups. If you want to create an emitter you have to create an emitter type first, then you can create an emitter instance of this type. The emitter type is like a configuration pattern and allows to setup common types of emitters. For example: different types of fire, smoke, rain and so on. It stores which emitter implementation and which particle type will be used by the emitter instances. In contrast, emitter instances holds for example the position, velocity, the last used color, the next position based on the last emitted particle. All is data only known by the single instance and during execution.
+Each of them is configurable and _you'll be able to create complex setups_. If you want to create an emitter instance, you have to create an emitter type first. The emitter type is like a configuration pattern and allows to setup common types of emitters. For example: different types of fire, smoke, rain and so on. It stores which emitter implementation and which particle type will be used by the emitter instances. In contrast, emitter instances holds for example the position, velocity, the last used color, the next position based on the last emitted particle. All is data only known by the single instance and during execution.
 
 #### Default Emitter Type Attributes
 
