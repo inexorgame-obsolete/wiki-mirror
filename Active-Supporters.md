@@ -8,7 +8,7 @@
 * Nothing
 * pisto ([pisto](https://github.com/pisto/))
 * sanitizer ([movabo](https://github.com/movabo))
-* Shadow-Dragon
+* Shadow-Dragon ([NaturalShadowDragon](https://github.com/NaturalShadowDragon))
 * supertux ([super-tux](https://github.com/super-tux))
 * Nooby ([Croydon](https://github.com/Croydon))
 * killme ([killme](https://github.com/killme))
