@@ -1,6 +1,6 @@
 # Improved Particle System
 
-In sauerbraten-fork we are about to implement an improved particle system.
+In sauerbraten-fork we are about to implement an improved highly dynamic particle system.
 
 ## Developers
 
@@ -9,30 +9,67 @@ In sauerbraten-fork we are about to implement an improved particle system.
 ## Features
 
 * Good performance though very dynamic
-* Generic abstraction layers
- * Multiple stateful and dynamically configurable particle emitter types
- * Multiple stateful and dynamically configurable particle renderer types
- * Multiple stateful and dynamically configurable particle modifier types
-* Stateful particles
-* A rich set of useful emitters, renderers and modifiers
+* Component Types
+ * Emitters
+ * Initializers
+ * Modifiers
+ * Renderers
+ * Particles
+* Abstraction layers (for each component type)
+ * Implementation (singletons, does stuff)
+ * Types (like a configuration pattern for creating instances, holds the concrete implementation)
+ * Instances (the concrete particle, emitter, modifier, initializer, renderer)
+* **Stateful and dynamic** components
+* A **rich set** of useful components (see below)
+* Extentable via **dynamic attributes** for each component type
 
-### Particle Emitter Implementations
+### The architecture of the particle system
 
-* Point
-* Line
-* Plane
-* Circle
-* Sphere
-* 2D Raster Field
-* 3D Raster Field
+The architecture of the particle system is designed to allow extend the particle system. It is based on a clear matrix structure: `component type x abstraction layer`.
 
-### Default Emitter Attributes
+The abstraction layers divide implementations, configurations and runtime instances. Implementations are designed to read parameters and dynamic attributes from the instances or types. For example each emitter implementation needs a position from the concrete emitter instance to spawn new particles. Types holds configuration with information about the "what" not "where and when". These information is known in beforehand, like a "fire emitter type" should define the particle type to be used as well as the particle rate and the batch size. On type level it would be useless to define the position for example. Therefore the position of a fire is set on instance level. Most of the emitter type parameters are overrideable on instance level.
 
-* Emitter rate
-* Initial Velocity
-* Scatter
-* Renderer to use
-* Modifiers to use
+The scheme is similar for initializers, modifiers and renderers. The only exception are the particles itself. There is no implementation of particles, only particle types and particle instances. The reason is that particles have no inner logic. They are pure data containers.
+
+More technically speaking (skip this if you are not a programmer) implemenations are *stateless* while types and instances are *stateful*.
+
+### Dynamic attributes
+
+One of the main disadvantages of particle systems is that they are limited in extendibility. Therefore each type and instance of any component type is able to store dynamic attributes. If there is no attribute for, for example, the _drift_ of a particle, you can store it in the dynamic attributes. Dynamic attributes of the type level are copied into the instance level on creation time. For example by creating an emitter instance, the dynamic attributes of the parent emitter type is copied.
+
+### Particles
+
+Particles are the little things flying around? Wrong. For the particle system they are only data objects. What to do with them is up on the configuration of the system. In general you can do what you want with them. You will need all of the other component types described below.
+
+So, here we will only describe the attributes of an particle object:
+
+* Position
+* Old Position
+* Velocity
+* ... TODO ...
+
+Additionally, particles (as emitters, initializers, modifiers and renderers) can store even more information in the *dynamic attributes*.
+
+### Particle Emitters
+
+Emitters are spawning particles. How often, how many, which particle types and where is upon the emitter implementation. It's easy to implement new specialized emitters. But there is already a set of default generic emitters available.
+
+* Point emitter
+* Cubic emitter (1D = Line, 2D = Plane, 3D = Box)
+* Elipsoid emitter (2D = Circle, 3D = Sphere)
+* Raster field emitter (1D = Dotted line, 2D = Raster, 3D = Cubic Raster)
+* Bezier curve emitter
+
+Each of them is configurable and you'll be able to create complex setups. If you want to create an emitter you have to create an emitter type first, then you can create an emitter instance of this type. The emitter type is like a configuration pattern and allows to setup common types of emitters. For example: different types of fire, smoke, rain and so on. It stores which emitter implementation and which particle type will be used by the emitter instances. In contrast, emitter instances holds for example the position, velocity, the last used color, the next position based on the last emitted particle. All is data only known by the single instance and during execution.
+
+#### Default Emitter Attributes
+
+* Emitter rate (10 = emit particles every 10 ms)
+* Emitter batch size (3 = emit 3 particles at once)
+* Initial Velocity (x,y,z vector)
+* Particle type to use (fire, smoke, ...)
+* Modifiers to use (movement modification, color modification, ...)
+* Initializer to use (initial position, initial velocity, initial color, building weaved particles, ...)
 
 ### Particle Modifiers Implementations
 
@@ -47,6 +84,8 @@ In sauerbraten-fork we are about to implement an improved particle system.
 * Geometry Collision (expensive)
 
 ### Particle Rendering Implementations
+
+To be visible, particles needs a renderer. These paint something in the 3D world. What, how and where is part of the implemenation and configuration.
 
 * Point-Based (Billboards)
  * Smoke
