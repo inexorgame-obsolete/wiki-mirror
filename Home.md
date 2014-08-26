@@ -44,6 +44,7 @@ We also have a mailing list for announcements and support:
 * [Contribution](How to contribute)
 * [Development Environment](Development Environment)
 * [Coding Standards](Coding Standards)
+* [Changelog](Changelog)
 
 ## Analysis
 
