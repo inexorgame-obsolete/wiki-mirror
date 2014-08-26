@@ -17,13 +17,13 @@ see [Ideas for Features](Feature List)
 * [Ambient Occlusion](Ambient Occlusion)
 * [Packaging System](Packaging System)
 * [Atom Integration](Atom Integration)
+* [3D flowchart level scripts](3D flowchart level scripts)
 
 ### Planed
 
 * [Improved Selection](Improved Selection)
 * [Entity System](Entity System)
 * [Lua JIT](Lua JIT)
-* [3D flowchart level scripts](3D flowchart level scripts)
 
 ## Contact
 
