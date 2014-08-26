@@ -5,7 +5,7 @@
 * Hanack ([aschaeffer](https://github.com/aschaeffer))
 * Hanni ([IAmNotHanni](https://github.com/IAmNotHanni))
 * mapc ([koraa](https://github.com/koraa))
-* Nothing
+* Nothing ([koppiman](https://github.com/koppiman))
 * pisto ([pisto](https://github.com/pisto/))
 * sanitizer ([movabo](https://github.com/movabo))
 * Shadow-Dragon ([NaturalShadowDragon](https://github.com/NaturalShadowDragon))
