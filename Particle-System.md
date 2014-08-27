@@ -92,7 +92,7 @@ Each of them is configurable and _you'll be able to create complex setups_. If y
 
 Modifiers can alter the attributes of a particle over time. For example the velocity transformation modifier adds the current velocity vector to the current position vector, which "moves" the particle. But there are a lot of other possibilities to modify particles.
 
-### Particle Modifiers Implementations
+### Particle Modifier Implementations
 
 * Movement
  * Velocity Transformation: Apply velocity vector in order to change the particle position
@@ -121,7 +121,7 @@ Modifiers can alter the attributes of a particle over time. For example the velo
  * http://www.henning-tjaden.com/_files/pdfs/projekt_618.pdf
  * Brownian Motion
 
-### Particle Rendering Implementations
+### Particle Renderer Implementations
 
 To be visible, particles needs a renderer. These paint something in the 3D world. What, how and where is part of the implemenation and configuration.
 
