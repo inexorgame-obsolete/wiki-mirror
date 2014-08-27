@@ -8,6 +8,7 @@
 
 _Please vote for a name soon: add suggestions to the list below; state your support by leaving your nick; use your veto by moving suggestions to the *Bad Names* list._
 
+### Bad Names
 * **Fast Firefight**             _[a_teammate]_
 * **Eris in Finity**           _[mapc]_
 * **LBC – Large Bullet Collider** _[mapc]_
@@ -20,9 +21,6 @@ _Please vote for a name soon: add suggestions to the list below; state your supp
 * **HyperCube: Next Generation** _[Croydon]_
 * **Cube2: Ehnet** _[Fohlen]_
 * **Cube 2: Age of Rage** _[Croydon]_
-
-### Bad Names
-
 * **Trident** _[mapc]_
 * **Schnitzel** _[veto by mapc, Fohlen]_
 * **Möbius** _[veto by a_teammate]_
