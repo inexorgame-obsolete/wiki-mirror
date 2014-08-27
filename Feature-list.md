@@ -1,17 +1,16 @@
 # Feature Ideas
 
-* Free content
+* Free content / Packaging / Content delivery
  * Reduced set on game modes and maps
- * All content is free (see #free-sauer project)
- * In order to make the game free
- * Make the game itself forkable
+ * [WIP] All content is free (see #free-sauer project), in order to make the game free
+ * [WIP] Make the game itself forkable
  * Content can be delivered by servers / repositories
 * Easy modability and mod delivery
- * Maps, Textures, Mapmodels download
- * Packaging / Dependency Management for Content
+ * [WIP] Maps, Textures, Mapmodels download
+ * [WIP] Packaging / Dependency Management for Content
  * Gamemode download (Scriptable)
  * Weapon download / Weapon settings (again, reffer to Counter Strike)
-* Refactor GUI and overall look/feel
+* [WIP] Refactor GUI and overall look/feel
 * Deliver Sauerbraten on Steam 
  * Bigger audience / more PR
  * Stronger community integration (eg: Quakelive's homepage)
@@ -19,15 +18,16 @@
  * Global dezentralized authentication + protection
   * Like jabber: multiple servers (multiple domains)
  * Global stats
-* Dynamic Content
+ * Dezentralized (multiple) masterservers
+* Dynamic content
  * Destructible map geometry
  * Movable, destructible objects
-* Dezentralization
- * Multiple Masterservers
+ * [WIP] Dynamic entity system
+ * [WIP] Dynamic particle system
+* Improved mapping functions
+ * [WIP] Flow chart system for scripted maps
+ * Cooperative lightmapping
 * Security
  * Anti-DDOS
  * Load Balancing
  * Security Enhancements
-* New particle system
-* New entity system
-* Cooperative lightmapping
