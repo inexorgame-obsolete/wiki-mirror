@@ -1,6 +1,8 @@
-# Improved Particle System
+# Objective
 
 In sauerbraten-fork we are about to implement an improved highly dynamic particle system.
+
+[![Improved particle system video](http://img.youtube.com/vi/0b_qnbV7TWY/0.jpg)](http://www.youtube.com/watch?v=0b_qnbV7TWY)
 
 ## Developers
 
