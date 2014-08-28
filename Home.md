@@ -18,6 +18,7 @@ see [Ideas for Features](Feature List)
 * [Packaging System](Packaging System)
 * [Atom Integration](Atom Integration)
 * [3D flowchart level scripts](3D flowchart level scripts)
+* Bezier curve camera flights
 
 ### Planned
 
