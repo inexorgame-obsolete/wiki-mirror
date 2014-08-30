@@ -158,7 +158,7 @@ To be visible, particles needs a renderer. These paint something in the 3D world
 
 ### Cloth simulation
 
-[![Cloth simulation demonstration video](http://img.youtube.com/vi/0b_qnbV7TWY/0.jpg)](http://www.youtube.com/watch?v=0b_qnbV7TWY)
+[![Cloth simulation demonstration video](http://img.youtube.com/vi/pK0uNyjiWcM/0.jpg)](http://www.youtube.com/watch?v=pK0uNyjiWcM)
 
 Realtime octree geometry collision of the particles connected with stretch, sheer and bend springs. The particles are emitted in a batch by a 2D grid field emitter and are connected by the spring weaver initializer which applies construction rules based on a transformation matrix in order to connect nearby particles.
 
