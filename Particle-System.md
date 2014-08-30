@@ -155,3 +155,24 @@ To be visible, particles needs a renderer. These paint something in the 3D world
 * Modify emitter attributes -> Emitter Modifier
 * Modify modifier attributes -> Modifier Modifier
 * React on player position
+
+### Cloth simulation
+
+[![Cloth simulation demonstration video](http://img.youtube.com/vi/0b_qnbV7TWY/0.jpg)](http://www.youtube.com/watch?v=0b_qnbV7TWY)
+
+Realtime octree geometry collision of the particles connected with stretch, sheer and bend springs. The particles are emitted in a batch by a 2D grid field emitter and are connected by the spring weaver initializer which applies construction rules based on a transformation matrix in order to connect nearby particles.
+
+For example, to construct a 2D cloth mesh the construction rules are:
+
+1. stretch spring in plus-x-direction (x+1, y, z)
+2. stretch spring in plus-y-direction (x, y+1, z)
+3. sheer spring in plus-x and plus-y-direction (x+1, y+1, z)
+4. sheer spring in plus-x and minus-y-direction (x+1, y-1, z)
+5. bend spring in plus-x-direction (x+2, y, z)
+6. bend spring in plus-y-direction (x, y+2, z)
+
+In this case, we construct 6 springs for each particle. Therefore the total number of springs is about 6 times higher than the number of particles. The calculation of the springs happens on CPU and won't affect the fps. But the rendering of cloth is still complex enough and should be done on GPU.
+
+#### Cloth Simulation Resources
+
+* http://graphics.stanford.edu/~mdfisher/cloth.html
