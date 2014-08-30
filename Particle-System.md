@@ -173,6 +173,9 @@ For example, to construct a 2D cloth mesh the construction rules are:
 
 In this case, we construct 6 springs for each particle. Therefore the total number of springs is about 6 times higher than the number of particles. The calculation of the springs happens on CPU and won't affect the fps. But the rendering of cloth is still complex enough and should be done on GPU.
 
-#### Cloth Simulation Resources
+### Resources
+
+#### Cloth Simulation
 
 * http://graphics.stanford.edu/~mdfisher/cloth.html
+* https://www.math.hmc.edu/~depillis/MATH164/MATH164_StudentProjects_2003/COCONNOR/ClothSimulation/final_report.pdf
