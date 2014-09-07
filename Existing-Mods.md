@@ -9,6 +9,7 @@ Jump to...
 * [Client mods](#client-mods)
 * [Standalone game/fork](#standalone-gamefork)
 * [Anything left](#anything-left)
+* [Community stuff](#community-stuff)
 
 ***
 
@@ -58,7 +59,7 @@ Jump to...
  * Native Race Mode in C++
  * Native Hide and Seek Mode
  * Configurable physics
-* [Fanatic Edition](https://github.com/Incognito357/Sauer_FanaticEdition)
+* [Fanatic Edition](https://github.com/fanaticclan/client)
  * Ingame IRC client
  * Blender Import/Export
  * Client side cheat detection
