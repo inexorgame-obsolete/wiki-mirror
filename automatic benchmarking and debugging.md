@@ -38,5 +38,13 @@ Its very interesting that nobody knows the old debugging commands which still re
 * /debugdepthfx [0|1] Depth function debugger
 * /debugparticles [0|1] Particle debugger (not for Hanacks new Particle system)
 
+## Miliseconds and SDL_GetTicks()
+So far you can use [SDL_GetTicks()](https://wiki.libsdl.org/SDL_GetTicks) to get the number of miliseconds since the SDL initialisation (program start.)
 
+`
+unsigned long ulStartTime = SDL_GetTicks(); // Store current time
+SDL_Delay(100); // Wait 100 miliseconds
+unsigned long ulEndTime = SDL_GetTicks(); // Store end time
 
+conoutf(CON_DEBUG, "Well that took around %llu miliseconds..", ulEndTime - ulStartTime);
+`
