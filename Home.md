@@ -19,7 +19,7 @@ see [Ideas for Features](Feature List)
 * [Packaging System](Packaging System)
 * [Atom Integration](Atom Integration)
 * [Bezier curve camera flights](Bezier curve)
-* [automatic benchmarking and debugging](automatic benchmarking and debugging)
+* [Automatic benchmarking and debugging](automatic benchmarking and debugging)
 
 ### Planned
 
