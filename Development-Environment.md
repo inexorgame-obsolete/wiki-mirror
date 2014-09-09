@@ -1,11 +1,17 @@
-# Communication
+# Contact
 
-* IRC
+* **IRC** _(mainly used)_
+ * [web client](http://irc.lc/gamesurge/sauerfork)
  * [#sauerfork on GameSurge](irc://gamesurge.net/#sauerfork)
-* Mumble
+
+* **Mumble** _(for meetings, see below)_
  * nooblounge.net port 64738
 
-_History: [Discussion Pad](https://piratenpad.de/p/SauerbratenFork)_
+* **Mailing List** _(announcements and support)_
+ * [https://lists.cupdev.net/listinfo/sauerfork](https://lists.cupdev.net/listinfo/sauerfork)
+  * _please ignore the security warning or install the [cacert root certificate](https://www.cacert.org/index.php?id=3)_
+
+_History: [First-ever Discussion Pad](https://piratenpad.de/p/SauerbratenFork)_
 
 #Briefings
 
