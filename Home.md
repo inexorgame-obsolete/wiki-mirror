@@ -1,23 +1,26 @@
 # Sauerbraten Fork Documentation
 
 ## Objectives
+_Stays Sauer, becomes better_
 
 * Fork of sauerbraten in order to replace sauerbraten (no mod)
 * Bigger audience for sauerbraten
 * Keep sauerbraten alive for the future
-* maybe port sauerbraten to steam (Take a minute and think about all the advantages!)
-* a modern website as a replacement of sauerbraten.org / quadropolis.us (content sharing)
+
+### How to get involved
+* [How to contribute](How to contribute)
+* [Recruiting](Recruiting)
 
 ## Upcoming Features
 
-see [Ideas for Features](Feature List)
+[Changelog](Changelog)
 
 ### In Progress
 
 * [Particle System](Particle System)
 * [Ambient Occlusion](Ambient Occlusion)
 * [Packaging System](Packaging System)
-* [Atom Integration](Atom Integration)
+* [New User Interface ](Atom Integration)(Atom Integration)
 * [Bezier curve camera flights](Bezier curve)
 * [Automatic benchmarking and debugging](automatic benchmarking and debugging)
 
@@ -28,28 +31,23 @@ see [Ideas for Features](Feature List)
 * [Lua JIT](Lua JIT)
 * [3D flowchart level scripts](3D flowchart level scripts)
 
+### General Ideas
+
+[Ideas for Features](Feature List)
+
 ## Contact
+Go to [this Page](Development Environment)
+* Meetings (Mumble)
+* IRC
+* Mailing List
 
-We mainly use #sauerfork on Gamesurge for communication, you
-can access it via [web client](http://irc.lc/gamesurge/sauerfork) or with a normal irc client: [irc://gamesurge.net/#sauerfork](irc://gamesurge.net/#sauerfork).
-
-We also have a mailing list for announcements and support:
-[https://lists.cupdev.net/listinfo/sauerfork](https://lists.cupdev.net/listinfo/sauerfork) (please ignore the security warning an or install the [cacert root certificate](https://www.cacert.org/index.php?id=3)).
-
-## How to get involved
-
-* [How to get involved](Recruting)
-* [Communication](Communication)
-
-## Development
+### Development
 
 * [Build](Build)
-* [Contribution](How to contribute)
 * [Development Environment](Development Environment)
 * [Coding Standards](Coding Standards)
-* [Changelog](Changelog)
 
-## Analysis
+### Other
 
-* [Existing Mods](Existing Mods)
 * [Branding](Branding)
+* [Other Existing Projects](Existing Mods)
