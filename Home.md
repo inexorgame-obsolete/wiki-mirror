@@ -6,6 +6,7 @@
 * Bigger audience for sauerbraten
 * Keep sauerbraten alive for the future
 * maybe port sauerbraten to steam (Take a minute and think about all the advantages!)
+* a modern website as a replacement of sauerbraten.org / quadropolis.us (content sharing)
 
 ## Upcoming Features
 
@@ -17,14 +18,15 @@ see [Ideas for Features](Feature List)
 * [Ambient Occlusion](Ambient Occlusion)
 * [Packaging System](Packaging System)
 * [Atom Integration](Atom Integration)
-* [3D flowchart level scripts](3D flowchart level scripts)
 * [Bezier curve camera flights](Bezier curve)
+* [automatic benchmarking and debugging](automatic benchmarking and debugging)
 
 ### Planned
 
 * [Improved Selection](Improved Selection)
 * [Entity System](Entity System)
 * [Lua JIT](Lua JIT)
+* [3D flowchart level scripts](3D flowchart level scripts)
 
 ## Contact
 
