@@ -42,3 +42,7 @@ Create a map format which is forward and backward compatible, modular and extend
 * Lightmaps
 * PVS
 * Blendmaps
+
+#### References
+
+* http://incoherency.co.uk/interest/sauer_map.html
