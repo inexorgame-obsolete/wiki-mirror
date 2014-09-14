@@ -156,6 +156,30 @@ To be visible, particles needs a renderer. These paint something in the 3D world
 * Modify modifier attributes -> Modifier Modifier
 * React on player position
 
+### Gravitation and geometry collision simulation
+
+[![Gravitation and geometry collision simulation demonstration video](http://img.youtube.com/vi/oTE4E2z8OBc/0.jpg)](http://www.youtube.com/watch?v=oTE4E2z8OBc)
+
+Simulating bouncing grenades using gravitation and geometry collision. Furthermore, the particle is rendered as model with enabled roll effect.
+
+### Position trace
+
+[![Position trace demonstration video](http://img.youtube.com/vi/02awTpuNGog/0.jpg)](http://www.youtube.com/watch?v=02awTpuNGog)
+
+Cloning short living particles with removed velocity (fixed position) to achive a wrap-like effect.
+
+### Branching particles
+
+[![Branching particles demonstration video](http://img.youtube.com/vi/xwWTsL9g-Wc/0.jpg)](http://www.youtube.com/watch?v=xwWTsL9g-Wc)
+
+Even more complex: the cloned particles are fully functional (velocity, modifiers).
+
+### Vector fields
+
+[![Vector fields demonstration video](http://img.youtube.com/vi/0b_qnbV7TWY/0.jpg)](http://www.youtube.com/watch?v=0b_qnbV7TWY)
+
+Particle movement is defined using mathematical formula. Many things are possible: gravitation, wind, turbulence, hurricanes, DNA, waves ...
+
 ### Cloth simulation
 
 [![Cloth simulation demonstration video](http://img.youtube.com/vi/pK0uNyjiWcM/0.jpg)](http://www.youtube.com/watch?v=pK0uNyjiWcM)
