@@ -183,3 +183,6 @@ In this case, we construct 6 springs for each particle. Therefore the total numb
 #### Sound
 
 * http://hal.archives-ouvertes.fr/docs/00/75/98/18/PDF/soundParticles_HAL.pdf
+* http://gamma.cs.unc.edu/propagation/
+* https://www.youtube.com/watch?v=FDL39J-i0yQ&html5=1
+* https://www.youtube.com/watch?v=MQt1jtDBNK4&list=UU0GpuO2aEbGMG8N0iLE9_TA&html5=1
