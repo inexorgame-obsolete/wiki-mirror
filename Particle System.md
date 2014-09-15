@@ -1,4 +1,4 @@
-# Objective
+## Objective
 
 In sauerbraten-fork we are about to implement an improved highly dynamic particle system.
 
@@ -25,7 +25,7 @@ In sauerbraten-fork we are about to implement an improved highly dynamic particl
 * A **rich set** of useful components (see below)
 * Extentable via **dynamic attributes** for each component type
 
-### The architecture of the particle system
+## The architecture of the particle system
 
 The architecture of the particle system is designed to allow extend the particle system. It is based on a clear matrix structure: `component type` x `abstraction layer`.
 
@@ -156,6 +156,8 @@ To be visible, particles needs a renderer. These paint something in the 3D world
 * Modify modifier attributes -> Modifier Modifier
 * React on player position
 
+## Use Cases
+
 ### Gravitation and geometry collision simulation
 
 [![Gravitation and geometry collision simulation demonstration video](http://img.youtube.com/vi/oTE4E2z8OBc/0.jpg)](http://www.youtube.com/watch?v=oTE4E2z8OBc)
@@ -203,14 +205,14 @@ In this case, we construct 6 springs for each particle. Therefore the total numb
 
 Like cloth simulation in three dimensions with much more springs, also constructed by spring construction rules. For each particle we need 26 springs. Rendering is done a bit differently by only rendering the surface, so the rendering is much faster than the simulation.
 
-### Resources
+## Resources
 
-#### Cloth Simulation
+### Cloth Simulation
 
 * http://graphics.stanford.edu/~mdfisher/cloth.html
 * https://www.math.hmc.edu/~depillis/MATH164/MATH164_StudentProjects_2003/COCONNOR/ClothSimulation/final_report.pdf
 
-#### Sound
+### Sound
 
 * http://hal.archives-ouvertes.fr/docs/00/75/98/18/PDF/soundParticles_HAL.pdf
 * http://gamma.cs.unc.edu/propagation/
