@@ -197,12 +197,6 @@ For example, to construct a 2D cloth mesh the construction rules are:
 
 In this case, we construct 6 springs for each particle. Therefore the total number of springs is about 6 times higher than the number of particles. The calculation of the springs happens on CPU and won't affect the fps. But the rendering of cloth is still complex enough and should be done on GPU.
 
-### Jello Simulation
-
-[![Jello simulation demonstration video](http://img.youtube.com/vi/zQEj8QB1FE8/0.jpg)](http://www.youtube.com/watch?v=zQEj8QB1FE8)
-
-Like cloth simulation in three dimensions with much more springs, also constructed by spring construction rules. For each particle we need 26 springs. Rendering is done a bit differently by only rendering the surface, so the rendering is much faster than the simulation.
-
 ### Resources
 
 #### Cloth Simulation
