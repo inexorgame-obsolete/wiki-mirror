@@ -1,8 +1,12 @@
 ## SauerFork
 
-**Sauercom: Hello "sauerfork"-team, some of our readers may already heared about your plans, some might not. What are you working on?**
+**Sauercom: Welcome "sauerfork"-team, some of our readers may have already heared about your plans, some might not. What are you working on?**
 
 Answers:
+
+name: 
+
+name: To discribe our project i really like a phrase once thrown into our IRC-channel: "Stays Sauer, becomes better"
 
 ...
 
@@ -13,12 +17,16 @@ _(whether we need this question or not depends on the previous answers)_
 
 Answers:
 
+a_teammate: All of us worked on this game before and put a lot of effort into it. We noticed that Sauerbratens main (and only) developer eihrul lost a bit the interest due to new projects.
+
+name: 
 ... 
 
 **Sauercom: Everyone can vote for a new name? How does that work?**
 
 Answers:
 
+name: **sanitizer** here, created a great plattform for that: 
 ...
 
 ***
