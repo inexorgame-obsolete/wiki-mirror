@@ -118,10 +118,6 @@ Modifiers can alter the attributes of a particle over time. For example the velo
  * Density Fade Out: Shortly before dying, the density of a particle is reduced, so that it fades out
  * Position Trace: Spawns particles with a shorter lifetime and no movement on the old position of the particle
  * Sub Emitter: A particle emits sub particles (in fact a separate emitter instance is emitting, but the position and velocity of the particle are used)
-* TODO
- * Fixed Coordinate <-Spring-> Particle
- * http://www.henning-tjaden.com/_files/pdfs/projekt_618.pdf
- * Brownian Motion
 
 ### Particle Renderer Implementations
 
@@ -206,6 +202,10 @@ In this case, we construct 6 springs for each particle. Therefore the total numb
 Like cloth simulation in three dimensions with much more springs, also constructed by spring construction rules. For each particle we need 26 springs. Rendering is done a bit differently by only rendering the surface, so the rendering is much faster than the simulation.
 
 ## Resources
+
+### Mass Spring Simulation
+
+* http://www.henning-tjaden.com/_files/pdfs/projekt_618.pdf
 
 ### Cloth Simulation
 
