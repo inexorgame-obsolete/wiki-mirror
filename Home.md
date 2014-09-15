@@ -30,6 +30,7 @@ _Stays Sauer, becomes better_
 * [Entity System](Entity System)
 * [Lua JIT](Lua JIT)
 * [3D flowchart level scripts](3D flowchart level scripts)
+* Gameplay Adjustments (e.g. Weapon Balance) 
 
 ### General Ideas
 
