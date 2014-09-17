@@ -23,6 +23,7 @@ _Stays Sauer, becomes better_
 * [New User Interface ](Atom Integration)(Atom Integration)
 * [Bezier curve camera flights](Bezier curve)
 * [Automatic benchmarking and debugging](automatic benchmarking and debugging)
+* [Json configuration support](Json)
 
 ### Planned
 
