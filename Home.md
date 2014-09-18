@@ -24,11 +24,11 @@ _Stays Sauer, becomes better_
 * [Bezier curve camera flights](Bezier curve)
 * [Automatic benchmarking and debugging](automatic benchmarking and debugging)
 * [Json configuration support](Json)
+* [Entity System](Entity System)
 
 ### Planned
 
 * [Improved Selection](Improved Selection)
-* [Entity System](Entity System)
 * [Lua JIT](Lua JIT)
 * [3D flowchart level scripts](3D flowchart level scripts)
 * Gameplay Adjustments (e.g. Weapon Balance) 
