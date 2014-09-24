@@ -31,3 +31,6 @@
  * Anti-DDOS
  * Load Balancing
  * Security Enhancements
+* Replace single-player campain mode by multi-player campain mode (playable by a single player too)
+* Replace bots by drones (flying robots, quadcopter, ...)
+** Don't need to fake human behaviour
