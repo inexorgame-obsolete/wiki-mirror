@@ -203,6 +203,10 @@ Like cloth simulation in three dimensions with much more springs, also construct
 
 ## Resources
 
+### Standard Effects
+
+* [Fire Effect](http://blog.martincrownover.com/gamemaker-examples-tutorials/particle-example-fire/)
+
 ### Mass Spring Simulation
 
 * http://www.henning-tjaden.com/_files/pdfs/projekt_618.pdf
