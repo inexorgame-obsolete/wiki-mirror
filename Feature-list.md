@@ -34,3 +34,5 @@
 * Replace single-player campain mode by multi-player campain mode (playable by a single player too)
 * Replace bots by drones (flying robots, quadcopter, ...)
 ** Don't need to fake human behaviour
+* Fading game modes
+** Starting with FFA, slightly moving to effic, then effic team and finally effic ctf
