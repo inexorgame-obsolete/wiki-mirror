@@ -21,10 +21,10 @@ Enet is fine for transfering the game data like position changes and other game 
 * Game states
  * JSON
  * Per game
-  * Flags per team
-  * Bases captured per team
+   * Flags per team
+   * Bases captured per team
  * Per player
-  * Frags, Teamkills, Scores, ...
+   * Frags, Teamkills, Scores, ...
 
 * File Transfer Types
  * Broadcast (like /sendmap): player <-> server
