@@ -5,36 +5,36 @@ Enet is fine for transfering the game data like position changes and other game 
 ### Use Cases
 
 * Dezentralized propagation of game server information ("Masterserver")
-** coordinates of game server
-** player presence (we also have to think about privacy)
-** easy integration of a server list in external programs: websites, desktop client, mobile client
+ * coordinates of game server
+ * player presence (we also have to think about privacy)
+ * easy integration of a server list in external programs: websites, desktop client, mobile client
 
 * Game server capabilities
 
 * Chat
-** Ingame
-** Lobby on Masterserver(s), Gameserver(s)
-** Private Chat: Player to Player without the need to be connected to a specific game server
-** Transports: Chat with other chat protocols (facebook, google talk, icq, ...)
-** Outgame: Chat with a normal XMPP client (Pidgin, Xabber, ...)
+ * Ingame: normal chat, team chat
+ * Lobby on Masterserver(s), Gameserver(s)
+ * Private Chat: Player to Player without the need to be connected to a specific game server
+ * Transports: Chat with other chat protocols (facebook, google talk, icq, ...)
+ * Outgame: Chat with a normal XMPP client (Pidgin, Xabber, ...)
 
 * Game states
-** JSON
-** Per game
-*** Flags per team
-*** Bases captured per team
-** Per player
-*** Frags, Teamkills, Scores, ...
+ * JSON
+ * Per game
+  * Flags per team
+  * Bases captured per team
+ * Per player
+  * Frags, Teamkills, Scores, ...
 
 * File Transfer Types
-** Broadcast (like /sendmap): player <-> server
-** Direct/private: player <-> player
+ * Broadcast (like /sendmap): player <-> server
+ * Direct/private: player <-> player
 
 * File Transfer Content
-** Maps
-** Textures
-** Models
-** (Game modes, Plugins ...)
+ * Maps
+ * Textures
+ * Models
+ * (Game modes, Plugins ...)
 
 ### Developers
 
@@ -54,18 +54,18 @@ Enet is fine for transfering the game data like position changes and other game 
 * A game server pulls the server list periodically from other game servers (we need some sort of validation here)
 * A game server pushes a notification about his presence to the known game servers periodically
 * Entries in the local server list that are older than
-** one hour are not propagated anymore
-** one week are deleted
+ * one hour are not propagated anymore
+ * one week are deleted
 * When a game server get a new entry:
-** already in the list: propagation enabled again
-** not in the list: 
+ * already in the list: propagation enabled again
+ * not in the list: some checks before first propagation in order to prevent missuse
 * Direct share: A player can send a server coordinate to another player
 * Blacklists (providing malware, spyware)
 
 #### Server capabilitities ("extinfo")
 
 * A game server provides information about his capabilities
-** Maybe a just a JSON document
+ * Maybe a just a JSON document
 * Once a client knows about a game server it can ask it for it's capabilities
 * The list of capabilities is extensible
 
@@ -80,5 +80,3 @@ Typical capabilities:
 
 XMPP is an extensible format, so at a later point we may make use of other features.
 List of XMPP extensions: http://xmpp.org/xmpp-protocols/xmpp-extensions/
-
-### Not 
