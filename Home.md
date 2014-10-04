@@ -31,6 +31,7 @@ _Stays Sauer, becomes better_
 * [Improved Selection](Improved Selection)
 * [Lua JIT](Lua JIT)
 * [3D flowchart level scripts](3D flowchart level scripts)
+* [XMPP Integration](XMPP Integration)
 * Gameplay Adjustments (e.g. Weapon Balance) 
 
 ### General Ideas
