@@ -32,7 +32,7 @@ _Protocols of old meetings:_
 * Source Code Managment
  * [Git](http://git-scm.com/)
  * [Cmake](http://www.cmake.org/Wiki/CMake)
-* Code documentation
+* [Source Code Documentation](Source Code Documentation)
  * [Doxygen](http://www.stack.nl/~dimitri/doxygen/)
 * Build server
  * [Travis](https://travis-ci.org/sauerbraten-fork/sauerbraten-fork)
