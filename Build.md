@@ -1,3 +1,62 @@
+# Windows
+This will give you a pretty good exemplary environment if you code on Windows.
+
+## Setup
+
+* Download and install [Visual Studio](http://www.microsoft.com/en-us/download/details.aspx?id=34673)
+   * the Express Edition is enough
+   * on Windows 8.1 or later download [VS 2013](http://go.microsoft.com/?linkid=9832256&clcid=0x409) instead
+
+* Download and install [CMake](http://www.cmake.org/download/)
+   * cmake will generate your project files
+
+* Download and install [SmartGit](http://www.syntevo.com/smartgit/download)
+   * one of the best ways to develop is git, and one of its best interfaces is SmartGit
+   * its free for personal use
+
+## Fetching the Repository
+
+You will have to download the Project somewhere.
+
+* Open SmartGit
+
+* Clone the Repository
+  * click `Repository` and `Clone` (or press `Ctrl+Shift+O`)
+  * Select "Remote Git ... repository", Url = https://github.com/sauerbraten-fork/sauerbraten-fork
+  * On the next Page select both `Include Submodules` as well as `Fetch all Heads and Tags`
+  * Select a folder on the next page. Your local Git repository will be created here. 
+  * Select `Finish`
+
+## Create a seperate Branch
+In Git, you can develop in different branches. An animated Tutorial can be found here: [Learn Git Branching](http://pcottle.github.io/learnGitBranching/) . This tutorial is for the command-line Git, but you should know the underlaying basics to use SmartGit properly.
+
+* Right click `Local Branches`
+  * You will have to select your repository before
+* Select `Add Branch`
+  * name it `<yourname>/<newfeature>`, eg. `BarackObama/World_Domination`
+* Click `Add Branch & Checkout`
+  * `Checkout` means you are using this branch:
+     * All files in your directory will be switched if you have different ones in this branch
+
+## Create the Visual Studio Project
+* Open CMake-Gui
+   * Select your sauerfork-main folder as `Source Folder`
+   * Create a new directory inside your main directory called "Projectfiles" as `Where to build the binaries` 
+   * Click Generate
+     * Select the highest VS-Version it finds and (if you have) the x64-Version so e.g. `Visual Studio 11 Win64`
+   * Click Configure
+
+## Develop your feature
+* Open build/sauerbraten-fork.sln
+   * It will automatically open with Visual Studio
+* At every logical step, commit your work to git
+   * Commit often
+      * Your feature has to be merged into other branches as easy as possible
+      * Big commits often make problems then
+   * Try around with SmartGit a bit to do that
+* Push your work to the remote repo on github
+
+# Linux
 ## Fetching the sources
 
 The first step of building this project is rather obvious, but for sake of completeness here you have it.
@@ -6,9 +65,9 @@ The first step of building this project is rather obvious, but for sake of compl
 
 ## Downloading the dependencies
 
-The next step is to get all the required dependencies to compile. On windows and mac, all the dependencies are packed in the `src/platform_*` directories. You only need an environment that can build c++ programs such as MinGW, xcode or VS.
+The next step is to get all the required dependencies to compile. On windows and mac, all the dependencies are packed in the `src/platform_*` directories. You only need an environment that can build c++ programs such as Visual Studio, XCode or MinGW.
 
-On linux you will need cmake, make, gcc (or clang) and the dev packages of mesa, SDL, SDL_image and SDL_mixer. On systems with apt-get you can simply run the following command `sudo apt-get install git cmake build-essential libsdl{,-mixer,-image}1.2-dev libgl1-mesa-dev`
+On Linux you will need cmake, make, gcc (or clang) and the dev packages of mesa, SDL, SDL_image and SDL_mixer. On systems with apt-get you can simply run the following command `sudo apt-get install git cmake build-essential libsdl{,-mixer,-image}1.2-dev libgl1-mesa-dev`
 
 ## Running CMake
 
