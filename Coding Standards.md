@@ -11,6 +11,8 @@ The goal is to be get a quick overview by just reading the comments.
 
 Commenting is not a hard task, but an important one. **Your future self and other developers will appreciate the minutes you spend commenting**.
 
+Read more in the dedicated wiki page: [Source Code Documentation](Source Code Documentation)
+
 # Coding Consistency
 
 ###Pointers
