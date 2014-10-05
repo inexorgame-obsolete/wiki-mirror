@@ -1,9 +1,9 @@
-h3. Goal
+### Goal
 
 The efforts to make content available faster and the fact that content gets updated means that we have to think about how to store and distribute content. The problem of store and distribute data is a typical problem, which isn't specific to SauerFork. 
 
 
-h3. Features
+### Features
 
 * Storing files
 * Storing metadata
@@ -14,7 +14,7 @@ h3. Features
  * Multiple language drivers (C++, Java, PHP, ...)
  * MongoDB is scriptable with JavaScript
 
-h3. External Resources
+### External Resources
 
 * http://docs.mongodb.org/manual/core/gridfs/
 * http://java.dzone.com/articles/when-use-gridfs-mongodb
