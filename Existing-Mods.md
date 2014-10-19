@@ -126,6 +126,10 @@ Jump to...
  * realistic environments
  * only 40 MB package to download
  * contains 12 multiplayer game modes, including: Deathmatch, Survivor, Capture the Flag, Hunt the Flag, Keep the Flag, Pistol Frenzy, Last Swiss Standing & One-Shot One-Kill (plus team versions of these modes). 
+* [OctaForge](https://octaforge.org)
+ * based on Tesseract
+ * Lua API for creation of custom entities, game logic, AI, particle effects, UI and other things
+ * aiming to become a game publishing hub
 
 #### Anything left
 * [Crapmod](http://crapmod.net)
