@@ -26,5 +26,5 @@ a_teammate
 * `ambientocclusion <darkness>` where darkness is a value between 0 (for off) and 255 (really dark corners)
 * `ambientocclusionradius <thickness>` where radius is a value between 1.0 (thin line) and 10.0 (big shadow)
 
-_The Thickness furthermore also depends on what "lightprecision" you use, so a smaller value for that (32 is default: a normal resolution for your lightmap) means the resolution of your lightmap is bigger and hence your furthermore thick AO-Shadows can become thinner._
+_The Thickness furthermore also depends on what "lightprecision" (32 is default: a normal resolution for your lightmap) you use, so a smaller value for that means the resolution of your lightmap is bigger and hence your  previously thick AO-Shadows become thinner._
  
