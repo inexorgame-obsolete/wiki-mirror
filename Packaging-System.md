@@ -8,7 +8,7 @@ config                        //previously known as "data"
         serverbrowser.cfg
         menus.cfg
     saved.cfg                 //previously known as "config.cfg"
-    restore.cfg               //previously known as "defaults.cfg"
+    restore.cfg    
     ...
 media                         //previously known as "packages"
     interface
@@ -33,10 +33,24 @@ media                         //previously known as "packages"
              ...
         notexture.png
     skybox
-
+        nothing
+            morning_up.jpg
+            morning_dn.jpg            //..
+            morning.cfg               // Thats new(!) a cfg for skyboxes
 
 ```
 notice: everything is **singular**, otherwise its pretty self-explaining
+
+##Differences to Sauerbratens structure
+
+* scripts are in config/
+* config.cfg is named saved.cfg
+* every texture its own cfg
+* every skybox its own cfg
+* **Paths are relative to their executing file**
+  * makes independent (shareable) folders possible
+
+
 ### Developers
 
 * a_teammate
