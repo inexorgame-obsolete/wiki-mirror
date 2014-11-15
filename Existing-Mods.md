@@ -31,6 +31,11 @@ Jump to...
  * SDL2
  * multipoll (lag free vertical synch, zero tearing)
  * anticheat (closed source)
+* [Sauerbraten SDL2 Client](https://github.com/extra-a/sauer-sdl2)
+ * SDL2, base on SDOS Client
+ * customized HUD elements
+ * new menus
+ * server preview
 * [cm-edition (cubic-matter edition)](https://sourceforge.net/projects/cmsauerbraten/)
  * Lua scripting
  * electronic circuit simulator
