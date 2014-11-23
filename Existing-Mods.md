@@ -133,6 +133,8 @@ Jump to...
  * based on Tesseract
  * Lua API for creation of custom entities, game logic, AI, particle effects, UI and other things
  * aiming to become a game publishing hub
+* [Platinum Arts Sandbox Free 3D Game Maker](http://www.sandboxgamemaker.com)
+ * create own games/modes/levels/landscapes
 
 #### Anything left
 * [Crapmod](http://crapmod.net)
