@@ -2,7 +2,7 @@
 
 * Free content / Packaging / Content delivery
  * Reduced set on game modes and maps
- * [WIP] All content is free (see #free-sauer project), in order to make the game free
+ * [WIP] All content is free, in order to make the game free
  * [WIP] Make the game itself forkable
  * Content can be delivered by servers / repositories
 * Easy modability and mod delivery
@@ -11,7 +11,7 @@
  * Gamemode download (Scriptable)
  * Weapon download / Weapon settings (again, reffer to Counter Strike)
 * [WIP] Refactor GUI and overall look/feel
-* Deliver Sauerbraten on Steam 
+* Deliver Sauerbraten on Steam, Gog and Desura (maybe more plattforms)
  * Bigger audience / more PR
  * Stronger community integration (eg: Quakelive's homepage)
 * Community functions
