@@ -33,21 +33,21 @@ In Git, you can develop in different branches. An animated Tutorial can be found
 * Right click `Local Branches`
   * You will have to select your repository before
 * Select `Add Branch`
-  * name it `<yourname>/<newfeature>`, eg. `BarackObama/World_Domination`
+  * name it `<yourname>/<newfeature>`, eg. `Ogro/World_Domination`
 * Click `Add Branch & Checkout`
   * `Checkout` means you are using this branch:
      * All files in your directory will be switched if you have different ones in this branch
 
 ## Create the Visual Studio Project
 * Open CMake-Gui
-   * Select your sauerfork-main folder as `Source Folder`
+   * Select your Inexor-main folder as `Source Folder`
    * Create a new directory inside your main directory called "Projectfiles" as `Where to build the binaries` 
    * Click Generate
      * Select the highest VS-Version it finds and (if you have) the x64-Version so e.g. `Visual Studio 11 Win64`
    * Click Configure
 
 ## Develop your feature
-* Open build/sauerbraten-fork.sln
+* Open build/inexor.sln
    * It will automatically open with Visual Studio
 * At every logical step, commit your work to git
    * Commit often
@@ -87,7 +87,7 @@ md vstudio && cd vstudio && cmake .. -G "Visual Studio 12" :: Generate a Visual 
 
 ### GUI
 
-Some users might prefer CMake GUI, you will probably have to select a source directory and a build directory. Set the source directory to the root directory of the sauerbraten-fork project and the build directory to a new directory inside the other named build. Then select the desired generator and create a project file.
+Some users might prefer CMake GUI, you will probably have to select a source directory and a build directory. Set the source directory to the root directory of the Inexor project and the build directory to a new directory inside the other named build. Then select the desired generator and create a project file.
 
 ## Actually building the sources
 
@@ -129,7 +129,7 @@ This is a list of common problems and their solutions
 
 ### One-Click Build environment
 
-The script `install-homunculus.sh` in the `tools` folder can be used to automatically compile Sauerbraten fork or to generate Eclipse, Code Blocks, Xcode projects. For Mingw users it can also generate visual studio projects.
+The script `install-homunculus.sh` in the `tools` folder can be used to automatically compile Inexor or to generate Eclipse, Code Blocks, Xcode projects. For Mingw users it can also generate visual studio projects.
 
 It works on OS X, Debian (and derivatives, e.g. Ubuntu), Arch Linux and MinGW.
 
