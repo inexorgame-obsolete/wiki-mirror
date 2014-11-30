@@ -1,4 +1,4 @@
-# Sauerbraten Fork Documentation
+# Inexor Documentation
 
 ## Objectives
 _Stays Sauer, becomes better_
