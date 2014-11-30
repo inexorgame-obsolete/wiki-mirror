@@ -1,8 +1,8 @@
 # Contact
 
 * **IRC** _(mainly used)_
- * [web client](http://irc.lc/gamesurge/sauerfork)
- * [#sauerfork on GameSurge](irc://gamesurge.net/#sauerfork)
+ * [web client](http://irc.lc/gamesurge/inexor)
+ * [#inexor on GameSurge](irc://gamesurge.net/#inexor)
 
 * **Mumble** _(for meetings, see below)_
  * nooblounge.net port 64738
@@ -26,7 +26,13 @@ _Protocols of old meetings:_
 * https://piratenpad.de/p/Sauerforkmeetingno1
 * https://piratenpad.de/p/Sauerforkmeetingno2
 * https://piratenpad.de/p/SauerforkmeetingNo3
-
+* https://piratenpad.de/p/Sauerforkmeetingno4
+* https://piratenpad.de/p/Sauerforkmeetingno5
+* https://piratenpad.de/p/Sauerforkmeetingno6
+* https://piratenpad.de/p/Sauerforkmeetingno7
+* https://piratenpad.de/p/Sauerforkmeetingno8
+* https://piratenpad.de/p/Sauerforkmeetingno9
+* https://piratenpad.de/p/acceptedsauerforknames
 
 # Tools
 * Source Code Managment
