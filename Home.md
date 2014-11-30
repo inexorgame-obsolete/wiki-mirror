@@ -53,5 +53,4 @@ Go to [this Page](Development Environment)
 
 ### Other
 
-* [Branding](Branding)
 * [Other Existing Projects](Existing Mods)
