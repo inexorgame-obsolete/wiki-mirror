@@ -6,6 +6,7 @@ _Stays Sauer, becomes better_
 * Fork of sauerbraten in order to replace sauerbraten (no mod)
 * Bigger audience for sauerbraten
 * Keep sauerbraten alive for the future
+* 100% OSS, no restricted licensed content
 
 ### How to get involved
 * [How to contribute](How to contribute)
