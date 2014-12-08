@@ -1,5 +1,5 @@
 You might also be interested in:
-* [Build Sauerfork](Build)
+* [Build](Build)
 * [Coding Standards](Coding Standards)
 * [Development Environment](Development Environment)
 * [Recruiting](Recruiting)
@@ -48,6 +48,6 @@ If you create a new feature or make a non-trivial change, it has to be documente
 
 ### Content Contribution
 
-Since sauerbraten-fork's content is **cleanly free**, you are only allowed to contribute to the main-game with a license which allows use in all kinds (including commercial). If you want to read more about our license policy look into our [data repository](https://github.com/sauerbraten-fork/sauerbraten-fork-data#licensing).
+Since our content is **cleanly free**, you are only allowed to contribute to the main-game with a license which allows use in all kinds (including commercial). If you want to read more about our license policy look into our [data repository](https://github.com/inexor-game/data#licensing).
 
-Still, you are always allowed to provide license restricted material as an excluding contentpack and deploy it e.g. over your sauerbraten-fork server.
+Still, you are always allowed to provide license restricted material as an excluding contentpack and deploy it e.g. over your own server.
