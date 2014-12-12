@@ -73,6 +73,7 @@ Jump to...
  * New and improved shot effects inclusive additional hudguns
  * Implemented [Marching Cubes](https://www.youtube.com/watch?v=TstJlsEKEHs) by Wrack
 * [QuEd (Quality Edition)](https://github.com/quality-edition/QuEd)
+
 #### Server Mods
 * [HopMod](https://code.google.com/p/hopmod/)
  * LUA Integration
