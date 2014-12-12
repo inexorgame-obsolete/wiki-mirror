@@ -26,7 +26,7 @@ Jump to...
 * [Sauerbraten Enhanced](https://sourceforge.net/projects/sauerenhanced/)
  * New theme, Improved UI
 * [SuperSauer](http://supersauer.blogspot.de)
-* [WC-Client (Wahn-/Wonderclient)](http://ogros.org/forum/viewtopic.php?f=77&t=1733)
+* [WC-Client (Wahn-/Wonderclient)](https://github.com/tpoechtrager/wc-ng) ([Original Publish](http://ogros.org/forum/viewtopic.php?f=77&t=1733))
 * [SDOS Client](https://github.com/pisto/sdos-test)
  * SDL2
  * multipoll (lag free vertical synch, zero tearing)
@@ -72,7 +72,7 @@ Jump to...
  * Ultra fast calclight using player's position and radius
  * New and improved shot effects inclusive additional hudguns
  * Implemented [Marching Cubes](https://www.youtube.com/watch?v=TstJlsEKEHs) by Wrack
-
+* [QuEd (Quality Edition)](https://github.com/quality-edition/QuEd)
 #### Server Mods
 * [HopMod](https://code.google.com/p/hopmod/)
  * LUA Integration
