@@ -23,6 +23,12 @@ media                         //previously known as "packages"
         turbine.jpg
         turbine.ogz
         ...
+    model
+        game
+        hudgun
+        map
+        player
+        worldgun
     particle
     texture
         a_teammate
