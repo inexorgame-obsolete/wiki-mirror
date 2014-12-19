@@ -8,7 +8,9 @@ config                        //previously known as "data"
         serverbrowser.cfg
         menus.cfg
     saved.cfg                 //previously known as "config.cfg"
-    restore.cfg    
+    restore.cfg
+    server-restore.cfg
+    server-saved.cfg
     ...
 media                         //previously known as "packages"
     interface
