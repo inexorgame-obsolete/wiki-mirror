@@ -22,8 +22,8 @@ Create a map format which is forward and backward compatible, modular and extend
 #### Store more complex data structures
 
 * The new entity (+particle) system can't be saved in such a static way the old map format is (5 integers for each attribute)
-* References to other data (internal)
-* References to other data (internal)
+* References to internal data (Lightmap references an octree node)
+* References to external data (URLs to other content)
 * Serialization / Deserialization
 * Compression
 
