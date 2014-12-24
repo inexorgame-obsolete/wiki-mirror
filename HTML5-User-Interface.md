@@ -10,9 +10,15 @@
 * Hanack
 * mapc
 
-### Implemenation
+### Idea
 
-* Chromium Embedded Framework
-  * https://code.google.com/p/chromiumembedded/
 * Rendering of HTML5 over a transparent 2D-Overlay
 * Spawning events from HTML5 / client side JavaScript
+
+### Chromium Embedded Framework
+
+* https://code.google.com/p/chromiumembedded/
+* http://coherent-labs.com/blog/what-developers-should-consider-when-using-chromium-embedded-framework-cef-in-their-games/
+* http://blog.erikd.org/2013/01/14/chromium-embedded-framework-3-bare-bones/
+
+
