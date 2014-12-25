@@ -8,7 +8,7 @@
  * nooblounge.net port 64738
 
 * **Mailing List** _(announcements and support)_
- * [https://lists.cupdev.net/listinfo/sauerfork](https://lists.cupdev.net/listinfo/sauerfork)
+ * [https://lists.cupdev.net/listinfo/inexor](https://lists.cupdev.net/listinfo/inexor)
   * _please ignore the security warning or install the [cacert root certificate](https://www.cacert.org/index.php?id=3)_
 
 _History: [First-ever Discussion Pad](https://piratenpad.de/p/SauerbratenFork)_
