@@ -41,10 +41,8 @@ _Stays Sauer, becomes better_
 [Ideas for Features](Feature List)
 
 ## Contact
-Go to [this Page](Development Environment)
-* Meetings (Mumble)
-* IRC
-* Mailing List
+
+[Don't be shy.](Development Environment)
 
 ### Development
 
