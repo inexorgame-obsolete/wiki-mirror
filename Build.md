@@ -40,14 +40,17 @@ In Git, you can develop in different branches. An animated Tutorial can be found
 
 ## Create the Visual Studio Project
 * Open CMake-Gui
-   * Select your Inexor-main folder as `Source Folder`
-   * Create a new directory inside your main directory called "Projectfiles" as `Where to build the binaries` 
+   * Select your Inexor main folder for `Where are the Source Files`
+   * Choose a subfolder for your project files
+        * `Where to build the binaries`
+        * Create e.g. `src/project` (or `src/vcpp` or whatever..)
    * Click Generate
      * Select the highest VS-Version it finds and (if you have) the x64-Version so e.g. `Visual Studio 11 Win64`
    * Click Configure
 
 ## Develop your feature
-* Open build/inexor.sln
+* Open src/project/inexor.sln 
+   * _(or whereever else you created the project)_
    * It will automatically open with Visual Studio
 * At every logical step, commit your work to git
    * Commit often
