@@ -6,6 +6,7 @@
 
 * **Mumble** _(for meetings, see below)_
  * nooblounge.net port 64738
+ * darkkeepers.dk port 64738
 
 * **Mailing List** _(announcements and support)_
  * [https://lists.cupdev.net/listinfo/inexor](https://lists.cupdev.net/listinfo/inexor)
