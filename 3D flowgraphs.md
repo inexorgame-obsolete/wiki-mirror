@@ -6,4 +6,4 @@ Examples for embedded scripting:
 * LUA in CryENGINE3, Unreal Engine and Unity
 
 ## Important of visual scripting systems
-The idea of "writing code visually" 
+The idea of writing code "visually" is pretty cool. You just sit in front of your nodes and connect some of them with lines and it creates logic. 
