@@ -17,6 +17,8 @@ Avoid committing binaries into the **source** repository, so the repository stay
 ### Adding new features
 _If you dont understand the following steps, this [Git-Tutorial](http://pcottle.github.io/learnGitBranching/) could help._
 
+0. Assuming you aren't an Inexor team member, create first a fork of the code repository
+
 1. Create a new branch
  * master-branch has to stay functional
  * naming usually `<yournick>/<newfeature>` so e.g. `a_teammate/ambient-occlusion`
@@ -24,6 +26,11 @@ _If you dont understand the following steps, this [Git-Tutorial](http://pcottle.
 2. Develope the feature in your branch
  * Checkout your branch (your filesystem will change _whush_ Git magic! )
  * Develope your feature 
+ * At every logical step, commit your work to git
+    * Commit often
+       * Your feature has to be merged into other branches as easy as possible
+       * Big commits often make problems then
+ * Push your work to the remote repo on GitHub
 
 3. Tell the others about your feature [Briefings](Development Environment)
 
