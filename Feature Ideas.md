@@ -1,7 +1,5 @@
-# Feature Ideas
-
 * Free content / Packaging / Content delivery
- * Reduced set on game modes and maps
+ * [WIP] Reduced set on game modes and maps
  * [WIP] All content is free, in order to make the game free
  * [WIP] Make the game itself forkable
  * Content can be delivered by servers / repositories
@@ -33,6 +31,6 @@
  * Security Enhancements
 * Replace single-player campain mode by multi-player campain mode (playable by a single player too)
 * Replace bots by drones (flying robots, quadcopter, ...)
-** Don't need to fake human behaviour
+  * Don't need to fake human behaviour
 * Fading game modes
-** Starting with FFA, slightly moving to effic, then effic team and finally effic ctf
+  * Starting with FFA, slightly moving to effic, then effic team and finally effic ctf
