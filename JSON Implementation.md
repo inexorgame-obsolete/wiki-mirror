@@ -32,7 +32,7 @@ Let's say you want to load some config stuff from an `important-settings.json`.
         "screen": {
             "fov":      120,
             "fullscreen": false, 
-        }
+        },
         "sensitivity": 3.28,
         "favorite maps": [
             "mach2",
