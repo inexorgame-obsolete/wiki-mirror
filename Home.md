@@ -38,7 +38,7 @@ _Stays Sauer, becomes better_
 
 ### General Ideas
 
-[Ideas for Features](Feature List)
+[Ideas for Features](Feature-Ideas)
 
 ## Contact
 
