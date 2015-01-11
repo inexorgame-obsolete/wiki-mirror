@@ -1,11 +1,21 @@
+* [Windows](#windows)
+* [Linux](#linux)
+* [CMake](#running-cmake)
+* [One-Click Build environment](https://github.com/inexor-game/code/blob/master/tool/README.md)
+  * Script for automatic compile or generate project files
+  * Works on OS X, Debian (and derivatives, e.g. Ubuntu), Arch Linux and MinGW
+
+***
+
 # Windows
-This will give you a pretty good exemplary environment if you code on Windows.
+This will give you a pretty good exemplary environment if you are on Windows.
 
 ## Setup
 
-* Download and install [Visual Studio](http://www.microsoft.com/en-us/download/details.aspx?id=34673)
+* Download and install [Visual Studio](https://www.microsoft.com/en-us/download/details.aspx?id=34673)
    * the Express Edition is enough
-   * on Windows 8.1 or later download [VS 2013](http://go.microsoft.com/?linkid=9832256&clcid=0x409) instead
+   * on Windows 8.1 or later download [VS 2013](https://go.microsoft.com/?linkid=9832256&clcid=0x409) instead
+   * **possible alternative:** [CodeBlocks](http://www.codeblocks.org)
 
 * Download and install [CMake](http://www.cmake.org/download/)
    * cmake will generate your project files
@@ -13,62 +23,52 @@ This will give you a pretty good exemplary environment if you code on Windows.
 * Download and install [SmartGit](http://www.syntevo.com/smartgit/download)
    * one of the best ways to develop is git, and one of its best interfaces is SmartGit
    * its free for personal use
+   * **possible alternative:** [GitHub for Windows](https://windows.github.com)
 
 ## Fetching the Repository
 
-You will have to download the Project somewhere.
+You will have to clone the Project somewhere.
 
-* Open SmartGit
+* If you use SmartGit:
+  * Open SmartGit
 
-* Clone the Repository
-  * click `Repository` and `Clone` (or press `Ctrl+Shift+O`)
-  * Select "Remote Git ... repository", Url = https://github.com/sauerbraten-fork/sauerbraten-fork
-  * On the next Page select both `Include Submodules` as well as `Fetch all Heads and Tags`
-  * Select a folder on the next page. Your local Git repository will be created here. 
-  * Select `Finish`
+  * Clone the Repository
+    * click `Repository` and `Clone` (or press `Ctrl+Shift+O`)
+    * Select "Remote Git ... repository", Url = https://github.com/sauerbraten-fork/sauerbraten-fork
+    * On the next Page select both `Include Submodules` as well as `Fetch all Heads and Tags`
+    * Select a folder on the next page. Your local Git repository will be created here. 
+    * Select `Finish`
 
-## Create a seperate Branch
-In Git, you can develop in different branches. An animated Tutorial can be found here: [Learn Git Branching](http://pcottle.github.io/learnGitBranching/) . This tutorial is for the command-line Git, but you should know the underlaying basics to use SmartGit properly.
+* If you use GitHub for Windows:
+  * Go to the overview of our `code` repository and click on `Clone in Desktop`
+  * Choose a directory in which the repository is getting cloned
+  * Click `Ok`
 
-* Right click `Local Branches`
-  * You will have to select your repository before
-* Select `Add Branch`
-  * name it `<yourname>/<newfeature>`, eg. `Ogro/World_Domination`
-* Click `Add Branch & Checkout`
-  * `Checkout` means you are using this branch:
-     * All files in your directory will be switched if you have different ones in this branch
+## Create the Visual Studio or CodeBlocks Project
+  * (or the project file for another generator)
 
-## Create the Visual Studio Project
-* Open CMake-Gui
-   * Select your Inexor main folder for `Where are the Source Files`
-   * Choose a subfolder for your project files
-        * `Where to build the binaries`
-        * Create e.g. `src/project` (or `src/vcpp` or whatever..)
-   * Click Generate
-     * Select the highest VS-Version it finds and (if you have) the x64-Version so e.g. `Visual Studio 11 Win64`
-   * Click Configure
+Open the CMake-GUI and follow the steps as [described here](#cmake-gui). Then jump back to this point to not get confused with explainations for linux ;)
 
-## Develop your feature
-* Open src/project/inexor.sln 
-   * _(or whereever else you created the project)_
-   * It will automatically open with Visual Studio
-* At every logical step, commit your work to git
-   * Commit often
-      * Your feature has to be merged into other branches as easy as possible
-      * Big commits often make problems then
-   * Try around with SmartGit a bit to do that
-* Push your work to the remote repo on github
+## Compile Inexor
+* If you use Visual Studio:
+  * Open `build/Inexor.sln `
+     * It will automatically open with Visual Studio
+* If you use CodeBlocks:
+  * Open `build/Inexor.cbp`
+  * Click on `Build`
+
+***
 
 # Linux
 ## Fetching the sources
 
 The first step of building this project is rather obvious, but for sake of completeness here you have it.
 
-* Download the repository, you can either use the command line `git clone --recursive https://github.com/sauerbraten-fork/sauerbraten-fork.git` or your favourite git GUI.
+* Download the repository, you can either use the command line `git clone --recursive https://github.com/inexor-game/code.git` or your favourite git GUI.
 
 ## Downloading the dependencies
 
-The next step is to get all the required dependencies to compile. On windows and mac, all the dependencies are packed in the `src/platform_*` directories. You only need an environment that can build c++ programs such as Visual Studio, XCode or MinGW.
+The next step is to get all the required dependencies to compile. On Windows and Mac, all the dependencies are packed in the `src/platform_*` directories. You only need an environment that can build C++ programs such as Visual Studio, CodeBlocks, XCode or MinGW.
 
 On Linux you will need cmake, make, gcc (or clang) and the dev packages of mesa, SDL, SDL_image and SDL_mixer. On systems with apt-get you can simply run the following command `sudo apt-get install git cmake build-essential libsdl2{,-mixer,-image}-dev libgl1-mesa-dev`
 
@@ -77,7 +77,7 @@ On Linux you will need cmake, make, gcc (or clang) and the dev packages of mesa,
 The next step is to run CMake, this tool generates project files for your favourite IDE or tool.
 If you have cmake in your path you can run `(mkdir build && cmake ..)`, you probably will need to add a `-G "<generator>"` flag to make it generate a project file for your precious IDE (you do not need this for makefiles on linux).
 
-The most commonly used generators will probably include `Visual Studio`, `MinGW Makefiles`, `Unix Makefiles` and `Xcode`. There are also makefiles for Eclipse, CodeBlocks, Sublime Text and a lot others. The complete list can be found [here!](http://www.cmake.org/cmake/help/v2.8.11/cmake.html#Generators).
+The most commonly used generators will probably include `Visual Studio`, `CodeBlocks`, `MinGW Makefiles`, `Unix Makefiles` and `Xcode`. There are also makefiles for Eclipse, Sublime Text and a lot others. The complete list can be found [here](http://www.cmake.org/cmake/help/v3.1/manual/cmake-generators.7.html).
 
 ### Examples
 
@@ -88,9 +88,17 @@ md vstudio && cd vstudio && cmake .. -G "Visual Studio 12" :: Generate a Visual 
 
 ```
 
-### GUI
+### CMake GUI
 
-Some users might prefer CMake GUI, you will probably have to select a source directory and a build directory. Set the source directory to the root directory of the Inexor project and the build directory to a new directory inside the other named build. Then select the desired generator and create a project file.
+Some users might prefer CMake GUI. 
+
+   * Select your Inexor root directory for `Where is the source code`
+   * Create a new directory within the root directory named `build`
+   * Select the new `build` directory for `Where to build the binaries`
+   * Click `Configure`
+   * Select your desired generator
+     * If you use Visual Basic select the highest VS-Version it finds and (if you have) the x64-Version so e.g. `Visual Studio 11 Win64`
+   * Click `Generate` to generate a project file
 
 ## Actually building the sources
 
@@ -127,37 +135,3 @@ This is a list of common problems and their solutions
    You should keep your root directory clean and create a directory named build inside the root directory.
    Then tell CMake to generate to that directory instead of the root directory.
    To do this from the commandline, just use `(mkdir build; cd build && cmake -G "<your generator>" ..)`.
-
-## Build Environment
-
-### One-Click Build environment
-
-The script `install-homunculus.sh` in the `tools` folder can be used to automatically compile Inexor or to generate Eclipse, Code Blocks, Xcode projects. For Mingw users it can also generate visual studio projects.
-
-It works on OS X, Debian (and derivatives, e.g. Ubuntu), Arch Linux and MinGW.
-
-Just download and run it.
-
-Mac users will have to install XCode first.
-
-### Manual Installation of the Build Environment
-
-First you need to install the dependencies. Those boil down to:
-
-* Git
-* A compiler (e.g. GCC)
-* A linker (e.g. GCC)
-* Cmake
-* OpenGL
-* SDL
-* SDL_Image
-* SDL_Mixer
-
-Depending on your environment you also need some of those:
-
-* make (linux, mingw)
-* Eclipse (if you want to use eclipse)
-** egit Plugin (install it using the Eclipse Marketplace)
-* Xcode (under Mac OS X)
-* CMake GUI (optional)
-* Github for Mac/Windows (optional)
