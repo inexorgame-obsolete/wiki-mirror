@@ -30,15 +30,12 @@ _Stays Sauer, becomes better_
 
 ### Planned
 
+* [Ideas for Features](Feature-Ideas)
 * [Improved Selection](Improved Selection)
 * [Lua JIT](Lua JIT)
 * [3D flowchart level scripts](3D flowchart level scripts)
 * [XMPP Integration](XMPP Integration)
 * Gameplay Adjustments (e.g. Weapon Balance) 
-
-### General Ideas
-
-[Ideas for Features](Feature-Ideas)
 
 ## Contact
 
@@ -53,3 +50,4 @@ _Stays Sauer, becomes better_
 ### Other
 
 * [Other Existing Projects](Existing Mods)
+* [Wiki for anything related to our content](https://github.com/inexor-game/data/wiki)
