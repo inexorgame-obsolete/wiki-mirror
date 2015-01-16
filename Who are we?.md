@@ -1,6 +1,7 @@
 `Sauerbraten nickname (Github account)`
 ## Core team
 * a_teammate ([a-teammate](https://github.com/a-teammate))
+* Fatality ([SF-Fatality](https://github.com/SF-Fatality))
 * Fohlen ([Fohlen](https://github.com/Fohlen))
 * Hanack ([aschaeffer](https://github.com/aschaeffer))
 * Hanni ([IAmNotHanni](https://github.com/IAmNotHanni))
@@ -8,15 +9,14 @@
 * mapc ([koraa](https://github.com/koraa))
 * Nooby ([Croydon](https://github.com/Croydon))
 * Nothing ([koppiman](https://github.com/koppiman))
-* pisto ([pisto](https://github.com/pisto/))
 * sanitizer ([movabo](https://github.com/movabo))
 * Shadow-Dragon ([NaturalShadowDragon](https://github.com/NaturalShadowDragon))
 * supertux ([super-tux](https://github.com/super-tux))
 
 ## Supporters
-* -unknown yet? :)- ([Zebrazilla](https://github.com/Zebrazilla))
+* pisto ([pisto](https://github.com/pisto/))
 * Wireless ([N0Wire](https://github.com/N0Wire))
-
+* -unknown yet? :)- ([Zebrazilla](https://github.com/Zebrazilla))
 
 # Who is doing what?
 => **USE [THE WEBSITE](https://inexor.org/team) FROM NOW ON :) **
