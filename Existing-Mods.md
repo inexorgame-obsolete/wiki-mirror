@@ -23,6 +23,11 @@ Jump to...
  * made for managing MMO coop-maps
 
 #### Client mods
+* [Sauerbraten Community Edition](https://github.com/sauerworld/community-edition)
+ * automatic client-sided demo recording
+ * easy demo navigation
+ * score hud and extended scoreboard
+ * more game round information accessable via cubescript (e.g. tks, weapon accuracy)
 * [Sauerbraten Enhanced](https://sourceforge.net/projects/sauerenhanced/)
  * New theme, Improved UI
 * [SuperSauer](http://supersauer.blogspot.de)
