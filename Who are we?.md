@@ -1,24 +1,25 @@
-# Who are we?
 `Sauerbraten nickname (Github account)`
+## Core team
 * a_teammate ([a-teammate](https://github.com/a-teammate))
 * Fohlen ([Fohlen](https://github.com/Fohlen))
 * Hanack ([aschaeffer](https://github.com/aschaeffer))
 * Hanni ([IAmNotHanni](https://github.com/IAmNotHanni))
+* killme ([killme](https://github.com/killme))
 * mapc ([koraa](https://github.com/koraa))
+* Nooby ([Croydon](https://github.com/Croydon))
 * Nothing ([koppiman](https://github.com/koppiman))
 * pisto ([pisto](https://github.com/pisto/))
 * sanitizer ([movabo](https://github.com/movabo))
 * Shadow-Dragon ([NaturalShadowDragon](https://github.com/NaturalShadowDragon))
 * supertux ([super-tux](https://github.com/super-tux))
-* Nooby ([Croydon](https://github.com/Croydon))
-* killme ([killme](https://github.com/killme))
+
+## Supporters
+* -unknown yet? :)- ([Zebrazilla](https://github.com/Zebrazilla))
 * Wireless ([N0Wire](https://github.com/N0Wire))
 
 
 # Who is doing what?
-
-###a_teammate 
-* ingame package download
+=> **USE [THE WEBSITE](https://inexor.org/team) FROM NOW ON :) **
 
 ###Fohlen
 * making the website to handle all this
@@ -38,15 +39,9 @@
 ###supertux
 * compilation on linux
 
-###sanitizer
-* design homepage
-
 ###killme
 * CMake
 * Lua scripting
-
-###Nooby
-* working on the free-sauer project; will help us to get free content in our fork
 
 # What do you want to do next?
 
@@ -58,6 +53,3 @@
 
 ###killme
 * Make more things scriptable
-
-###Hanni
-* Design the flowgraph system
