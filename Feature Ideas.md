@@ -34,3 +34,8 @@
   * Don't need to fake human behaviour
 * Fading game modes
   * Starting with FFA, slightly moving to effic, then effic team and finally effic ctf
+
+* Idea pool:
+ * [http://quadropolis.us/node/3086](http://quadropolis.us/node/3086)
+ * [Existing Mods/Forks/Projects](https://github.com/inexor-game/code/wiki/Existing Mods)
+ * [https://poop.piratenpad.de/sauer-changes](https://poop.piratenpad.de/sauer-changes)
