@@ -34,6 +34,7 @@ _Protocols of old meetings:_
 * https://piratenpad.de/p/Sauerforkmeetingno8
 * https://piratenpad.de/p/Sauerforkmeetingno9
 * https://piratenpad.de/p/acceptedsauerforknames
+* https://piratenpad.de/p/Inexormeetingno10
 
 # Tools
 * Source Code Managment
