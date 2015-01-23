@@ -5,6 +5,7 @@ At this point we collect existing mods, forks and other projects in the cube 2 u
 Jump to...
 * [Client scripts](#client-scripts)
 * [Client mods](#client-mods)
+* [Server mods](#server-mods)
 * [Standalone game/fork](#standalone-gamefork)
 * [Anything left](#anything-left)
 * [Community stuff](#community-stuff)
@@ -47,10 +48,9 @@ Jump to...
  * build images with cubes (best textures match)
  * 1st person minesweeper game mode
  * sokoban game mode with .sok level loader
-* [Nooblounge Client (NL-Admin-Client)](http://forge.nooblounge.net/projects/nl-adminclient) (not yet public)
+* [Nooblounge Client (NL-Admin-Client)](http://forge.nooblounge.net/projects/nl-adminclient) (not (yet ?) public)
  * Bézier curve API
- * ExtInfo API
- * ExtInfo scoreboard synchronisation
+ * ExtInfo API + ExtInfo scoreboard synchronisation
  * *TOOL* ExtInfo Console Application
  * recording player particles
  * customizable killcam
@@ -63,6 +63,7 @@ Jump to...
  * anti-cheat control
  * admin focused improvements
 * [Sauerbomber](http://forge.nooblounge.net/projects/bomberman)
+ * predecessor of Inexor, difference: no gameplay breaking changes to the original client
  * Game Mod Bomberman + Bomberman Team
  * Native Race Mode in C++
  * Native Hide and Seek Mode
@@ -96,11 +97,11 @@ Jump to...
  * L-Systems
  * Cube Font - write text build out of cubes
  * Outlawzone (modded gamemodes)
- * MapBattle (tm)
+ * MapBattle
  * Event based moves detection system
 * [Zeromod](https://github.com/andrius4669/zeromod)
  * coop: editmute, nodamage, autosendmap (after somebody did /sendmap), autosendmap on connect
-* [Remod](https://code.google.com/p/remod-sauerbraten/)
+* [Remod](https://github.com/vasyahuyasa/remod-sauerbraten)
  * modable via CubeScript, also with event system and other stuff
  * can save and load maps directly on the server
 * [Spagetthi Mod](https://github.com/pisto/spaghettimod)
@@ -121,7 +122,7 @@ Jump to...
 * [Redeclipse](http://redeclipse.net)
  * New gamemodes
  * New content
- * All free content (Creative Commons)
+ * All free content (Creative Commons BY or BY-SA licensed)
 * [Revelade Revolution](http://theintercooler.com/reveladerevolution.html)
  * zombie styled game
 * [BananaBread](https://github.com/kripken/BananaBread)
