@@ -32,6 +32,13 @@ Jump to...
 * [Sauerbraten Enhanced](https://sourceforge.net/projects/sauerenhanced/)
  * New theme, Improved UI
 * [SuperSauer](http://supersauer.blogspot.de)
+ * Customizable Background, Skins, Themes
+ * Ingame Playermodel-Skin-Switch
+ * Recognizes Clans automatically (e.g. search for clans in the serverbrowser, auto-detect clanwars)
+ * Heavily improved Serverbrowser (preview servers, search, sort..) and Scoreboard
+ * Demo Browser with Previews (players, scores, what time those scores happen, text-messages...)
+ * Stats (Normal but customizable Stats-Bar plus all-time-stats)
+ * Ingame IRC
 * [WC-Client (Wahn-/Wonderclient)](https://github.com/tpoechtrager/wc-ng) ([Original Publish](http://ogros.org/forum/viewtopic.php?f=77&t=1733))
 * [SDOS Client](https://github.com/pisto/sdos-test)
  * SDL2
