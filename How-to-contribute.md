@@ -56,3 +56,12 @@ If you create a new feature or make a non-trivial change, it has to be documente
 * Refactor your work
 * Use comments 
 * Other Stuff (e.g. Sauerbraten Uniques) [here](Coding Standards)
+
+### Pull Requests
+
+    git checkout master
+    git pull origin master
+    git checkout <<featurebranch>>
+    git rebase master
+    git checkout master
+    git merge <<featurebranch>>
