@@ -9,5 +9,5 @@
 
 ### Tools
 
+[Continuous Integration](https://travis-ci.org/inexor-game/code)  
 [Kanboard](https://waffle.io/inexor-game/code)  
-
