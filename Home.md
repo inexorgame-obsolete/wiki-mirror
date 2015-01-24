@@ -3,9 +3,9 @@
 ## Objectives
 _Stays Sauer, becomes better_
 
-* Fork of sauerbraten in order to replace sauerbraten (no mod)
-* Bigger audience for sauerbraten
-* Keep sauerbraten alive for the future
+* Fork of Sauerbraten in order to replace Sauerbraten - no mod
+* Bigger audience for the game
+* Keep the game alive for the future
 * 100% OSS, no restricted licensed content
 
 ### How to get involved
@@ -36,10 +36,6 @@ _Stays Sauer, becomes better_
 * [3D flowchart level scripts](3D flowchart level scripts)
 * [XMPP Integration](XMPP Integration)
 * Gameplay Adjustments (e.g. Weapon Balance) 
-
-## Contact
-
-[Don't be shy.](Development Environment)
 
 ### Development
 
