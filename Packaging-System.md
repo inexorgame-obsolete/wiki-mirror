@@ -28,10 +28,12 @@ media                         //previously known as "packages"
     model
         game
         hudgun
+        item
         map
         player
         worldgun
     particle
+    sound
     texture
         a_teammate
              wood_golden_bar.cfg      //every texture has its own cfg!
@@ -39,7 +41,9 @@ media                         //previously known as "packages"
              wood_golden_bar_NORM.jpg
              wood_golden_bar_DEPTH.jpg
              ...
-        notexture.png
+        default
+             notexture.png  
+             ...
     skybox
         nothing
             morning_up.jpg
