@@ -6,7 +6,6 @@
 
 * **Mumble** _(for meetings, see below)_
  * nooblounge.net port 64738
- * darkkeepers.dk port 64738
 
 * **Mailing List** _(announcements and support)_
  * [https://lists.cupdev.net/listinfo/inexor](https://lists.cupdev.net/listinfo/inexor)
@@ -18,7 +17,7 @@ _History: [First-ever Discussion Pad](https://piratenpad.de/p/SauerbratenFork)_
 
 We meet on [mumble](http://mumble.sourceforge.net/) on "nooblounge.net", port 64738.
 
-Meeting time usually Sundays 21:00 UTC+2, but open for discussion. 
+Meeting time usually Sundays 21:00 UTC+1, but open for discussion. 
 Meetings take place when necessary (usually weekly) and will be announced in the IRC channel and as GitHub-Issue.
 
 In advance to every meeting a pad will be created with topics to be discussed.
@@ -45,9 +44,9 @@ _Protocols of old meetings:_
 * [Source Code Documentation](Source Code Documentation)
  * [Doxygen](http://www.stack.nl/~dimitri/doxygen/)
 * Build server
- * [Travis](https://travis-ci.org/sauerbraten-fork/sauerbraten-fork)
+ * [Travis](https://travis-ci.org/inexor-game/code)
 
-###Upcoming
+## Upcoming Tools
 * _automated tests_
  * _https://code.google.com/p/googletest/_
 * _code review_
