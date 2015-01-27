@@ -25,16 +25,15 @@ _Stays Sauer, becomes better_
 * [JavaScript Integration](JavaScript Integration)
 * [Bezier curve camera flights](Bezier curve)
 * [Automatic benchmarking and debugging](automatic benchmarking and debugging)
-* [Json configuration support](Json)
+* [Json configuration support](JSON-Implementation)
 * [Entity System](Entity System)
 
 ### Planned
 
 * [Ideas for Features](Feature-Ideas)
 * [Improved Selection](Improved Selection)
-* [Lua JIT](Lua JIT)
 * [3D flowchart level scripts](3D flowchart level scripts)
-* [XMPP Integration](XMPP Integration)
+* [New Masterserver-System (XMPP)](XMPP Integration)
 * Gameplay Adjustments (e.g. Weapon Balance) 
 
 ### Development
