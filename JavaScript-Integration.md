@@ -10,12 +10,9 @@
 
 Two integrations:
 * CEF (see the "HTML5 User Interface" page)
-* NodeJS (see below)
-
-### NodeJS
-
-...
+* [Node.js via RPC](RPC)
 
 ### Developers
 
 * mapc
+* hanack
