@@ -2,10 +2,122 @@
 
 [See the dedicated site.](Documentation)
 
+# Namespaces: Separation of Code and Code
+
+Generally, the code should be divided into sensible units.
+These units should have a somewhat sensible API and often provide their own namespace.
+Each unit must be documented sensibly.
+
+## Root
+
+The root of the inexor core code is the src/ dir in the repo.
+It's namespace is
+
+  ```
+  inexor::
+  ```
+
+The root should mostly contain modules; not actual sources.
+
+## Modules
+
+Modules are sets of types, functions and classes that are sort
+of working together to the same end.
+Modules normally reside inside the source root, but if it
+really makes sence, modules may be nested.
+
+The name of the folder and the name of the namespace should
+be the same:
+
+  ```
+  src/graphics <-> inexor::graphics
+  ```
+
+Each module must provide a readme.md file, describing the
+purpose and the contents of that module and they should
+provide a header with the same name as the module, which
+can be used to include the module as a whole (normally by
+including all other headers in the module).
+
+  ```
+  src $ ls graphics/
+  readme.md
+  graphics.h
+  ...
+  ```
+
+### The util Module
+
+There is a module called util; this is somewhat special; In
+some cases you will create a rather generic utility, which
+does not really belong to the current module, but that
+functionality is still so small, that it does not make sense
+to create a new module for it.
+
+In such cases the functionality might be added to the util module.
+
+An example of such a case is the uuidgen function.
+
+## Files
+
+There are, of course, two kinds of files: source files and
+headers. These should always be paired, with the header
+containing declarations and API documentation and the source
+file containing implementations.  
+Header and source always share the same basename; for
+the extensions ".cpp" and ".h" must be used.
+
+  ```
+  src $ ls graphics/
+  readme.md
+  graphics.h
+  skybox.cpp
+  skybox.h
+  ...
+  ```
+
+These source files should normally not exceed 1000 lines of
+code. Often it is beneficial if one source pair contains a
+single class or so. If a file represents a class, it should
+generally be called the same as the class itself; in this
+case, CamelCase should be used.
+
+  ```
+  src $ ls graphics/
+  readme.md
+  graphics.h
+  skybox.cpp
+  skybox.h
+  CellRenderer.cpp
+  CellRenderer.h
+  ...
+  ```
+
+For source pairs that do not represent a single class or struct,
+snake_case names should be used.
+In such cases it might be beneficial to have a separate
+namespace for the file (classes/structs are sort of namespaces).
+
+  ```
+  skybod.cpp, skybox.h -> inexor::graphics::skybox
+  ```
+
 # Consistency
 
 ## Pointers
+
 Please use `char *pointer;` instead of `char* pointer;`
+
+## Includes
+
+Includes within Inexor should be relatve to source:
+
+  ```
+  #include "rpc/rpc.h"
+  #include "net/MessageConnect.h"
+
+  using namespace inexor::rpc;
+  ```
 
 # Sauerbraten Uniques
 
