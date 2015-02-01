@@ -12,7 +12,9 @@ _Stays Sauer, becomes better_
 * [How to contribute](How to contribute)
 * [Recruiting](Recruiting)
 
-## Upcoming Features
+# Features
+
+* [Generic RPC Subsystem + Node.js integration](RPC)
 
 [Changelog](Changelog)
 
