@@ -1,6 +1,6 @@
 # Documentation
 
-(See the dedicated site.)[Documentation]
+[See the dedicated site.](Documentation)
 
 # Consistency
 
