@@ -41,6 +41,7 @@ _Stays Sauer, becomes better_
 * [Build](Build)
 * [Development Environment](Development Environment)
 * [Coding Standards](Coding Standards)
+* [Documentation]
 
 ### Other
 
