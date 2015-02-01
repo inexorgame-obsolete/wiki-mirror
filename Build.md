@@ -70,7 +70,11 @@ The first step of building this project is rather obvious, but for sake of compl
 
 The next step is to get all the required dependencies to compile. On Windows and Mac, all the dependencies are packed in the `src/platform_*` directories. You only need an environment that can build C++ programs such as Visual Studio, CodeBlocks, XCode or MinGW.
 
-On Linux you will need cmake, make, gcc (or clang) and the dev packages of mesa, SDL, SDL_image and SDL_mixer. On systems with apt-get you can simply run the following command `sudo apt-get install git cmake build-essential libsdl2{,-mixer,-image}-dev libgl1-mesa-dev`
+On Linux you will need cmake, make, gcc (or clang) and the dev packages of mesa, SDL, SDL_image, SDL_mixer, ASIO and Google Protobuf. On systems with apt-get you can simply run the following command `sudo apt-get install git cmake build-essential libsdl2{,-mixer,-image}-dev libgl1-mesa-dev libprotobuf-dev protobuf-compiler asi`
+
+### Clang
+
+If you are compiling with clang, you will also need libboost-regex1.55-dev and libboost-system1.55-dev. Alternatively you could build your entire stack with clang's c++ standard lib.
 
 ## Running CMake
 
