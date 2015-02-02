@@ -7,8 +7,8 @@
 [[How to contribute]]  
 [[Recruiting]]  
 [[Development Environment]]  
-[[Coding Standards]]
-[[Documentation]]
+[[Coding Standards]]  
+[[Documentation]]  
 
 ### Tools
 
