@@ -1,7 +1,7 @@
 # Inexor Documentation
 
 ## Objectives
-_Stays Sauer, becomes better_
+_Stays Sauer, becomes better._
 
 * Fork of Sauerbraten in order to replace Sauerbraten - no mod
 * Bigger audience for the game
@@ -14,9 +14,8 @@ _Stays Sauer, becomes better_
 
 # Features
 
+* [Complete Changelog](Changelog)
 * [Generic RPC Subsystem + Node.js integration](RPC)
-
-[Changelog](Changelog)
 
 ### In Progress
 
@@ -33,19 +32,19 @@ _Stays Sauer, becomes better_
 ### Planned
 
 * [Ideas for Features](Feature-Ideas)
-* [Improved Selection](Improved Selection)
-* [3D flowchart level scripts](3D flowchart level scripts)
+* [[Improved Selection]]
 * [New Masterserver-System (XMPP)](XMPP Integration)
+* 3D flowchart level scripts
 * Gameplay Adjustments (e.g. Weapon Balance) 
 
 ### Development
 
-* [Build](Build)
-* [Development Environment](Development Environment)
-* [Coding Standards](Coding Standards)
-* [Documentation](Documentation)
+* [[Build]]
+* [[Development Environment]]
+* [[Coding Standards]]
+* [[Documentation]]
 
 ### Other
 
-* [Other Existing Projects](Existing Mods)
+* [Other Existing Projects](Other-Projects)
 * [Wiki for anything related to our content](https://github.com/inexor-game/data/wiki)
