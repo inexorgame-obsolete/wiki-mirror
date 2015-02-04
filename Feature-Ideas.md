@@ -32,10 +32,10 @@
 * Replace single-player campain mode by multi-player campain mode (playable by a single player too)
 * Replace bots by drones (flying robots, quadcopter, ...)
   * Don't need to fake human behaviour
-* Fading game modes
-  * Starting with FFA, slightly moving to effic, then effic team and finally effic ctf
+* [~~Fading game modes~~](https://github.com/inexor-game/code/issues/22)
 
 * Idea pool:
- * [http://quadropolis.us/node/3086](http://quadropolis.us/node/3086)
- * [Existing Mods/Forks/Projects](https://github.com/inexor-game/code/wiki/Existing Mods)
+ * [Quadropolis - Sauerbraten Updates Wishlist](http://quadropolis.us/node/3086)
+ * [Existing Mods/Forks/Projects](https://github.com/inexor-game/code/wiki/Other-Projects)
  * [https://poop.piratenpad.de/sauer-changes](https://poop.piratenpad.de/sauer-changes)
+ * [Sauerworld Forum - Ideas for Sauerbraten](http://sauerworld.org/forum/index.php?board=4.0)
