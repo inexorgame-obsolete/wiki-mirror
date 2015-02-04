@@ -9,13 +9,13 @@ You might also be interested in:
 
 ### Git
 
-We devided the Project in **only-code** and **only-data**. 
+We divided the Project in **only-code** and **only-data**. 
 Why? Because checkouts and commits are much faster without binary blobs.
 
-Avoid committing binaries into the **source** repository, so the repository stays ligthweight.
+Avoid committing binaries into the **source** repository, so the repository stays lightweight.
 
 ### Adding new features
-_If you dont understand the following steps, this [Git-Tutorial](http://pcottle.github.io/learnGitBranching/) could help._
+_If you don't understand the following steps, this [Git-Tutorial](http://pcottle.github.io/learnGitBranching/) could help._
 
 0. Assuming you aren't an Inexor team member, create first a fork of the code repository
 
@@ -23,9 +23,9 @@ _If you dont understand the following steps, this [Git-Tutorial](http://pcottle.
  * master-branch has to stay functional
  * naming usually `<yournick>/<newfeature>` so e.g. `a_teammate/ambient-occlusion`
 
-2. Develope the feature in your branch
+2. Develop the feature in your branch
  * Checkout your branch (your filesystem will change _whush_ Git magic! )
- * Develope your feature 
+ * Develop your feature 
  * At every logical step, commit your work to git
     * Commit often
        * Your feature has to be merged into other branches as easy as possible
@@ -36,7 +36,7 @@ _If you dont understand the following steps, this [Git-Tutorial](http://pcottle.
 
 ### Bigger changes
 
-Some features might be on **strategical nature** or might be an **architectural change**. For example replacing the sauerbraten vector class by the vector class of the stdlib would be a bigger architectural change. Another example would be to integrate XMPP to solve multiple features with XMPP as a strategical technology. Both **needs discussion** with the other developers first.
+Some features might be on **strategist nature** or might be an **architectural change**. For example replacing the sauerbraten vector class by the vector class of the stdlib would be a bigger architectural change. Another example would be to integrate XMPP to solve multiple features with XMPP as a strategist technology. Both **needs discussion** with the other developers first.
 
 ### Experiments welcome
 
