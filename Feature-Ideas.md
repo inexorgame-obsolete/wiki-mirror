@@ -7,16 +7,16 @@
  * [WIP] Maps, Textures, Mapmodels download
  * [WIP] Packaging / Dependency Management for Content
  * Gamemode download (Scriptable)
- * Weapon download / Weapon settings (again, reffer to Counter Strike)
+ * Weapon download / Weapon settings (again, refer to Counter Strike)
 * [WIP] Refactor GUI and overall look/feel
-* Deliver Sauerbraten on Steam, Gog and Desura (maybe more plattforms)
+* Deliver Sauerbraten on Steam, Gog and Desura (maybe more platforms)
  * Bigger audience / more PR
  * Stronger community integration (eg: Quakelive's homepage)
 * Community functions
- * Global dezentralized authentication + protection
+ * Global decentralized authentication + protection
   * Like jabber: multiple servers (multiple domains)
  * Global stats
- * Dezentralized (multiple) masterservers
+ * Decentralized (multiple) masterservers
 * Dynamic content
  * Destructible map geometry
  * Movable, destructible objects
@@ -29,7 +29,7 @@
  * Anti-DDOS
  * Load Balancing
  * Security Enhancements
-* Replace single-player campain mode by multi-player campain mode (playable by a single player too)
+* Replace single-player campaign mode by multi-player campaign mode (playable by a single player too)
 * Replace bots by drones (flying robots, quadcopter, ...)
   * Don't need to fake human behaviour
 * [~~Fading game modes~~](https://github.com/inexor-game/code/issues/22)
