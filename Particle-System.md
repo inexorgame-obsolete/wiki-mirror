@@ -23,7 +23,7 @@ In sauerbraten-fork we are about to implement an improved highly dynamic particl
  * Instances (the concrete particle, emitter, modifier, initializer, renderer)
 * **Stateful and dynamic** components
 * A **rich set** of useful components (see below)
-* Extentable via **dynamic attributes** for each component type
+* Extendable via **dynamic attributes** for each component type
 
 ## The architecture of the particle system
 
@@ -33,7 +33,7 @@ The abstraction layers divide implementations, configurations and runtime instan
 
 The scheme is similar for initializers, modifiers and renderers. The only exception are the particles itself. There is no implementation of particles, only particle types and particle instances. The reason is that particles have no inner logic. They are pure data containers.
 
-More technically speaking (skip this if you are not a programmer) implemenations are *stateless* while types and instances are *stateful*.
+More technically speaking (skip this if you are not a programmer) implementations are *stateless* while types and instances are *stateful*.
 
 ### Dynamic attributes
 
@@ -65,7 +65,7 @@ Emitters are spawning particles. How often, how many, which particle types and w
 
 * Point emitter
 * Cubic emitter (1D = Line, 2D = Plane, 3D = Box)
-* Elipsoid emitter (2D = Circle, 3D = Sphere)
+* Ellipsoid emitter (2D = Circle, 3D = Sphere)
 * Raster field emitter (1D = Dotted line, 2D = Raster, 3D = Cubic Raster)
 * Bezier curve emitter
 
@@ -99,7 +99,7 @@ Modifiers can alter the attributes of a particle over time. For example the velo
 * Movement
  * Velocity Transformation: Apply velocity vector in order to change the particle position
  * Vector Field: Changes the velocity vector based on vector field formula's
- * Rolling: The rolling value of the particle get updated (needed for example for rolling grendades)
+ * Rolling: The rolling value of the particle get updated (needed for example for rolling grenades)
  * Random Velocity: The velocity of the particle is changed randomly in order to get an unpredictable movement
  * Mass-Spring Transformation: Particles are connected by springs
  * Velocity Damper: The velocity get damped over time
@@ -110,7 +110,7 @@ Modifiers can alter the attributes of a particle over time. For example the velo
  * Pulsar: like Gravity Point, but with a pulsing gravity force
  * Black Hole: like Gravity Point, but particles within a radius get culled
 * Collision
- * Geometry Collision: Particles collide with the geometry - because SauerFork uses an octree based geometry, the collision detection is not that expensive
+ * Geometry Collision: Particles collide with the geometry - because Inexor uses an octree based geometry, the collision detection is not that expensive
 * Culling
  * Bounding Box Culling: Deletes particles which leaves the given region
  * Geometry Culling: Deletes particles which collides with the geometry
@@ -121,7 +121,7 @@ Modifiers can alter the attributes of a particle over time. For example the velo
 
 ### Particle Renderer Implementations
 
-To be visible, particles needs a renderer. These paint something in the 3D world. What, how and where is part of the implemenation and configuration.
+To be visible, particles needs a renderer. These paint something in the 3D world. What, how and where is part of the implementation and configuration.
 
 * Point-Based (Billboards)
  * Smoke
@@ -164,7 +164,7 @@ Simulating bouncing grenades using gravitation and geometry collision. Furthermo
 
 [![Position trace demonstration video](http://img.youtube.com/vi/02awTpuNGog/0.jpg)](http://www.youtube.com/watch?v=02awTpuNGog)
 
-Cloning short living particles with removed velocity (fixed position) to achive a wrap-like effect.
+Cloning short living particles with removed velocity (fixed position) to achieve a wrap-like effect.
 
 ### Branching particles
 
