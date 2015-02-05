@@ -110,7 +110,8 @@ Jump to...
  * Outlawzone (modded gamemodes)
  * MapBattle
  * Event based moves detection system
-* [Zeromod](https://github.com/andrius4669/zeromod)
+* [Zeromod](https://github.com/andrius4669/zeromod-sauerbraten)
+ * masterserver system extensions: ability to register and use any number of masterservers (for auth, serverlist and gbans purposes), directing specific auth domains to be handled by chosen masterservers, masterserver auth failover
  * coop: editmute, nodamage, autosendmap (after somebody did /sendmap), autosendmap on connect
 * [Remod](https://github.com/vasyahuyasa/remod-sauerbraten)
  * modable via CubeScript, also with event system and other stuff
