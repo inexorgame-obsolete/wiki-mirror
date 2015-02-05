@@ -24,7 +24,7 @@ The root should mostly contain modules; not actual sources.
 Modules are sets of types, functions and classes that are sort
 of working together to the same end.
 Modules normally reside inside the source root, but if it
-really makes sence, modules may be nested.
+really makes sense, modules may be nested.
 
 The name of the folder and the name of the namespace should
 be the same:
@@ -110,7 +110,7 @@ Please use `char *pointer;` instead of `char* pointer;`
 
 ## Includes
 
-Includes within Inexor should be relatve to source:
+Includes within Inexor should be relative to source:
 
   ```
   #include "rpc/rpc.h"
@@ -123,13 +123,13 @@ Includes within Inexor should be relatve to source:
 
 ## String
 
-Large parts of the Inexor codbase are not using strings but only char arrays (limited to 260 chars). For new code it is preferred to use std::string, however this might not be possible in large parts of Inexor. Here are the basics how Sauer deals with strings:
+Large parts of the Inexor codebase are not using strings but only char arrays (limited to 260 chars). For new code it is preferred to use std::string, however this might not be possible in large parts of Inexor. Here are the basics how Sauer deals with strings:
 
 `typedef char string[260]` in tools.h
 
 * **defformatstring(_stringname_) (_"Example %s %d and %u", char *a, int b, uint c_);**
  * defines `string _stringname_` and formats the second expression
- * e.g. `a = "Values", b = -2, c = 5` will lead to `string stringname` beeing `"Example Values -2 and 5"`
+ * e.g. `a = "Values", b = -2, c = 5` will lead to `string stringname` being `"Example Values -2 and 5"`
 
 * **formatstring(_stringname_) (_see above_);**
  * does **not** define `string _stringname_`
