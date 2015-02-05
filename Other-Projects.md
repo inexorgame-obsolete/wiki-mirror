@@ -158,7 +158,7 @@ Jump to...
 #### Anything left
 * [Crapmod](http://crapmod.net)
  * extended serverbrowser
- * masterserver which allowing modded servers
+ * masterserver which allows modded servers
 * ["extinfo"](https://github.com/sauerbraten/extinfo)
  * A Go package to query information ('extinfo') from a Sauerbraten game server
  * A web app to use that can be found [here](https://github.com/sauerbraten/extinfo-web)
@@ -167,6 +167,6 @@ Jump to...
 * News/Forums:
  * [Sauerworld](http://www.sauerworld.org)
 * Share Content/Scripts/Mods:
- * [CubeClans](https://cubeclans.pw)
+ * [~~CubeClans~~](https://cubeclans.pw)
  * [Quadropolis](http://quadropolis.us)
  * [Akimbo](http://ac-akimbo.net) (AssaultCube only)
