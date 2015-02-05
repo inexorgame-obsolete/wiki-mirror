@@ -36,7 +36,7 @@ _If you don't understand the following steps, this [Git-Tutorial](http://pcottle
 
 ### Bigger changes
 
-Some features might be on **strategic nature** or might be an **architectural change**. For example replacing the sauerbraten vector class by the vector class of the stdlib would be a bigger architectural change. Another example would be to integrate XMPP to solve multiple features with XMPP as a strategic technology. Both **needs discussion** with the other developers first.
+Some features might be **strategic nature** or might be an **architectural change**. For example replacing the sauerbraten vector class by the vector class of the stdlib would be a bigger architectural change. Another example would be to integrate XMPP to solve multiple features with XMPP as a strategic technology. Both **needs discussion** with the other developers first.
 
 ### Experiments welcome
 
