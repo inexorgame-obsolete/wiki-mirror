@@ -8,7 +8,7 @@ With Ambient Occlusion:
 ![with AO](http://www.bilderhoster.net/safeforgallerie/cs8y55xn.jpg)
 
 ### Is it fps-expensive?
-No its not, unlike Tesseract, we implementated it into the current lightmap-system. 
+No its not, unlike Tesseract, we implemented it into the current lightmap-system. 
 This means your FPS do not change at all!
 
 
