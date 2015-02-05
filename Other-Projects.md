@@ -111,8 +111,8 @@ Jump to...
  * MapBattle
  * Event based moves detection system
 * [Zeromod](https://github.com/andrius4669/zeromod-sauerbraten)
- * masterserver system extensions: ability to register and use any number of masterservers (for auth, serverlist and gbans purposes), directing specific auth domains to be handled by chosen masterservers, masterserver auth failover
- * coop: editmute, nodamage, autosendmap (after somebody did /sendmap), autosendmap on connect
+ * masterserver system extensions: ability to register and use any number of masterservers (for auth, serverlist and gbans purposes), directing specific auth domains to be handled by chosen masterservers, masterserver auth failover, privileges for masterserver auth (so it can be used in place of local auth)
+ * coop: editmute, nodamage, autosendmap (after somebody did /sendmap), autosendmap on connect, serverside loadmap and savemap, race mode
 * [Remod](https://github.com/vasyahuyasa/remod-sauerbraten)
  * modable via CubeScript, also with event system and other stuff
  * can save and load maps directly on the server
