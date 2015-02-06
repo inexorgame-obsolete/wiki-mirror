@@ -1,6 +1,5 @@
 ##Content Structure
 ```
-bin
 config                        //previously known as "data"
     ui                        //user-interface
         options.cfg
@@ -13,6 +12,7 @@ config                        //previously known as "data"
     server-saved.cfg
     ...
 media                         //previously known as "packages"
+    brush
     interface
         radar
              radar.png
@@ -21,18 +21,37 @@ media                         //previously known as "packages"
         background.png
         logo.png
     map
-        turbine.cfg
-        turbine.jpg
-        turbine.ogz
+        dust6.cfg
+        dust6.jpg
+        dust6.ogz
+        dust6.txt
+        dust6.wpt
         ...
     model
         game
+             base
+             flag
+             ...
         hudgun
         item
+             boost
+             health
+             ...
         map
+             nobiax
+                  tropical_plants
+                       ...
         player
+             ironsnoutx10k
+             ...
         worldgun
+    music
     particle
+    skybox
+        nothing
+            morning_up.jpg
+            morning_dn.jpg            //..
+            morning.cfg               // Thats new(!) a cfg for skyboxes
     sound
     texture
         a_teammate
@@ -41,17 +60,14 @@ media                         //previously known as "packages"
              wood_golden_bar_NORM.jpg
              wood_golden_bar_DEPTH.jpg
              ...
-        default
+        inexor
              notexture.png  
              ...
-    skybox
-        nothing
-            morning_up.jpg
-            morning_dn.jpg            //..
-            morning.cfg               // Thats new(!) a cfg for skyboxes
 
 ```
-notice: everything is **singular**, otherwise its pretty self-explaining
+
+Notice: everything is **singular**, otherwise its pretty self-explaining. 
+Directories, to which map designers normally often add files, have a ``directory/nickname/stuff`` structure to keep them clean.
 
 ##Differences to Sauerbratens structure
 
@@ -67,3 +83,4 @@ notice: everything is **singular**, otherwise its pretty self-explaining
 
 * a_teammate
 * Fohlen
+* Nooby
