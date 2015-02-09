@@ -14,7 +14,7 @@ _Stays Sauer, becomes better._
 
 # Features
 
-* [Complete Changelog](Changelog)
+* [Milestones / Changelog](https://github.com/inexor-game/code/milestones)
 * [Generic RPC Subsystem + Node.js integration](RPC)
 
 ### In Progress
