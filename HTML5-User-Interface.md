@@ -22,6 +22,7 @@
 
 * Rendering of HTML5 over a transparent 2D-Overlay
 * Spawning events from HTML5 / client side JavaScript
+* see also [#50](https://github.com/inexor-game/code/issues/50)
 
 ### Chromium Embedded Framework
 
