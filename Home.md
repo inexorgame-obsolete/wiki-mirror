@@ -34,7 +34,7 @@ _Stays Sauer, becomes better._
 * [Ideas for Features](Feature-Ideas)
 * [[Improved Selection]]
 * [New Masterserver-System (XMPP)](XMPP Integration)
-* 3D flowchart level scripts
+* [3D flowchart level scripts](3D-flowgraphs)
 * Gameplay Adjustments (e.g. Weapon Balance) 
 
 ### Development
