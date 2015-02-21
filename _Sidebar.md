@@ -9,7 +9,7 @@
 [[Development Environment]]  
 [[Coding Standards]]  
 [[Documentation]]  
-[[Git Submodule FAQ]]  
+[[Git Submodule]]
 
 ### Tools
 
