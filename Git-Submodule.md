@@ -1,9 +1,9 @@
 # Submodule FAQ:
 
 * How can I create a submodule?
-* Somebody else have updated a submodule on the origin (read: GitHub), how can I get the latest version?
-* How can I update a submodule on the origin?
-* I get the error "fatal: reference is not a tree". What can I do?
+* [Somebody else have updated a submodule on the origin (read: GitHub), how can I get the latest version?](#somebody-else-have-updated-a-submodule-on-the-origin-read-github-how-can-i-get-the-latest-version)
+* [How can I update a submodule on the origin?](#how-can-i-update-a-submodule-on-the-origin)
+* [I get the error "fatal: reference is not a tree". What can I do?](#i-get-the-error-fatal-reference-is-not-a-tree-what-can-i-do)
 
 ***
 
