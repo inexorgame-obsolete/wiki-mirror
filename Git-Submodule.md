@@ -16,7 +16,7 @@
 Preconditions: You have pushed a new commit to a repository, which is getting used as a submodule.
 
 1. Go to the repository, which uses the submodule.
-2. Switch to the directory in which the submodule is located. Do this by entering `cd your/path/to/the/submodule`
+2. Switch to the directory in which the submodule is located. To do this, enter `cd your/path/to/the/submodule`
 3. Now execute: `git checkout` and `git pull`
 4. Go back to the root directory of the repository (you can go one directory level up with `cd ..`).
 5. Create a commit (`git commit -m "Update submodules"`)
