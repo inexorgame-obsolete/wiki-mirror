@@ -19,33 +19,33 @@ Jump to...
  * Event based system
  * > 50 plugins
 * [Zombie-Menu](https://github.com/zombie-crew/zombie-menu) [(Quadropolis node)](http://www.quadropolis.us/node/3716)
- * >60 in-game mini-tutorials/manuals
+ * > 60 in-game mini-tutorials/manuals
  * playerlist with frequent commands
  * made for managing MMO coop-maps
 
 #### Client mods
 * [Sauerbraten Community Edition](https://github.com/sauerworld/community-edition)
- * automatic client-sided demo recording
+ * automatic client-side demo recording
  * easy demo navigation
  * score hud and extended scoreboard
  * more game round information accessable via cubescript (e.g. tks, weapon accuracy)
 * [Sauerbraten Enhanced](https://sourceforge.net/projects/sauerenhanced/)
- * New theme, Improved UI
+ * New theme, improved UI
 * [SuperSauer](http://supersauer.blogspot.de)
- * Customizable Background, Skins, Themes
- * Ingame Playermodel-Skin-Switch
- * Recognizes Clans automatically (e.g. search for clans in the serverbrowser, auto-detect clanwars)
- * Heavily improved Serverbrowser (preview servers, search, sort..) and Scoreboard
- * Demo Browser with Previews (players, scores, what time those scores happen, text-messages...)
- * Stats (Normal but customizable Stats-Bar plus all-time-stats)
+ * Customizable background, skins, themes
+ * Ingame playermodel-skin-switch
+ * Recognizes clans automatically (e.g. search for clans in the serverbrowser, auto-detect clanwars)
+ * Heavily improved serverbrowser (preview servers, search, sort..) and scoreboard
+ * Demo browser with previews (players, scores, what time those scores happen, text-messages...)
+ * Stats (Normal but customizable stats-bar plus all-time-stats)
  * Ingame IRC
 * [WC-Client (Wahn-/Wonderclient)](https://github.com/tpoechtrager/wc-ng) ([Original Publish](http://ogros.org/forum/viewtopic.php?f=77&t=1733))
 * [SDOS Client](https://github.com/pisto/sdos-test)
  * SDL2
- * multipoll (lag free vertical synch, zero tearing)
+ * multipoll (lag free vertical sync, zero tearing)
  * anticheat (closed source)
 * [Sauerbraten SDL2 Client](https://github.com/extra-a/sauer-sdl2)
- * SDL2, base on SDOS Client
+ * SDL2, based on SDOS Client
  * customized HUD elements
  * new menus
  * server preview
@@ -87,13 +87,13 @@ Jump to...
  * Implemented [Marching Cubes](https://www.youtube.com/watch?v=TstJlsEKEHs) by Wrack
 * [QuEd (Quality Edition)](https://github.com/quality-edition/QuEd)
  * Extinfo data (including WhoIs & GeoIP)
- * GUI Enhancements
+ * Design enhancements
  * Demo recording
  * In-game IRC
 
 #### Server Mods
 * [HopMod](https://code.google.com/p/hopmod/)
- * LUA Integration
+ * Lua Integration
  * Event based system
  * Anticheats
 * [XSBS](http://xsbs.greghaynes.net) [(GitHub Repo)](https://github.com/greghaynes/xsbs)
