@@ -154,6 +154,9 @@ Jump to...
  * aiming to become a game publishing hub
 * [Platinum Arts Sandbox Free 3D Game Maker](http://www.sandboxgamemaker.com)
  * create own games/modes/levels/landscapes
+* [SabiCube](https://github.com/sandsound/sabicube)
+ * single-player total conversion of Cube2: Sauerbraten with focus on adding rpg/adventure elements
+ * goal: make gamebuilding as fun as playing a game,help anyone making their own open-source rpg/adventure game, without prior knowledge of programming or 3D-modeling
 
 #### Anything left
 * [Crapmod](http://crapmod.net)
