@@ -2,6 +2,45 @@
 
 [See the dedicated site.](Documentation)
 
+# Whitespace
+
+Inexor c++ code uses four spaces for indendation. No tabs.
+The CMakeFiles use two spaces for indendation. No tabs.
+We never use tabs.
+
+There should be a new line at the end of files, but no empty lines.
+
+Lines should not have any trailing whitespace, that is any whitespace just before the new line.
+
+## Checking
+
+Detecting whitespace errors is pretty hard, but git provides a few tools to help us detect those.
+
+  ```shell
+  # Mark empty lines at the ends of files, trailing spaces
+  # and tabs used for indentation
+  $ git config core.whitespace blank-at-eof,blank-at-eol,tab-in-indent
+  # Mark them RED
+  $ git config color.diff.whitespace "red red"
+  # Always output colored diffs
+  $ git config color.diff always
+  ```
+
+And here is how you can inspect your code:
+
+  ```shell
+  # Show the history of commits with their associated, colored diffs
+  $ git log -p --color
+  # Check for errors in the working tree
+  $ git diff --color
+  # Check for errors in the stage
+  $ git diff --color --cached
+  # After rebasing your branch, check your entire branch for space errors
+  $ git diff master
+  ```
+This way you won't be able to detect tabs in the middle of lines and bad indentation (using 3 spaces where 4 should be used).
+Bad indentation though is clearly visible to the eye and should just be taken care of by looking.
+
 # Namespaces: Separation of Code and Code
 
 Generally, the code should be divided into sensible units.
