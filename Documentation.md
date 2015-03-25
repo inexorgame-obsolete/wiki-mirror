@@ -3,7 +3,7 @@ New code must always adhere to those rules.
 
 Unfortunately, lots of the old Inexor/Sauerbraten code is
 badly documented or not documented at all. We are very
-very helpful for any improevements in that respect :)
+very thankful for any improevements in that respect :)
 
 # Generating Documentation
 
