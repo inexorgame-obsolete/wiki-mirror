@@ -37,11 +37,11 @@ More technically speaking (skip this if you are not a programmer) implementation
 
 ### Dynamic attributes
 
-One of the main disadvantages of particle systems is that they are limited in extensibility. Therefore each type and instance of any component type is able to store **dynamic attributes**. If there is no attribute for, for example, the _drift_ of a particle, you can store it in the dynamic attributes. Dynamic attributes of the type level are copied into the instance level on creation time. For example by creating an emitter instance, the dynamic attributes of the parent emitter type is copied.
+One of the main disadvantages of common particle systems is that they are not *modular* enough to allow extensibility. Therefore each type and instance of any component type is able to store **dynamic attributes**. For example if there is no attribute for the _drift_ of a particle, you can store this data as a dynamic attribute. Dynamic attributes on the implementation layer type are copied into the layer instance on creation time. For example by creating an emitter instance the dynamic attributes of the parent emitter type is copied.
 
 ### Particles
 
-Particles are the little things flying around? Wrong. For the particle system they are only **data objects**. What to do with them is up on the configuration of the system. In general you can do what you want with them. You will need all of the other component types described below.
+Particles are the little things flying around? Wrong. For the particle system they are only **data objects**. What to do with this data is up to the architecture and configuration of the system. In general you can do what you want with them. You will need all of the other component types described below.
 
 So, here we will only describe the attributes of an particle object:
 
@@ -57,19 +57,19 @@ So, here we will only describe the attributes of an particle object:
 * Mass
 * Density
 
-Additionally, particles (as emitters, initializers, modifiers and renderers) can store even more information in the *dynamic attributes*.
+Additionally, particles (just as emitters, initializers, modifiers and renderers as well) can store even more information in the *dynamic attributes*.
 
 ### Particle Emitters
 
-Emitters are spawning particles. How often, how many, which particle types and where is upon the emitter implementation. It's easy to implement new specialized emitters. But there is already a set of default generic emitters available.
+Emitters spawn particles. How often, how many, which particle type, and where depends on the emitter implementation. It's easy to implement new custom emitters. Notice that there is already a set of default generic emitters available.
 
-* Point emitter
-* Cubic emitter (1D = Line, 2D = Plane, 3D = Box)
-* Ellipsoid emitter (2D = Circle, 3D = Sphere)
-* Raster field emitter (1D = Dotted line, 2D = Raster, 3D = Cubic Raster)
-* Bezier curve emitter
+* Point emitters
+* Cubic emitters (1D = Line, 2D = Plane, 3D = Box)
+* Ellipsoid emitters (2D = Circle, 3D = Sphere)
+* Raster field emitters (1D = Dotted line, 2D = Raster, 3D = Cubic Raster)
+* Bézier curve emitters
 
-Each of them is configurable and _you'll be able to create complex setups_. If you want to create an emitter instance, you have to create an emitter type first. The emitter type is like a configuration pattern and allows to setup common types of emitters. For example: different types of fire, smoke, rain and so on. It stores which emitter implementation and which particle type will be used by the emitter instances. In contrast, emitter instances holds for example the position, velocity, the last used color, the next position based on the last emitted particle. All is data only known by the single instance and during execution.
+Each of them is configurable and _you'll be able to create complex setups_. If you want to create an emitter instance, you have to create an emitter type first. The emitter type is like a configuration pattern and allows to set up common types of emitters. For example: different types of fire, smoke, rain and so on. It stores which emitter implementation and which particle type will be used by the emitter instances. In contrast, emitter instances holds for example the position, velocity, the last used color, the next position and much more based on the last emitted particle. All data is only known by the single instance and during execution.
 
 #### Default Emitter Type Attributes
 
@@ -84,7 +84,7 @@ Each of them is configurable and _you'll be able to create complex setups_. If y
 
 #### Default Emitter Instance Attributes
 
-* Everything from it's emitter type, plus
+* _Everything from it's emitter type_
 * The emitter type
 * Position (x, y, z)
 * Velocity (x, y, z)
@@ -92,32 +92,33 @@ Each of them is configurable and _you'll be able to create complex setups_. If y
 
 ### Particle Modifiers
 
-Modifiers can alter the attributes of a particle over time. For example the velocity transformation modifier adds the current velocity vector to the current position vector, which "moves" the particle. But there are a lot of other possibilities to modify particles.
+Modifiers can alter the attributes of a particle over time. For example the velocity transformation modifier adds the current velocity vector to the current position vector, which "moves" the particle. But there are a lot of other possibilities how to modify particles.
 
 ### Particle Modifier Implementations
 
 * Movement
- * Velocity Transformation: Apply velocity vector in order to change the particle position
- * Vector Field: Changes the velocity vector based on vector field formula's
- * Rolling: The rolling value of the particle get updated (needed for example for rolling grenades)
- * Random Velocity: The velocity of the particle is changed randomly in order to get an unpredictable movement
- * Mass-Spring Transformation: Particles are connected by springs
+ * Velocity Transformation: Apply a velocity vector in order to change the particle's position
+ * Vector Field: Changes the velocity vector based on vector field formula's (using the [MuParser](http://muparser.beltoforion.de/) library)
+ * Rolling: The pitch/roll angles of the particle gets updated (rolling grenades e.g.)
+ * Random Velocity: The velocity of the particle is changed randomly in order to create unpredictable movement
+ * Mass-Spring Transformation: Particles are connected with springs
  * Velocity Damper: The velocity get damped over time
- * Wind: A constant or pulsing wind force applies on particles
+ * Wind: A constant or pulsing wind force vector is applied to the particles
 * Gravity
- * Global Gravity: Applies a force globally
- * Gravity Point: A point in the space applies gravity forces on the particles
+ * Global Gravity: Applies a force vector globally
+ * Gravity Point: A point in the space applies gravity forc on the particles
  * Pulsar: like Gravity Point, but with a pulsing gravity force
  * Black Hole: like Gravity Point, but particles within a radius get culled
 * Collision
- * Geometry Collision: Particles collide with the geometry - because Inexor uses an octree based geometry, the collision detection is not that expensive
+ * Geometry Collision: Particles collide with the geometry 
+  * Inexor uses an octree based geometry, so the collision detection is cheap
 * Culling
- * Bounding Box Culling: Deletes particles which leaves the given region
+ * Bounding Box Culling: Deletes particles which leave the given region
  * Geometry Culling: Deletes particles which collides with the geometry
 * Other
  * Density Fade Out: Shortly before dying, the density of a particle is reduced, so that it fades out
  * Position Trace: Spawns particles with a shorter lifetime and no movement on the old position of the particle
- * Sub Emitter: A particle emits sub particles (in fact a separate emitter instance is emitting, but the position and velocity of the particle are used)
+ * Sub Emitter: A particle emits sub particles (in fact a separate emitter instance is emitting, but the position and velocity of the parent particle are inherited)
 
 ### Particle Renderer Implementations
 
