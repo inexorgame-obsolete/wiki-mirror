@@ -10,7 +10,7 @@ We are about to implement an improved highly dynamic particle system.
 
 ## Features
 
-* **Good performance** though **very dynamic**
+* **Good performance** and **dynamic**
 * **Component Types**
  * Emitters
  * Initializers
