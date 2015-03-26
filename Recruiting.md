@@ -1,4 +1,4 @@
-The goal of this project is to create an official fork (no mod) of sauerbraten, establish a bigger audience for sauerbraten and keep sauerbraten alive for the future.
+The goal of this project is to create an official fork (no mod) of Sauerbraten, establishing a bigger audience for sauerbraten and keeping Sauerbraten alive for the future.
 
 We would be happy if you are interested in joining our team.
 
