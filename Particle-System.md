@@ -27,9 +27,9 @@ We are about to implement an improved highly dynamic particle system.
 
 ## The architecture of the particle system
 
-The architecture of the particle system is designed to allow extend the particle system. It is based on a clear matrix structure: `component type` x `abstraction layer`.
+The architecture of the particle system is designed to make modifications and extensions to itself as easy as possible. It is based on a clear matrix structure: `component type` x `abstraction layer`.
 
-The abstraction layers divide implementations, configurations and runtime instances. Implementations are designed to read parameters and dynamic attributes from the instances or types. For example each emitter implementation needs a position from the concrete emitter instance to spawn new particles. Types holds configuration with information about the "what" not "where and when". These information is known in beforehand, like a "fire emitter type" should define the particle type to be used as well as the particle rate and the batch size. On type level it would be useless to define the position for example. Therefore the position of a fire is set on instance level. Most of the emitter type parameters are overrideable on instance level.
+The abstraction layers divides **implementations**, **configurations**, and **runtime instances**. Implementations are designed to read parameters and dynamic attributes from the instances or types. For example each emitter implementation needs a position from the concrete emitter instance to spawn new particles. Types do only hold configurations with information about the "what" not "where and when". These information is known in beforehand, like a "fire emitter type" should define the particle type to be used as well as the particle rate and the batch size. On the implementation layer type it would be useless to define the position for example. Therefore the position of a fire is set on instance level. Most of the emitter type parameters are overrideable in the instance layer.
 
 The scheme is similar for initializers, modifiers and renderers. The only exception are the particles itself. There is no implementation of particles, only particle types and particle instances. The reason is that particles have no inner logic. They are pure data containers.
 
