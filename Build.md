@@ -66,6 +66,8 @@ The first step of building this project is rather obvious, but for sake of compl
 
 * Download the repository, you can either use the command line `git clone --recursive https://github.com/inexor-game/code.git` or your favourite git GUI.
 
+* If you want to checkout the latest master only you need to initialise the submodules as well
+ `git clone --depth 1 https://github.com/inexor-game/code.git; git submodule init; git submodule sync; git submodule update;`
 ## Downloading the dependencies
 
 The next step is to get all the required dependencies to compile. On Windows and Mac, all the dependencies are packed in the `src/platform_*` directories. You only need an environment that can build C++ programs such as Visual Studio, CodeBlocks, XCode or MinGW.
