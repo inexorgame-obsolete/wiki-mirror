@@ -17,5 +17,6 @@
 [Kanboard](https://waffle.io/inexor-game/code)  
 
 ### Other
-[[Other Projects]]  
+[[Other Projects]]
 [Content Wiki](https://github.com/inexor-game/data/wiki)  
+[[Supported File Formats]]
