@@ -20,10 +20,14 @@ This will give you a pretty good exemplary environment if you are on Windows.
 * Download and install [CMake](http://www.cmake.org/download/)
    * cmake will generate your project files
 
-* Download and install [SmartGit](http://www.syntevo.com/smartgit/download)
+* Download and install git
    * one of the best ways to develop is git, and one of its best interfaces is SmartGit
    * its free for personal use
-   * **possible alternative:** [GitHub for Windows](https://windows.github.com)
+   * Use one of the following tools if you don't already have git:
+     * [SmartGit](http://www.syntevo.com/smartgit/download) - [Supports submodules in the GUI](https://www.syntevo.com/smartgit/documentation/5/show?page=submodules)
+     * [GitHub for Windows](https://windows.github.com) - GUI does not support submodules. You must use the CLI to update them.
+     * [Cygwin](https://cygwin.com/) - probably overkill just for access to git.
+     * [git-scm.com](http://git-scm.com/download) is the official git website, and has downloads for the CLI version, and links to GUIs.
 
 ## Fetching the Repository
 
