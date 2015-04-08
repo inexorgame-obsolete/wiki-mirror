@@ -53,6 +53,10 @@ Open the CMake-GUI and follow the steps as [described here](#cmake-gui). Then ju
 * If you use Visual Studio:
   * Open `build/Inexor.sln `
      * It will automatically open with Visual Studio
+  * Right-click the ALL_BUILD solution in solution explorer, and click build (At the top)
+  * Right click the INSTALL solution in solution explorer, and click build.
+  * Your binaries are now in the `bin/windows/` folder, under a subdirectory depending on your architecture (ie `win64`).
+  * You can use inexor.bat to run the game. You will need [the data](https://github.com/inexor-game/data) in a `data` directory.
 * If you use CodeBlocks:
   * Open `build/Inexor.cbp`
   * Click on `Build`
