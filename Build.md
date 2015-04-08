@@ -1,6 +1,5 @@
 * [Windows](#windows)
 * [Linux](#linux)
-* [CMake](#running-cmake)
 * [One-Click Build environment](https://github.com/inexor-game/code/blob/master/tool/README.md)
   * Script for automatic compile or generate project files
   * Works on OS X, Debian (and derivatives, e.g. Ubuntu), Arch Linux and MinGW
@@ -12,10 +11,12 @@ This will give you a pretty good exemplary environment if you are on Windows.
 
 ## Setup
 
-* Download and install [Visual Studio](https://www.microsoft.com/en-us/download/details.aspx?id=34673)
-   * the Express Edition is enough
-   * on Windows 8.1 or later download [VS 2013](https://go.microsoft.com/?linkid=9832256&clcid=0x409) instead
-   * **possible alternative:** [CodeBlocks](http://www.codeblocks.org)
+* Download and install 
+ * Microsoft Visual Studio
+    * on Windows 7 SP1 or later download [VS 2013 Express Edition](http://www.microsoft.com/en-us/download/details.aspx?id=44914)
+    * if you are on anything older than Windows 7 SP1 download [VS 2012 Express Edition](https://www.microsoft.com/en-us/download/details.aspx?id=34673) instead
+ * **OR as an alternative:** [Code::Blocks](http://www.codeblocks.org)
+   * please [download here](http://www.codeblocks.org/downloads/26) the latest release, with the `mingw-setup` addition
 
 * Download and install [CMake](http://www.cmake.org/download/)
    * cmake will generate your project files
@@ -38,7 +39,7 @@ You will have to clone the Project somewhere.
 
   * Clone the Repository
     * click `Repository` and `Clone` (or press `Ctrl+Shift+O`)
-    * Select "Remote Git ... repository", Url = https://github.com/sauerbraten-fork/sauerbraten-fork
+    * Select "Remote Git ... repository", Url = https://github.com/inexor-game/code
     * On the next Page select both `Include Submodules` as well as `Fetch all Heads and Tags`
     * Select a folder on the next page. Your local Git repository will be created here. 
     * Select `Finish`
@@ -57,14 +58,18 @@ Open the CMake-GUI and follow the steps as [described here](#cmake-gui). Then ju
 * If you use Visual Studio:
   * Open `build/Inexor.sln `
      * It will automatically open with Visual Studio
-  * Right-click the ALL_BUILD solution in solution explorer, and click build (At the top)
-  * Right click the INSTALL solution in solution explorer, and click build.
-  * Your binaries are now in the `bin/windows/` folder, under a subdirectory depending on your architecture (ie `win64`).
-  * You can use inexor.bat to run the game. You will need [the data](https://github.com/inexor-game/data) in a `data` directory.
+  * Right click the `INSTALL` solution in solution explorer, and click build.
 * If you use CodeBlocks:
   * Open `build/Inexor.cbp`
+  * Select the target `install`
   * Click on `Build`
 
+## Get the data
+We have seperated repositories for our code and the data. To actually start Inexor you will also need [the data](https://github.com/inexor-game/data). It's highly recommend to keep the repositories clean and to create a directory in which you compile + copy the data, to run Inexor.
+
+## Run
+Start Inexor with the `inexor.bat` file.
+ 
 ***
 
 # Linux
@@ -91,7 +96,7 @@ If you are compiling with clang, you will also need libboost-regex1.55-dev and l
 The next step is to run CMake, this tool generates project files for your favourite IDE or tool.
 If you have cmake in your path you can run `(mkdir build && cmake ..)`, you probably will need to add a `-G "<generator>"` flag to make it generate a project file for your precious IDE (you do not need this for makefiles on linux).
 
-The most commonly used generators will probably include `Visual Studio`, `CodeBlocks`, `MinGW Makefiles`, `Unix Makefiles` and `Xcode`. There are also makefiles for Eclipse, Sublime Text and a lot others. The complete list can be found [here](http://www.cmake.org/cmake/help/v3.1/manual/cmake-generators.7.html).
+The most commonly used generators will probably include `Visual Studio`, `CodeBlocks`, `MinGW Makefiles`, `Unix Makefiles` and `Xcode`. There are also makefiles for Eclipse, Sublime Text and a lot others. The complete list can be found [here](http://www.cmake.org/cmake/help/v3.2/manual/cmake-generators.7.html).
 
 ### Examples
 
@@ -111,7 +116,7 @@ Some users might prefer CMake GUI.
    * Select the new `build` directory for `Where to build the binaries`
    * Click `Configure`
    * Select your desired generator
-     * If you use Visual Basic select the highest VS-Version it finds and (if you have) the x64-Version so e.g. `Visual Studio 11 Win64`
+     * If you use Visual Basic select the highest VS-Version it finds and (if you have) the x64-Version so e.g. `Visual Studio 12 Win64`
    * Click `Generate` to generate a project file
 
 ## Actually building the sources
