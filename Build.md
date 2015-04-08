@@ -13,8 +13,7 @@ This will give you a pretty good exemplary environment if you are on Windows.
 
 * Download and install 
  * Microsoft Visual Studio
-    * on Windows 7 SP1 or later download [VS 2013 Express Edition](http://www.microsoft.com/en-us/download/details.aspx?id=44914)
-    * if you are on anything older than Windows 7 SP1 download [VS 2012 Express Edition](https://www.microsoft.com/en-us/download/details.aspx?id=34673) instead
+    * download [VS 2013 Express Edition](http://www.microsoft.com/en-us/download/details.aspx?id=44914) - requires Windows 7 SP1 or newer
  * **OR as an alternative:** [Code::Blocks](http://www.codeblocks.org)
    * please [download here](http://www.codeblocks.org/downloads/26) the latest release, with the `mingw-setup` addition
 
