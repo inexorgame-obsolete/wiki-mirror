@@ -16,11 +16,11 @@ _Stays Sauer, becomes better._
 
 * [Milestones / Changelog](https://github.com/inexor-game/code/milestones)
 * [Generic RPC Subsystem + Node.js integration](RPC)
+* [Ambient Occlusion](Ambient Occlusion)
 
 ### In Progress
 
 * [Particle System](Particle System)
-* [Ambient Occlusion](Ambient Occlusion)
 * [Packaging System](Packaging System)
 * [HTML5 User Interface](HTML5 User Interface)
 * [JavaScript Integration](JavaScript Integration)
