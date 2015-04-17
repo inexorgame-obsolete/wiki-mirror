@@ -1,6 +1,6 @@
 # SauerFork cube Selection
 
-**This is not buit in yet**
+**This is not built in yet**
 
 ## Rationale
 
