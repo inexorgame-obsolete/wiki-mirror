@@ -3,7 +3,7 @@ Nobody is perfect. (In case you are ignore the following paper and get back to w
 Testing and debugging your code is the foundation of innovative and awesome features. Unfortunately, this is not always an easy task. Sauerbraten itself does not provide any built-in debugging or benchmarking tools.
 This will change now. Some ingame debugging tools are neccesary in order to control and measure your code's performance!
 
-## Guideline for good Code
+## Guidelines for good code
 Please keep in mind that good code
 * has suitable comments for important code passages
 * does NOT depend on OS-specific libraries
@@ -21,7 +21,7 @@ Other software such as [PIX](http://en.wikipedia.org/wiki/PIX_%28Microsoft%29) o
 
 # Debugging tricks so far
 ## Basic screen printing
-You can use conoutf(..); (dont forget to include "engine.h") in your code. The modifiers are the same as
+You can use conoutf(..); (don't forget to include "engine.h") in your code. The modifiers are the same as
 [printf](http://www.cplusplus.com/reference/cstdio/printf/)
 Examples:
 `
@@ -34,12 +34,12 @@ Those outputs will be printed to the log file as well.
 Use conoutf to trace your calls! you can place them almost anywhere in the code.
 
 ## Sauerbraten debug leftovers
-Its very interesting that nobody knows the old debugging commands which still remain in the code. They are not useful anyway.
-* /aidebug [0-6] Shows waypoints and starts AI debugger
+It's very interesting that nobody knows the old debugging commands which still remain in the code. They are not useful anyway.
+* /aidebug [0-6] Shows waypoints (6) and starts AI debugger (1-6)
 * /debugsm [0|1] Shadow map debugger
 * /debugglare [0|1] Glare debugger
 * /debugdepthfx [0|1] Depth function debugger
-* /debugparticles [0|1] Particle debugger (not for Hanacks new Particle system)
+* /debugparticles [0|1] Particle debugger (not for Hanack's new particle system)
 
 ## Miliseconds and SDL_GetTicks()
 So far you can use [SDL_GetTicks()](https://wiki.libsdl.org/SDL_GetTicks) to get the number of miliseconds since the SDL initialisation (program start.)
@@ -50,11 +50,11 @@ conoutf(CON_DEBUG, "Well that took around %llu miliseconds..", ulEndTime - ulSta
 
 ## Do something every 5 seconds (dirty)
 Some things are just way too heavy to print every sub-calculation to the screen. You should limit the output.
-One method to do this is to calculate the modulo of SDL_GetTicks(). Its very dirty though because some calls could be skipped!
+One method to do this is to calculate the modulo of SDL_GetTicks(). It's very dirty though because some calls could be skipped!
 `
 if(SDL_GetTicks() % 5000 <= 20) {
     // How long was it ago that another five seconds passed?
-    conoutf(CON_DEBUG, "See u in 5 seconds again!");
+    conoutf(CON_DEBUG, "See you in 5 seconds again!");
 }
 `
 
@@ -69,7 +69,7 @@ As you surely know, static variables keep their values and will not be deleted f
 }` 
 
 # New features
-* Automatic time recording system with procedure hierarchy and "ingore" passages
+* Automatic time recording system with procedure hierarchy and "ignore" passages
 * Realtime output on screen so you dont spam your history with conoutf(..);
 * Event system for debug breaks (if values exceed ranges or bounderies)
 
