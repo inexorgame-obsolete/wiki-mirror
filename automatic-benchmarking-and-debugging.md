@@ -16,7 +16,7 @@ Please keep in mind that good code
 
 ## External debuggers
 If not anything works, try to use external debugging tools.
-Thanks to [VALVe's Vogl](https://github.com/ValveSoftware/vogl) there is finally a good OpenGL graphic debugger out there. 
+Thanks to [VALVe's Vogl](https://github.com/ValveSoftware/vogl), there is finally a good OpenGL graphic debugger out there. There is also [apitrace](https://apitrace.github.io/).
 Other software such as [PIX](http://en.wikipedia.org/wiki/PIX_%28Microsoft%29) or [Crytek RenderDoc](http://cryengine.com/renderdoc) are only for Microsoft DirectX.
 
 # Debugging tricks so far
