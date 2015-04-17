@@ -1,10 +1,10 @@
-# SauerFork cube Selection
+# Cube Selection
 
 **This is not built in yet**
 
 ## Rationale
 
-The Sauer selection is very basic at the moment:
+The Sauerbraten selection is very basic at the moment:
 it is possible to select cube and to delete and extrude
 those. Extrusion is only possible in one direction,
 therefore each selection has a direction which can be
