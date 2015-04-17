@@ -9,14 +9,14 @@
  * Gamemode download (Scriptable)
  * Weapon download / Weapon settings (again, refer to Counter Strike)
 * [WIP] Refactor GUI and overall look/feel
-* Deliver Sauerbraten on Steam, Gog and Desura (maybe more platforms)
- * Bigger audience / more PR
- * Stronger community integration (eg: Quakelive's homepage)
+* Deliver Inexor on Steam, Gog and Desura (maybe more platforms)
+ * Bigger audience / more PR? This is debatable (see Warsow)
+ * Stronger community integration (eg: Quake Live's homepage)
 * Community functions
  * Global decentralized authentication + protection
   * Like jabber: multiple servers (multiple domains)
  * Global stats
- * Decentralized (multiple) masterservers
+ * Decentralized (multiple) master servers
 * Dynamic content
  * Destructible map geometry
  * Movable, destructible objects
@@ -26,9 +26,9 @@
  * [WIP] Flow chart system for scripted maps
  * Cooperative lightmapping
 * Security
- * Anti-DDOS
- * Load Balancing
- * Security Enhancements
+ * Anti-DDoS
+ * Load balancing
+ * Security enhancements
 * Replace single-player campaign mode by multi-player campaign mode (playable by a single player too)
 * Replace bots by drones (flying robots, quadcopter, ...)
   * Don't need to fake human behaviour
