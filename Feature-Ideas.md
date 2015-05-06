@@ -1,12 +1,10 @@
 * Free content / Packaging / Content delivery
- * [WIP] Reduced set on game modes and maps
- * [WIP] All content is free, in order to make the game free
- * [WIP] Make the game itself forkable
+ * [WIP] All content is free, in order to make the game free (this makes the game itself forkable)
  * Content can be delivered by servers / repositories
 * Easy modability and mod delivery
  * [WIP] Maps, Textures, Mapmodels download
  * [WIP] Packaging / Dependency Management for Content
- * Gamemode download (Scriptable)
+ * Gamemode download (scriptable)
  * Weapon download / Weapon settings (again, refer to Counter Strike)
 * [WIP] Refactor GUI and overall look/feel
 * Deliver Inexor on Steam, Gog and Desura (maybe more platforms)
@@ -18,10 +16,10 @@
  * Global stats
  * Decentralized (multiple) master servers
 * Dynamic content
- * Destructible map geometry
+ * [Destructible map geometry](https://www.youtube.com/watch?v=VPdKX7UhneY&index=2&list=PLCbZc-GgCGzLhkGS5l850tjCQrPUeapK6)
  * Movable, destructible objects
  * [WIP] Dynamic entity system
- * [WIP] Dynamic particle system
+ * [WIP] [Dynamic particle system](https://www.youtube.com/watch?v=j622-D-CCTI&list=PLCbZc-GgCGzLhkGS5l850tjCQrPUeapK6&index=41)
 * Improved mapping functions
  * [WIP] Flow chart system for scripted maps
  * Cooperative lightmapping
