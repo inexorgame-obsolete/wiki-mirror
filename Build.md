@@ -68,6 +68,10 @@ We have seperated repositories for our code and the data. To actually start Inex
 
 ## Run
 Start Inexor with the `inexor.bat` file.
+
+## Cross-compiling Ubuntu to Windows
+If you are using Ubuntu to cross-compile Inexor to Windows using `mingw32` and `mingw-w64` then you should use
+`cmake -DMINGW=1 -DMINGW_TYPE=X ..` where  `X` is your architecture (either use `i686` or `x86_64` in substitute of `X` )
  
 ***
 
