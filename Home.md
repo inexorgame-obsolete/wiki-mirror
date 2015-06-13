@@ -20,13 +20,13 @@ _Stays Sauer, becomes better._
 
 ### In Progress
 
-* [Particle System](Particle System)
-* [Packaging System](Packaging System)
+* [[Particle System]]
+* [[Packaging System]]
 * [HTML5 User Interface](HTML5 User Interface)
 * [JavaScript Integration](JavaScript Integration)
 * [Bezier curve camera flights](Bezier curve)
 * [Automatic benchmarking and debugging](automatic benchmarking and debugging)
-* [Json configuration support](JSON-Implementation)
+* [JSON configuration support](JSON-Implementation)
 * [Entity System](Entity System)
 
 ### Planned
