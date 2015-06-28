@@ -12,22 +12,27 @@ This will give you a pretty good exemplary environment if you are on Windows.
 ## Setup
 
 * Download and install 
- * Microsoft Visual Studio
-    * download [VS 2013 Express Edition](http://www.microsoft.com/en-us/download/details.aspx?id=44914) - requires Windows 7 SP1 or newer
- * **OR as an alternative:** [Code::Blocks](http://www.codeblocks.org)
+ * Microsoft Visual Studio **13**
+    * download [VS 2013 Express Edition](http://www.microsoft.com/en-us/download/details.aspx?id=44914) 
+    * only version 13 is _supported_ [1]
+    * requires Windows 7 SP1 or newer
+ * **OR as an alternative:** Code::Blocks
    * please [download here](http://www.codeblocks.org/downloads/26) the latest release, with the `mingw-setup` addition
 
 * Download and install [CMake](http://www.cmake.org/download/)
    * cmake will generate your project files
 
 * Download and install git
-   * one of the best ways to develop is git, and one of its best interfaces is SmartGit
-   * its free for personal use
    * Use one of the following tools if you don't already have git:
-     * [SmartGit](http://www.syntevo.com/smartgit/download) - [Supports submodules in the GUI](https://www.syntevo.com/smartgit/documentation/5/show?page=submodules)
-     * [GitHub for Windows](https://windows.github.com) - GUI does not support submodules. You must use the CLI to update them.
+     * [SmartGit](http://www.syntevo.com/smartgit/download) - Heavily developed and intuative GUI (e.g. Supports submodules in the GUI)
+     * [GitHub for Windows](https://windows.github.com) - GUI does not support submodules. You must use the command line to update them.
      * [Cygwin](https://cygwin.com/) - probably overkill just for access to git.
      * [git-scm.com](http://git-scm.com/download) is the official git website, and has downloads for the CLI version, and links to GUIs.
+
+
+[1] _otherwise you would need to rebuild the precompiled dependencies yourself_
+
+
 
 ## Fetching the Repository
 
@@ -49,9 +54,9 @@ You will have to clone the Project somewhere.
   * Click `Ok`
 
 ## Create the Visual Studio or CodeBlocks Project
-  * (or the project file for another generator)
+  _(or the project file for another generator)_
 
-Open the CMake-GUI and follow the steps as [described here](#cmake-gui). Then jump back to this point to not get confused with explainations for linux ;)
+Open the CMake-GUI and follow the steps as [described here](#cmake-gui). Then jump back to this point to not get confused with explanations for linux ;)
 
 ## Compile Inexor
 * If you use Visual Studio:
@@ -69,10 +74,10 @@ We have seperated repositories for our code and the data. To actually start Inex
 ## Run
 Start Inexor with the `inexor.bat` file.
 
-## Cross-compiling Ubuntu to Windows
-If you are using Ubuntu to cross-compile Inexor to Windows using `mingw32` and `mingw-w64` then you should use
+## Cross-compiling from Linux to Windows
+If you are using Linux to cross-compile Inexor to Windows using `mingw32` and `mingw-w64` then you should use
 `cmake -DMINGW=1 -DMINGW_TYPE=X ..` where  X is your architecture (either use `i686` or `x86_64` in substitute of X )
- 
+
 ***
 
 # Linux
@@ -86,9 +91,9 @@ The first step of building this project is rather obvious, but for sake of compl
  `git clone --depth 1 https://github.com/inexor-game/code.git; git submodule init; git submodule sync; git submodule update;`
 ## Downloading the dependencies
 
-The next step is to get all the required dependencies to compile. On Windows and Mac, all the dependencies are packed in the `src/platform_*` directories. You only need an environment that can build C++ programs such as Visual Studio, CodeBlocks, XCode or MinGW.
+The next step is to get all the required dependencies to compile. For convenience, all the dependencies are prebuilt and packed in the `inexor/platform` directory. You only need an environment that can build C++ programs such as Visual Studio, CodeBlocks, XCode or MinGW.
 
-On Linux you will need cmake, make, gcc (or clang) and the dev packages of mesa, SDL, SDL_image, SDL_mixer, ASIO and Google Protobuf. On systems with apt-get you can simply run the following command `sudo apt-get install git cmake build-essential libsdl2{,-mixer,-image}-dev libgl1-mesa-dev libprotobuf-dev protobuf-compiler libasio-dev`
+However on Linux you will need cmake, make, gcc (or clang) and the dev packages of mesa, SDL2, SDL2_image, SDL2_mixer, ASIO and Google Protobuf. On systems with apt-get you can simply run the following command `sudo apt-get install git cmake build-essential libsdl2{,-mixer,-image}-dev libgl1-mesa-dev libprotobuf-dev protobuf-compiler libasio-dev`
 
 ### Clang
 
@@ -119,7 +124,7 @@ Some users might prefer CMake GUI.
    * Select the new `build` directory for `Where to build the binaries`
    * Click `Configure`
    * Select your desired generator
-     * If you use Visual Basic select the highest VS-Version it finds and (if you have) the x64-Version so e.g. `Visual Studio 12 Win64`
+     * If you use Visual Studio select VS-Version *Visual Studio 12 2013* and (if you have) the x64-Version so e.g. `Visual Studio 12 Win64`
    * Click `Generate` to generate a project file
 
 ## Actually building the sources
@@ -131,21 +136,13 @@ This step greatly depends on your IDE or environment but if you have used makefi
 The following variables can be used to change the behaviour of the build system.
 You can specify them from the command line like this: `-D<variable name>=<value>`
 
-* **RELEASE_BUILD** _default: `0`_
-  
-  This will create a release package when set to `1`.
-
-  It also changes:
-   * The version format to not include the git hash.
-   * The default build type (**CMAKE_BUILD_TYPE**) from `Debug` to `Release`.
-
 * **CMAKE_BUILD_TYPE** _default: `Debug`_
 
   Built in CMake variable that affects flags that are used to compile. For example `-O0` when debugging and `-O3` in release mode.
 
 * **CMAKE_TOOLCHAIN_FILE** _default: ``_
 
-  The path to the toolchain file to use for cross compiling. Change this to `../src/platform_windows/linux-toolchain-mingw.cmake` to cross compile for windows.
+  The path to the toolchain file to use for cross compiling. Change this to `../inexor/platform/linux-toolchain-mingw.cmake` to cross compile for windows.
   
 ## Troubleshooting
 
@@ -157,3 +154,11 @@ This is a list of common problems and their solutions
    You should keep your root directory clean and create a directory named build inside the root directory.
    Then tell CMake to generate to that directory instead of the root directory.
    To do this from the commandline, just use `(mkdir build; cd build && cmake -G "<your generator>" ..)`.
+
+* Random errors like `XY was set to NOTFOUND`
+   
+   This can have multiply sources, probably your cmake cache is somehow disturbed by changes around it or you are missing parts of the repository.
+   What you should try to solve this:
+   Check for existence of the submodules folders: in `inexor/platform` should be files.  
+   (Only needed if you do not use a GUI for git supporting submodules, like SmartGit): Furthermore these submodules need to be up to date if you previously checked out another version of the repo, so you need to do `git submodule update` to fetch the needed one.  
+    And last but not least, if you previously created makefiles/projectfiles/whatever into a `build` directory, delete it and create a new `build` directory instead.
