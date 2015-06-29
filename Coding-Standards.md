@@ -4,7 +4,7 @@
 
 # Whitespace
 
-Inexor c++ code uses four spaces for indendation. No tabs.
+Inexor C++ code uses four spaces for indendation. No tabs.
 The CMakeFiles use two spaces for indendation. No tabs.
 We never use tabs.
 
@@ -49,7 +49,7 @@ Each unit must be documented sensibly.
 
 ## Root
 
-The root of the inexor core code is the src/ dir in the repo.
+The root of the Inexor core code is the inexor/ dir in the repo.
 It's namespace is
 
   ```
@@ -69,7 +69,7 @@ The name of the folder and the name of the namespace should
 be the same:
 
   ```
-  src/graphics <-> inexor::graphics
+  inexor/graphics <-> inexor::graphics
   ```
 
 Each module must provide a readme.md file, describing the
@@ -79,7 +79,7 @@ can be used to include the module as a whole (normally by
 including all other headers in the module).
 
   ```
-  src $ ls graphics/
+  inexor $ ls graphics/
   readme.md
   graphics.h
   ...
@@ -107,7 +107,7 @@ Header and source always share the same basename; for
 the extensions ".cpp" and ".h" must be used.
 
   ```
-  src $ ls graphics/
+  inexor $ ls graphics/
   readme.md
   graphics.h
   skybox.cpp
@@ -119,10 +119,10 @@ These source files should normally not exceed 1000 lines of
 code. Often it is beneficial if one source pair contains a
 single class or so. If a file represents a class, it should
 generally be called the same as the class itself; in this
-case, CamelCase should be used.
+case, PascalCase should be used.
 
   ```
-  src $ ls graphics/
+  inexor $ ls graphics/
   readme.md
   graphics.h
   skybox.cpp
@@ -178,7 +178,7 @@ Large parts of the Inexor codebase are not using strings but only char arrays (l
 
 Large parts of the codebase are using standard types (maps,
 vector, list) which are implemented in shared/tools.h.
-In some parts of inexor, standard types can be used, but for
+In some parts of Inexor, standard types can be used, but for
 the most, we are going to run into name collisions.
 
 ### Vectors
@@ -244,7 +244,7 @@ Similar constructs also exist for looping backwards:
   ```
 
 There are some similar named but quite different loops; this
-one loops over all indices "i" of an inexor vector "V":
+one loops over all indices "i" of an Inexor vector "V":
 
   ``` loopv(V) ```
 
