@@ -1,6 +1,6 @@
 ### Goal
 
-Enet is fine for transfering the game data like position changes and other game events. Also, enet is fast and has a low latency. But for some use cases it's not nessessary to have a low latency and enet makes things more complicated. XMPP is a multi purpose protocol which is interoperable and extendable. Many higher level funtionalities can be implemented on top of XMPP. The goal is to process game information more easily, make SauerFork more interoperable and profit from already implemented functionalities of XMPP.
+Enet is fine for transfering the game data like position changes and other game events. Also, enet is fast and has a low latency. But for some use cases it's not nessessary to have a low latency and enet makes things more complicated. XMPP is a multi purpose protocol which is interoperable and extendable. Many higher level funtionalities can be implemented on top of XMPP. The goal is to process game information more easily, make Inexor more interoperable and profit from already implemented functionalities of XMPP.
 
 ### Use Cases
 
