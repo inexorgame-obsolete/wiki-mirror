@@ -20,7 +20,7 @@ _If you don't understand the following steps, this [Git-Tutorial](http://pcottle
 Presteps:  
 * Most of the time helpful: Speak with the other Inexor people about your feature idea. [Contact](Developement-Environment)
 
-* Assuming you aren't an Inexor team member, create first a fork of the code repository (or ask in IRC for permission for the repo)
+* Assuming you aren't an Inexor team member, create first a fork of the code repository
 
 1. Create a new branch
  * master-branch has to stay functional
