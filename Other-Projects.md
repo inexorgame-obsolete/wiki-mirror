@@ -84,7 +84,7 @@ Jump to...
  * Send your maps - if calced - inclusive lightmaps
  * Ultra fast calclight using player's position and radius
  * New and improved shot effects inclusive additional hudguns
- * Implemented [Marching Cubes](https://www.youtube.com/watch?v=TstJlsEKEHs) by Wrack
+ * Implemented [Marching Cubes](https://www.youtube.com/watch?v=TstJlsEKEHs) [by Wrack](https://github.com/wrack/sauerbraten)
 * [QuEd (Quality Edition)](https://github.com/quality-edition/QuEd)
  * Extinfo data (including WhoIs & GeoIP)
  * Design enhancements
