@@ -147,7 +147,12 @@ Jump to...
 * [AssaultCube](http://assault.cubers.net) ([GitHub Repo](https://github.com/assaultcube/AC)) (Original Cube Engine, not Cube 2)
  * realistic environments
  * only 40 MB package to download
- * contains 12 multiplayer game modes, including: Deathmatch, Survivor, Capture the Flag, Hunt the Flag, Keep the Flag, Pistol Frenzy, Last Swiss Standing & One-Shot One-Kill (plus team versions of these modes). 
+ * contains 12 multiplayer game modes, including: Deathmatch, Survivor, Capture the Flag, Hunt the Flag, Keep the Flag, Pistol Frenzy, Last Swiss Standing & One-Shot One-Kill (plus team versions of these modes).
+* [AssaultCube Reloaded](http://acr.victorz.ca/) ([GitHub Repo](https://github.com/acreloaded/acr)) (Fork of AssaultCube)
+ * More realistic gameplay (inspired by CoD: Modern Warfare 3)
+ * More weapons and game modes and game mutators
+ * Better killfeed (easier to see how someone got killed)
+ * Better anticheat code, voting system, and mini-map
 * [OctaForge](https://octaforge.org)
  * based on Tesseract
  * Lua API for creation of custom entities, game logic, AI, particle effects, UI and other things
