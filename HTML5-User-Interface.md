@@ -16,7 +16,7 @@
 * Hanack
 * mapc
 * a_teammate
-* sanitizer
+* Hanni
 
 ### Idea
 
@@ -35,3 +35,28 @@
 * EventManager
 * LayerManager
 * ContextManager
+
+## We have a basic working framework!
+
+This introduces a basic, working framework that will be used to render Web guis with node.js and cef.
+
+### What it can do
+
+* Dependency management with node_modules, requirejs and angular
+* Node modules are available in the browser with a browserify/requirejs bridge (so we do not have to dump external libraries in our repo)
+* Uses express.js in the server
+* Uses jQuery
+* Uses lodash
+* Uses Bootstrap
+* Uses Angular.js
+* Supports Coffeescript
+* Supports Jade
+* Supports Stylus
+* Create angular directives as coffeescript classes, with automatically loaded CSS (stylus) and HTML (jade) files
+* Window management
+
+### What it can not do
+
+* Both the mouse movement processing of the window manager and the one by our cef implementation are very bad; moving windows is a bit harsh.
+* We will need to do a lot of refactoring
+* Actual data exchange between inexor <-> node <-> the weg GUI; we can not implement any real functionality atm (though that can be helped quickly)
