@@ -14,7 +14,7 @@
 ### Tools
 
 [Continuous Integration](https://travis-ci.org/inexor-game/code)  
-[Kanboard](https://waffle.io/inexor-game/code)  
+Kanboard [Code](https://waffle.io/inexor-game/code) | [Services](https://waffle.io/inexor-game/services) 
 
 ### Other
 [[Other Projects]]  
