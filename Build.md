@@ -25,7 +25,7 @@ This will give you a pretty good exemplary environment if you are on Windows.
 * Download and install git
    * Use one of the following tools if you don't already have git:
      * [SmartGit](http://www.syntevo.com/smartgit/download) - Heavily developed and intuative GUI (e.g. Supports submodules in the GUI)
-     * [GitHub for Windows](https://windows.github.com) - GUI does not support submodules. You must use the command line to update them.
+     * [GitHub Desktop](https://desktop.github.com) - GUI does not support submodules. You must use the command line to update them.
      * [Cygwin](https://cygwin.com/) - probably overkill just for access to git.
      * [git-scm.com](http://git-scm.com/download) is the official git website, and has downloads for the CLI version, and links to GUIs.
 
