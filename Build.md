@@ -115,6 +115,13 @@ md vstudio && cd vstudio && cmake .. -G "Visual Studio 12" :: Generate a Visual 
 
 ```
 
+### Working around the libudev error
+There is a known ABI change within libudev which might break libcef.so for you.
+Refer to the [askubuntu article](http://askubuntu.com/questions/288821/how-do-i-resolve-a-cannot-open-shared-object-file-libudev-so-0-error) for technical details.
+The suggested quickfix is
+```
+sudo ln -sf /lib/$(arch)-linux-gnu/libudev.so.1 /lib/$(arch)-linux-gnu/libudev.so.0
+```
 ### CMake GUI
 
 Some users might prefer CMake GUI. 
