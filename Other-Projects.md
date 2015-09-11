@@ -175,6 +175,5 @@ Jump to...
 * News/Forums:
  * [Sauerworld](http://www.sauerworld.org)
 * Share Content/Scripts/Mods:
- * [~~CubeClans~~](https://cubeclans.pw)
  * [Quadropolis](http://quadropolis.us)
  * [Akimbo](http://ac-akimbo.net) (AssaultCube only)
