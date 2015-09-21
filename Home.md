@@ -17,13 +17,13 @@ _Stays Sauer, becomes better._
 * [Milestones](https://github.com/inexor-game/code/milestones) / [Changelog] (https://github.com/inexor-game/code/blob/master/changelog.md)
 * [Generic RPC Subsystem + Node.js integration](RPC)
 * [Ambient Occlusion](Ambient Occlusion)
+* [[JavaScript Integration]]
 
 ### In Progress
 
 * [[Particle System]]
 * [[Packaging System]]
 * [HTML5 User Interface](HTML5 User Interface)
-* [JavaScript Integration](JavaScript Integration)
 * [Bezier curve camera flights](Bezier curve)
 * [Automatic benchmarking and debugging](automatic benchmarking and debugging)
 * [JSON configuration support](JSON-Implementation)
