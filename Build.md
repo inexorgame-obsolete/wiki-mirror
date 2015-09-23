@@ -17,7 +17,7 @@ This will give you a pretty good exemplary environment if you are on Windows.
     * only version 13 is _supported_ [1]
     * requires Windows 7 SP1 or newer
  * **OR as an alternative:** Code::Blocks
-   * please [download here](http://www.codeblocks.org/downloads/26) the latest release, with the `mingw-setup` addition
+   * please [download here](http://www.codeblocks.org/downloads/26) the latest release, with the `TDM-GCC` addition
 
 * Download and install [CMake](http://www.cmake.org/download/)
    * cmake will generate your project files
