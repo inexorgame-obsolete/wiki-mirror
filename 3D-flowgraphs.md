@@ -74,4 +74,13 @@ These are examples of 2-dimensional Visual Scripting Enviroments. All you need t
 We may still not understand what this script does in detail, but seeing it in 3D placed in the game world is kind of relaxing. It is *part* of the level!. This is what we are planing to implement.
 
 ## Why should someone make Visual Scripting 3-dimensional?
-*Because it has never been tryed before!*
+* Because you can't make syntax mistakes, only *logic mistakes*!
+* Because seeing code in 3D is way more relaxing and feels more naturally
+* Because big 2D level scripts end up in a huge mess
+* Because technically there is no difference between drawing those nodes in 2D or 3D! (the script works the same way)
+* Because it allows us to debug *map parts* with their *code parts* visually!
+* Because code parts that are linked with other things could be placed at those things (imagine a code which opens a door being put directly *at* the door)
+* Because Inexor needs a Scripting System
+
+## Further pages
+[TODO]
