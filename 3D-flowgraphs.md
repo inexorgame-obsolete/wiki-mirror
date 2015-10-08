@@ -54,7 +54,24 @@ The advantages of Javascript are obvious:
 These are the reasons why we decided to **replace Cubescript with Javascript.**
 
 ## What is Visual Scripting
-But what if writing code and game logic gets even cooler and easier??
+But what if writing code and game logic gets even cooler and easier?
+Code itself is nothing but a sequence of logic things. So why not include this into the level editor?
+Here is a screenshot from Unreal Engine 4's "Blueprint" scripting system which is one of the leading technologies:
+![Unreal Engine 4](https://raw.githubusercontent.com/inexor-game/visualisations/88345fe629936036a6469ffa628fed7d2e12e65c/3D%20flowgraph/wiki/visual_scripting_in_unreal_4.jpg)
+In the right of the image there are all those blocks which are linked with lines. Every block stands for one code sequence (a commang like "open a door" e.g.). Relations between code blocks (so called **nodes**) are represented those lines.
 
-## Why should we make Visual Scripting 3-dimensional?
+Here is another example from CryEngine3. The artificial intelligence of the player model is completely coded in the visual scripting enviroment(!):
+
+![CryEngine3](https://raw.githubusercontent.com/inexor-game/visualisations/88345fe629936036a6469ffa628fed7d2e12e65c/3D%20flowgraph/wiki/visual_scripting_in_cryengine_3.jpg)
+
+These are examples of 2-dimensional Visual Scripting Enviroments. All you need to care about is the front of the engine. The back end (how the script will be understood by your computer in detail) is the work of the game programmer (us). All you need to understand are the scripting tools itself. Believe us - that *is* cool! :)
+
+## 3D Visual Scripting
+**If you play in a 3D enviroment (the game world), why do we script on a plane screen in 3D??**
+-That is a good question. Here is an example of level script that will be included *directly* into the game world (Doom 2016):
+![Doom 4](https://raw.githubusercontent.com/inexor-game/visualisations/88345fe629936036a6469ffa628fed7d2e12e65c/3D%20flowgraph/wiki/visual_scripting_in_doom_4.jpg)
+
+We may still not understand what this script does in detail, but seeing it in 3D placed in the game world is kind of relaxing. It is *part* of the level!. This is what we are planing to implement.
+
+## Why should someone make Visual Scripting 3-dimensional?
 *Because it has never been tryed before!*
