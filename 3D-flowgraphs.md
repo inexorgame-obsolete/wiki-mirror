@@ -1,8 +1,6 @@
 # Motivation
 ## What are Scripts and why are they important?
 Modern Embedded Scripting Languages deliver **flexibility**, **variety** and infinite room for **creativity** in game levels. They have other applications as well: What would the World Wide Web be without Javascript running fast as hell in your browser in this very moment?
-No matter what games you play: everything that provides interaction and is not hardcoded is *scripted*.
-Most games deliver their level scripts included directly in the maps.
 
 Here is a list of very common Scripting Languages with various applications:
 * [Javascript (for client-side website scripting and much more)](http://www.w3schools.com/js/default.asp)
@@ -19,6 +17,12 @@ Inexor has Google's V8 Javascript Engine (this is such an interpreter..) embedde
 
 Though compiled code *tends* to be a little faster than scripts, it can't be changed anymore afterwards whereas scripts could be **edited by YOU anytime**. 
 Plus the execution speed difference (especially for small scripts) is getting smaller every year because new technologies and faster Computers come up.
+
+## How are scripts being used in games?
+No matter what games you play: everything that provides interaction and is not hardcoded is *scripted*.
+Most games deliver their level scripts included directly in the maps.
+The following shows various uses for script in games:
+![Illustrations of various Scripting systems in use.](https://raw.githubusercontent.com/inexor-game/visualisations/17dd68a0625130212d58828e573a1b60b169078e/3D%20flowgraph/wiki/script_examples_1.png)
 
 ## What does Cube2: Sauerbraten offer us?
 Unfortunately, Sauerbraten's code base does not come with any high level scripting language.
