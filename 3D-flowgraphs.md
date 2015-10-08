@@ -76,7 +76,8 @@ We may still not understand what this script does in detail, but seeing it in 3D
 ## Why should someone make Visual Scripting 3-dimensional?
 * Because you can't make syntax mistakes, only *logic mistakes*!
 * Because seeing code in 3D is way more relaxing and feels more naturally
-* Because big 2D level scripts end up in a huge mess
+* Because big 2D level scripts end up in a huge mess. An extra dimension would sort this thing up!
+![An extra dimension would sort this mess up!](https://raw.githubusercontent.com/inexor-game/visualisations/66376b02eeddd0fb53bbcec60194044f2c00aa6d/3D%20flowgraph/wiki/hugemess.jpg)
 * Because technically there is no difference between drawing those nodes in 2D or 3D! (the script works the same way)
 * Because it allows us to debug *map parts* with their *code parts* visually!
 * Because code parts that are linked with other things could be placed at those things (imagine a code which opens a door being put directly *at* the door)
