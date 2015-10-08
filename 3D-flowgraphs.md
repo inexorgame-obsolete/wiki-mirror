@@ -1,4 +1,5 @@
 # Motivation
+*Building a new form of creativity in Inexor*
 ## What are Scripts and why are they important?
 Modern Embedded Scripting Languages deliver **flexibility**, **variety** and infinite room for **creativity** in game levels. They have other applications as well: What would the World Wide Web be without Javascript running fast as hell in your browser in this very moment?
 
@@ -29,19 +30,26 @@ The following shows various uses for script in games:
 
 ## What does Cube2: Sauerbraten offer us?
 Unfortunately, Sauerbraten's code base does not come with any high level scripting language.
-All we have is **Cubescript**. It was invented around ten years ago when writing your own language was cooler and than using libraries and frameworks. Cubescript may have its advantages, but it is 
+All we have is **Cubescript**. It was invented in 2005. We're not sure why they've decided to write their own scripting language instead of using existing implementations (probably because those weren't as developed as they're today?).
+Cubescript may have its advantages, but it is 
 
-* hard to understand
-* maybe contains security issues or bugs due to the missing reviews.
-* and barely documented. 
+* hard to understand (as someone who's used to C/C++/Javascript)
+* has some strange design decisions
+* is very limited in its design
+* maybe contains security issues or bugs due to the missing reviews
+* and is barely documented
+
+A script implementation for a singleplayer level in Sauerbraten's text editor:
+![An implementation of a singleplayer level script.](https://raw.githubusercontent.com/inexor-game/visualisations/master/3D%20flowgraph/images/example_for_scripting_1.jpg)
 
 The advantages of Javascript are obvious:
 
-* its being used all over the globe
+* its being used all over the globe 
 * its a high level programming language
 * its simple
 * its fast
 * its easy to learn
+* and most importantly: **Cubescript was not designed for being used in multiplayer!** 
 
 These are the reasons why we decided to **replace Cubescript with Javascript.**
 
