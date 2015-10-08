@@ -15,6 +15,9 @@ Scripts only run on your system if you have the right *interpreter* which can *i
 That distinguishes Scripting Languages from *Compiled Code*. Compiled code (such as the Inexor game) is produced with a *compiler* that writes everything together in a static binary that can't change anymore.
 Inexor has Google's V8 Javascript Engine (this is such an interpreter..) embedded which is probably the fastest Javascript interpreter that exists. 
 
+An example function written in Javascript that returns the day of the week as a number:
+![An example code written in Javascript.](https://raw.githubusercontent.com/inexor-game/visualisations/f18a79c5a5297cb963759af1e2dc34317a0b1b55/3D%20flowgraph/wiki/JS_example_1.jpg)
+
 Though compiled code *tends* to be a little faster than scripts, it can't be changed anymore afterwards whereas scripts could be **edited by YOU anytime**. 
 Plus the execution speed difference (especially for small scripts) is getting smaller every year because new technologies and faster Computers come up.
 
