@@ -1,10 +1,10 @@
 # Motivation
 *Building a new form of creativity in Inexor*
 ## What are Scripts and why are they important?
-Modern Embedded Scripting Languages deliver **flexibility**, **variety** and infinite room for **creativity** in game levels. They have other applications as well: What would the World Wide Web be without Javascript running fast as hell in your browser in this very moment?
+Modern Embedded Scripting Languages deliver **flexibility**, **variety** and infinite room for **creativity** in game levels. They have other applications as well: What would the World Wide Web be without JavaScript running fast as hell in your browser in this very moment?
 
 Here is a list of very common Scripting Languages with various applications:
-* [Javascript (for client-side website scripting and much more)](http://www.w3schools.com/js/default.asp)
+* [JavaScript (for client-side website scripting and much more)](http://www.w3schools.com/js/default.asp)
 * [Python (various applications)](https://www.python.org/)
 * [Perl (various applications)](https://www.perl.org/)
 * [Ruby (various applications)](https://www.ruby-lang.org/)
@@ -14,10 +14,10 @@ Here is a list of very common Scripting Languages with various applications:
 
 Scripts only run on your system if you have the right *interpreter* which can *interpret* the script code.
 That distinguishes Scripting Languages from *Compiled Code*. Compiled code (such as the Inexor game) is produced with a *compiler* that writes everything together in a static binary that can't change anymore.
-Inexor has Google's V8 Javascript Engine (this is such an interpreter..) embedded which is probably the fastest Javascript interpreter that exists. 
+Inexor has Google's V8 JavaScript Engine (this is such an interpreter..) embedded which is probably the fastest JavaScript interpreter that exists. 
 
-An example function written in Javascript that returns the day of the week as a number:
-![An example code written in Javascript.](https://raw.githubusercontent.com/inexor-game/visualisations/f18a79c5a5297cb963759af1e2dc34317a0b1b55/3D%20flowgraph/wiki/JS_example_1.jpg)
+An example function written in JavaScript that returns the day of the week as a number:
+![An example code written in JavaScript.](https://raw.githubusercontent.com/inexor-game/visualisations/f18a79c5a5297cb963759af1e2dc34317a0b1b55/3D%20flowgraph/wiki/JS_example_1.jpg)
 
 Though compiled code *tends* to be a little faster than scripts, it can't be changed anymore afterwards whereas scripts could be **edited by YOU anytime**. 
 Plus the execution speed difference (especially for small scripts) is getting smaller every year because new technologies and faster Computers come up.
@@ -33,7 +33,7 @@ Unfortunately, Sauerbraten's code base does not come with any high level scripti
 All we have is **Cubescript**. It was invented in 2005. We're not sure why they've decided to write their own scripting language instead of using existing implementations (probably because those weren't as developed as they're today?).
 Cubescript may have its advantages, but it is 
 
-* hard to understand (as someone who's used to C/C++/Javascript)
+* hard to understand (as someone who's used to C/C++/JavaScript)
 * has some strange design decisions
 * is very limited in its design
 * maybe contains security issues or bugs due to the missing reviews
@@ -42,16 +42,16 @@ Cubescript may have its advantages, but it is
 A script implementation for a singleplayer level in Sauerbraten's text editor:
 ![An implementation of a singleplayer level script.](https://raw.githubusercontent.com/inexor-game/visualisations/master/3D%20flowgraph/images/example_for_scripting_1.jpg)
 
-The advantages of Javascript are obvious:
+The advantages of JavaScript are obvious:
 
-* its being used all over the globe 
-* its a high level programming language
-* its simple
-* its fast
-* its easy to learn
+* it's being used all over the globe 
+* it's a high level programming language
+* it's simple
+* it's fast
+* it's easy to learn
 * and most importantly: **Cubescript was not designed for being used in multiplayer!** 
 
-These are the reasons why we decided to **replace Cubescript with Javascript.**
+These are the reasons why we decided to **replace Cubescript with JavaScript.**
 
 ## What is Visual Scripting
 But what if writing code and game logic gets even cooler and easier?
