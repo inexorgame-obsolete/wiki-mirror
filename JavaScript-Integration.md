@@ -1,5 +1,3 @@
-*This page is work in progress*
-
 ### Goals
 
 * Integrate a scripting language for
