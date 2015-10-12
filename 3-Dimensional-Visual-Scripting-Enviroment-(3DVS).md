@@ -85,27 +85,39 @@ We may still not understand what this script does in detail, but seeing it in 3D
 
 ## Further pages
 [How to design a programming language](How to design a programming language)
+* [Where does code start]
+* [Paradigms]
+* [Recursion]
 
 [Node/Relation/Entity rendering](Node/Relation/Entity rendering)
 
 [Base class for nodes (script_node)](Base class for nodes)
 
 [Derivates of script_node](Derivates of script_node)
-* [How to use std::any]
+* [About std::any](About std::any)
 * [Timers](Timers)
+* [Constant expressions]
 * [Memory](Memory)
-** [floating point (double/float)]
-** [(un)signed (big) integers]
-** [strings]
-** [vectors]
-** [Constant expressions]
+ * [floating point (double/float)]
+ * [(un)signed (big) integers]
+ * [strings]
+ * [vectors]
 * [Math](Math)
-** [Plus/Minus/Subtract/Divide](Plus/Minus/Subtract/Divide)
-** [Vectors](Vectors)
+ * [Simple Arithmetic operations](Simple Arithmetic oeprations)
+ * [Functions](Functions)
+ * [Trigonometry](Trigonometry)
+ * [Vectors](Vectors)
 * [If queries](If queries)
-** [Logic expressions](logic expressions)
+ * [Logic expressions](logic expressions)
+ * [Switch queries]
 * [Linked game functions](Linked game functions)
-* [Collision areas](Collision areas)
 * [Events](Events)
-
-[Node to Javascript Transcompiler](Node to Javascript Transcompiler)
+ * [Linked game events](Linked game events)
+ * [Collision areas](Collision areas)
+* [Node to Javascript Transcompiler](Node to Javascript Transcompiler)
+ * [Theory]
+ * TODO..
+* [Loops]
+ * [While]
+ * [For]
+ * [Do]
