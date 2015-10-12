@@ -84,32 +84,33 @@ We may still not understand what this script does in detail, but seeing it in 3D
 * Because Inexor needs a Scripting System
 
 ## Further pages
-[How to design a programming language](How to design a programming language)
-* [Where does code start]
-* [Paradigms]
-* [Recursion]
+[3DVS Design Decisions](3DVS Design Decisions)
+* [Where does code execution start?](Where does code execution start?)
+* [Limiting Recursion](Limiting Recursion)
 
 [Node/Relation/Entity rendering](Node/Relation/Entity rendering)
+* [Color codes for nodes](Color codes for nodes)
 
 [Base class for nodes (script_node)](Base class for nodes)
 
 [Derivates of script_node](Derivates of script_node)
 * [About std::any](About std::any)
 * [Timers](Timers)
-* [Constant expressions]
+* [Values](Values)
 * [Memory](Memory)
- * [floating point (double/float)]
- * [(un)signed (big) integers]
- * [strings]
- * [vectors]
+ * [floating point (double/float)](floating point (double/float))
+ * [(un)signed integers]((un)signed integers)
+ * [strings](strings)
+ * [vectors](vectors)
 * [Math](Math)
  * [Simple Arithmetic operations](Simple Arithmetic oeprations)
+  * [Increment and Decrement](Increment and Decrement)
  * [Functions](Functions)
  * [Trigonometry](Trigonometry)
  * [Vectors](Vectors)
 * [If queries](If queries)
  * [Logic expressions](logic expressions)
- * [Switch queries]
+ * [Switch queries](Switch queries)
 * [Linked game functions](Linked game functions)
 * [Events](Events)
  * [Linked game events](Linked game events)
@@ -117,7 +118,7 @@ We may still not understand what this script does in detail, but seeing it in 3D
 * [Node to Javascript Transcompiler](Node to Javascript Transcompiler)
  * [Theory]
  * TODO..
-* [Loops]
- * [While]
- * [For]
+* [Loops](Loops)
+ * [While](While)
+ * [For](For)
  * [Do]
