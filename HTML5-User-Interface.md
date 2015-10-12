@@ -26,7 +26,7 @@
 
 ### Chromium Embedded Framework
 
-* https://code.google.com/p/chromiumembedded/
+* https://bitbucket.org/chromiumembedded/cef
 * http://coherent-labs.com/blog/what-developers-should-consider-when-using-chromium-embedded-framework-cef-in-their-games/
 * http://blog.erikd.org/2013/01/14/chromium-embedded-framework-3-bare-bones/
 
