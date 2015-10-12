@@ -14,7 +14,7 @@ This will give you a pretty good exemplary environment if you are on Windows.
 * Download and install 
  * Microsoft Visual Studio **13**
     * download [VS 2013 Express Edition](http://www.microsoft.com/en-us/download/details.aspx?id=44914) 
-    * only version 13 is _supported_ [1]
+    * only version 13 is _supported or you are required to rebuild the precompiled dependencies yourself_
     * requires Windows 7 SP1 or newer
  * **OR as an alternative:** Code::Blocks
    * please [download here](http://www.codeblocks.org/downloads/26) the latest release, with the `TDM-GCC` addition
@@ -26,11 +26,7 @@ This will give you a pretty good exemplary environment if you are on Windows.
    * Use one of the following tools if you don't already have git:
      * [SmartGit](http://www.syntevo.com/smartgit/download) - Heavily developed and intuative GUI (e.g. Supports submodules in the GUI)
      * [GitHub Desktop](https://desktop.github.com) - GUI does not support submodules. You must use the command line to update them.
-     * [Cygwin](https://cygwin.com/) - probably overkill just for access to git.
      * [git-scm.com](http://git-scm.com/download) is the official git website, and has downloads for the CLI version, and links to GUIs.
-
-
-[1] _otherwise you would need to rebuild the precompiled dependencies yourself_
 
 
 
