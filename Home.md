@@ -28,13 +28,13 @@ _Stays Sauer, becomes better._
 * [Automatic benchmarking and debugging](automatic benchmarking and debugging)
 * [JSON configuration support](JSON-Implementation)
 * [Entity System](Entity System)
+* [Node-based Visual Scripting Enviroment](3 Dimensional Visual Scripting Enviroment (3DVS))
 
 ### Planned
 
 * [Ideas for Features](Feature-Ideas)
 * [[Improved Selection]]
 * [New Masterserver-System (XMPP)](XMPP Integration)
-* [3D flowchart level scripts](3D-flowgraphs)
 * Gameplay Adjustments (e.g. Weapon Balance) 
 
 ### Development
