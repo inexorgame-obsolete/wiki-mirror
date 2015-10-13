@@ -56,11 +56,14 @@ These are the reasons why we decided to **replace Cubescript with JavaScript.**
 ## What is Visual Scripting
 But what if writing code and game logic gets even cooler and easier?
 Code itself is nothing but a sequence of logic things. So why not include this into the level editor?
-Here is a screenshot from Unreal Engine 4's "Blueprint" scripting system which is one of the leading technologies:
+Here is a screenshot from [Unreal Engine 4](https://www.unrealengine.com/blog)'s "Blueprint" scripting system which is one of the leading technologies:
 ![Unreal Engine 4](https://raw.githubusercontent.com/inexor-game/visualisations/88345fe629936036a6469ffa628fed7d2e12e65c/3D%20flowgraph/wiki/visual_scripting_in_unreal_4.jpg)
 In the right of the image there are all those blocks which are linked with lines. Every block (every **node**) stands for one code sequence (a command like "open a door", an "if" query or a game event). Relations between code blocks are represented by those lines.
 
-Here is another example from CryEngine3. The artificial intelligence of the player model is completely coded in the visual scripting enviroment(!):
+Unreal Engine 4 describes the importance of their "Blueprint" script as follows:
+## "*Blueprint visual scripting enables you to rapidly prototype and build complete games, simulations and visualizations without the need for programming. Blueprint tools and a visual debugger are included with Unreal Engine 4.*"
+
+Here is another example from [CryEngine3 (Crytek GmbH)](http://cryengine.com/). The artificial intelligence of the player model is completely coded in the visual scripting enviroment(!):
 
 ![CryEngine3](https://raw.githubusercontent.com/inexor-game/visualisations/88345fe629936036a6469ffa628fed7d2e12e65c/3D%20flowgraph/wiki/visual_scripting_in_cryengine_3.jpg)
 
