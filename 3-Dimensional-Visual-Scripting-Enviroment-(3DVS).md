@@ -58,13 +58,13 @@ But what if writing code and game logic gets even cooler and easier?
 Code itself is nothing but a sequence of logic things. So why not include this into the level editor?
 Here is a screenshot from Unreal Engine 4's "Blueprint" scripting system which is one of the leading technologies:
 ![Unreal Engine 4](https://raw.githubusercontent.com/inexor-game/visualisations/88345fe629936036a6469ffa628fed7d2e12e65c/3D%20flowgraph/wiki/visual_scripting_in_unreal_4.jpg)
-In the right of the image there are all those blocks which are linked with lines. Every block stands for one code sequence (a commang like "open a door" e.g.). Relations between code blocks (so called **nodes**) are represented those lines.
+In the right of the image there are all those blocks which are linked with lines. Every block (every **node**) stands for one code sequence (a command like "open a door", an "if" query or a game event). Relations between code blocks are represented by those lines.
 
 Here is another example from CryEngine3. The artificial intelligence of the player model is completely coded in the visual scripting enviroment(!):
 
 ![CryEngine3](https://raw.githubusercontent.com/inexor-game/visualisations/88345fe629936036a6469ffa628fed7d2e12e65c/3D%20flowgraph/wiki/visual_scripting_in_cryengine_3.jpg)
 
-These are examples of 2-dimensional Visual Scripting Enviroments. All you need to care about is the front of the engine. The back end (how the script will be understood by your computer in detail) is the work of the game programmer (us). All you need to understand are the scripting tools itself. Believe us - that *is* cool! :)
+These are examples of 2-dimensional Visual Scripting Enviroments. All you need to learn is how to script with the front end tools and their user interface. The back end (how the script will be understood by your computer in detail) is the work of the game programmers.
 
 ## 3D Visual Scripting
 **If you play in a 3D enviroment (the game world), why do we script on a plane screen in 3D??**
