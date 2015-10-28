@@ -116,6 +116,8 @@ md vstudio && cd vstudio && cmake .. -G "Visual Studio 12" :: Generate a Visual 
 
 ```
 
+NB: make sure to do *cmake ..* and *make* from a directory that is not referenced by a symlink somewhere in the path (otherwise you will have some problems with protobuf).
+
 ### Working around the libudev error
 There is a known ABI change within libudev which might break libcef.so for you.
 Refer to the [askubuntu article](http://askubuntu.com/questions/288821/how-do-i-resolve-a-cannot-open-shared-object-file-libudev-so-0-error) for technical details.
