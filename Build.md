@@ -93,7 +93,7 @@ However on Linux you will need cmake, make, gcc (or clang) and the dev packages 
 ## Dependencies if you are on Debian or Debian-derived distributions.
 `sudo apt-get install git cmake build-essential libsdl2{,-mixer,-image}-dev libgl1-mesa-dev libprotobuf-dev protobuf-compiler libasio-dev libenet-dev libudev-dev` should do the trick for you
 ## If you are on OpenSUSE
-Run `zypper in -t pattern devel_C_C++` then run `zypper install mesa-libgl-devel libSDL2_mixer-devel libSDL2_image-devel libprotobuf-c-devel  protobuf-c libudev-devel`. But you need to compile Enet yourself.
+Run `zypper in -t pattern devel_C_C++` then run `zypper install mesa-libgl-devel libSDL2_mixer-devel libSDL2_image-devel libprotobuf-c-devel  protobuf-c libudev-devel`. But you need to compile ENet yourself.
 
 
 ### Clang
