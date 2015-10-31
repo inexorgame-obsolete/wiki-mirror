@@ -12,9 +12,9 @@ This will give you a pretty good exemplary environment if you are on Windows.
 ## Setup
 
 * Download and install 
- * Microsoft Visual Studio **13**
-    * download [VS 2013 Express Edition](http://www.microsoft.com/en-us/download/details.aspx?id=44914) 
-    * only version 13 is _supported or you are required to rebuild the precompiled dependencies yourself_
+ * Microsoft Visual Studio **15**
+    * download [VS 2015 Community Edition](https://www.visualstudio.com/) 
+    * only version 15 is _supported or you are required to rebuild the precompiled dependencies yourself_
     * requires Windows 7 SP1 or newer
  * **OR as an alternative:** Code::Blocks
    * please [download here](http://www.codeblocks.org/downloads/26) the latest release, with the `TDM-GCC` addition
