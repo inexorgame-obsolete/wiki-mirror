@@ -89,7 +89,7 @@ The first step of building this project is rather obvious, but for sake of compl
 
 The next step is to get all the required dependencies to compile. For convenience, all the dependencies are prebuilt and packed in the `inexor/platform` directory. You only need an environment that can build C++ programs such as Visual Studio, CodeBlocks, XCode or MinGW.
 
-Specificall, on linux you will need cmake >= 3.0, make and gcc >= 4.9 or clang >= 3.5 as your compiler. The version numbers are recommended minimums: They might work with older versions (but it's not supported) and newer versions are better!
+Specificall, on linux you will need CMake >= 3.0, make and GCC >= 4.9 or Clang >= 3.5 as your compiler. The version numbers are recommended minimums: They might work with older versions (but it's not supported) and newer versions are better!
 Also install your distribution's development packages of mesa, SDL2, SDL2_image, SDL2_mixer, ASIO and Google Protobuf. 
 
 OS  | What to do
@@ -99,7 +99,7 @@ OpenSUSE | Run `zypper in -t pattern devel_C_C++` then run `zypper install mesa-
 
 ### Clang
 
-If you are compiling with clang, you will also need libboost-regex1.55-dev and libboost-system1.55-dev. Alternatively you could build your entire stack with clang's c++ standard lib.
+If you are compiling with clang, you will also need libboost-regex1.55-dev and libboost-system1.55-dev. Alternatively you could build your entire stack with Clang's C++ standard lib.
 
 ## Running CMake
 
@@ -135,7 +135,7 @@ Some users might prefer CMake GUI.
    * Select the new `build` directory for `Where to build the binaries`
    * Click `Configure`
    * Select your desired generator
-     * If you use Visual Studio select VS-Version *Visual Studio 12 2013* and (if you have) the x64-Version so e.g. `Visual Studio 12 Win64`
+     * If you use Visual Studio select VS-Version *Visual Studio 14 2015* and (if you have) the x64-Version so e.g. `Visual Studio 14 2015 Win64`
    * Click `Generate` to generate a project file
 
 ## Actually building the sources
@@ -153,7 +153,7 @@ You can specify them from the command line like this: `-D<variable name>=<value>
 
 * **CMAKE_TOOLCHAIN_FILE** _default: ``_
 
-  The path to the toolchain file to use for cross compiling. Change this to `../inexor/platform/linux-toolchain-mingw.cmake` to cross compile for windows.
+  The path to the toolchain file to use for cross compiling. Change this to `../inexor/platform/linux-toolchain-mingw.cmake` to cross compile for Windows.
   
 ## Troubleshooting
 
