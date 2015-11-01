@@ -89,7 +89,8 @@ The first step of building this project is rather obvious, but for sake of compl
 
 The next step is to get all the required dependencies to compile. For convenience, all the dependencies are prebuilt and packed in the `inexor/platform` directory. You only need an environment that can build C++ programs such as Visual Studio, CodeBlocks, XCode or MinGW.
 
-However on Linux you will need cmake, make, gcc (or clang) and the dev packages of mesa, SDL2, SDL2_image, SDL2_mixer, ASIO and Google Protobuf. 
+Specificall, on linux you will need cmake >= 3.0, make and gcc >= 4.9 or clang >= 3.5 as your compiler. The version numbers are recommended minimums: They might work with older versions (but it's not supported) and newer versions are better!
+Also install your distribution's development packages of mesa, SDL2, SDL2_image, SDL2_mixer, ASIO and Google Protobuf. 
 
 OS  | What to do
 --- | ---
