@@ -89,13 +89,15 @@ The first step of building this project is rather obvious, but for sake of compl
 
 The next step is to get all the required dependencies to compile. For convenience, all the dependencies are prebuilt and packed in the `inexor/platform` directory. You only need an environment that can build C++ programs such as Visual Studio, CodeBlocks, XCode or MinGW.
 
-Specificall, on linux you will need CMake >= 3.0, make and GCC >= 4.9 or Clang >= 3.5 as your compiler. The version numbers are recommended minimums: They might work with older versions (but it's not supported) and newer versions are better!
+Specifically, on Linux you will need CMake >= 3.0, make and GCC >= 4.9 or Clang >= 3.5 as your compiler. The version numbers are minimum.: They might work with older versions (but it's not supported) and newer versions are better!
 Also install your distribution's development packages of mesa, SDL2, SDL2_image, SDL2_mixer, ASIO and Google Protobuf. 
 
 OS  | What to do
 --- | ---
 Debian or Debian-derived | `sudo apt-get install git cmake build-essential libsdl2{,-mixer,-image}-dev libgl1-mesa-dev libprotobuf-dev protobuf-compiler libasio-dev libenet-dev libudev-dev`
 OpenSUSE | Run `zypper in -t pattern devel_C_C++` then run `zypper install mesa-libgl-devel libSDL2_mixer-devel libSDL2_image-devel libprotobuf-c-devel  protobuf-c libudev-devel`. But you need to compile ENet yourself.
+### Boost
+Since we merge 4 outstanding branches, Inexor requires Boost for everything (not only for Clang). So, it's required to install Boost libraries
 
 ### Clang
 
