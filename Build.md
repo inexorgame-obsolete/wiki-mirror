@@ -94,14 +94,8 @@ Also install your distribution's development packages of mesa, SDL2, SDL2_image,
 
 OS  | What to do
 --- | ---
-Debian or Debian-derived | `sudo apt-get install git cmake build-essential libsdl2{,-mixer,-image}-dev libgl1-mesa-dev libprotobuf-dev protobuf-compiler libasio-dev libenet-dev libudev-dev`
-OpenSUSE | Run `zypper in -t pattern devel_C_C++` then run `zypper install mesa-libgl-devel libSDL2_mixer-devel libSDL2_image-devel libprotobuf-c-devel  protobuf-c libudev-devel`. But you need to compile ENet yourself.
-### Boost
-Since we merged 4 outstanding branches, Inexor requires Boost for everything (not only for Clang). So, it's required to install Boost libraries.
-
-### Clang
-
-If you are compiling with clang, you will also need libboost-regex1.55-dev and libboost-system1.55-dev. Alternatively you could build your entire stack with Clang's C++ standard lib.
+Debian or Debian-derived | `sudo apt-get install git cmake build-essential libsdl2{,-mixer,-image}-dev libgl1-mesa-dev libprotobuf-dev protobuf-compiler libasio-dev libenet-dev libudev-dev libboost-all-dev`
+OpenSUSE | Run `zypper in -t pattern devel_C_C++` then run `zypper install mesa-libgl-devel libSDL2_mixer-devel libSDL2_image-devel libprotobuf-c-devel  protobuf-c libudev-devel boost-devel`. But you need to compile ENet yourself.
 
 ## Running CMake
 
