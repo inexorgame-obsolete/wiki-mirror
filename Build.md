@@ -17,10 +17,10 @@ This will give you a pretty good exemplary environment if you are on Windows.
     * only version 15 is _supported or you are required to rebuild the precompiled dependencies yourself_
     * requires Windows 7 SP1 or newer
  * **OR as an alternative:** Code::Blocks
-   * please [download here](http://www.codeblocks.org/downloads/26) the latest release, with the `TDM-GCC` addition
+   * Please [download here](http://www.codeblocks.org/downloads/26) the latest release, with the `TDM-GCC` addition
 
 * Download and install [CMake](http://www.cmake.org/download/)
-   * cmake will generate your project files
+   * CMake will generate your project files
 
 * Download and install git
    * Use one of the following tools if you don't already have git:
@@ -52,7 +52,7 @@ You will have to clone the Project somewhere.
 ## Create the Visual Studio or CodeBlocks Project
   _(or the project file for another generator)_
 
-Open the CMake-GUI and follow the steps as [described here](#cmake-gui). Then jump back to this point to not get confused with explanations for linux ;)
+Open the CMake-GUI and follow the steps as [described here](#cmake-gui). Then jump back to this point to not get confused with explanations for Linux ;)
 
 ## Compile Inexor
 * If you use Visual Studio:
