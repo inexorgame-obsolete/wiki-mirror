@@ -39,6 +39,8 @@ Presteps:
  * [in IRC or Mumble](Development-Environment)
  * or doing a Pull Request (https://help.github.com/articles/using-pull-requests/)
 
+4. If your branch is successfully merged into master you should delete your feature branch do keep the repository clean.
+
 ### Bigger changes
 
 Some features might be **strategic nature** or might be an **architectural change**. For example replacing the sauerbraten vector class by the vector class of the stdlib would be a bigger architectural change. Another example would be to integrate XMPP to solve multiple features with XMPP as a strategic technology. Both **needs discussion** with the other developers first.
