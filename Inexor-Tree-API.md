@@ -1,7 +1,5 @@
 # Inexor File System API
 
-Being edited here: https://piratenpad.de/p/Inexor_tree_api
-
 ## Intro/Current API
 
 The current Inexor/Sauer API uses specially crafted network messages; e.g. a player chaning thier position has a special packet which contains three corordinates representing the new position. This can be though of as a procedural approach since in essence each message represents a call to a procedure modifying the state of the game.
