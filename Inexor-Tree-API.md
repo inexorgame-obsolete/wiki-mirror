@@ -1,12 +1,14 @@
 # Inexor File System API
 
+Being edited here: https://piratenpad.de/p/Inexor_tree_api
+
 ## Intro/Current API
 
 The current Inexor/Sauer API uses specially crafted network messages; e.g. a player chaning thier position has a special packet which contains three corordinates representing the new position. This can be though of as a procedural approach since in essence each message represents a call to a procedure modifying the state of the game.
 
 On a more abstract level, the entire construct serves the purpose of synchronizing the state between clients and server.
 
-Unfortunately, this approach is rather cumbersome since it requires the developers to add packages for every possible state change; e.g. name change needs it's own specially implemented procedure, weapon change, ...
+Unfortunately, this approach is rather cumbersome since it requires the developers to add packages for every possible state change; e.g. name change needs it's own specially implemented procedure, weapon change, ...  
 For Inexor, this approach definitely won't cut it: one of the goals is to make it possible to write plugins that define the bahaviour of Inexor on a very deep level. Specifically it should be possible to implement all the game modes in Node/the Inexor graphical scripting language.
 
 As a very simple example, take for instance the addition of a handicap: The better a player is the larger their body becomes. This would require the addition of a size change message. Rather than implementing such our message, we should have a framework in place that can automatically process the local state change and automatically generate an appropriate update message.
@@ -14,42 +16,43 @@ As a very simple example, take for instance the addition of a handicap: The bett
 Essentially: I am talking about a state synchronization framework. We can use the following abstract strategy to build such framework:
 * Declare our data and **the way the data is organized** in a machine readable format
 * Create a generic rule to create differentials over the machiene-readable data
+
 The rest of this document is going to outline my a way to organize the data in Inexor and how to send the differentials using Inexor directly and using Node.js.
 
 ## Filesystems
 
-There's a long tradition of storing data in the filesystem. In fact the filesystem centric approach is one of the strong points of the unixoid systems. Plan9, which was built as the next generation Unix (and IMO, in a way it is), is built around that concept, essentially routing a large part communication between users, applications and the kernel through the file system; APIs are generally provided via the 9P protocol, which is a file system protocol.
+There's a long tradition of storing data in the filesystem. In fact the filesystem centric approach is one of the strong points of the unixoid systems. Plan9, which was built as the next generation Unix (and IMO, in a way it is), is built around that concept: routing a large part of communication between users, applications and the kernel through the file system; APIs are generally provided via the 9P protocol, which is a remote file system protocol.
 
 ### Requirements
 
 In addition to the basic file systems (as provided by protocols like 9P, CIFS or NFS) we need some other features:
-* Decentralization/Syncing – Unline a traditional file system, we need to provide synchronization between different instances in addition to access only – each C++ instance should work with the data it has locally rather than waiting for IO before being able to access internal vairables.
-* Semantic Information – We need to be able to check whether a player is actually allowed to perform a certain update (e.g. only an admin may kick another player but each player can disconnect themselves)
-* Optimization – Since we know a lot about our internal data, we can compress that information. E.g. the number of games left could be in the tree under `/game/eta`, but since we know this is a ferequently accessed element we internally assign the file system ID 13; if we're clever, this fits into a 4bit varint; it can be decoded quickyly and in our C++ server code we could use a statically compiled jumping table to access it.
+* Decentralization/Syncing – Unlike a traditional file system, we need to provide synchronization between different instances in addition to access only – each C++ instance should work with the data it has locally rather than waiting for IO before being able to access internal variables.
+* Semantic Information – We need to be able to check whether a player is actually allowed to perform  a certain update (e.g. only an admin may kick another player but each player can disconnect themselves)  
+* Optimization – Since we know a lot about our internal data, we can compress that information. E.g. the time in the game left could be in the tree under `/game/eta`, but since we know this is a frequently accessed element we internally assign the file system ID 13; if we're clever, this fits into a 4bit varint; it can be decoded quickyly and in our C++ server code we could use a statically compiled jumping table to access it.
 
-There already are a couple of file systems and file system protocols out there; 9P comes to mind very quickly because it was build as an API for accessing application internals. Unfortunately it doesn't meet the distributed requirment.
-Then, there also are some [distributed file systems](https://en.wikipedia.org/wiki/Comparison_of_distributed_file_systems#cite_note-6)m but they are generally built for storing big data (problems that won't fit on a single HD) where as we are dealing with a small amount of data that needs to be synched efficiently.
+There already are a couple of file systems and file system protocols out there; 9P comes to mind very quickly because it was build as an API for accessing application internals. Unfortunately it doesn't meet the distributed requirment.  
+Then, there also are some [distributed file systems](https://en.wikipedia.org/wiki/Comparison_of_distributed_file_systems#cite_note-6) but they are generally built for storing big data (problems that won't fit on a single HD) where as we are dealing with a small amount of data that needs to be synced efficiently.
 
 So let's take a step back and design our own:
 
 ### A Virtual File System for Inexor
 
-The Inexor File System should be distributed, thus a set of process/computers has shared ownership over the FS; each of those is called a *Peer*.
-
+The Inexor File System should be distributed, thus a set of process/computers has shared ownership over the FS; each of those is called a **Peer**.  
+A peer who is actually playing will be called a...**Player**.
 
 File Sytems are generally just **Trees**;
 
-**Node** (or vertex) a point in the Tree. Each node as a name and possibly other metadata.   
-**Directory** a Node in the Tree that can contain other nodes. Plain directories are compile time static.   
-**File** a Node in the Tree that contains no other nodes but can have some data attached to it. The value of files can in princilple be changed.   
+**Node** (or vertex) a point in the Tree. Each node as a name and possibly other metadata. 
+**Directory** a Node in the Tree that can contain other nodes. Plain directories are compile time static. 
+**File** a Node in the Tree that contains no other nodes but can have some data attached to it. The value of files can in princilple be changed.
 
 The simplest Tree consists of a single Directory containing no nodes. This base node is called the **Root**.
 
 For Inexor we need a couple more data structures:
 
-**Link** File that contains a reference to another Node. This generally expresses äquivalence between nodes. Let `/players/22/name` be a File that contains "Arthur Dent" and let `/players/me` be a link references `/players/22`; then `/players/me/name` is considered a File with the value "Arthur Dent". What a link points to can be changed.   
+**Link** File that contains a reference to another Node. This generally expresses äquivalence between nodes. Let `/players/22/name` be a File that contains "Arthur Dent" and let `/players/me` be a link that references `/players/22`; then `/players/me/name` is considered a File with the value "Arthur Dent". What a link points to can be changed.   
 **Set** A Directory that is not compile time static. A Set contains any number of nodes; each of those nodes must follow the same structure. The name of a Node inside a directory needs to be a UUID. Sets also contain special directory **by/** which can be used to access subnodes based on their propertes. E.g. by `by/name/hoax` would reference a Directory inside the set that has a File `name` with the contents `hoax`.   
-**Log** A Directory that contains a history of Nodes. Each Node in a log needs to follow the same structure. The names of the Nodes in a log are nanosecond precision unix timestamps PLUS a UUID. Logs also contain Links with numeric names: `0` would access the most recent node, while `1` would acces the Node before that. Logs only provide approximate chronological coherence: Nanosecond precision is mostly used to avoid name collisions; correctness can not be guranteed because it is not possible to synchronize all the Peer's clocks and since Unix time is based on UTC and thus incorporates leap seconds. Old Nodes may be purged from nodes; the Log structure declares no limitation on when that may happen.   
+**Log** A Directory that contains a history of Nodes. Each Node in a log needs to follow the same structure. The names of the Nodes in a log are nanosecond precision unix timestamps PLUS a UUID. Logs also contain Links with numeric names: `0` would access the most recent node, while `1` would acces the Node before that. Logs only provide approximate chronological coherence: Nanosecond precision is mostly used to avoid name collisions; correctness can not be guranteed because it is not possible to synchronize all the Peer's clocks and since Unix time is based on UTC and thus incorporates leap seconds. Old Nodes may be purged from nodes; the Log structure declares no limitation on when that may happen.
 
 [Unix Style Paths](https://en.wikipedia.org/wiki/Path_(computing)#Unix_style) are used to denote paths.
 
@@ -57,13 +60,13 @@ For Inexor we need a couple more data structures:
 
 Now that we have defined our data structures we need to define differentials for these structures
 
-**Node** defines no differential because it is only a abstract parent of all other nodes;   
-**Directory** also defines no differentials because the content of plain directories is compile time constant.   
+**Node** defines no differential because it is only a abstract parent of all other nodes;
+**Directory** also defines no differentials because the content of plain directories is compile time constant.
 
-**File** just uses the new value as a differential.   
-**Link** also uses the new value as differential.   
-**Set** has two differentials: **add** and **remove**; both contain the UUID of the Node as argument. add also optionally incorportates a dump of the Node.   
-**Log** just contains the timestamp and the uuid of the new Node and optionally a dump of the node.   
+**File** just uses the new value as a differential.
+**Link** also uses the new value as differential.
+**Set** has two differentials: **add** and **remove**; both contain the UUID of the Node as argument. add also optionally incorportates a dump of the Node.
+**Log** just contains the timestamp and the uuid of the new Node and optionally a dump of the node.
 
 The data structures mentioned above demonstrate only a very basic set of reusable data structures; there will be a bunch of structs (e.g. players will be Directories with a compile-time defined set of Nodes). And other things like the octree will need to be specially handled: An octree might be a plain file, but with a custom differentials to save some space and traffic. There might also be a Text type of file with plain old text differentials...
 
@@ -76,6 +79,10 @@ There needs to be a hardcoded security layer preventing any breaches that are no
 ### Custom Properties
 
 As we add plugin capabilities we should also allow JS to define custom properties that are stored in inexor and efficiently synced but only used by the JS code.
+
+### 9P
+
+We should also implement a 9P server for the Tree. Just because it's awesome!
 
 ### Structure
 
@@ -135,7 +142,7 @@ struct Settings
   ... # Pretty much most of the stuff accessible through the current settings page.
 ```
 
-## Node.js Impmenentation
+## Node.js Implenentation
 
 For now I suggest we create an implementation of a similar tree like the one above in Node.js based on the cubescript variables. The purpose of this is to quickly create and evaluate an API.
 What excatly that tree will contain needs to be evaluated; specifically we should leave the entire syncing and differentials for now and just concentrate on creating a prototoypical api.
@@ -220,10 +227,11 @@ Finally, we also need to think about custom datastructures that require custom d
 * 0.3 Angular bindings for the node.js data
 * 0.4 Moving the angular UI to using the tree data
 * 0.5 Implement plain shared var syncing in C++
-re syncing in C++
+* 0.6 Implement shared structure syncing in C++
 * 0.7 Implement SharedLog and SharedSet in C++
 * 0.8 Remove the custom node.js tree and replace as much as possible with the C++ version
 * 0.9 Deprecate Cubescript and the Cube UI
-* 0.10 Reimplement the complete GUI
+* 0.10 Reimplement the complete GUI 
 * 1.0 remove Cubescript and the cube UI
 * 2.0 Remove the old network code
+
