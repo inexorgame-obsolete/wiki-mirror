@@ -14,6 +14,7 @@
 ### Tools
 
 [Continuous Integration](https://travis-ci.org/inexor-game/code)  
+[Continuous Integration on Windows](https://ci.appveyor.com/project/inexor-game/code)  
 Kanboard [Code](https://waffle.io/inexor-game/code) | [Services](https://waffle.io/inexor-game/services) 
 
 ### Other
