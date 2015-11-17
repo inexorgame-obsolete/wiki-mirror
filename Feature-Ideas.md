@@ -2,12 +2,11 @@
  * [WIP] All content is free, in order to make the game free (this makes the game itself forkable)
  * Content can be delivered by servers / repositories
 * Easy modability and mod delivery
- * [WIP] Maps, Textures, Mapmodels download
+ * Maps, Textures, Mapmodels download
  * [WIP] Packaging / Dependency Management for Content
  * Gamemode download (scriptable)
  * Weapon download / Weapon settings (again, refer to Counter Strike)
-* [WIP] Refactor GUI and overall look/feel
-* Deliver Inexor on Steam, Gog and Desura (maybe more platforms)
+* Deliver Inexor on Steam, Gog and maybe more platforms
  * Bigger audience / more PR? This is debatable (see Warsow)
  * Stronger community integration (eg: Quake Live's homepage)
 * Community functions
@@ -30,7 +29,6 @@
 * Replace single-player campaign mode by multi-player campaign mode (playable by a single player too)
 * Replace bots by drones (flying robots, quadcopter, ...)
   * Don't need to fake human behaviour
-* [~~Fading game modes~~](https://github.com/inexor-game/code/issues/22)
 
 * Idea pool:
  * [Quadropolis - Sauerbraten Updates Wishlist](http://quadropolis.us/node/3086)
