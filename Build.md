@@ -15,7 +15,6 @@ This will give you a pretty good exemplary environment if you are on Windows.
  * Microsoft Visual Studio **2015**
     * download [VS 2015 Community Edition](https://www.visualstudio.com) 
     * only version 15 is _supported or you are required to rebuild the precompiled dependencies yourself_
-    * requires Windows 7 SP1 or newer
  * **OR as an alternative:** Code::Blocks
    * Please [download here](http://www.codeblocks.org/downloads/26) the latest release, with the `TDM-GCC` addition
 
