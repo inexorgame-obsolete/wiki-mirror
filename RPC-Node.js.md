@@ -4,9 +4,7 @@ Ultimately this should provide a method of sending CRUD commands to the Inexor p
 thereby making it possible to outsource most of the business logic to a high-level language,
 while keeping the performance critical and graphic rendering stuff inside the C++ Inexor process.
 
-This issue is particularly dear to me, since it could reduce to difficulty for beginners a lot.
-
-This pull request also includes a reference implementation of a Node.js client.
+See [[Inexor Tree API]] for the next steps.
 
 ### Current Status
 
