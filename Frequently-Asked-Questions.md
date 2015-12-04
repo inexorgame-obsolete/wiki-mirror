@@ -4,6 +4,7 @@ This question comes up often in the IRC. Specifically people want to know why we
 
 
 The decision what language to choose, was made because of a couple of factors:
+
 1. Maintainance: We want to have to maintain as little code as possible our selves.
 2. Existing GUI frameworks
 3. How well the language is known.
@@ -26,6 +27,7 @@ Node.js uses protocol buffers to communicate with inexor, the web browser uses h
 APIs will have to be used hide those complexities for third party developers.
 
 The distributed system also has some advantages:
+
 1. Node.js can very easily be replaced by other languages
 2. It is much easier to implement in C++  (provided we don't want to implement standard libraries for those languages ourselves)
 3. The protocols designed in this process can replace enet in the future
