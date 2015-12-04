@@ -1,4 +1,4 @@
-## Why Node.js? Why CEF? Why a n HTML based UI?
+## Why Node.js? Why CEF? Why an HTML based UI?
 
 This question comes up often in the IRC. Specifically people want to know why we want to move away from Cubescript and why not use some common gaming language like LUA.
 
