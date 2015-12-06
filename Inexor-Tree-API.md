@@ -40,9 +40,9 @@ A peer who is actually playing will be called a...**Player**.
 
 File Sytems are generally just **Trees**;
 
-**Node** (or vertex) a point in the Tree. Each node as a name and possibly other metadata. 
-**Directory** a Node in the Tree that can contain other nodes. Plain directories are compile time static. 
-**File** a Node in the Tree that contains no other nodes but can have some data attached to it. The value of files can in princilple be changed.
+**Node** is a vertex in the Tree; any of it's element.
+**Directory** a Node in the Tree that can contains references to other nodes by name. 
+**File** a Node in the Tree that contains no other nodes but can have some data attached to it.j
 
 The simplest Tree consists of a single Directory containing no nodes. This base node is called the **Root**.
 
@@ -109,7 +109,7 @@ struct Game
   Set<Player>      players/       # List of players playing this game
   Link             map -> /maps/* # The name of the map we're playing
   Link             players/me -> players/*
-  File<Time>       eta            # How long this game will continue to run
+  File<Time>       eta            # How long this game will continue to runh
   File<Timestamp>  started_at
   Log<ChatMessage> chat
 
@@ -151,8 +151,7 @@ The api to declare the tree should look somewhat like this:
 
 ```
 class Node
-  parent: -> # Promise<Directory> – Gets the parent node
-  root: -> # Promise<Directory> – Gets the tree's root
+  # pass
 
 class Directory
   ls: -> # Promise<Array<String>> Returns a list of the names of nodes inside this Directory
