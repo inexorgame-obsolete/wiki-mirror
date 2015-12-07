@@ -28,7 +28,10 @@
  * Security enhancements
 * Replace single-player campaign mode by multi-player campaign mode (playable by a single player too)
 * Replace bots by drones (flying robots, quadcopter, ...)
-  * Don't need to fake human behaviour
+ * Don't need to fake human behaviour
+* Gameplay adjustments
+ * Weapon Balance
+
 
 * Idea pool:
  * [Quadropolis - Sauerbraten Updates Wishlist](http://quadropolis.us/node/3086)
