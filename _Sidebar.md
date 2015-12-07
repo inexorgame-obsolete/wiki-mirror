@@ -3,7 +3,7 @@
 ### Development
 
 [[Build]]  
-[Milestones](https://github.com/inexor-game/code/milestones)  
+[Milestones](https://github.com/inexor-game/code/milestones) / [Changelog] (https://github.com/inexor-game/code/blob/master/changelog.md)  
 [[How to contribute]]  
 [[Recruiting]]  
 [[Development Environment]]  
