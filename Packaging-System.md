@@ -1,17 +1,37 @@
+##Media Repos
+Since we split data files from the code files for using git with less waiting time, we have 2+ repositories now for a single Inexor game.  
+So you'll need to bring back the data repositories (data-core, data-additional, data-playground, ..) with the code repo.
+
+This is the structure you'll want:
+
+```
+bin
+config
+media
+    core
+        map
+        texture        
+        ..
+    additional
+        map                   // more info on the exact package directories see below
+        texture
+        ..
+inexor.bat
+```
+To create this structure you'll need to git clone (more info on git [here](https://github.com/inexor-game/code/wiki/Build)) the contents of the [data](https://github.com/inexor-game/data), [data-additional](https://github.com/inexor-game/data-additional) and [data-playground](https://github.com/inexor-game/data-playground)) repos in seperate subfolders inside `media`.  
+Only the main `data`-repository is required, but the other ones provide some more maps and stuff, so you'll probably want them, too.  
+It doesn't matter how you name the folders inside media.
+
 ##Content Structure
 ```
 config                        //previously known as "data"
-    ui                        //user-interface
-        options.cfg
-        scoreboard.cfg
-        serverbrowser.cfg
-        menus.cfg
     saved.cfg                 //previously known as "config.cfg"
     restore.cfg
     server-restore.cfg
     server-saved.cfg
     ...
 media                         //previously known as "packages"
+  core                        // this is the packagedir
     brush
     interface
         radar
