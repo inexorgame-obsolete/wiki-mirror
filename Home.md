@@ -38,7 +38,6 @@ _Stays Sauer, becomes better._
 * [Ideas for Features](Feature-Ideas)
 * [[Improved Selection]]
 * [New Masterserver-System (XMPP)](XMPP Integration)
-* Gameplay Adjustments (e.g. Weapon Balance) 
 
 ### Development
 
