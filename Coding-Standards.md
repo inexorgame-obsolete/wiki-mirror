@@ -138,7 +138,7 @@ In such cases it might be beneficial to have a separate
 namespace for the file (classes/structs are sort of namespaces).
 
   ```
-  skybod.cpp, skybox.h -> inexor::graphics::skybox
+  skybox.cpp, skybox.h -> inexor::graphics::skybox
   ```
 
 # Consistency
