@@ -19,7 +19,6 @@ _Stays Sauer, becomes better._
 * [Milestones](https://github.com/inexor-game/code/milestones) / [Changelog] (https://github.com/inexor-game/code/blob/master/changelog.md)
 * [Generic RPC Subsystem + Node.js integration](RPC/Node.js)
 * [Ambient Occlusion](Ambient Occlusion)
-* [[JavaScript Integration]]
 
 ### In Progress
 
