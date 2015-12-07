@@ -69,6 +69,8 @@ media                         //previously known as "packages"
 Notice: everything is **singular**, otherwise its pretty self-explaining. 
 Directories, to which map designers normally often add files, have a ``directory/nickname/stuff`` structure to keep them clean.
 
+We encourage you to use subdirectories for different themes etc. so that you will get a structure like ``directory/nickname/theme1/stuff``, ``directory/nickname/another_theme/stuff``.
+
 ##Differences to Sauerbratens structure
 
 * scripts are in config/
