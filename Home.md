@@ -18,7 +18,7 @@ _Stays Sauer, becomes better._
 
 * [Milestones](https://github.com/inexor-game/code/milestones) / [Changelog] (https://github.com/inexor-game/code/blob/master/changelog.md)
 * Engine
- * [Generic RPC Subsystem + Node.js integration](RPC/Node.js)
+ * [Generic RPC Subsystem + Node.js integration](RPC-Node.js)
  * [Ambient Occlusion](Ambient Occlusion)
 
 ### In Progress
@@ -27,7 +27,7 @@ _Stays Sauer, becomes better._
 * [[Version Control System]]
 * [[Particle System]]
 * [[Packaging System]]
-* [HTML5 User Interface](HTML5 User Interface)
+* [HTML5 User Interface / CEF](HTML5 User Interface)
 * [Bezier curve camera flights](Bezier curve)
 * [Automatic benchmarking and debugging](automatic benchmarking and debugging)
 * [JSON configuration support](JSON-Implementation)
