@@ -4,12 +4,16 @@
 
 [[Build]]  
 [Milestones](https://github.com/inexor-game/code/milestones) / [Changelog] (https://github.com/inexor-game/code/blob/master/changelog.md)  
-[[How to contribute]]  
+[[How to Contribute]]  
 [[Recruiting]]  
 [[Development Environment]]  
 [[Coding Standards]]  
 [[Documentation]]  
 [[Git Submodule]]  
+
+
+### General
+[[Supported File Formats]]  
 
 ### Tools
 
@@ -18,6 +22,6 @@ Continuous Integration For...
 Kanboard [Code](https://waffle.io/inexor-game/code) | [Services](https://waffle.io/inexor-game/services) 
 
 ### Other
-[[Other Projects]]  
+[Other Related Projects](Other Projects)  
 [Content Wiki](https://github.com/inexor-game/data/wiki)  
-[[Supported File Formats]]  
+[Website](https://inexor.org)  
