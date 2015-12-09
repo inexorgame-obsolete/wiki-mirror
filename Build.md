@@ -1,8 +1,5 @@
 * [Windows](#windows)
 * [Linux](#linux)
-* [One-Click Build environment](https://github.com/inexor-game/code/blob/master/tool/README.md)
-  * Script for automatic compile or generate project files
-  * Works on OS X, Debian (and derivatives, e.g. Ubuntu), Arch Linux and MinGW
 
 ***
 
@@ -23,7 +20,7 @@ This will give you a pretty good exemplary environment if you are on Windows.
 
 * Download and install git
    * Use one of the following tools if you don't already have git:
-     * [SmartGit](http://www.syntevo.com/smartgit/download) - Heavily developed and intuative GUI (e.g. Supports submodules in the GUI)
+     * [SmartGit](http://www.syntevo.com/smartgit/download) - Heavily developed and intuitive GUI (e.g. Supports submodules in the GUI)
      * [GitHub Desktop](https://desktop.github.com) - GUI does not support submodules. You must use the command line to update them.
      * [git-scm.com](http://git-scm.com/download) is the official git website, and has downloads for the CLI version, and links to GUIs.
 
@@ -38,7 +35,7 @@ You will have to clone the Project somewhere.
 
   * Clone the Repository
     * click `Repository` and `Clone` (or press `Ctrl+Shift+O`)
-    * Select "Remote Git ... repository", Url = https://github.com/inexor-game/code
+    * Select "Remote Git ... repository", URL = https://github.com/inexor-game/code
     * On the next Page select both `Include Submodules` as well as `Fetch all Heads and Tags`
     * Select a folder on the next page. Your local Git repository will be created here. 
     * Select `Finish`
@@ -64,7 +61,7 @@ Open the CMake-GUI and follow the steps as [described here](#cmake-gui). Then ju
   * Click on `Build`
 
 ## Get the data
-We have seperated repositories for our code and the data. To actually start Inexor you will also need [the data](https://github.com/inexor-game/data). It's highly recommend to keep the repositories clean and to create a directory in which you compile + copy the data, to run Inexor.
+We have separated repositories for our code and the data. To actually start Inexor you will also need [the data](https://github.com/inexor-game/data). It's highly recommend to keep the repositories clean and to create a directory in which you compile + copy the data, to run Inexor.
 
 ## Run
 Start Inexor with the `inexor.bat` file.
@@ -109,7 +106,7 @@ The most commonly used generators will probably include `Visual Studio`, `CodeBl
 ```shell
 (mkdir build; cd build && cmake .. && make install) # Should work on mingw (you may need -G "MinGW Makefiles"), linux and mac
 (mkdir xcode; cd xcode && cmake .. -G Xcode) # Generate an xcode project
-md vstudio && cd vstudio && cmake .. -G "Visual Studio 12" :: Generate a Visual Studio 12 Project
+md vstudio && cd vstudio && cmake .. -G "Visual Studio 14 2015" :: Generate a Visual Studio 14 Project
 
 ```
 
@@ -153,7 +150,7 @@ You can specify them from the command line like this: `-D<variable name>=<value>
   
 ## Include data
 
-Data like maps and fonts is provided in a separate [data repository](https://github.com/inexor-game/data). Clone that repository along with optional repositories [data-additional](https://github.com/inexor-game/data-additional) and [data-playground](https://github.com/inexor-game/data-playground) in the `media` directory, which should be in the root directory of the inexor code repository. Alternatively you can use a symbolic link like in the following example.
+Data like maps and fonts is provided in a separate [data repository](https://github.com/inexor-game/data). Clone that repository along with optional repositories [data-additional](https://github.com/inexor-game/data-additional) and [data-playground](https://github.com/inexor-game/data-playground) in the `media` directory, which should be in the root directory of the Inexor code repository. Alternatively you can use a symbolic link like in the following example.
 
     .
     ├── code
