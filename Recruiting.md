@@ -13,9 +13,9 @@ To make the fork successful we need your help. We need different types of skills
  * Weapon Models
  * Player Models
  * GUI Design Skins
- * Music
+ * Music / Sounds
  * Sound FX
- * Voice Acting (TOMYC!!!)
+ * [Voice Acting](https://github.com/inexor-game/data/issues/9)
 * **Coders**
  * C/C++
  * JavaScript
