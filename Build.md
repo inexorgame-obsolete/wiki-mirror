@@ -95,6 +95,7 @@ OS  | What to do
 --- | ---
 Debian or Debian-derived | `sudo apt-get install git cmake build-essential libsdl2{,-mixer,-image}-dev libgl1-mesa-dev libprotobuf-dev protobuf-compiler libasio-dev libenet-dev libudev-dev libboost-all-dev`
 OpenSUSE | Run `zypper in -t pattern devel_C_C++` then run `zypper install mesa-libgl-devel libSDL2_mixer-devel libSDL2_image-devel libprotobuf-c-devel  protobuf-c libudev-devel boost-devel`. But you need to compile ENet yourself.
+Archlinux | Run `sudo pacman -S git cmake sdl2 sdl2_gfx sdl2_image sdl2_mixer protobuf mesa mesa-libgl enet boost boost-libs`.
 
 ## Running CMake
 
