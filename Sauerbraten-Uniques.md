@@ -1,3 +1,5 @@
+# This page needs to be merged into https://github.com/inexor-game/code/wiki/Coding-Standards#sauerbraten-uniques
+
 # Sauerbraten Uniques and Code Style
 
 This document will introduce you to the C-ish C++ of Cube2:Sauerbraten and all derivates.  
