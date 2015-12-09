@@ -153,7 +153,7 @@ You can specify them from the command line like this: `-D<variable name>=<value>
   
 ## Include data
 
-Data like maps and fonts is provided in a separate [data repository](https://github.com/inexor-game/data). Clone that repository along with optional repositories [data-additional](https://github.com/inexor-game/data-additional) and [data-playground](https://github.com/inexor-game/data-playground) in a `media` directory, which should be in the root directory of the inexor code repository. Alternatively you can use a symbolic link like in the following example.
+Data like maps and fonts is provided in a separate [data repository](https://github.com/inexor-game/data). Clone that repository along with optional repositories [data-additional](https://github.com/inexor-game/data-additional) and [data-playground](https://github.com/inexor-game/data-playground) in the `media` directory, which should be in the root directory of the inexor code repository. Alternatively you can use a symbolic link like in the following example.
 
     .
     ├── code
