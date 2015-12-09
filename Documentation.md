@@ -28,6 +28,10 @@ in C++ code this would include the following:
 * Typedefs should also have a description
 * Templates in general should have an extensive documentation
 * Files should have a documentation, describing roughly what kind of stuff the file contains.
+  + if the file name is a bit cryptic, for instance `skelmdl.h`, the first lines should contain something like:
+  > /// Skeletal Models Header:  
+    /// Header for model file formats with embedded skeletons
+
   + Files that are implicitly documented do not need a documentation, this includes
     - implementations of header files (`Fnord.cpp `is already commented in `Fnord.h`)
     - [Module][2] headers (`src/gui/gui.h`), because the module should already be documented (`src/gui/readme.md`)
