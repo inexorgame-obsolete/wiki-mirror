@@ -46,6 +46,7 @@ _Stays Sauer, becomes better._
 * [[Development Environment]]
 * [[Coding Standards]]
 * [[Documentation]]
+* [[How To Debug]]
 
 ### Other
 
