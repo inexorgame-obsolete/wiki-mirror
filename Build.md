@@ -151,6 +151,24 @@ You can specify them from the command line like this: `-D<variable name>=<value>
 
   The path to the toolchain file to use for cross compiling. Change this to `../inexor/platform/linux-toolchain-mingw.cmake` to cross compile for Windows.
   
+## Include data
+
+Data like maps and fonts is provided in a separate [data repository](https://github.com/inexor-game/data). Clone that repository along with optional repositories [data-additional](https://github.com/inexor-game/data-additional) and [data-playground](https://github.com/inexor-game/data-playground) in a `media` directory, which should be in the root directory of the inexor code repository. Alternatively you can use a symbolic link like in the following example.
+
+    .
+    ├── code
+    │   ├── bin
+    │   ├── build
+    │   ├── inexor
+    │   ├── media -> ../media
+    │   ├── node
+    │   └── tool
+    └── media
+        ├── data
+        ├── data-additional
+        └── data-playground
+
+
 ## Troubleshooting
 
 This is a list of common problems and their solutions
