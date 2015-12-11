@@ -1,3 +1,7 @@
+>#**Todo:**
+This page has redundant information in comparison to [[How-To-Debug]] and [[Coding-Standards]].  
+Where in this article should be the part about benchmarking?
+
 # Introduction
 Nobody is perfect. (In case you are ignore the following paper and get back to work!)
 Testing and debugging your code is the foundation of innovative and awesome features. Unfortunately, this is not always an easy task. Sauerbraten itself does not provide any built-in debugging or benchmarking tools.
