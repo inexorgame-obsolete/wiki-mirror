@@ -1,9 +1,4 @@
-You might also be interested in:
-* [Build](Build)
-* [Coding Standards](Coding Standards)
-* [Development Environment](Development Environment)
-* [Recruiting](Recruiting)
-* [Content Contribution](https://github.com/inexor-game/data/wiki/How-to-contribute-content)
+You might also be interested in [[How to Contribute Content]].
 
 ***
 
