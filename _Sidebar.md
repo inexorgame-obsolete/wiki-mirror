@@ -6,7 +6,7 @@
 [Milestones](https://github.com/inexor-game/code/milestones) / [Changelog] (https://github.com/inexor-game/code/blob/master/changelog.md)  
 [[How to Contribute Code]]  
 [[Recruiting]]  
-[[Development Environment]]  
+[[Developing Communication]]  
 [[Coding Standards]]  
 [[Documentation]]  
 [[How To Debug]]    
