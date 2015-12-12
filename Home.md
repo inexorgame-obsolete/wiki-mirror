@@ -11,7 +11,8 @@ _Stays Sauer, becomes better._
 * 100% Open Source software (OSS), no restricted licensed content
 
 ### How to get involved
-* [How to contribute](How to contribute)
+* [How to contribute code](How to contribute)
+* [[How to Contribute Content]]  
 * [Recruiting](Recruiting)
 
 # Features
