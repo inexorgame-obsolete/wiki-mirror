@@ -1,5 +1,6 @@
 * [Windows](#windows)
 * [Linux](#linux)
+* [Get The Content](#get-the-content)
 
 ***
 
@@ -61,10 +62,10 @@ Open the CMake-GUI and follow the steps as [described here](#cmake-gui). Then ju
   * Click on `Build`
 
 ## Get the data
-We have separated repositories for our code and the data. To actually start Inexor you will also need [the data](https://github.com/inexor-game/data). It's highly recommend to keep the repositories clean and to create a directory in which you compile + copy the data, to run Inexor.
+See -> [Get The Content](#get-the-content).
 
 ## Run
-Start Inexor with the `inexor.bat` file.
+It's highly recommend to keep the repositories clean and to create a directory in which you compile + copy the data, to run Inexor. Start Inexor with the `inexor.bat` file.
 
 ## Cross-compiling from Linux to Windows
 If you are using Linux to cross-compile Inexor to Windows using `mingw32` and `mingw-w64` then you should use
@@ -148,7 +149,7 @@ You can specify them from the command line like this: `-D<variable name>=<value>
 
   The path to the toolchain file to use for cross compiling. Change this to `../inexor/platform/linux-toolchain-mingw.cmake` to cross compile for Windows.
   
-## Include data
+# Get the content
 
 Data like maps and fonts is provided in a separate [data repository](https://github.com/inexor-game/data). Clone that repository along with optional repositories [data-additional](https://github.com/inexor-game/data-additional) and [data-playground](https://github.com/inexor-game/data-playground) in the `media` directory, which should be in the root directory of the Inexor code repository. Alternatively you can use a symbolic link like in the following example.
 
