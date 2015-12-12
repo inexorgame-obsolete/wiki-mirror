@@ -1,11 +1,3 @@
-You might also be interested in:
-* [Build](Build)
-* [Coding Standards](Coding-Standards)
-* [How to contribute](How-to-contribute)
-* [Recruiting](Recruiting)
-* [Content Contribution](https://github.com/inexor-game/data/wiki/How-to-contribute-content)
-
-
 # Contact
 
 * **IRC** _(mainly used)_
@@ -22,7 +14,12 @@ You might also be interested in:
  * [https://lists.cupdev.net/listinfo/inexor](https://lists.cupdev.net/listinfo/inexor)
   * _please ignore the security warning or install the [cacert root certificate](https://www.cacert.org/index.php?id=3)_
 
-#Meetings
+* **Social Media** 
+  * [Twitter](https://twitter.com/inexorgame)
+  * [Facebook](https://www.facebook.com/inexorgame)
+  * [YouTube](https://www.youtube.com/channel/UCKOcY8wxvWq8pGLcESSpfhw)
+
+# Meetings
 
 We meet on [mumble](http://mumble.sourceforge.net/) on "nooblounge.net", port 64738.
 
@@ -37,15 +34,11 @@ _Protocols of old or upcoming meetings:_
 # Tools
 * Source Code Managment
  * [Git](http://git-scm.com/)
- * [Cmake](http://www.cmake.org/Wiki/CMake)
+ * [CMake](http://www.cmake.org/Wiki/CMake)
 * [Source Code Documentation](Source Code Documentation)
  * [Doxygen](http://www.stack.nl/~dimitri/doxygen/)
-* Build server
- * [Travis (Linux Host - GCC/Clang/MinGW Crosscompiling)](https://travis-ci.org/inexor-game/code)
-   * [Nightly Builds](http://nightly.inexor.org)  
- * [Appveyor (Windows Host - Visual Studio)](https://ci.appveyor.com/project/inexor-game/code)
 * Unit tests
- * Using [GoogleTest](https://code.google.com/p/googletest/)
+ * Using [Google Test](https://code.google.com/p/googletest/)
 
 ## Upcoming Tools
 * _Jenkins (instead of travis)_
