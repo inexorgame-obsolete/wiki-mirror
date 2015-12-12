@@ -20,7 +20,7 @@
 
 Continuous Integration For...  
 [Linux](https://travis-ci.org/inexor-game/code) | [Windows](https://ci.appveyor.com/project/inexor-game/code)  
-Kanboard [Code](https://waffle.io/inexor-game/code) | [Services](https://waffle.io/inexor-game/services) 
+[Kanboard](https://waffle.io/inexor-game/code)   
 
 ### Content Management
 [[How to Contribute Content]]  
