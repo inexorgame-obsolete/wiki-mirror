@@ -28,6 +28,6 @@ Kanboard [Code](https://waffle.io/inexor-game/code) | [Services](https://waffle.
 [[Free Sources]]  
 
 ### Other
-[Other Related Projects](Other Projects)  
 [[Code of Conduct]]  
+[Other Related Projects](Other Projects)  
 [Website](https://inexor.org)  
