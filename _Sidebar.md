@@ -29,5 +29,5 @@ Kanboard [Code](https://waffle.io/inexor-game/code) | [Services](https://waffle.
 
 ### Other
 [Other Related Projects](Other Projects)  
-[[Code of Conduct]]
+[[Code of Conduct]]  
 [Website](https://inexor.org)  
