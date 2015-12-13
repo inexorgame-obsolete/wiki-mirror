@@ -1,4 +1,4 @@
-##Media Repos
+## Media Repos
 Since we split data files from the code files for using git with less waiting time, we have 2+ repositories now for a single Inexor game.  
 So you'll need to bring back the data repositories (data-core, data-additional, data-playground, ..) with the code repo.
 
@@ -22,15 +22,15 @@ To create this structure you'll need to git clone (more info on git [here](https
 Only the main `data`-repository is required, but the other ones provide some more maps and stuff, so you'll probably want them, too.  
 It doesn't matter how you name the folders inside media.
 
-##Content Structure
+## Content Structure
 ```
-config                        //previously known as "data"
-    saved.cfg                 //previously known as "config.cfg"
+config                        // previously known as "data"
+    saved.cfg                 // previously known as "config.cfg"
     restore.cfg
     server-restore.cfg
     server-saved.cfg
     ...
-media                         //previously known as "packages"
+media                         // previously known as "packages"
   core                        // this is the packagedir
     brush
     interface
@@ -70,15 +70,15 @@ media                         //previously known as "packages"
     skybox
         nothing
             morning_up.jpg
-            morning_dn.jpg            //..
+            morning_dn.jpg            // ..
             morning.cfg               // Thats new(!) a cfg for skyboxes
     sound
     texture
         a_teammate
-             wood_golden_bar.cfg      //every texture has its own cfg!
-             wood_golden_bar.jpg      //you can provide a package.cfg but you should forward to these individual cfgs
-             wood_golden_bar_NORM.jpg
-             wood_golden_bar_DEPTH.jpg
+             wood_golden_bar.cfg      // every texture has its own cfg!
+             wood_golden_bar.jpg      // you can provide a package.cfg but you should forward to these individual cfgs
+             wood_golden_bar_norm.jpg
+             wood_golden_bar_depth.jpg
              ...
         inexor
              notexture.png  
