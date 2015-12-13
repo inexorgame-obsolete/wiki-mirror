@@ -14,11 +14,7 @@
   * Like jabber: multiple servers (multiple domains)
  * Global stats
  * Decentralized (multiple) master servers
-* Dynamic content
- * [Destructible map geometry](https://www.youtube.com/watch?v=VPdKX7UhneY&index=2&list=PLCbZc-GgCGzLhkGS5l850tjCQrPUeapK6)
- * Movable, destructible objects
- * [WIP] Dynamic entity system
- * [WIP] [Dynamic particle system](https://www.youtube.com/watch?v=j622-D-CCTI&list=PLCbZc-GgCGzLhkGS5l850tjCQrPUeapK6&index=41)
+* [[Make anything more dynamic]]
 * Improved mapping functions
  * [WIP] Flow chart system for scripted maps
  * Cooperative lightmapping
