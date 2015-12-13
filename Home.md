@@ -27,7 +27,6 @@ _Stays Sauer, becomes better._
 * [[Inexor Tree API]]
 * [[Version Control System]]
 * [[Particle System]]
-* [[Packaging System]]
 * [HTML5 User Interface / CEF](HTML5 User Interface)
 * [Bezier curve camera flights](Bezier curve)
 * [Automatic benchmarking and debugging](automatic benchmarking and debugging)
@@ -45,6 +44,7 @@ _Stays Sauer, becomes better._
 ### Development
 
 * [[Build]]
+* [[Directory Structure]]
 * [[Developing Communication]]
 * [[Coding Standards]]
 * [[Documentation]]
