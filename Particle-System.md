@@ -1,6 +1,7 @@
 ## Objective
 
-We are about to implement an improved highly dynamic particle system.
+We are about to implement an improved highly dynamic particle system.  
+You can watch a [tech demo here](https://www.youtube.com/watch?v=j622-D-CCTI&list=PLCbZc-GgCGzLhkGS5l850tjCQrPUeapK6&index=41).
 
 [![Improved particle system video](http://img.youtube.com/vi/0b_qnbV7TWY/0.jpg)](http://www.youtube.com/watch?v=0b_qnbV7TWY)
 
