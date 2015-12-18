@@ -6,18 +6,6 @@ Where in this article should be the part about benchmarking?
 Nobody is perfect. (In case you are ignore the following paper and get back to work!)
 Testing and debugging your code is the foundation of innovative and awesome features. Unfortunately, this is not always an easy task. Sauerbraten itself does not provide any built-in debugging or benchmarking tools.
 
-## Guidelines for good code
-Please keep in mind that good code
-* has suitable comments for important code passages
-* uses the Doxygen format for comments in order to support automatic documentation
-* does not depend on OS-specific libraries
-* is extendable and dynamic
-* should be object-orientated
-* should respect types (C/C++ has strong types!)
-* should think twice about user input or function parameters
-* keeps sub-modules in separated header files
-* is clean and does not contain passages which aren't used or commented out (final code...)
-
 ## Use external debuggers
 If not anything works, try to use external debugging tools.
 Thanks to [VALVe's Vogl](https://github.com/ValveSoftware/vogl), there is finally a good OpenGL graphic debugger out there. There is also [apitrace](https://apitrace.github.io/).
