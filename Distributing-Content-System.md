@@ -1,4 +1,4 @@
-### Goal
+### Goals
 
 The efforts to make content available faster and the fact that content gets updated means that we have to think about how to store and distribute content. The problem of store and distribute data is a typical problem, which isn't specific to our game. 
 
