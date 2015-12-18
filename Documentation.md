@@ -1,13 +1,15 @@
 This document describes how Inexor code should be documented.
 New code must always adhere to those rules.
 
-Unfortunately, lots of the old Inexor/Sauerbraten code is
-badly documented or not documented at all. We are very
-very thankful for any improevements in that respect :)
+The source code of Sauerbraten is mainly uncommented at the moment, but we are about to change that. Every new populated code should be clearly understandable, not only for you. The goal is to be get a quick overview by just reading the comments.
+
+Commenting is not a hard task, but an important one. Your future self and other developers will appreciate the minutes you spend commenting.
+
+Furthermore a tool generates the documentation in HTML format which will be [published on the website](https://docs.inexor.org).
 
 # Generating Documentation
 
-To generate the HTML documentation, install doxygen and
+To generate the HTML documentation, install Doxygen and
 run it in the document root:
 
   $ doxygen doxygen.conf
@@ -34,7 +36,7 @@ in C++ code this would include the following:
 
   + Files that are implicitly documented do not need a documentation, this includes
     - implementations of header files (`Fnord.cpp `is already commented in `Fnord.h`)
-    - [Module][2] headers (`src/gui/gui.h`), because the module should already be documented (`src/gui/readme.md`)
+    - [Module][2] headers (`inexur/gui/gui.h`), because the module should already be documented (`inexur/gui/readme.md`)
 
 # Comment Style
 
