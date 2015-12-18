@@ -1,5 +1,5 @@
 [[Home]]  
-[[Template] Feature](Template - Feature)  
+[[Template] Feature](Template Feature)  
 
 ### Development
 
