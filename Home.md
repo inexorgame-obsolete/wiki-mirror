@@ -15,31 +15,31 @@ _Stays Sauer, becomes better._
 * [[How to Contribute Content]]  
 * [Recruiting](Recruiting)
 
-# Features
+## Features
 
 * [Milestones](https://github.com/inexor-game/code/milestones) / [Changelog] (https://github.com/inexor-game/code/blob/master/changelog.md)
 * Engine
  * [Generic RPC Subsystem + Node.js integration](RPC-Node.js)
  * [Ambient Occlusion](Ambient Occlusion)
 
-### In Progress
+* ### In Progress
 
-* [[Inexor Tree API]]
-* [[Version Control System]]
-* [[Particle System]]
-* [HTML5 User Interface / CEF](HTML5 User Interface)
-* [Bezier curve camera flights](Bezier curve)
-* [JSON configuration support](JSON-Implementation)
-* [Entity System](Entity System)
-* [[3 Dimensional Visual Scripting Environment (3DVS)]]
+  * [[Inexor Tree API]]
+  * [[Version Control System]]
+  * [[Particle System]]
+  * [HTML5 User Interface / CEF](HTML5 User Interface)
+  * [Bezier curve camera flights](Bezier curve)
+  * [JSON configuration support](JSON-Implementation)
+  * [Entity System](Entity System)
+  * [[3 Dimensional Visual Scripting Environment (3DVS)]]
 
-### Planned
+* ### Planned
 
-* [Ideas for Features](Feature-Ideas)
-* [[Improved Selection]]
-* [New Masterserver-System (XMPP)](XMPP Integration)
-* [[Make anything more dynamic]]
-* [[Distributing Content System]]
+  * [Ideas for Features](Feature-Ideas)
+  * [[Improved Selection]]
+  * [New Masterserver-System (XMPP)](XMPP Integration)
+  * [[Make anything more dynamic]]
+  * [[Distributing Content System]]
 
 ### Development
 
