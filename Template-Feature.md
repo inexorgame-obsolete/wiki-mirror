@@ -13,7 +13,7 @@ This template in specific will help to create consistence in our wiki.
 ## Implementation
 Every feature page should contain at the beginning the **table, which includes the feature branches, the issues** (or pull requests if there is no issue at all) **and the main developers** of this specific feature. If you have several branches, issues or developers then separate them with commas and a space.
 
-* **Branches:** always display the full and original names and link to all related and relevant branches. If your feature is complete merged into master, just write `master` without any link. Branches for small and relative quick realized bug fixes are irrelevant.
+* **Branches:** always display the full and original names and link to all related and relevant branches. If your feature is completely merged into master, just write `master` without any link. Branches for small and relative quick realized bug fixes are irrelevant.
 * **Issues (or pull requests):** Write before the number a `#` to keep it consistent on GitHub. Mention all relevant issues. Issues for bug fixing are irrelevant. If your feature is so big that it has an own issue label, mention it as well, e.g. `[Label: cef](/inexor-game/code/labels/cef)`
 * **Main Developers:** Use the GitHub nicknames, link to the profile, write a `@` before the name to keep it consistent on GitHub.
 
