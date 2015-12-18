@@ -2,7 +2,7 @@ Branches | Issues | Main developers
 --- | --- | --- 
 [hanni/3DVisualScripting](/inexor-game/code/tree/hanni/3DVisualScripting) |  [#99](/inexor-game/code/issues/99), [#111](/inexor-game/code/issues/111) | [@IAmNotHanni](/IAmNotHanni)
 
-# Motivation
+## Goal
 *Building a new form of creativity in Inexor*
 ## What are Scripts and why are they important?
 Modern Embedded Scripting Languages deliver **flexibility**, **variety** and infinite room for **creativity** in game levels. They have other applications as well: What would the World Wide Web be without JavaScript running fast as hell in your browser in this very moment?
