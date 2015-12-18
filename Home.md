@@ -40,6 +40,7 @@ _Stays Sauer, becomes better._
   * [New Masterserver-System (XMPP)](XMPP Integration)
   * [[Make anything more dynamic]]
   * [[Distributing Content System]]
+  * [[Blueprint Extendable Map Format]]
 
 ### Development
 
