@@ -1,6 +1,6 @@
 Branches | Issues | Main developers
 -------- | ------ | ---
-[ogro/conquer_world](/inexor-game/code/tree/ogro/conqueror_world) | [#6](/inexor-game/code/issues/6), [#7](/inexor-game/code/issues/7) | [@inexor-game](/inexor-game)
+[ogro/conquer_world](/inexor-game/code/tree/ogro/conqueror_world), [inky/killing_spree](/inexor-game/code/tree/inky/killing_spree) | [#6](/inexor-game/code/issues/6), [#7](/inexor-game/code/issues/7) | [@inexor-game](/inexor-game)
 
 ## Motivation
 The goal is to provide for everyone a unified template how to write a wiki article about a feature. Another goal is to get people to actually use it.
