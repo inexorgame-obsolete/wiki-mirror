@@ -2,18 +2,15 @@ Branches | Issues | Developer
 --- | --- | --- 
 none |  none | none
 
-
 This is a blueprint for a new shader system which got the following goals:
 
 * **simplicity** for shader artists
 * **flexibility**
   * depending on the targets PCs settings
-
-Optional tasks are:
-* performance
+* **performance**
   * FPS wise
   * startup-time wise (optional)
-* modularity
+* **modularity**
   * aka sharing shader-slices
 
 ## Introduction
@@ -137,3 +134,8 @@ Basicly it summarizes to modifying some input shader and measuring the error com
 * 
 * 
 Later..
+
+### Authors Blueprint:
+
+* a_teammate
+*
