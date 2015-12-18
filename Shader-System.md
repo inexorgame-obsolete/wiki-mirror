@@ -1,7 +1,6 @@
 Branches | Issues | Developer
 --- | --- | --- 
 none |  none | none
---- | --- | ---
 
 
 This is a blueprint for a new shader system which got the following goals:
