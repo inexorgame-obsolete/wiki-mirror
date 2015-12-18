@@ -39,6 +39,7 @@ _Stays Sauer, becomes better._
 * [[Improved Selection]]
 * [New Masterserver-System (XMPP)](XMPP Integration)
 * [[Make anything more dynamic]]
+* [[Distributing Content System]]
 
 ### Development
 
