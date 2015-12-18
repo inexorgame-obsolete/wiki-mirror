@@ -15,7 +15,7 @@ To make the fork successful we need your help. We need different types of skills
  * GUI Design Skins
  * Music / Sounds
  * Sound FX
- * [Voice Acting](https://github.com/inexor-game/data/issues/9)
+ * [Voice Acting](https://github.com/inexor-game/code/issues/255)
 * **Coders**
  * C/C++
  * JavaScript
