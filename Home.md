@@ -29,10 +29,9 @@ _Stays Sauer, becomes better._
 * [[Particle System]]
 * [HTML5 User Interface / CEF](HTML5 User Interface)
 * [Bezier curve camera flights](Bezier curve)
-* [Automatic benchmarking and debugging](automatic benchmarking and debugging)
 * [JSON configuration support](JSON-Implementation)
 * [Entity System](Entity System)
-* [Node-based Visual Scripting Enviroment](3 Dimensional Visual Scripting Enviroment (3DVS))
+* [[3 Dimensional Visual Scripting Environment (3DVS))
 
 ### Planned
 
