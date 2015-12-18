@@ -1,11 +1,10 @@
-### New dynamic entity system
+Branches | Issues | Main developers
+--- | --- | --- 
+[NewEntities](/inexor-game/code/tree/NewEntities), [cef+entities](/inexor-game/code/tree/cef+entities), [rebased-cef+entities](/inexor-game/code/tree/rebased-cef+entities), [cef+ipc+entities](/inexor-game/code/tree/cef+ipc+entities), [cef+ipc+entities+bezier](/inexor-game/code/tree/cef+ipc+entities+bezier) |  [#111](/inexor-game/code/issues/111) | [@aschaeffer](/aschaeffer), [@super-tux](/super-tux) 
+
+### Goal: New dynamic entity system
 
 Goal is to implement an flexible entity system.
-
-### Developers
-
-* Hanack
-* superTux
 
 ### Entities are used for
 
