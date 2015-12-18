@@ -1,3 +1,7 @@
+Branches | Issues | Main developers
+-------- | ------ | ---
+[cef+ipc+entities+bezier](/inexor-game/code/tree/cef+ipc+entities+bezier) | [#111](/inexor-game/code/issues/111) | [@IAmNotHanni](/IAmNotHanni)
+
 ## Motivation
 
 Curves are very important in games and computer image processing. They can be used to align particles, create camera "drives" and much more. They are also easier to handle than static vertex data.
@@ -9,7 +13,3 @@ We are currently implementing:
 * [Torus knots](http://en.wikipedia.org/wiki/Torus_knot)
 
 [![Alt text for your video](http://img.youtube.com/vi/zqldiZ2Sht4/0.jpg)](http://www.youtube.com/watch?v=zqldiZ2Sht4)
-
-## Developers
-
-* Hanni
