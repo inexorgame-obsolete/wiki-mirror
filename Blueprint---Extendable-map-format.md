@@ -1,10 +1,10 @@
+Branches | Issues | Main developers
+-------- | ------ | ---
+[newmapformat](/inexor-game/code/tree/newmapformat) | [#53](/inexor-game/code/issues/53) | [@aschaeffer](/aschaeffer), [@a-teammate](/a-teammate)
+
 ### Objective
 
 Create a map format which is forward and backward compatible, modular and extendable.
-
-### Author(s)
-
-* Hanack
 
 ### Goals
 
