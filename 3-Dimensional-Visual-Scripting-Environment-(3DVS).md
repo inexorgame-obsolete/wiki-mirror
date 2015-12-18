@@ -1,3 +1,7 @@
+Branches | Issues | Main developers
+--- | --- | --- 
+[3DVisualScripting](/inexor-game/code/tree/hanni/3DVisualScripting) |  [#99](/inexor-game/code/issues/99), [#111](/inexor-game/code/issues/111) | [@IAmNotHanni](/IAmNotHanni)
+
 # Motivation
 *Building a new form of creativity in Inexor*
 ## What are Scripts and why are they important?
