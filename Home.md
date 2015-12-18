@@ -31,7 +31,7 @@ _Stays Sauer, becomes better._
 * [Bezier curve camera flights](Bezier curve)
 * [JSON configuration support](JSON-Implementation)
 * [Entity System](Entity System)
-* [[3 Dimensional Visual Scripting Environment (3DVS))
+* [[3 Dimensional Visual Scripting Environment (3DVS)]]
 
 ### Planned
 
