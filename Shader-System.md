@@ -1,7 +1,6 @@
-Branches | Issues | Developer
---- | --- | --- 
-none |  none | none
-none | blueprint | a_teammate 
+Branches | Issues | Main Developers
+-------- | ------ | --- 
+none | - | _Blueprint author:_ [@a-teammate](/a-teammate)
 
 This is a blueprint for a new shader system which got the following goals:
 
