@@ -1,6 +1,7 @@
 Branches | Issues | Developer
 --- | --- | --- 
 none |  none | none
+none | blueprint | a_teammate 
 
 This is a blueprint for a new shader system which got the following goals:
 
@@ -52,9 +53,9 @@ So how can we deal with this?
 
 There are actually 2 possible solutions we can choose, however of course both are UI based:
 
-##### Node based approach
+##### Node based approach (flowgraph)
 
-This is the most commonly used one in the big engines.
+This is the most commonly used one in the big engines.  
 You actually got a lot of abstraction and just draw lines from one part to the other one.
 An example of unitys shader editor you can see [here](https://d2ujflorbtfzji.cloudfront.net/package-screenshot/EC59CDDA-5417-11E0-9CB0-67250A232548.png).
 
@@ -62,7 +63,7 @@ Dealing with different related asset-shaders would mainly mean having different 
 That is however not the main advantage of this approach, but the modularity you base your abstraction on: you have different functions for different tasks e.g. color modification, advanced filters..  
 You need to write these modules ofc, so we need to provide a template for such modules, but otherwise artists could write them themselves on demand.  
 
-_(An example of such a graph-based scripting is Hanni's [flowgraph system](3-Dimensional-Visual-Scripting-Environment-(3DVS).)_  
+_(An example of such a graph-based scripting is Hanni's [3D flowgraph system](https://github.com/inexor-game/code/wiki/3-Dimensional-Visual-Scripting-Environment-(3DVS)))._  
 
 However this is pretty advanced and we probably need to start with something simpler.
 
@@ -134,8 +135,3 @@ Basicly it summarizes to modifying some input shader and measuring the error com
 * 
 * 
 Later..
-
-### Authors Blueprint:
-
-* a_teammate
-*
