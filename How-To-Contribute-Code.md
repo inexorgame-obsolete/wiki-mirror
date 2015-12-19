@@ -46,7 +46,7 @@ Experiments are allowed and encouraged. But: use your own branch and don't be up
 
 ### Create documentation
 
-Creating documentation is an essential part of the software development process. We document the code and in the wiki.
+Creating documentation is an essential part of the software development process. Please have a look [here to learn more about documentation](Documentation).
 
 If you create a new feature or make a non-trivial change, it has to be documented in the [Changelog](Changelog).
 
@@ -59,7 +59,7 @@ If you create a new feature or make a non-trivial change, it has to be documente
 * Use comments 
 * Other Stuff (e.g. Sauerbraten Uniques) [here](Coding Standards)
 
-### Pull Requests
+### Merging Pull Requests
 
     git checkout master
     git pull origin master
