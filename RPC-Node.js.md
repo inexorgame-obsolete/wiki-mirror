@@ -1,3 +1,7 @@
+Branches | Issues | Main developers
+-------- | ------ | ---
+master | [#51](/inexor-game/code/issues/51), [#69](/inexor-game/code/pull/69) | [@koraa](/koraa)
+
 Implementation of a very basic IPC method for Inexor.
 
 Ultimately this should provide a method of sending CRUD commands to the Inexor process,
