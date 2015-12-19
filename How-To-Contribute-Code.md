@@ -13,7 +13,7 @@ Avoid committing binaries into the **source** repository, so the repository stay
 _If you don't understand the following steps, this [Git-Tutorial](http://pcottle.github.io/learnGitBranching/) could help._
 
 Presteps:  
-* Most of the time helpful: [Speak with the other Inexor people](Developing-Communication) about your feature idea.
+* Always helpful: [Speak with the other Inexor people](Developing-Communication) about your feature idea.
 
 * Assuming you aren't an Inexor team member, create first a fork of the code repository
 
