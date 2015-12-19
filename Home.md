@@ -11,9 +11,9 @@ _Stays Sauer, becomes better._
 * 100% Open Source software (OSS), no restricted licensed content
 
 ### How to get involved
-* [How to contribute code](How to contribute)
+* [[How to Contribute Code]]
 * [[How to Contribute Content]]  
-* [Recruiting](Recruiting)
+* [[Recruiting]]
 
 ## Features
 
@@ -40,7 +40,7 @@ _Stays Sauer, becomes better._
   * [New Masterserver-System (XMPP)](XMPP Integration)
   * [[Make anything more dynamic]]
   * [[Distributing Content System]]
-  * [[Blueprint Extendable Map Format]]
+  * [[Extendable Map Format]]
 
 ### Development
 
@@ -54,4 +54,4 @@ _Stays Sauer, becomes better._
 ### Other
 
 * [Other Existing Projects](Other-Projects)
-* [Wiki for anything related to our content](https://github.com/inexor-game/data/wiki)
+* [Website](https://inexor.org)
