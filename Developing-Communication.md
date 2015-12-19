@@ -21,10 +21,9 @@
 
 # Meetings
 
-We meet on [mumble](http://mumble.sourceforge.net/) on "nooblounge.net", port 64738.
+We meet on [Mumble](https://github.com/mumble-voip/mumble) on "nooblounge.net", port 64738.
 
-Meeting time usually Sundays 21:00 UTC+1, but open for discussion. 
-Meetings take place when necessary (usually weekly) and will be announced in the IRC channel _and sometimes over the mailing list_.
+Meetings take place when necessary and will be announced in the IRC channel.
 
 In advance to every meeting a pad will be created with topics to be discussed.
 
@@ -41,8 +40,8 @@ _Protocols of old or upcoming meetings:_
  * Using [Google Test](https://code.google.com/p/googletest/)
 
 ## Upcoming Tools
-* _Jenkins (instead of travis)_
+* _Jenkins_
  * _https://jenkins-ci.org/_
 
 * _code review_
- * _https://code.google.com/p/gerrit/_
+ * _https://www.gerritcodereview.com/_
