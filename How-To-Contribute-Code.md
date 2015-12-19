@@ -28,17 +28,17 @@ Presteps:
     * Commit often
        * Your feature has to be merged into other branches as easy as possible
        * Big commits often make problems then
- * Push your work to the remote repo on GitHub
+ * Push your work to the remote repository on GitHub
 
 3. Tell the others about your feature 
- * [in IRC or Mumble](Development-Environment)
- * or doing a Pull Request (https://help.github.com/articles/using-pull-requests/)
+ * see [Developing Communication](Developing-Communication)
+ * and create a Pull Request (https://help.github.com/articles/using-pull-requests/)
 
 4. If your branch is successfully merged into master you should delete your feature branch do keep the repository clean.
 
 ### Bigger changes
 
-Some features might be **strategic nature** or might be an **architectural change**. For example replacing the sauerbraten vector class by the vector class of the stdlib would be a bigger architectural change. Another example would be to integrate XMPP to solve multiple features with XMPP as a strategic technology. Both **needs discussion** with the other developers first.
+Some features might be **strategic nature** or might be an **architectural change**. For example replacing the Sauerbraten vector class by the vector class of the stdlib would be a bigger architectural change. Another example would be to integrate XMPP to solve multiple features with XMPP as a strategic technology. Both **needs discussion** with the other developers first.
 
 ### Experiments welcome
 
