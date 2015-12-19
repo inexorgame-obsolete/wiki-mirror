@@ -1,10 +1,14 @@
+Branches | Issues | Main developers
+-------- | ------ | ---
+- | [#20](/inexor-game/code/issues/20)| -
+
 ### Goal
 
-Enet is fine for transfering the game data like position changes and other game events. Also, enet is fast and has a low latency. But for some use cases it's not nessessary to have a low latency and enet makes things more complicated. XMPP is a multi purpose protocol which is interoperable and extendable. Many higher level funtionalities can be implemented on top of XMPP. The goal is to process game information more easily, make Inexor more interoperable and profit from already implemented functionalities of XMPP.
+ENet is fine for transferring the game data like position changes and other game events. Also, ENet is fast and has a low latency. But for some use cases it's not nessessary to have a low latency and enet makes things more complicated. XMPP is a multi purpose protocol which is interoperable and extendable. Many higher level funtionalities can be implemented on top of XMPP. The goal is to process game information more easily, make Inexor more interoperable and profit from already implemented functionalities of XMPP.
 
 ### Use Cases
 
-* Dezentralized propagation of game server information ("Masterserver")
+* Decentralized propagation of game server information ("Masterserver")
  * coordinates of game server
  * player presence (we also have to think about privacy)
  * easy integration of a server list in external programs: websites, desktop client, mobile client
@@ -36,11 +40,8 @@ Enet is fine for transfering the game data like position changes and other game 
  * Models
  * (Game modes, Plugins ...)
 
-### Developers
 
-* ?
-
-### Implemenation Details
+### Implementation Details
 
 #### Infrastructure
 
@@ -62,7 +63,7 @@ Enet is fine for transfering the game data like position changes and other game 
 * Direct share: A player can send a server coordinate to another player
 * Blacklists (providing malware, spyware)
 
-#### Server capabilitities ("extinfo")
+#### Server capabilities ("extinfo")
 
 * A game server provides information about his capabilities
  * Maybe a just a JSON document
@@ -76,7 +77,7 @@ Typical capabilities:
 * maximum number of players
 * plugin extensions
 
-### Additional / Future posibilities of XMPP
+### Additional / Future possibilities of XMPP
 
 XMPP is an extensible format, so at a later point we may make use of other features.
 List of XMPP extensions: http://xmpp.org/xmpp-protocols/xmpp-extensions/
