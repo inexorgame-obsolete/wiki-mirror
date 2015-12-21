@@ -2,18 +2,18 @@
 
 ## Intro/Current API
 
-The current Inexor/Sauer API uses specially crafted network messages; e.g. a player chaning thier position has a special packet which contains three corordinates representing the new position. This can be though of as a procedural approach since in essence each message represents a call to a procedure modifying the state of the game.
+The current Inexor/Sauer API uses specially crafted network messages; e.g. a player changing their position has a special packet which contains three coordinates representing the new position. This can be though of as a procedural approach since in essence each message represents a call to a procedure modifying the state of the game.
 
 On a more abstract level, the entire construct serves the purpose of synchronizing the state between clients and server.
 
 Unfortunately, this approach is rather cumbersome since it requires the developers to add packages for every possible state change; e.g. name change needs it's own specially implemented procedure, weapon change, ...  
-For Inexor, this approach definitely won't cut it: one of the goals is to make it possible to write plugins that define the bahaviour of Inexor on a very deep level. Specifically it should be possible to implement all the game modes in Node/the Inexor graphical scripting language.
+For Inexor, this approach definitely won't cut it: one of the goals is to make it possible to write plugins that define the behaviour of Inexor on a very deep level. Specifically it should be possible to implement all the game modes in Node/the Inexor graphical scripting language.
 
 As a very simple example, take for instance the addition of a handicap: The better a player is the larger their body becomes. This would require the addition of a size change message. Rather than implementing such our message, we should have a framework in place that can automatically process the local state change and automatically generate an appropriate update message.
 
 Essentially: I am talking about a state synchronization framework. We can use the following abstract strategy to build such framework:
 * Declare our data and **the way the data is organized** in a machine readable format
-* Create a generic rule to create differentials over the machiene-readable data
+* Create a generic rule to create differentials over the machine-readable data
 
 The rest of this document is going to outline my a way to organize the data in Inexor and how to send the differentials using Inexor directly and using Node.js.
 
@@ -26,9 +26,9 @@ There's a long tradition of storing data in the filesystem. In fact the filesyst
 In addition to the basic file systems (as provided by protocols like 9P, CIFS or NFS) we need some other features:
 * Decentralization/Syncing – Unlike a traditional file system, we need to provide synchronization between different instances in addition to access only – each C++ instance should work with the data it has locally rather than waiting for IO before being able to access internal variables.
 * Semantic Information – We need to be able to check whether a player is actually allowed to perform  a certain update (e.g. only an admin may kick another player but each player can disconnect themselves)  
-* Optimization – Since we know a lot about our internal data, we can compress that information. E.g. the time in the game left could be in the tree under `/game/eta`, but since we know this is a frequently accessed element we internally assign the file system ID 13; if we're clever, this fits into a 4bit varint; it can be decoded quickyly and in our C++ server code we could use a statically compiled jumping table to access it.
+* Optimization – Since we know a lot about our internal data, we can compress that information. E.g. the time in the game left could be in the tree under `/game/eta`, but since we know this is a frequently accessed element we internally assign the file system ID 13; if we're clever, this fits into a 4bit varint; it can be decoded quickly and in our C++ server code we could use a statically compiled jumping table to access it.
 
-There already are a couple of file systems and file system protocols out there; 9P comes to mind very quickly because it was build as an API for accessing application internals. Unfortunately it doesn't meet the distributed requirment.  
+There already are a couple of file systems and file system protocols out there; 9P comes to mind very quickly because it was build as an API for accessing application internals. Unfortunately it doesn't meet the distributed requirement.  
 Then, there also are some [distributed file systems](https://en.wikipedia.org/wiki/Comparison_of_distributed_file_systems#cite_note-6) but they are generally built for storing big data (problems that won't fit on a single HD) where as we are dealing with a small amount of data that needs to be synced efficiently.
 
 So let's take a step back and design our own:
@@ -50,7 +50,7 @@ For Inexor we need a couple more data structures:
 
 **Link** File that contains a reference to another Node. This generally expresses äquivalence between nodes. Let `/players/22/name` be a File that contains "Arthur Dent" and let `/players/me` be a link that references `/players/22`; then `/players/me/name` is considered a File with the value "Arthur Dent". What a link points to can be changed.   
 **Set** A Directory that is not compile time static. A Set contains any number of nodes; each of those nodes must follow the same structure. The name of a Node inside a directory needs to be a UUID. Sets also contain special directory **by/** which can be used to access subnodes based on their propertes. E.g. by `by/name/hoax` would reference a Directory inside the set that has a File `name` with the contents `hoax`.   
-**Log** A Directory that contains a history of Nodes. Each Node in a log needs to follow the same structure. The names of the Nodes in a log are nanosecond precision unix timestamps PLUS a UUID. Logs also contain Links with numeric names: `0` would access the most recent node, while `1` would acces the Node before that. Logs only provide approximate chronological coherence: Nanosecond precision is mostly used to avoid name collisions; correctness can not be guranteed because it is not possible to synchronize all the Peer's clocks and since Unix time is based on UTC and thus incorporates leap seconds. Old Nodes may be purged from nodes; the Log structure declares no limitation on when that may happen.
+**Log** A Directory that contains a history of Nodes. Each Node in a log needs to follow the same structure. The names of the Nodes in a log are nanosecond precision unix timestamps PLUS a UUID. Logs also contain Links with numeric names: `0` would access the most recent node, while `1` would acces the Node before that. Logs only provide approximate chronological coherence: Nanosecond precision is mostly used to avoid name collisions; correctness can not be guaranteed because it is not possible to synchronize all the Peer's clocks and since Unix time is based on UTC and thus incorporates leap seconds. Old Nodes may be purged from nodes; the Log structure declares no limitation on when that may happen.
 
 [Unix Style Paths](https://en.wikipedia.org/wiki/Path_(computing)#Unix_style) are used to denote paths.
 
@@ -84,7 +84,7 @@ We should also implement a 9P server for the Tree. Just because it's awesome!
 
 ### Structure
 
-This is an outilne of what the structure of the filesystem will look like; it's a high level overview seen by Node.js serving a specific inexor player; the parameters mentionened are not necesessarily backed by Inexor and they are not necessarily synced. **TODO: IMPROVE**
+This is an outline of what the structure of the filesystem will look like; it's a high level overview seen by Node.js serving a specific inexor player; the parameters mentioned are not necessarily backed by Inexor and they are not necessarily synced. **TODO: IMPROVE**
 
 ```
 # The basic tree
@@ -140,10 +140,10 @@ struct Settings
   ... # Pretty much most of the stuff accessible through the current settings page.
 ```
 
-## Node.js Implenentation
+## Node.js Implementation
 
 For now I suggest we create an implementation of a similar tree like the one above in Node.js based on the cubescript variables. The purpose of this is to quickly create and evaluate an API.
-What excatly that tree will contain needs to be evaluated; specifically we should leave the entire syncing and differentials for now and just concentrate on creating a prototoypical api.
+What excatly that tree will contain needs to be evaluated; specifically we should leave the entire syncing and differentials for now and just concentrate on creating a prototypical api.
 
 This API can should then be exposed via a REST API and we should create bindings for Angular so we can actually use it in the GUI.
 
@@ -203,19 +203,19 @@ InexorFS = new Directory
 This tree also needs to be implemented in C++; here are the implementation steps how I imagine them (prone to change).
 (I know that most of the pseudocode below will not compile; I just hope it serves to illustrate the Idea).
 
-(1) in order to do this we can build on the already existing `SharedVar<typename T>` and add a path parameter to I (somehow, I will have to figure that out). The basic features a SharedVar contais would then be (1) Observability (creating differentials) and (2) assingment of a path in the tree.
+(1) in order to do this we can build on the already existing `SharedVar<typename T>` and add a path parameter to I (somehow, I will have to figure that out). The basic features a SharedVar contais would then be (1) Observability (creating differentials) and (2) assignment of a path in the tree.
 
 (2) In the next step we would need to build on that and add support for structures: Add a `SharableStructure` abstract base class; sharable structures inherit from that class and contain a buch of SharedVars; the shared vars are the variables of that structure that are actually synced between instances.
-Now you can create a `SharedVar<MyStructure> foobar{ "/foo/bar", ... }` where MyStructure extends SharedStructure. SharedVar recognoces that MyStructure inherits from SharedStructure. Now, if MyStructure contains a sharedVar under `name/`, this could bew accessed under `/foo/bar/name`.
+Now you can create a `SharedVar<MyStructure> foobar{ "/foo/bar", ... }` where MyStructure extends SharedStructure. SharedVar recognoces that MyStructure inherits from SharedStructure. Now, if MyStructure contains a sharedVar under `name/`, this could be accessed under `/foo/bar/name`.
 
-(3) Now that we have the structures, we need the Log and the Set. `SharedSet<std::vector, int> my_number{ "/settings/my_number" }` would create a SharedSet containing lots of files with integer values backed by an std::vector. SharedSet/SharedLog would take anything SharedVar can take. We should also implement multiple bacing structures for performance (std::list, std::unordered_map, maybe boost::multimap for the SharedLog because it uses two kes, ...).
+(3) Now that we have the structures, we need the Log and the Set. `SharedSet<std::vector, int> my_number{ "/settings/my_number" }` would create a SharedSet containing lots of files with integer values backed by an std::vector. SharedSet/SharedLog would take anything SharedVar can take. We should also implement multiple bacing structures for performance (std::list, std::unordered_map, maybe boost::multimap for the SharedLog because it uses two keys, ...).
 
 The last three steps, did not implement the protocol. In fact the only purpose this really served was annotating our code with the tree structure. Now comes the slightly harder part: We need to find some reflection data to extract the information we just annotated (https://github.com/AustinBrunkhorst/CPP-Reflection/) and then we need to parse (https://developers.google.com/protocol-buffers/docs/reference/cpp/google.protobuf.compiler.parser) and update our protocol files to reflect the tree and we need generate glue code to generate protobuf diffs from our C++ differentials and apply them on the other side. (http://szelei.me/code-generator/, https://stackoverflow.com/questions/12111381/template-based-c-c-code-generation).
 I know it sounds rather difficult but with the resources provided it should be doable.
 
 In this process we need to be very careful in order to stay backwards compatible (particularly, the protocol files and possibly the reflection data should be stored on disk and manually checked in in order to ensure full control).
 
-Finally, we also need to think about custom datastructures that require custom diffs: We need to add support for them by allowing SharedStructures to implement special functions (diff, patch or so) that generate diffs with handcoded protocol files.
+Finally, we also need to think about custom data structures that require custom diffs: We need to add support for them by allowing SharedStructures to implement special functions (diff, patch or so) that generate diffs with hand coded protocol files.
 
 ## Roadmap
 
