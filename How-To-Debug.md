@@ -186,7 +186,7 @@ and can also be disabled and enabled again.
 
 ### Stepping
 
-After a breakpoint has been triggered, you can go one step further by issuing
+After a breakpoint or watchpoint has been triggered, you can go one step further by issuing
 
     (gdb) step
 
