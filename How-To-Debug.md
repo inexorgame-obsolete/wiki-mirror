@@ -170,7 +170,7 @@ and can also be disabled and enabled again.
 
 ### Examine
 
-There is a huge number of options how to examine the memory with gdb. Here, the most important are explained.
+As soon as the program is stopped by sending SIGINT or triggering a breakpoint/watchpoint, the state of the program can be looked at more closely. There is a huge number of options how to examine the memory with gdb. Here, the most important are explained.
 
 To list all the parameters of the current function, call
 
