@@ -60,6 +60,118 @@ Here you go, you can find the error now easily by going step by step through you
 If not anything works, try to use external debugging tools.
 Thanks to [VALVE's Vogl](https://github.com/ValveSoftware/vogl), there is finally a good OpenGL graphic debugger out there. There is also [apitrace](https://apitrace.github.io/).
 
+# Linux (gdb)
+
+On Linux, the powerful gdb debugger is available. It features many capabilities to trace the programs' execution and monitor the programs' internal variables. It is even possible to call or return from functions in the middle of a debugging session independently of the normal execution.
+
+Note that especially beginners should consider a frontend which features a graphical user interface. Here, the usage of gdb itself is explained.
+
+## Preparation
+
+Like inexor, the program should be compiled with debugging symbols.
+
+In order to use ptrace in gdb the following command should be issued as root:
+
+    # echo 0 > /proc/sys/kernel/yama/ptrace_scope
+
+## Connect inexor to gdb
+
+Start inexor like you normally would.
+
+First, you have to find out the PID of the inexor process. That happens by issuing
+
+    $ ps a | grep ./bin/linux/x86_64/inexor | grep -v grep | grep -v xargs
+
+The first number is the PID which you are looking for.
+
+Next, start gdb with the inexor executable as its only command line option:
+
+    $ gdb inexor
+
+To connect inexor to gdb, type in gdb
+
+    (gdb) attach PID
+
+where PID is the PID you got in the previous step.
+
+## Debugging with gdb
+
+There are plenty of tutorials on how gdb is used for debugging. Here, only the basics are explained for quick reference.
+
+### Stop and continue execution
+
+To stop the execution of inexor at any time, send the signal SIGINT to gdb by pressing <ctrl+c>.
+
+To continue the execution after that or after a breakpoint has been triggered, enter
+
+    (gdb) continue
+
+### Backtrace
+
+Especially if the program crashes
+
+    (gdb) backtrace
+
+gives a list of the functions that you get if you follow the stackframes back. That is useful to get a general idea where the problem might be. An alias that might be easier to remember is
+
+    (gdb) where
+
+### Breakpoints
+
+Breakpoints are marks in the code at which the execution of a program should be paused. That gives opportunity to examine the state of the program. There are many options to place a breakpoint. One would be
+
+    (gdb) break octaedit.cpp:42
+
+where octaedit.cpp is the file and 42 is the line you want the breakpoint to be. Instead of a line you can also put a function name. You can also use classes and methods like in
+
+    (gdb) break LinkedList<int>::remove
+
+A list of breakpoints is available through
+
+    (gdb) info break
+
+You can disable breakpoints with
+
+    (gdb) disable <number>
+
+where <number> is the number of the breakpoint. To enable the breakpoint again, enter
+
+    (gdb) enable <number>
+
+To pause the program on breakpoints conditionally, issue
+
+    (gdb) condition <number> <condition>
+
+where <number> is the number of the breakpoint and <condition> is the condition that has to be valid in order to pause the program. An example for that would be
+
+    (gdb) condition 1 item_to_remove==1
+
+### Examine
+
+There is a huge number of options how to examine the memory with gdb. Here, the most important are explained.
+
+To list all the parameters of the current function, call
+
+    (gdb) info args
+
+and to list all the local variables of a function, call
+
+    (gdb) info locals
+
+If you want to print the value of one single variable, issue
+
+    (gdb) print <variable>
+
+### Stepping
+
+After a breakpoint has been triggered, you can go one step further by issuing
+
+    (gdb) step
+
+which will also step into functions that are called. To avoid that and stay in the current function, you can issue
+
+    (gdb) next
+
 # Debugging tricks
 
 ## Sauerbraten debug leftovers
