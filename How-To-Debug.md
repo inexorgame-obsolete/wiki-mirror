@@ -146,22 +146,6 @@ where \<number\> is the number of the breakpoint and \<condition\> is the condit
 
     (gdb) condition 1 item_to_remove==1
 
-### Examine
-
-There is a huge number of options how to examine the memory with gdb. Here, the most important are explained.
-
-To list all the parameters of the current function, call
-
-    (gdb) info args
-
-and to list all the local variables of a function, call
-
-    (gdb) info locals
-
-If you want to print the value of one single variable, issue
-
-    (gdb) print <variable>
-
 ### Watchpoints
 
 If you are rather interested in a variable than in a code segment, watchpoints might be a better alternative to breakpoints. Watchpoints are triggered if a particular variable is accessed.
@@ -183,6 +167,22 @@ Watchpoints are listed together with breakpoints
     (gdb) info break
 
 and can also be disabled and enabled again.
+
+### Examine
+
+There is a huge number of options how to examine the memory with gdb. Here, the most important are explained.
+
+To list all the parameters of the current function, call
+
+    (gdb) info args
+
+and to list all the local variables of a function, call
+
+    (gdb) info locals
+
+If you want to print the value of one single variable, issue
+
+    (gdb) print <variable>
 
 ### Stepping
 
