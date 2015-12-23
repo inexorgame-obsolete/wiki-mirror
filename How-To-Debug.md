@@ -194,7 +194,7 @@ which will also step into functions that are called. To avoid that and stay in t
 
     (gdb) next
 
-# Quit
+## Quit
 
 To exit gdb, enter
 
