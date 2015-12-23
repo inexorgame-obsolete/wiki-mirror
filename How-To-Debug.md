@@ -162,6 +162,28 @@ If you want to print the value of one single variable, issue
 
     (gdb) print <variable>
 
+### Watchpoints
+
+If you are rather interested in a variable than in a code segment, watchpoints might be a better alternative to breakpoints. Watchpoints are triggered if a particular variable is accessed.
+
+You can place watchpoints by
+
+    (gdb) watch <variable>
+
+where \<variable\> is the variable of interest. The program stops if \<variable\> is modified. To stop the program as soon as the variable is read, issue
+
+    (gdb) rwatch <variable>
+
+and if you want to stop the program in both cases – if the variable is read from or written to – enter
+
+    (gdb) awatch <variable>
+
+Watchpoints are listed together with breakpoints
+
+    (gdb) info break
+
+and can also be disabled and enabled again.
+
 ### Stepping
 
 After a breakpoint has been triggered, you can go one step further by issuing
