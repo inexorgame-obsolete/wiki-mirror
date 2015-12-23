@@ -100,7 +100,7 @@ There are plenty of tutorials on how gdb is used for debugging. Here, only the b
 
 ### Stop and continue execution
 
-To stop the execution of inexor at any time, send the signal SIGINT to gdb by pressing <ctrl+c>.
+To stop the execution of inexor at any time, send the signal SIGINT to gdb by pressing \<ctrl+c\>.
 
 To continue the execution after that or after a breakpoint has been triggered, enter
 
