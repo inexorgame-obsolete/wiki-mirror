@@ -134,7 +134,7 @@ You can disable breakpoints with
 
     (gdb) disable <number>
 
-where <number> is the number of the breakpoint. To enable the breakpoint again, enter
+where \<number\> is the number of the breakpoint. To enable the breakpoint again, enter
 
     (gdb) enable <number>
 
@@ -142,7 +142,7 @@ To pause the program on breakpoints conditionally, issue
 
     (gdb) condition <number> <condition>
 
-where <number> is the number of the breakpoint and <condition> is the condition that has to be valid in order to pause the program. An example for that would be
+where <number> is the number of the breakpoint and \<condition\> is the condition that has to be valid in order to pause the program. An example for that would be
 
     (gdb) condition 1 item_to_remove==1
 
