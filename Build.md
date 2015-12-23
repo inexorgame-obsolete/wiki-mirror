@@ -45,6 +45,7 @@ You will have to clone the Project somewhere.
   * Go to the overview of our `code` repository and click on `Clone in Desktop`
   * Choose a directory in which the repository is getting cloned
   * Click `Ok`
+  * You will need to checkout the submodules as well, you can doing that by clicking on the wheel symbol, selecting `Open in Git Shell` and typing in `git submodule init; git submodule sync; git submodule update`
 
 ## Create the Visual Studio or CodeBlocks Project
   _(or the project file for another generator)_
