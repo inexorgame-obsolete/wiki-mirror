@@ -194,6 +194,12 @@ which will also step into functions that are called. To avoid that and stay in t
 
     (gdb) next
 
+# Quit
+
+To exit gdb, enter
+
+    (gdb) quit
+
 # Debugging tricks
 
 ## Sauerbraten debug leftovers
