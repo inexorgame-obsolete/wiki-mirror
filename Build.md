@@ -19,11 +19,11 @@ This will give you a pretty good exemplary environment if you are on Windows.
 * Download and install [CMake](http://www.cmake.org/download/)
    * CMake will generate your project files
 
-* Download and install git
-   * Use one of the following tools if you don't already have git:
+* Download and install Git
+   * Use one of the following tools if you don't already have Git:
      * [SmartGit](http://www.syntevo.com/smartgit/download) - Heavily developed and intuitive GUI (e.g. Supports submodules in the GUI) (Recommended)
-     * [GitHub Desktop](https://desktop.github.com) - GUI does not support submodules. You must use the command line to update them.
-     * [git-scm.com](http://git-scm.com/download) is the official git website, and has downloads for the CLI version, and links to GUIs.
+     * [GitHub Desktop](https://desktop.github.com) - Very simple and clean UI. Does not support submodules. You must use the command line to update them.
+     * [git-scm.com](http://git-scm.com/download) is the official Git website, and has downloads for the CLI version, and links to several GUIs.
 
 
 
@@ -32,14 +32,11 @@ This will give you a pretty good exemplary environment if you are on Windows.
 You will have to clone the Project somewhere.
 
 * If you use SmartGit:
-  * Open SmartGit
-
-  * Clone the Repository
-    * click `Repository` and `Clone` (or press `Ctrl+Shift+O`)
-    * Select "Remote Git ... repository", URL = https://github.com/inexor-game/code
-    * On the next Page select both `Include Submodules` as well as `Fetch all Heads and Tags`
-    * Select a folder on the next page. Your local Git repository will be created here. 
-    * Select `Finish`
+  * click `Repository` and `Clone` (or press `Ctrl+Shift+O`)
+  * Select "Remote Git ... repository", URL = https://github.com/inexor-game/code
+  * On the next Page select both `Include Submodules` as well as `Fetch all Heads and Tags`
+  * Select a folder on the next page. Your local Git repository will be created here. 
+  * Select `Finish`
 
 * If you use GitHub Desktop:
   * Go to the overview of our `code` repository and click on `Clone in Desktop`
@@ -63,7 +60,7 @@ Open the CMake-GUI and follow the steps as [described here](#cmake-gui). Then ju
   * Click on `Build`
 
 ## Get the data
-See (Directory-Structure)[https://github.com/inexor-game/code/wiki/Directory-Structure] to see how your folder structure should look like to start Inexor.
+See [Directory-Structure](https://github.com/inexor-game/code/wiki/Directory-Structure) to see how your folder structure should look like to start Inexor.
 
 ## Run
 Start Inexor with the `inexor.bat` file.
@@ -101,7 +98,7 @@ Archlinux | Run `sudo pacman -S git cmake sdl2 sdl2_gfx sdl2_image sdl2_mixer pr
 The next step is to run CMake, this tool generates project files for your favourite IDE or tool.
 If you have cmake in your path you can run `(mkdir build && cmake ..)`, you probably will need to add a `-G "<generator>"` flag to make it generate a project file for your precious IDE (you do not need this for makefiles on linux).
 
-The most commonly used generators will probably include `Visual Studio`, `CodeBlocks`, `MinGW Makefiles`, `Unix Makefiles` and `Xcode`. There are also makefiles for Eclipse, Sublime Text and a lot others. The complete list can be found [here](http://www.cmake.org/cmake/help/v3.2/manual/cmake-generators.7.html).
+The most commonly used generators will probably include `Visual Studio`, `CodeBlocks`, `MinGW Makefiles`, `Unix Makefiles` and `Xcode`. There are also makefiles for Eclipse, Sublime Text and a lot others. The complete list can be found [here](http://www.cmake.org/cmake/help/v3.4/manual/cmake-generators.7.html).
 
 ### Examples
 
@@ -167,7 +164,7 @@ Data like maps and fonts is provided in a separate [data repository](https://git
         ├── data-additional
         └── data-playground
 
-More on that see: (Directory-Structure)[https://github.com/inexor-game/code/wiki/Directory-Structure]
+More on that see: [Directory-Structure](https://github.com/inexor-game/code/wiki/Directory-Structure)
 
 ## Troubleshooting
 
