@@ -10,10 +10,10 @@ This will give you a pretty good exemplary environment if you are on Windows.
 ## Setup
 
 * Download and install 
- * Microsoft Visual Studio **2015**
+ * Microsoft Visual Studio **2015** (Recommended)
     * download [VS 2015 Community Edition](https://www.visualstudio.com) 
-    * only version 15 is _supported or you are required to rebuild the precompiled dependencies yourself_
- * **OR as an alternative:** Code::Blocks
+    * only version 15 is supported _(or you are required to rebuild the precompiled dependencies yourself)_
+ * _(Less supported but open source)_ alternative: Code::Blocks
    * Please [download here](http://www.codeblocks.org/downloads/26) the latest release, with the `TDM-GCC` addition
 
 * Download and install [CMake](http://www.cmake.org/download/)
@@ -21,7 +21,7 @@ This will give you a pretty good exemplary environment if you are on Windows.
 
 * Download and install git
    * Use one of the following tools if you don't already have git:
-     * [SmartGit](http://www.syntevo.com/smartgit/download) - Heavily developed and intuitive GUI (e.g. Supports submodules in the GUI)
+     * [SmartGit](http://www.syntevo.com/smartgit/download) - Heavily developed and intuitive GUI (e.g. Supports submodules in the GUI) (Recommended)
      * [GitHub Desktop](https://desktop.github.com) - GUI does not support submodules. You must use the command line to update them.
      * [git-scm.com](http://git-scm.com/download) is the official git website, and has downloads for the CLI version, and links to GUIs.
 
@@ -56,17 +56,17 @@ Open the CMake-GUI and follow the steps as [described here](#cmake-gui). Then ju
 * If you use Visual Studio:
   * Open `build/Inexor.sln `
      * It will automatically open with Visual Studio
-  * Right click the `INSTALL` solution in solution explorer, and click build.
+  * Right click the **`INSTALL`** solution in solution explorer, and click build.
 * If you use CodeBlocks:
   * Open `build/Inexor.cbp`
   * Select the target `install`
   * Click on `Build`
 
 ## Get the data
-See -> [Get The Content](#get-the-content).
+See (Directory-Structure)[https://github.com/inexor-game/code/wiki/Directory-Structure] to see how your folder structure should look like to start Inexor.
 
 ## Run
-It's highly recommend to keep the repositories clean and to create a directory in which you compile + copy the data, to run Inexor. Start Inexor with the `inexor.bat` file.
+Start Inexor with the `inexor.bat` file.
 
 ## Cross-compiling from Linux to Windows
 If you are using Linux to cross-compile Inexor to Windows using `mingw32` and `mingw-w64` then you should use
@@ -167,6 +167,7 @@ Data like maps and fonts is provided in a separate [data repository](https://git
         ├── data-additional
         └── data-playground
 
+More on that see: (Directory-Structure)[https://github.com/inexor-game/code/wiki/Directory-Structure]
 
 ## Troubleshooting
 
