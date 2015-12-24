@@ -82,10 +82,10 @@ The first step of building this project is rather obvious, but for sake of compl
  ```git clone --depth 1 https://github.com/inexor-game/code.git; cd code; git submodule init; git submodule sync; git submodule update;```
 ## Downloading the dependencies
 
-The next step is to get all the required dependencies to compile. For convenience, all the dependencies are prebuilt and packed in the `inexor/platform` directory. You only need an environment that can build C++ programs such as Visual Studio, CodeBlocks, XCode or MinGW.
+The next step is to get all the required dependencies to compile. For convenience, all the dependencies are prebuilt and packed in the `platform` directory. You only need an environment that can build C++ programs such as Visual Studio, CodeBlocks, XCode or MinGW.
 
-Specifically, on Linux you will need CMake >= 3.0, make and GCC >= 4.9 or Clang >= 3.5 as your compiler. The version numbers are minimum.: They might work with older versions (but it's not supported) and newer versions are better!
-Also install your distribution's development packages of mesa, SDL2, SDL2_image, SDL2_mixer, Boost and Google Protobuf. 
+Specifically, on Linux you will need CMake >= 3.0, make and GCC >= 4.9 or Clang >= 3.5 as your compiler. The version numbers are minimum: They might work with older versions (but it's not official supported) and newer versions are better!
+Also install your distribution's development packages of Mesa, SDL2, SDL2_image, SDL2_mixer, Boost and Google Protobuf. 
 
 OS  | What to do
 --- | ---
@@ -96,9 +96,9 @@ Archlinux | Run `sudo pacman -S git cmake sdl2 sdl2_gfx sdl2_image sdl2_mixer pr
 ## Running CMake
 
 The next step is to run CMake, this tool generates project files for your favourite IDE or tool.
-If you have cmake in your path you can run `(mkdir build && cmake ..)`, you probably will need to add a `-G "<generator>"` flag to make it generate a project file for your precious IDE (you do not need this for makefiles on linux).
+If you have CMake in your path you can run `(mkdir build && cmake ..)`, you probably will need to add a `-G "<generator>"` flag to make it generate a project file for your precious IDE (you do not need this for makefiles on linux).
 
-The most commonly used generators will probably include `Visual Studio`, `CodeBlocks`, `MinGW Makefiles`, `Unix Makefiles` and `Xcode`. There are also makefiles for Eclipse, Sublime Text and a lot others. The complete list can be found [here](http://www.cmake.org/cmake/help/v3.4/manual/cmake-generators.7.html).
+The most commonly used generators will probably include `Visual Studio`, `CodeBlocks`, `MinGW Makefiles`, `Unix Makefiles` and `Xcode`. There are also makefiles for Eclipse, Sublime Text and a lot others. The complete list can be found [here](https://www.cmake.org/cmake/help/v3.4/manual/cmake-generators.7.html).
 
 ### Examples
 
@@ -109,7 +109,7 @@ md vstudio && cd vstudio && cmake .. -G "Visual Studio 14 2015" :: Generate a Vi
 
 ```
 
-NB: make sure to do *cmake ..* and *make* from a directory that is not referenced by a symlink somewhere in the path (otherwise you will have some problems with protobuf).
+Notice: make sure to do *cmake ..* and *make* from a directory that is not referenced by a symlink somewhere in the path (otherwise you will have some problems with protobuf).
 
 ### Working around the libudev error
 There is a known ABI change within libudev which might break libcef.so for you.
