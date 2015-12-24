@@ -1,14 +1,17 @@
-## Media Repos
-Since we split data files from the code files for using git with less waiting time, we have 2+ repositories now for a single Inexor game.  
-So you'll need to bring back the data repositories (data-core, data-additional, data-playground, ..) with the code repo.
+Branches | Issues | Main developers
+-------- | ------ | ---
+master | [#4](/inexor-game/code/issues/4) | [@a-teammate](/a-teammate), [@Fohlen](/Fohlen), [@Croydon](/Croydon)
+
+## Media Repositories
+Since we split data files from the code files for using Git with less waiting time, we have 2+ repositories now for a single Inexor game.  
+So you'll need to bring back the data repositories (data (required) , data-additional (optional), data-playground (optional), ..) with the code repo.
 
 This is the structure you'll want:
 
 ```
 bin
-config
 media
-    core
+    data
         map
         texture        
         ..
@@ -20,11 +23,11 @@ inexor.bat
 inexor_unix
 ..
 ```
-To create this structure you'll need to git clone (more info on git [here](https://github.com/inexor-game/code/wiki/Build)) the contents of the [data](https://github.com/inexor-game/data), [data-additional](https://github.com/inexor-game/data-additional) and [data-playground](https://github.com/inexor-game/data-playground)) repos in seperate subfolders inside `media`.  
-Only the main `data`-repository is required, but the other ones provide some more maps and stuff, so you'll probably want them, too.  
+To create this structure you'll need to git clone (more info on Git [here](https://github.com/inexor-game/code/wiki/Build)) the contents of the [data](https://github.com/inexor-game/data), [data-additional](https://github.com/inexor-game/data-additional) and [data-playground](https://github.com/inexor-game/data-playground)) repos in seperate subfolders inside `media`.  
+**Only the main `data`-repository is required**, but the other ones provide some more maps and stuff, so you'll probably want them, too.  
 It doesn't matter how you name the folders inside media, they'll all get mounted.
 
-_To start inexor you should remember to always use the specific scripts (`inexor_unix` on linux, `inexor.bat` on windows)._
+_To start Inexor you should remember to always use the specific scripts (`inexor_unix` on linux, `inexor.bat` on windows)._
 _Therefore you need to build the `install` target before, more on that see [Build](https://github.com/inexor-game/code/wiki/Build)._
 
 ## Content Structure
@@ -74,16 +77,16 @@ media                         // previously known as "packages"
     particle
     skybox
         nothing
-            morning_up.jpg
-            morning_dn.jpg            // ..
-            morning.cfg               // Thats new(!) a cfg for skyboxes
+            morning_up.png
+            morning_dn.png            // ..
+            morning.cfg               // Todo: A new cfg file for skyboxes
     sound
     texture
         a_teammate
-             wood_golden_bar.cfg      // every texture has its own cfg!
-             wood_golden_bar.jpg      // you can provide a package.cfg but you should forward to these individual cfgs
-             wood_golden_bar_norm.jpg
-             wood_golden_bar_depth.jpg
+             wood_golden_bar.cfg      // Todo: every texture has its own cfg!
+             wood_golden_bar.png      // you can provide a package.cfg but you should forward to these individual cfgs
+             wood_golden_bar_norm.png
+             wood_golden_bar_depth.png
              ...
         inexor
              notexture.png  
@@ -96,18 +99,13 @@ Directories, to which map designers normally often add files, have a ``directory
 
 We encourage you to use subdirectories for different themes etc. so that you will get a structure like ``directory/nickname/theme1/stuff``, ``directory/nickname/another_theme/stuff``.
 
-##Differences to Sauerbratens structure
+## Differences to Sauerbratens structure
 
 * scripts are in config/
 * config.cfg is named saved.cfg
-* every texture its own cfg
-* every skybox its own cfg
 * **Paths are relative to their executing file**
   * makes independent (shareable) folders possible
 
-
-### Developers
-
-* a_teammate
-* Fohlen
-* Nooby
+## In the future:
+* every texture has its own cfg
+* every skybox has its own cfg
