@@ -6,7 +6,7 @@ master | [#4](/inexor-game/code/issues/4) | [@a-teammate](/a-teammate), [@Fohlen
 Since we split data files from the code files for using Git with less waiting time, we have 2+ repositories now for a single Inexor game.  
 So you'll need to bring back the data repositories (data (required) , data-additional (optional), data-playground (optional), ..) with the code repo.
 
-This is the structure you'll want:
+This is the structure you want:
 
 ```
 bin
