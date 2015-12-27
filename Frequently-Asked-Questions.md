@@ -23,7 +23,7 @@ That's specifically problematic because IMO we'd never even get near any compile
 
 Python or Ruby (or erlang or groovy ...) are certainly as excellent as node.js, but since we will be using JS in the browser, better introduce just one language.
 
-Node.js uses protocol buffers to communicate with inexor, the web browser uses http to comunicate with node.js. This introduces huge complexities which is a serious drawback.
+Node.js uses protocol buffers to communicate with inexor, the web browser uses http to comunicate with node.js. Node.js and Inexor will run in different processes and it would even be possible to run node.js, inexor and the Web UI on completely different computers. This introduces huge complexities which is a serious drawback.
 APIs will have to be used hide those complexities for third party developers.
 
 The distributed system also has some advantages:
