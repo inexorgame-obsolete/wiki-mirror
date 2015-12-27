@@ -32,3 +32,5 @@ The distributed system also has some advantages:
 2. It is much easier to implement in C++  (provided we don't want to implement standard libraries for those languages ourselves)
 3. The protocols designed in this process can replace enet in the future
 4. Since the GUI is simply web, we get a free web GUI for servers and for clients
+
+See also [[HTML5 User Interface]] and [[RPC Node.js]].
