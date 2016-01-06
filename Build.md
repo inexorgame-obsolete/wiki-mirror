@@ -149,7 +149,7 @@ You can specify them from the command line like this: `-D<variable name>=<value>
   
 # Get the content
 
-Data like maps and fonts is provided in a separate [data repository](https://github.com/inexor-game/data). Clone that repository along with optional repositories [data-additional](https://github.com/inexor-game/data-additional) and [data-playground](https://github.com/inexor-game/data-playground) in the `media` directory, which should be in the root directory of the Inexor code repository. Alternatively you can use a symbolic link like in the following example.
+Data like maps and fonts is provided in a separate [data repository](https://github.com/inexor-game/data). Clone that repository along with the optional repository [data-additional](https://github.com/inexor-game/data-additional) in the `media` directory, which should be in the root directory of the Inexor code repository. Alternatively you can use a symbolic link like in the following example.
 
     .
     ├── code
@@ -161,8 +161,7 @@ Data like maps and fonts is provided in a separate [data repository](https://git
     │   └── tool
     └── media
         ├── data
-        ├── data-additional
-        └── data-playground
+        └── data-additional
 
 More on that see: [Directory-Structure](https://github.com/inexor-game/code/wiki/Directory-Structure)
 
