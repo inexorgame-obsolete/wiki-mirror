@@ -80,6 +80,7 @@ The first step of building this project is rather obvious, but for sake of compl
 
 * If you want to checkout the latest master only you need to initialise the submodules as well
  ```git clone --depth 1 https://github.com/inexor-game/code.git; cd code; git submodule init; git submodule sync; git submodule update;```
+
 ## Downloading the dependencies
 
 The next step is to get all the required dependencies to compile. For convenience, all the dependencies are prebuilt and packed in the `platform` directory. You only need an environment that can build C++ programs such as Visual Studio, CodeBlocks, XCode or MinGW.
