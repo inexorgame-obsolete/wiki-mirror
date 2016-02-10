@@ -39,13 +39,12 @@ Jump to...
  * Demo browser with previews (players, scores, what time those scores happen, text-messages...)
  * Stats (Normal but customizable stats-bar plus all-time-stats)
  * Ingame IRC
-* [WC-Client (Wahn-/Wonderclient)](https://github.com/tpoechtrager/wc-ng) ([Original Publish](http://ogros.org/forum/viewtopic.php?f=77&t=1733))
+* [WC-Client (Wahn-/Wonderclient)](https://github.com/tpoechtrager/wc-ng)
 * [SDOS Client](https://github.com/pisto/sdos-test)
- * SDL2
  * multipoll (lag free vertical sync, zero tearing)
  * anticheat (closed source)
 * [Sauerbraten SDL2 Client](https://github.com/extra-a/sauer-sdl2)
- * SDL2, based on SDOS Client
+ * based on SDOS Client
  * customized HUD elements
  * new menus
  * server preview
@@ -135,13 +134,13 @@ Jump to...
  * New gamemodes
  * New content
  * All free content (Creative Commons BY or BY-SA licensed)
-* [Revelade Revolution](http://theintercooler.com/reveladerevolution.html)
+* [Revelade Revolution](https://github.com/killme/Revelade-Revolution)
  * zombie styled game
 * [BananaBread](https://github.com/kripken/BananaBread)
  * standalone web port of sauerbraten
  * All free content (Creative Commons)
  * problem: can't use content of sauer because of non-free content
-* [Marble Arena](http://www.marble-arena.com/)
+* [Marble Arena](http://www.marble-arena.com)
  * control a marble throught diverse levels and collect stars
  * maybe the only game using the cube 2 engine which isn't a ego shooter or RPG?
 * [AssaultCube](http://assault.cubers.net) ([GitHub Repo](https://github.com/assaultcube/AC)) (Original Cube Engine, not Cube 2)
