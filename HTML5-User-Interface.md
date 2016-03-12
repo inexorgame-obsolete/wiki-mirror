@@ -1,6 +1,6 @@
 Branches | Issues | Main developers
 -------- | ------ | ---
-[cef](/inexor-game/code/tree/cef), [cef+entities](/inexor-game/code/tree/cef+entities), [cef+ipc+entities](/inexor-game/code/tree/cef+ipc+entities), [cef+ipc+entities+bezier](/inexor-game/code/tree/cef+ipc+entities+bezier), [rebased-cef+entities](/inexor-game/code/tree/rebased-cef+entities), [additional bug fix branches](/inexor-game/code/branches/all?utf8=%E2%9C%93&query=cef) |  [#50](/inexor-game/code/issues/50), [#292](/inexor-game/code/issues/292) [Label: cef](/inexor-game/code/labels/cef) | [@aschaeffer](/aschaeffer), [@koraa](/koraa), [@a-teammate](/a-teammate), [@IAmNotHanni](/IAmNotHanni), [@Fohlen](/Fohlen)
+[cef](/inexor-game/code/tree/cef), [cef+entities](/inexor-game/code/tree/cef+entities), [cef+ipc+entities](/inexor-game/code/tree/cef+ipc+entities), [cef+ipc+entities+bezier](/inexor-game/code/tree/cef+ipc+entities+bezier), [rebased-cef+entities](/inexor-game/code/tree/rebased-cef+entities), [additional bug fix branches](/inexor-game/code/branches/all?utf8=%E2%9C%93&query=cef), [karo+fohlen+hanack/fix_cef](/inexor-game/code/tree/karo+fohlen+hanack/fix_cef) |  [#50](/inexor-game/code/issues/50), [#292](/inexor-game/code/issues/292) [Label: cef](/inexor-game/code/labels/cef) | [@aschaeffer](/aschaeffer), [@koraa](/koraa), [@a-teammate](/a-teammate), [@IAmNotHanni](/IAmNotHanni), [@Fohlen](/Fohlen)
 
 ### Goals
 
