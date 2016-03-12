@@ -86,7 +86,14 @@ We have two types of user interfaces: HUDs and menus
 * Accepts mouse input
 * Examples: Main Menu, Multiplayer, Bot Match, Options, Texture Browser, ...
 
-### What it can not do
+### Further development
 
 * We will still need to do a lot of refactoring
-* Actual data exchange between inexor <-> node <-> the weg GUI; we can not implement any real functionality atm (though that can be helped quickly)
+* Implement the data exchange of the property tree:
+ * Inexor HTML5 user interface --REST-->
+  * Inexor node.js app server --protobuf-->
+   * Inexor core game client
+ * Inexor core game client --protobuf-->
+  * Inexor node.js app server --REST-->
+   * Inexor HTML5 user interface
+* The console HUD needs easylogging to be merged into master
