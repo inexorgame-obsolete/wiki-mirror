@@ -1,56 +1,92 @@
 Branches | Issues | Main developers
 -------- | ------ | ---
-[cef](/inexor-game/code/tree/cef), [cef+entities](/inexor-game/code/tree/cef+entities), [cef+ipc+entities](/inexor-game/code/tree/cef+ipc+entities), [cef+ipc+entities+bezier](/inexor-game/code/tree/cef+ipc+entities+bezier), [rebased-cef+entities](/inexor-game/code/tree/rebased-cef+entities), [additional bug fix branches](/inexor-game/code/branches/all?utf8=%E2%9C%93&query=cef) |  [#50](/inexor-game/code/issues/50), [Label: cef](/inexor-game/code/labels/cef) | [@aschaeffer](/aschaeffer), [@koraa](/koraa), [@a-teammate](/a-teammate), [@IAmNotHanni](/IAmNotHanni), [@Fohlen](/Fohlen)
+[cef](/inexor-game/code/tree/cef), [cef+entities](/inexor-game/code/tree/cef+entities), [cef+ipc+entities](/inexor-game/code/tree/cef+ipc+entities), [cef+ipc+entities+bezier](/inexor-game/code/tree/cef+ipc+entities+bezier), [rebased-cef+entities](/inexor-game/code/tree/rebased-cef+entities), [additional bug fix branches](/inexor-game/code/branches/all?utf8=%E2%9C%93&query=cef) |  [#50](/inexor-game/code/issues/50), [#292](/inexor-game/code/issues/292) [Label: cef](/inexor-game/code/labels/cef) | [@aschaeffer](/aschaeffer), [@koraa](/koraa), [@a-teammate](/a-teammate), [@IAmNotHanni](/IAmNotHanni), [@Fohlen](/Fohlen)
 
 ### Goals
 
 * User interface in standard HTML5 / JavaScript
-* Deep integration of the UI technology
-* Multiple layers
-* Console
-* Main menu
-* Input events (mouse and keyboard)
+* Rendering of HTML5 over a transparent 2D-Overlay (multiple layers)
+* Forward SDL2 input events (mouse and keyboard) to the HTML5 browser
+* Remove cube2's user interface build with cubescript
+* Provide a single page application build with standard technologies and frameworks
+* Use the model view controller pattern for implementing menus
+* Use a framework for implementing a single page application
+* Use a framework for implementing a responsive user interface
+* Implementation of menus and HUDs
+* Communicate with the Inexor application server (NodeJS) via REST
 
-[![Improved particle system video](http://img.youtube.com/vi/eFMS_bXPDr8/0.jpg)](http://www.youtube.com/watch?v=eFMS_bXPDr8)
+[![Early demonstration of Inexor with HTML5 user interface](http://img.youtube.com/vi/eFMS_bXPDr8/0.jpg)](http://www.youtube.com/watch?v=eFMS_bXPDr8)
 
-### Idea
 
-* Rendering of HTML5 over a transparent 2D-Overlay
-* Spawning events from HTML5 / client side JavaScript
+### Used Technologies
 
-### Chromium Embedded Framework
+#### Chromium Embedded Framework / HTML5 Rendering Engine
+
+* With the "Chromium Embedded Framework" (CEF) we can embed the browser engine "Chromium" which is the open source project Google Chrome is built on
+* The HTML5 technology is widely used and very suitable for Inexor and brings much more flexibility
+* No need for a custom implementation of an user interface technology
+
+##### CEF Resources
 
 * https://bitbucket.org/chromiumembedded/cef
 * http://coherent-labs.com/blog/what-developers-should-consider-when-using-chromium-embedded-framework-cef-in-their-games/
 * http://blog.erikd.org/2013/01/14/chromium-embedded-framework-3-bare-bones/
 
-### Architecture
+#### AngularJS
 
-* EventManager
-* LayerManager
-* ContextManager
+* Model View Controller Pattern
+* Two Way Data Binding (template and controller can modify objects)
+* Dependency Injection (automatically wires dependencies at runtime)
+* Single Page Application (a single page with inter page navigation)
+* Templates, Directives, Expressions, Scopes, Filters, Modules
+* A wide palette of angular modules (plugins) is available
 
-## We have a basic working framework!
+##### Resources
 
-This introduces a basic, working framework that will be used to render Web guis with node.js and cef.
+* https://angularjs.org/
+* https://docs.angularjs.org/
+* http://ngmodules.org/
+* http://www.encodedna.com/angularjs/tutorial/my-favorite-angularjs-features.htm
+* http://code.tutsplus.com/tutorials/5-awesome-angularjs-features--net-25651
 
-### What it can do
+#### Bootstrap
 
-* Dependency management with node_modules, requirejs and angular
-* Node modules are available in the browser with a browserify/requirejs bridge (so we do not have to dump external libraries in our repo)
-* Uses express.js in the server
-* Uses jQuery
-* Uses lodash
-* Uses Bootstrap
-* Uses Angular.js
-* Supports Coffeescript
-* Supports Jade
-* Supports Stylus
-* Create angular directives as coffeescript classes, with automatically loaded CSS (stylus) and HTML (jade) files
-* Window management
+* Responsive 
+
+##### Bootstrap Resources
+
+* http://getbootstrap.com/
+* https://bootstrapbay.com/blog/reasons-to-use-bootstrap/
+
+#### Bower & RequireJS
+
+* Dependency Management for JavaScript Modules
+
+### REST
+
+* The REST user interface is the bridge between Inexor's HTML/JS user interface and Inexor's node.js application server
+* We need some sort of two-way-data binding for the property tree
+
+### Menus
+
+We have two types of user interfaces: HUDs and menus
+
+#### HUDS
+
+* Mouse hidden
+* May accept key input (console HUD)
+* May not accept key input (score board HUD, game HUD)
+* Doesn't accept mouse input / Mouse hidden
+* Examples: console, score board, game states/ammo/flags, ...
+
+#### Menus
+
+* Mouse visible
+* Accepts key input
+* Accepts mouse input
+* Examples: Main Menu, Multiplayer, Bot Match, Options, Texture Browser, ...
 
 ### What it can not do
 
-* Both the mouse movement processing of the window manager and the one by our cef implementation are very bad; moving windows is a bit harsh.
-* We will need to do a lot of refactoring
+* We will still need to do a lot of refactoring
 * Actual data exchange between inexor <-> node <-> the weg GUI; we can not implement any real functionality atm (though that can be helped quickly)
