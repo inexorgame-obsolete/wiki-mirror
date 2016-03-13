@@ -31,6 +31,8 @@ Branches | Issues | Main developers
 * https://bitbucket.org/chromiumembedded/cef
 * http://coherent-labs.com/blog/what-developers-should-consider-when-using-chromium-embedded-framework-cef-in-their-games/
 * http://blog.erikd.org/2013/01/14/chromium-embedded-framework-3-bare-bones/
+* https://bitbucket.org/chromiumembedded/cef/wiki/GeneralUsage
+* http://magpcss.org/ceforum/apidocs/index.html
 
 #### AngularJS
 
