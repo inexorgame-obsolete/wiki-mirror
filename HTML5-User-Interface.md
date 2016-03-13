@@ -14,6 +14,7 @@ Branches | Issues | Main developers
 * Use a framework for implementing a responsive user interface
 * Implementation of menus and HUDs
 * Communicate with the Inexor application server (NodeJS) which is exposing the property tree as REST webservice
+* Server only: Provide a web user interface for administration
 
 [![Early demonstration of Inexor with HTML5 user interface](http://img.youtube.com/vi/eFMS_bXPDr8/0.jpg)](http://www.youtube.com/watch?v=eFMS_bXPDr8)
 
