@@ -8,8 +8,11 @@ As a professional mapper, you have to configure a lot of aspects to have a tools
 
 ### Movement / Navigation
 * Floatspeed Changer
+
 ![](http://i.imgur.com/4du3Ztw.png)
+
 * Information at your Fingertips
+
 ![](http://i.imgur.com/ld7Eucb.png)
 
 ### Editing Modes
