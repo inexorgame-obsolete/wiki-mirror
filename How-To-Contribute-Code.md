@@ -21,7 +21,7 @@ Presteps:
  * master-branch has to stay functional
  * naming usually `<yournick>/<newfeature>` so e.g. `a_teammate/ambient-occlusion`
 
-2. Develope the feature in your branch
+2. Develop the feature in your branch
  * Checkout your branch (your filesystem will change _whush_ Git magic! )
  * Develope your feature 
  * At every logical step, commit your work to git
