@@ -55,3 +55,7 @@ _Stays Sauer, becomes better._
 
 * [Other Existing Projects](Other-Projects)
 * [Website](https://inexor.org)
+
+### Contact
+
+* [[Developing-Communication]]
