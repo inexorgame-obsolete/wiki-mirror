@@ -34,3 +34,7 @@ Continuous Integration For...
 [[Code of Conduct]]  
 [Other Related Projects](Other Projects)  
 [Website](https://inexor.org)  
+
+### Contact
+
+[[Developing-Communication]]
