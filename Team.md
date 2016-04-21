@@ -1,61 +1,66 @@
 To have a better overview who you can ask if you want to contribute to certain parts of Inexor.
 
-# Core Team
+### Core Team
 
-## a-teammate
+#### a-teammate
 
 **Name:**
 **Tasks:** C++ Lead
 
-## aschaeffer
+#### aschaeffer
 
 **Name:** 
 **Tasks:** 
 
-## basile-henry
+#### basile-henry
 
 **Name:** 
 **Tasks:** 
 
-## Croydon
+#### Croydon
 
 **Name:** 
 **Tasks:** 
 
-## Fohlen
+#### Fohlen
 
 **Name:** 
 **Tasks:** NodeJS Stuff
 
-## IAmNotHanni
+#### IAmNotHanni
 
 **Name:** 
 **Tasks:**
 
-## killme
+#### killme
 
 **Name:** 
 **Tasks:** 
 
-## koraa
+#### koraa
 
 **Name:**
 **Tasks:** 
 
-## SF-Fatality
+#### SF-Fatality
 
 **Name:**
 **Tasks:**
 
-## super-tux
+#### super-tux
 
 **Name:**
 **Tasks:**
 
+#### Nothing
 
-# Recruits/New
+**Name:** 
+**Tasks:** Textures, Configs
 
-## Misan
+
+### Recruits/New
+
+#### Misan
 
 **Name:** Martin Muzatko
 **Tasks:** Maps, Web/UI/UX/JS/CSS/HTML, Wiki gardening, Website
