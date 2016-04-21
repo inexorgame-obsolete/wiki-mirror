@@ -2,86 +2,86 @@ To have a better overview who you can ask if you want to contribute to certain p
 
 ### Core Team
 
-#### a-teammate
+**a-teammate**
 
-**Name:**
+Name:
 
-**Tasks:** C++ Lead
+Tasks: C++ Lead
 
-#### aschaeffer
+**aschaeffer**
 
-**Name:** 
+Name: 
 
-**Tasks:** 
-
-
-#### basile-henry
-
-**Name:** 
-
-**Tasks:** 
-
-#### Croydon
-
-**Name:** 
-
-**Tasks:** 
+Tasks: 
 
 
-#### Fohlen
+**basile-henry**
 
-**Name:** 
+Name: 
 
-**Tasks:** NodeJS Stuff
+Tasks: 
 
+**Croydon**
 
-#### IAmNotHanni
+Name: 
 
-**Name:** 
-
-**Tasks:**
-
-
-#### killme
-
-**Name:** 
-
-**Tasks:** 
+Tasks: 
 
 
-#### koraa
+**Fohlen**
 
-**Name:**
+Name: 
 
-**Tasks:** 
-
-
-#### SF-Fatality
-
-**Name:**
-
-**Tasks:**
+Tasks: NodeJS Stuff
 
 
-#### super-tux
+**IAmNotHanni**
 
-**Name:**
+Name: 
 
-**Tasks:**
+Tasks:
 
 
-#### Nothing
+**killme**
 
-**Name:** 
+Name: 
 
-**Tasks:** Textures, Configs
+Tasks: 
+
+
+**koraa**
+
+Name:
+
+Tasks: 
+
+
+**SF-Fatality**
+
+Name:
+
+Tasks:
+
+
+**super-tux**
+
+Name:
+
+Tasks:
+
+
+**Nothing**
+
+Name: 
+
+Tasks: Textures, Configs
 
 
 
 ### Recruits/New
 
-#### Misan
+**Misan**
 
-**Name:** Martin Muzatko
+Name: Martin Muzatko
 
-**Tasks:** Maps, Web/UI/UX/JS/CSS/HTML, Wiki gardening, Website
+Tasks: Maps, Web/UI/UX/JS/CSS/HTML, Wiki gardening, Website
