@@ -1,4 +1,5 @@
-**Author:* @MartinMuzatko
+**Author:** @MartinMuzatko
+
 **Depends on:** [[]]
 
 **State of Doc:** Work in Progress
