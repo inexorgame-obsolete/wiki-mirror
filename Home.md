@@ -41,6 +41,7 @@ _Stays Sauer, becomes better._
   * [[Make anything more dynamic]]
   * [[Distributing Content System]]
   * [[Extendable Map Format]]
+  * [[Mappers Toolset]]
 
 ### Development
 
