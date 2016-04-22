@@ -18,6 +18,11 @@ As a professional mapper, you have to configure a lot of aspects to have a tools
 
 ![](http://i.imgur.com/ld7Eucb.png)
 
+Implementing this, requires better configuration of the key bindings.
+Depending on how you plan to implement several configurations (javascript?) this has to be configured.
+The CFE Platform can be used to display the Mappers HUD, which can include the information above:
+floatspeed, world size and other essential helpers/information like texture etc, but this could be part of the editing modes (display HUD depending on the edit mode)
+
 ### Editing Modes
 
 At the core, editing specific parts of a map can be divided into these aspects or tasks:
