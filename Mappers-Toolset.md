@@ -1,8 +1,10 @@
 **Author:** @MartinMuzatko
 
-**Depends on:** [[]]
+**Depends on:** [[CEF]]
 
 **State of Doc:** Work in Progress
+
+**Issues:** [#299](https://github.com/inexor-game/code/issues/299)
 
 ## User Story
 As a professional mapper, you have to configure a lot of aspects to have a toolset you can work with. Especially if you are new to this kind of game, it is very difficult to find out how to edit. The Motivation of this feature is, to have some onboarding - making it possible to guide a user through the steps that are required to get in control of the cube.
