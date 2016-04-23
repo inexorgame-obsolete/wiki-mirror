@@ -10,10 +10,6 @@
 * **Mumble** _(for meetings, see below)_
  * nooblounge.net port 64738
 
-* **Mailing List** _(announcements and support)_
- * [https://lists.cupdev.net/listinfo/inexor](https://lists.cupdev.net/listinfo/inexor)
-  * _please ignore the security warning or install the [cacert root certificate](https://www.cacert.org/index.php?id=3)_
-
 * **Social Media** 
   * [Twitter](https://twitter.com/inexorgame)
   * [Facebook](https://www.facebook.com/inexorgame)
