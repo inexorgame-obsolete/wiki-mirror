@@ -30,4 +30,4 @@ To make the fork successful we need your help. We need different types of skills
 ### How you get involved
 
 * Contact us in game, in IRC, on Mumble
-* Create a GitHub Account and join the project
+* Create a GitHub Account and join the project see [[Developing-Communication]]
