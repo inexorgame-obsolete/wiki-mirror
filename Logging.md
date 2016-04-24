@@ -41,50 +41,37 @@ Logging is an important requirement for software nowadays.
  * Example: /loglevel "global" "warning"
 * logformat <logger_name> <pattern>
  * Example: /logformat "global" "%H:%M:%S [%n] [%l] %v"
+ * see [spdlog formatting strings](https://github.com/gabime/spdlog/wiki/3.-Custom-formatting) for reference 
 
 ## How to use the loggers
 
-### Creating Sinks
-
-    std::vector<spdlog::sink_ptr> sinks;
-    sinks.push_back(std::make_shared<spdlog::sinks::stdout_sink_st>());
-    sinks.push_back(std::make_shared<inexor::util::InexorConsoleSink>());
-    sinks.push_back(std::make_shared<inexor::util::InexorCutAnsiCodesSink>(std::make_shared<spdlog::sinks::daily_file_sink_st>("inexor", "log", 23, 59)));
-
-### Creating Loggers 
-
-    auto global = std::make_shared<spdlog::logger>("global", begin(sinks), end(sinks));
-    auto chat = std::make_shared<spdlog::logger>("chat", begin(sinks), end(sinks));
-    auto gameplay = std::make_shared<spdlog::logger>("gameplay", begin(sinks), end(sinks));
-    auto edit = std::make_shared<spdlog::logger>("edit", begin(sinks), end(sinks));
-    auto server = std::make_shared<spdlog::logger>("server", begin(sinks), end(sinks));
-    auto frag_involved = std::make_shared<spdlog::logger>("frag_involved", begin(sinks), end(sinks));
-    auto frag_not_involved = std::make_shared<spdlog::logger>("frag_not_involved", begin(sinks), end(sinks));
-
-### Register Loggers
-
-    spdlog::register_logger(global);
-    spdlog::register_logger(chat);
-    spdlog::register_logger(gameplay);
-    spdlog::register_logger(edit);
-    spdlog::register_logger(server);
-    spdlog::register_logger(frag_involved);
-    spdlog::register_logger(frag_not_involved);
-
-### Using Loggers
-
+You can choose between stream like logging like:
+```cpp
     spdlog::get("global")->debug() << "Debug message " << some_var << " " << some_other_var;
     spdlog::get("global")->info() << "Info message " << some_var << " " << some_other_var;
     spdlog::get("global")->warn() << "Warning message " << some_var << " " << some_other_var;
     spdlog::get("edit")->error() << "Error message " << some_var << " " << some_other_var;
-
+    
+    // or step by step:
     auto global_logger = spdlog::get("global");
     global_logger->info() << "Message";
+```
 
-### SPD Logger Documentation
+and the more printf like python style as described [here](http://cppformat.github.io/latest/syntax.html#formatspec) looks as following:  
 
-1. https://github.com/gabime/spdlog/wiki/1.-QuickStart
-2. https://github.com/gabime/spdlog/wiki/2.-Creating-loggersformatting
-3. https://github.com/gabime/spdlog/wiki/3.-Custom-
-4. https://github.com/gabime/spdlog/wiki/4.-Sinks
-5. https://github.com/gabime/spdlog/wiki/5.-Logger-registry
+```cpp
+    spdlog::get("global")->info("Easy padding in numbers like {:08d}", 12);
+    spdlog::get("global")->info("Positional args are {1} {0}..", "too", "supported");
+ 
+    spdlog::get("global")->info("Support for int: {0:d};  hex: {0:x};  oct: {0:o}; bin: {0:b}", 42);
+    //note how we only pass one integer, but reference it multiply times with {0}
+     
+    spdlog::get("global")->info("Support for float precision {:03.2f}", 1.23456);
+    //0 == sign aligned, 3 == width, .2 == precision, f == float
+
+    spdlog::get("global")->info("{:<30}", "left aligned");
+```
+
+### Links
+1. https://github.com/gabime/spdlog/wiki/1.-QuickStart Introduction to spdlog
+2. http://cppformat.github.io/latest/syntax.html C++Format spec (used by spdlog for formatting)
