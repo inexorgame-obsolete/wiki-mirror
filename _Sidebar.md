@@ -37,5 +37,5 @@ Continuous Integration For...
 
 ### Contact
 
-[[Team]]  
+[[Who are we?]]
 [[Developing-Communication]]
