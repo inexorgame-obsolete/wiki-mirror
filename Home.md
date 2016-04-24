@@ -27,6 +27,7 @@ _Stays Sauer, becomes better._
   * [[Inexor Tree API]]
   * [[Version Control System]]
   * [[Particle System]]
+  * [[Logging]]
   * [HTML5 User Interface / CEF](HTML5 User Interface)
   * [Bezier curve camera flights](Bezier curve)
   * [JSON configuration support](JSON-Implementation)
