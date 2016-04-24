@@ -6,9 +6,41 @@ easylogging |  [#290](/inexor-game/code/pull/290) | [@a-teammate](/a-teammate), 
 
 Logging is an important requirement for software nowadays.
 
-* Log levels (Debug, Info, Warn, Error, ...)
-* Log targets (= Sinks: StdOut, StdErr, InGame Console, Daily Logfile, Rotating Logfile, ...)
-* Log format (Date, Time, Logger name, Log level, Message, ...)
+* Log levels
+ * Debug
+ * Info
+ * Warn
+ * Error
+ * Critical
+* Log targets (= Sinks)
+ * Inexor Ingame Console
+ * Stdout / Stderr
+ * Daily Logfile
+ * Rotating Logfile
+ * MSVC
+ * Syslog
+* Log format
+ * Date / Time
+ * Logger name
+ * Log level
+ * Message
+
+## Default loggers in Inexor
+
+* global
+* chat
+* gameplay
+* edit
+* server
+* frag_involved
+* frag_not_involved
+
+## Cubescript commands
+
+* loglevel <logger_name> <log_level>
+ * Example: /loglevel "global" "warning"
+* logformat <logger_name> <pattern>
+ * Example: /logformat "global" "%H:%M:%S [%n] [%l] %v"
 
 ## How to use the loggers
 
