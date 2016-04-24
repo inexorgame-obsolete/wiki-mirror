@@ -60,5 +60,5 @@ _Stays Sauer, becomes better._
 
 ### Contact
 
-* [[Team]]
+* [[Who are we?]]
 * [[Developing-Communication]]
