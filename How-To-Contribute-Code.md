@@ -15,6 +15,8 @@ _If you don't understand the following steps, this [Git-Tutorial](http://pcottle
 Presteps:  
 * Always helpful: [Speak with the other Inexor people](Developing-Communication) about your feature idea.
 
+* Take some time to document a roadmap for yourself. Which features would you like to work on or help implementing them? Document your feature using the [[Template-feature]] and put it to **Planned** on the main wiki page. After that, create an issue for your feature to provide a base for discussion about your feature. Enabling you to get valuable feedback.
+
 * Assuming you aren't an Inexor team member, create first a fork of the code repository
 
 1. Create a new branch
