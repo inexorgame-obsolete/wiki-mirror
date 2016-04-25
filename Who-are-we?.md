@@ -17,6 +17,7 @@
 * pisto ([pisto](https://github.com/pisto/))
 * Wireless ([N0Wire](https://github.com/N0Wire))
 * -unknown yet? :)- ([Zebrazilla](https://github.com/Zebrazilla))
+* Misan ([MartinMuzatko](https://github.com/MartinMuzatko/))
 
 # Who is doing what?
 => **USE [THE WEBSITE](https://inexor.org/team) FROM NOW ON :) **
