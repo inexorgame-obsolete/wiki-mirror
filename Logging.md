@@ -1,6 +1,6 @@
 Branches | Issues | Main developers
 --- | --- | --- 
-easylogging |  [#290](/inexor-game/code/pull/290) | [@a-teammate](/a-teammate), [@aschaeffer](/aschaeffer)
+master |   | [@a-teammate](/a-teammate), [@aschaeffer](/aschaeffer)
 
 ## Motivation
 
@@ -72,6 +72,17 @@ and the more printf like python style as described [here](http://cppformat.githu
     spdlog::get("global")->info("{:<30}", "left aligned");
 ```
 
+### Colors
+Colors are implemented in the new logging system using ANSI color codes (24bit mode).
+For ease of use 7 colors are predefined for the C++ part of the logging-system.
+
+`COL_GREEN`, `COL_RED`, `COL_YELLOW`, `COL_BLUE`, `COL_GREY`, `COL_WHITE`, `COL_MAGENTA`, `COL_ORANGE`
+
+They are casual (C-)strings:
+
+```cpp
+   spdlog::get("global")->info() << COL_RED << "This output is red. " << COL_GREEN << "Followed by some green stuff";
+```
 ### Links
 1. https://github.com/gabime/spdlog/wiki/1.-QuickStart Introduction to spdlog
 2. http://cppformat.github.io/latest/syntax.html C++Format spec (used by spdlog for formatting)
