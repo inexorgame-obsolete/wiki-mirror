@@ -21,13 +21,13 @@ _Stays Sauer, becomes better._
 * Engine
  * [Generic RPC Subsystem + Node.js integration](RPC-Node.js)
  * [Ambient Occlusion](Ambient Occlusion)
+ * [[Logging]]
 
 * ### In Progress
 
   * [[Inexor Tree API]]
   * [[Version Control System]]
   * [[Particle System]]
-  * [[Logging]]
   * [HTML5 User Interface / CEF](HTML5 User Interface)
   * [Bezier curve camera flights](Bezier curve)
   * [JSON configuration support](JSON-Implementation)
