@@ -4,7 +4,7 @@ easylogging |  [#290](/inexor-game/code/pull/290) | [@a-teammate](/a-teammate), 
 
 ## Motivation
 
-Logging is an important requirement for software nowadays.
+Logging is an important requirement for software nowadays. Inexor is now able to log to multiple loggers, which writes to multiple targets (called sinks) with a customizable logging format. The advantage is the flexibility of the new logging system. Please notice that logoutf and conoutf have been replaced by the logging system (see Usage below).
 
 * Log levels
  * Debug
