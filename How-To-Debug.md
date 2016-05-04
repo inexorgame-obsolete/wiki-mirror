@@ -16,7 +16,7 @@ Now we need to find a way to start your executable inside Visual Studio. This re
 2. Set an execution folder (and arguments)
   1. Right click the `inexor` project inside your solution explorer, select `Properties` (Straight down on the bottom of the list)
   2. Select the `Debugging` section
-  3. Add `-t0 -glogdebugging.txt` to `Command Arguments` (This means we always want to start in windowed mode and specify a log-file where all output is saved to)
+  3. Add `-t0 -kmedia/core` to `Command Arguments` (This means we always want to start in windowed mode and since the data and code repo are seperated, media/core sets the path to where you cloned the data repo into)
   4. Forward the `working directory` to the base dir of your inexor project (or where your data repo is)
     * that's the place you'd normally start the inexor.bat from, so one above `media`
   5. Save and close
