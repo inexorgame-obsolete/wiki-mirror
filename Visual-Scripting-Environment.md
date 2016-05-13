@@ -3,10 +3,10 @@ Branches | Issues | Main developers
 [hanni/3DVisualScripting](/inexor-game/code/tree/hanni/3DVisualScripting) |  [#99](/inexor-game/code/issues/99), [#111](/inexor-game/code/issues/111) | [@IAmNotHanni](/IAmNotHanni)
 
 ## Goal
-*Add a visual scripting enviroment to the map editor to make game logic for both single and multiplayer.*
+*Add a visual scripting enviroment to the map editor to create allow mappers to embedd game logic for both single- and multiplayer.*
 
 ## What are Scripts and why are they important?
-Modern Embedded Scripting Languages deliver **flexibility**, **variety** and infinite room for **creativity** in game levels. They have many other applications as well: What would the World Wide Web be without JavaScript running fast as hell in your browser in this very moment?
+Modern Embedded Scripting Languages deliver **flexibility**, **variety** and infinite room for **creativity** in game levels. They have many other applications as well: What would the World Wide Web be without JavaScript running in your browser in this very moment?
 
 Here is a list of very common Scripting Languages with various applications, just as examples:
 * [JavaScript (for client-side website scripting and much more)](http://www.w3schools.com/js/default.asp)
