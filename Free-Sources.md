@@ -10,6 +10,7 @@ Free resources
  * [Pixar's Textures](http://opengameart.org/content/pixars-textures), see also [community.renderman.pixar.com](https://community.renderman.pixar.com/article/114/library-pixar-one-twenty-eight.html)
 * [Sketchfab.com](https://sketchfab.com/models?features=downloadable) - Models
 * [Incompetech.com](http://incompetech.com/music/royalty-free/index.html) - Music
+* [Ozzed Game Music](http://ozzed.net) - Music
 * [evillair.net](http://evillair.net) - Textures
 * [blendswap.com](http://www.blendswap.com) - Models
 * [cloudkickermusic.com](http://cloudkickermusic.com) - Music
