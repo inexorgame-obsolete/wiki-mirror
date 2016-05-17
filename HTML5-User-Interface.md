@@ -100,3 +100,48 @@ We have two types of user interfaces: HUDs and menus
   * Inexor node.js app server --REST-->
    * Inexor HTML5 user interface
 * The console HUD needs easylogging to be merged into master
+
+
+
+## Proposal and thoughts by MartinMuzatko/Misan
+
+Regarding Webtechnologies, I'd love to propose a few more options for Styling, Templating and interactive components.
+
+### Build System
+
+In order to use CSS Preprocessors and to transpile typescript or coffeescript to javascript, a build system is required. Preferably webpack or gulp.
+
+### CSS - Styles
+
+Using Sass or Less to build our own components. 
+We have to declare our own styleguide for colors, typohraphy and components and how to use each in which context.
+
+Nearly all js components offered by bootstrap are not interesting for our project. Just the CSS components such as buttons or badges would be interesting. This is because the platform we use fundamentally requires other components than bootstrap has to offer. A list of components that we'd need is listed here: https://github.com/inexor-game/ui-prototype#components
+
+The atlassian UI offers way more different components to see what we could need: https://docs.atlassian.com/aui/latest/docs/auiselect2.html
+
+So it is to evaluate what we need and how to develop these components to fit our theme, which has yet to be decided, see Issue [#304](https://github.com/inexor-game/code/issues/304)
+ 
+Secondly, the grid system doesn't suit our needs either. Which is why I'd go with something more sophisticated as Flexbox. [Angular Material](https://material.angularjs.org/latest/layout/alignment) does a great job to implement this layout grid as a framework. Since they do not offer a standalone version of the grid anymore, I decided to provide it on my own: https://github.com/MartinMuzatko/flexproperties/.
+
+### Javascript - Reusable components
+
+Angularjs (1.x) is **not** suited for the task. Yes, it implements the model view controller pattern, but in a way that reusable components are almost unfeasible to implement. Or even nested components. Google does not continue their support for 1.x since Angular2 is going to replace 1.x entirely.
+
+Alternatives would be Angular2, which is a lot more complicated in terms of technology stack including:
+* Typescript
+* Build system
+* Modular JS (ES6 Modules)
+
+They offer a lot more functionality to fit rich webapps of today.
+* Observable pattern (RXJS)
+* Real reusable webcomponents
+* Class based
+* Once you get used to typescript, it is way more modular and consistent than angular1
+
+
+But I'd propose another alternative called [RiotJS](http://riotjs.com/).
+Allowing anyone to easily extend our components without that much of knowledge required. So we have the flexibility of Angular2 but an easier way of writing reusable configurable components. 
+
+I'll go into more detail once I have the time.
+Until then, this section is work in progress.
