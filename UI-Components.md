@@ -15,7 +15,7 @@ The level component can be used to display information a single map on the UI
 
 ### Options
 * map - string - name of the map to show the UI for
-* mode - string - display type (see displays)
+* display - string - display type (see displays)
 
 ### Usage
-`<level map="tempest" mode="avatar"></level>`
+`<level map="tempest" display="avatar"></level>`
