@@ -19,3 +19,9 @@ The level component can be used to display information a single map on the UI
 
 ### Usage
 `<level map="tempest" display="avatar"></level>`
+
+## Todo
+
+* Player (or user)
+* Server
+* texture
