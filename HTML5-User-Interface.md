@@ -128,20 +128,50 @@ Secondly, the grid system doesn't suit our needs either. Which is why I'd go wit
 
 Angularjs (1.x) is **not** suited for the task. Yes, it implements the model view controller pattern, but in a way that reusable components are almost unfeasible to implement. Or even nested components. Google does not continue their support for 1.x since Angular2 is going to replace 1.x entirely.
 
-Alternatives would be Angular2, which is a lot more complicated in terms of technology stack including:
+Alternatives would be Angular2, which is a lot more sophisticated but also complicated in terms of technology stack including:
 * Typescript
 * Build system
 * Modular JS (ES6 Modules)
 
 They offer a lot more functionality to fit rich webapps of today.
 * Observable pattern (RXJS)
+* Zones (Execution contexts)
 * Real reusable webcomponents
 * Class based
 * Once you get used to typescript, it is way more modular and consistent than angular1
 
 
-But I'd propose another alternative called [RiotJS](http://riotjs.com/).
-Allowing anyone to easily extend our components without that much of knowledge required. So we have the flexibility of Angular2 but an easier way of writing reusable configurable components. 
+**But** I'd propose another alternative called [RiotJS](http://riotjs.com/).
+Allowing anyone to easily extend our components without that much of background knowledge required. So we have the flexibility of Angular2 but an easier way of writing reusable configurable components. IMHO, anyone who knows HTML and the basics of javascript can write reusable components with the help of RiotJS.
 
-I'll go into more detail once I have the time.
-Until then, this section is work in progress.
+HTML syntax is the de facto language on the web and it's designed for building user interfaces. The syntax is explicit, nesting is inherent to the language and attributes offer a clean way to provide options for custom tags.
+
+
+### Virtual DOM
+- Absolutely the smallest possible amount of DOM updates and reflows.
+- One way data flow: updates and unmounts are propagated downwards from parent to children.
+- Expressions are pre-compiled and cached for high performance.
+- Lifecycle events for more control.
+
+
+### Close to standards
+- No proprietary event system.
+- Event normalization.
+- The rendered DOM can be freely manipulated with other tools.
+- No extra HTML root elements or `data-` attributes.
+
+### Use your dearest language and tools
+- Create tags with CoffeeScript, Jade, LiveScript, Typescript, ES6 or [any pre-processor](http://riotjs.com/guide/compiler/#pre-processors) you want.
+- Integrate with NPM, CommonJS, AMD, Bower or Component
+- Develop with [Gulp](https://github.com/e-jigsaw/gulp-riot), [Grunt](https://github.com/ariesjia/grunt-riot), [Browserify](https://github.com/jhthorsen/riotify), [Webpack](https://www.npmjs.com/package/riotjs-loader), or [Wintersmith](https://github.com/collingreen/wintersmith-riot) plugins
+
+### CDN hosting
+- [jsDelivr](http://www.jsdelivr.com/projects/riot)
+- [cdnjs](https://cdnjs.com/libraries/riot)
+
+
+### Concise syntax
+- Power shortcuts: `class={ enabled: is_enabled, hidden: hasErrors() }`.
+- No extra brain load such as `render`, `state`, `constructor` or `shouldComponentUpdate`
+- Interpolation: `Add #{ items.length + 1 }` or `class="item { selected: flag }"`
+- Compact ES6 method syntax as default.
