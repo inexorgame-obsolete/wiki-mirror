@@ -1,5 +1,5 @@
 ## Labels
-Our GitHub issues are organized with labels. This makes them easily searchable and easier to overview.
+Our GitHub issues are organized [with labels](https://github.com/inexor-game/code/labels). This makes them easily searchable and easier to overview.
 Our labels have prefixes which are explained in the following:
 
 Prefix | Meaning      | Example
