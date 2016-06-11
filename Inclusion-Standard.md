@@ -1,3 +1,7 @@
+You disagree with something written on this page? Let us know here: https://github.com/inexor-game/code/issues/270
+
+***
+
 ## General
   * Keep source files, like .flac, .blend, .xcf and so on. If you, we or anybody else want one day to edit our content these files are essential
   * All file names should be lower case
