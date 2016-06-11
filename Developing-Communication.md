@@ -1,8 +1,8 @@
 # Contact
 
 * **IRC** _(mainly used, **good for first contact**)_
- * [web client](http://irc.lc/gamesurge/inexor)
- * [#inexor on GameSurge](irc://gamesurge.net/#inexor)
+ * [web client](https://webchat.gamesurge.net/?channels=inexor)
+ * [#inexor on GameSurge.net](irc://gamesurge.net/#inexor)
 
 * **Pads** _(Task lists, cooperative writings, archive..)_
  * https://pad.inexor.org/p/Inexor_Pads
