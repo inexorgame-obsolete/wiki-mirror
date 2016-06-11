@@ -12,4 +12,4 @@ See [[Recruiting]] for more information what can be contributed.
 
 ### How should I contribute?
 
-We have a [Data-additional repository](https://github.com/inexor-game/data-additional) where you should create Pull Requests for your maps, textures, models, etc..
+The best way is to communicate with us directly. Show us your content and convince us that we need your content in the game. For ways how to contact us see [[Developing Communication]].
