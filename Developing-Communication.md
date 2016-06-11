@@ -1,6 +1,6 @@
 # Contact
 
-* **IRC** _(mainly used, good for first contact)_
+* **IRC** _(mainly used, **good for first contact**)_
  * [web client](http://irc.lc/gamesurge/inexor)
  * [#inexor on GameSurge](irc://gamesurge.net/#inexor)
 
