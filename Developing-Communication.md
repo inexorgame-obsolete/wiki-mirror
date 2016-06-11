@@ -1,6 +1,6 @@
 # Contact
 
-* **IRC** _(mainly used)_
+* **IRC** _(mainly used, good for first contact)_
  * [web client](http://irc.lc/gamesurge/inexor)
  * [#inexor on GameSurge](irc://gamesurge.net/#inexor)
 
@@ -10,7 +10,7 @@
 * **Mumble** _(for meetings, see below)_
  * nooblounge.net port 64738
 
-* **Social Media** 
+* **Social Media**
   * [Twitter](https://twitter.com/inexorgame)
   * [Facebook](https://www.facebook.com/inexorgame)
   * [YouTube](https://www.youtube.com/channel/UCKOcY8wxvWq8pGLcESSpfhw)
