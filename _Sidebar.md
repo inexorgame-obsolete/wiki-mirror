@@ -28,6 +28,7 @@ Continuous Integration For...
 ### Content Management
 [[How to Contribute Content]]  
 [[License Policy]]  
+[[Inclusion Standard]]  
 [[Free Sources]]  
 
 ### Other
@@ -39,4 +40,4 @@ Continuous Integration For...
 ### Contact
 
 [[Who are we?]]  
-[[Developing-Communication]]
+[[Developing Communication]]
