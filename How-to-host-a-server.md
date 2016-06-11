@@ -4,13 +4,11 @@ This page shows how to create environment for running multiple servers.
 
     Please replace [name] with the name of your server.
 
-## Clone inexor sources
+## Clone Inexor sources
 
     mkdir -p /srv/inexor/git
     cd /srv/inexor/git
     git clone --recursive https://github.com/inexor-game/code.git inexor-code
-    git clone --recursive https://github.com/inexor-game/data.git inexor-data
-    git clone --recursive https://github.com/inexor-game/data-additional.git inexor-data-additional
 
 ## Build environment and building
 
@@ -21,7 +19,7 @@ This page shows how to create environment for running multiple servers.
     cd /srv/inexor/git/inexor-code
     make install
 
-## Create server directory and 
+## Create server directory
 
     mkdir -p /srv/inexor/servers
     ln -s /srv/inexor/git/inexor-code /srv/inexor/servers/[name]
