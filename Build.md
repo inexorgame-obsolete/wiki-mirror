@@ -91,7 +91,7 @@ Also install your distribution's development packages of Mesa, SDL2, SDL2_image,
 
 OS  | What to do
 --- | ---
-Debian or Debian-derived | `sudo apt-get install git cmake build-essential libsdl2{,-mixer,-image}-dev libgl1-mesa-dev libprotobuf-dev protobuf-compiler libenet-dev libudev-dev libboost-all-dev`
+Debian or Debian-derived | `sudo apt-get install git cmake build-essential libsdl2{,-mixer,-image}-dev libgl1-mesa-dev libprotobuf-dev protobuf-compiler libenet-dev libudev-dev libboost-all-dev clang llvm-dev libclang-dev`
 OpenSUSE | Run `zypper in -t pattern devel_C_C++` then run `zypper install mesa-libgl-devel libSDL2_mixer-devel libSDL2_image-devel libprotobuf-c-devel  protobuf-c libudev-devel boost-devel enet libenet7`.
 ArchLinux | Run `sudo pacman -S --needed git cmake sdl2 sdl2_gfx sdl2_image sdl2_mixer protobuf mesa mesa-libgl enet boost boost-libs`. <br> Currently you need for libcef also some other dependencies, install them via: `sudo pacman -S --needed pango cairo libxi libxcomposite alsa-lib libxtst gconf libxrandr`
 
@@ -120,6 +120,12 @@ The suggested quickfix is
 ```
 sudo ln -sf /lib/$(arch)-linux-gnu/libudev.so.1 /lib/$(arch)-linux-gnu/libudev.so.0
 ```
+#### Compiling gluecode/gluegen / gRPC
+Currently no guide, this is experimental, I will add documentation as needed
+(22:43:06) Hanack: cmake ../inexor3 -DBUILD_CLIENT=0 -DBUILD_GLUEGEN=1 -DCMAKE_BUILD_TYPE=Release
+(22:43:40) Hanack: LANG=C make -j8 gluecodegenerator
+(22:43:51) Hanack: cp -a /home/aschaeffer/git/inexor3-build/inexor/gluegen/gluecodegenerator /home/aschaeffer/git/inexor3/platform/tool/linux/
+
 ### CMake GUI
 
 Some users might prefer CMake GUI. 
