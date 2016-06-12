@@ -121,9 +121,12 @@ The suggested quickfix is
 sudo ln -sf /lib/$(arch)-linux-gnu/libudev.so.1 /lib/$(arch)-linux-gnu/libudev.so.0
 ```
 #### Compiling gluecode/gluegen / gRPC
-Currently no guide, this is experimental, I will add documentation as needed
+_Currently no guide, this is experimental, I will add documentation as needed_
+
 (22:43:06) Hanack: cmake ../inexor3 -DBUILD_CLIENT=0 -DBUILD_GLUEGEN=1 -DCMAKE_BUILD_TYPE=Release
+
 (22:43:40) Hanack: LANG=C make -j8 gluecodegenerator
+
 (22:43:51) Hanack: cp -a /home/aschaeffer/git/inexor3-build/inexor/gluegen/gluecodegenerator /home/aschaeffer/git/inexor3/platform/tool/linux/
 
 ### CMake GUI
