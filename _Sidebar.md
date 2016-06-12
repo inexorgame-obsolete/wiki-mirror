@@ -40,5 +40,5 @@ Continuous Integration For...
 
 ### Contact
 
-[[Who are we?]]  
-[[Developing Communication]]
+[[Who are we]]  
+[[Contact]]

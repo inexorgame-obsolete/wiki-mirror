@@ -12,4 +12,4 @@ See [[Recruiting]] for more information what can be contributed.
 
 ### How should I contribute?
 
-The best way is to communicate with us directly. Show us your content and convince us that we need your content in the game. For ways how to contact us see [[Developing Communication]].
+The best way is to communicate with us directly. Show us your content and convince us that we need your content in the game. For ways how to contact us see [[Contact]].

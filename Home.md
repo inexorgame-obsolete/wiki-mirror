@@ -48,7 +48,7 @@ _Stays Sauer, becomes better._
 
 * [[Build]]
 * [[Directory Structure]]
-* [[Developing Communication]]
+* [[Contact]]
 * [[Coding Standards]]
 * [[Documentation]]
 * [[How To Debug]]
