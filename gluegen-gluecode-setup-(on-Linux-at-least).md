@@ -22,14 +22,15 @@ From inside your `build` folder
 
 Due to some issues you'll have to delete some things manually at the moment (cross if fixed)
 
- 4. `rm ../code/inexor/rpc/treedata.gen.*`
- 5. `cmake ../code -DBUILD_CLIENT=1 -DBUILD_GLUEGEN=0 -DCMAKE_BUILD_TYPE=Release`
- 6. `make run_gluegen`
+ 4. `rm ../code/inexor/rpc/treedata.gen.hpp`
+ 5. `rm ../code/inexor/rpc/treedata.gen.proto`
+ 6. `cmake ../code -DBUILD_CLIENT=1 -DBUILD_GLUEGEN=0 -DCMAKE_BUILD_TYPE=Release`
+ 7. `make run_gluegen`
 
 Once this succeeded we built the actual client
 
- 7. `cmake ../code DBUILD_CLIENT=1 -DBUILD_GLUEGEN=0 -DCMAKE_BUILD_TYPE=Release`
- 8. `make`
+ 8. `cmake ../code DBUILD_CLIENT=1 -DBUILD_GLUEGEN=0 -DCMAKE_BUILD_TYPE=Release`
+ 9. `make`
 
 **Use the source luke!** (inexor/client/inexor). 
 
