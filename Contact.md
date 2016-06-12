@@ -1,5 +1,3 @@
-# Contact
-
 * **IRC** _(mainly used, **good for first contact**)_
  * [web client](https://webchat.gamesurge.net/?channels=inexor)
  * [#inexor on GameSurge.net](irc://gamesurge.net/#inexor)
