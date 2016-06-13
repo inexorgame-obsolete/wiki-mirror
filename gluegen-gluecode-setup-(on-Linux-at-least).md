@@ -19,13 +19,8 @@ From inside your `build` folder
  1. cmake ../code -DBUILD_CLIENT=0 -DBUILD_GLUEGEN=1 -DCMAKE_BUILD_TYPE=Release
  2. `make gluecodegenerator`
  3. Copy the binary to platform: `cp inexor/gluegen/gluecodegenerator ../code/platform/tool/linux`
-
-Due to some issues you'll have to delete some things manually at the moment (cross if fixed)
-
- 4. `rm ../code/inexor/rpc/treedata.gen.hpp`
- 5. `rm ../code/inexor/rpc/treedata.gen.proto`
- 6. `cmake ../code -DBUILD_CLIENT=1 -DBUILD_GLUEGEN=0 -DCMAKE_BUILD_TYPE=Release`
- 7. `make run_gluegen`
+ 4. `cmake ../code -DBUILD_CLIENT=1 -DBUILD_GLUEGEN=0 -DCMAKE_BUILD_TYPE=Release`
+ 5. `make run_gluegen`
 
 Once this succeeded we built the actual client
 
