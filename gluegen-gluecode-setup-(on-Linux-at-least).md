@@ -8,10 +8,10 @@ We presume you have a setup of the following structure
 - You installed the necessary llvm/clang libraries
 - Your folders are named code containing code/platform and build
 
-If not solved yet (cross if fixed) you'll gotta figure a bit with the CMake file to get everything running.
+~~If not solved yet (cross if fixed) you'll gotta figure a bit with the CMake file to get everything running.~~
 
-- Locate your LLVM library folder. For me it was `/usr/lib/llvm-3.8`
-- Modify `inexor/gluegen/CMakeList.txt` accordingly, see this [pastie](http://pastie.org/10874137#9-10)
+- ~~Locate your LLVM library folder. For me it was `/usr/lib/llvm-3.8`~~
+- ~~Modify `inexor/gluegen/CMakeList.txt` accordingly, see this [pastie](http://pastie.org/10874137#9-10)~~
 
 #### Go ahead young padawan, let's build
 From inside your `build` folder
