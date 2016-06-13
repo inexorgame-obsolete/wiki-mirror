@@ -33,6 +33,7 @@ _Stays Sauer, becomes better._
   * [JSON configuration support](JSON-Implementation)
   * [Entity System](Entity System)
   * [[Visual Scripting Environment]]
+  * [[Decentralized server list]]
 
 * ### Planned
 
