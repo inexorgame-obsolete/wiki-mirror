@@ -15,6 +15,10 @@
 [[Directory Structure]]
 
 
+### Architecture
+
+[[Inexor Tree]]
+
 ### General
 [[Supported File Formats]]  
 [[Sauerbraten Features]]  
