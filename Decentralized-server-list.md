@@ -46,22 +46,22 @@ Branches | Issues | Main developers
 ### Between servers
 
 * At startup a server
- * chooses some known servers randomly and fetches the server list -> the own server list is updated now
- * next, push information about itself to the known servers -> the remote server lists are updated now
+  * chooses some known servers randomly and fetches the server list -> the own server list is updated now
+  * next, push information about itself to the known servers -> the remote server lists are updated now
 * At shutdown
- * The list of servers is written down locally, we need to know the list of servers during the next startup
+  * The list of servers is written down locally, we need to know the list of servers during the next startup
 * At runtime
- * Regularly, each server push information about itself to the known servers (1x per hour)
- * If a server can't push information to a remote server multiple times, the remote server gets removed from the own server list
+  * Regularly, each server push information about itself to the known servers (1x per hour)
+  * If a server can't push information to a remote server multiple times, the remote server gets removed from the own server list
 * Security
- * For security reasons, the remote server accepts changes only if the sender IP matches the IP in the data package
- * Blacklist
-  * Malicious servers are blacklisted locally and changes from a remote server aren't accepted anymore
-  * If a remote server wants to push a change, the local server can check the malicious state on other remote servers
-  * Therefore the propagation about this server is stopped.
- * Whitelist
-  * Servers can also whitelist remote servers which means they trust another known server
-  * Incoming changes from a whitelisted remote server are always accepted, even when other remote servers are blacklisting the remove server
+  * For security reasons, a server accepts changes from a remote server only if the sender IP matches the IP in the data package
+  * Blacklist
+    * Malicious servers are blacklisted locally and changes from a remote server aren't accepted anymore
+    * If a remote server wants to push a change, the local server can check the malicious state on other remote servers
+    * Therefore the propagation about this server is stopped.
+  * Whitelist
+    * Servers can also whitelist remote servers which means they trust another known server
+    * Incoming changes from a whitelisted remote server are always accepted, even when other remote servers are blacklisting the remove server
 
 ### Between server and client
 
@@ -73,7 +73,7 @@ Branches | Issues | Main developers
 
 ## Inexor Tree
 
-    a/
+    /
       /server
         /serverid
       /servers
