@@ -1,3 +1,7 @@
+Branches | Issues | Main developers
+-------- | ------ | ---
+[grpc](/inexor-game/code/tree/grpc) | ? | [@aschaeffer](/aschaeffer)
+
 ## How the masterserver worked in the past?
 
 * The masterserver controls the list of servers
