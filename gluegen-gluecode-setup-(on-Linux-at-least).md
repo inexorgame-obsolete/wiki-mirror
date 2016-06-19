@@ -24,7 +24,7 @@ From inside your `build` folder
 
 Once this succeeded we built the actual client
 
- 8. `cmake ../code DBUILD_CLIENT=1 -DBUILD_GLUEGEN=0 -DCMAKE_BUILD_TYPE=Release`
+ 8. `cmake ../code -DBUILD_CLIENT=1 -DBUILD_GLUEGEN=0 -DCMAKE_BUILD_TYPE=Release`
  9. `make`
 
 **Use the executable luke!** `(inexor/client/inexor)`. 
