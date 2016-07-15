@@ -50,7 +50,7 @@ Experiments are allowed and encouraged. But: use your own branch and don't be up
 
 Creating documentation is an essential part of the software development process. Please have a look [here to learn more about documentation](Documentation).
 
-If you create a new feature or make a non-trivial change, it has to be documented in the [Changelog](Changelog).
+If you create a new feature or make a non-trivial change, it has to be documented in the [Changelog](https://github.com/inexor-game/code/blob/master/changelog.md).
 
 ### Develop modular, clean and document your work
 
