@@ -16,7 +16,7 @@ Presteps:
 
 * Take some time to document a roadmap for yourself. Which features would you like to work on or help implementing them? 
   * Pick up an issue. We have **_good first bug_** issues to help you getting started:
-    * [difficulty beginner](https://github.com/inexor-game/code/issues?utf8=%E2%9C%93&q=label%3A%22good%20first%20bug%22%20%20label%3A%22diff%3Abeginner%22%20); if you just starting to code or if you are unfamiliar with our technologies
+    * [difficulty beginner](https://github.com/inexor-game/code/issues?utf8=%E2%9C%93&q=label%3A%22good%20first%20bug%22%20%20label%3A%22diff%3Abeginner%22%20); you just starting to code or you are unfamiliar with our technologies
     * [difficulty intermediate](https://github.com/inexor-game/code/issues?utf8=%E2%9C%93&q=label%3A%22good%20first%20bug%22%20%20label%3A%22diff%3Aintermediate%22%20); you are familiar with our technologies
     * [difficulty advanced](https://github.com/inexor-game/code/issues?utf8=%E2%9C%93&q=label%3A%22good%20first%20bug%22%20%20label%3A%22diff%3Aadvanced%22%20); you know exactly what you are doing
   * You have a new idea for which we don't have an existing issue? (**Use the search first!**)
