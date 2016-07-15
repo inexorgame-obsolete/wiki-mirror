@@ -29,4 +29,15 @@ When this is happening the current initialized submodule repository is invalid. 
 3. Execute: `git submodule sync` (this refreshes the submodule URL and branch)
 4. Execute: `git submodule update`
 
+# Merging
+
+#### Merging Pull Requests
+
+    git checkout master
+    git pull origin master
+    git checkout <<featurebranch>>
+    git rebase master
+    git checkout master
+    git merge <<featurebranch>>
+
 
