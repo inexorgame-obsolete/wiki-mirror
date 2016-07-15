@@ -4,10 +4,10 @@ You might also be interested in [[How to Contribute Content]].
 
 ### Git
 
-We divided the Project in **only-code** and **only-data**. 
+We divided the Project in [**only-code**](https://github.com/inexor-game/code) (the game itself) and [**only-data**](https://github.com/inexor-game/data) (game content like maps). 
 Why? Because checkouts and commits are much faster without binary blobs.
 
-Avoid committing binaries into the **source** repository, so the repository stays lightweight.
+Avoid committing binaries into the **code** repository, so the repository stays lightweight.
 
 ### Adding new features
 
