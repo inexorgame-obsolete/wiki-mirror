@@ -1,3 +1,13 @@
+# Quick overview
+**Develop modular, clean and document your work.**
+
+* No spaghetti code
+* No code duplication
+* No overengineering
+* Refactor your work
+* Use comments 
+* Other stuff, like e.g. [Sauerbraten Uniques](#Sauerbraten Uniques)
+
 # Documentation
 
 [See the dedicated site.](Documentation)
