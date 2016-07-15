@@ -43,19 +43,16 @@ _If you don't understand the following steps, this [Git-Tutorial](http://pcottle
        * Big commits often make problems then
  * Push your work to the remote repository on GitHub
 
-3. Tell the others about your feature 
- * see [[Contact]]
- * and [create a Pull Request](https://github.com/inexor-game/code/compare) (https://help.github.com/articles/using-pull-requests/)
+3. [Create a Pull Request](https://github.com/inexor-game/code/compare) (https://help.github.com/articles/using-pull-requests/)
+ * You don't need to be completely finished with your work, you can create Pull Requests to get early feedback, just don't forget to mention, that you are not finished yet.
+ * You might get requests to change serveral things about your implementation.
+ * In the worst case scenario we have to reject your Pull Request. You can extremely reduce this risk if you are **keep communicating with us about your ideas and progress. Transparency is the key.** So we will be able to tell you from the beginning if we don't favor an idea.
 
 4. If your branch is successfully merged into master you should delete your feature branch do keep the repository clean.
 
-### Bigger changes
-
-Some features might be **strategic nature** or might be an **architectural change**. For example replacing the Sauerbraten vector class by the vector class of the stdlib would be a bigger architectural change. Another example would be to integrate XMPP to solve multiple features with XMPP as a strategic technology. Both **needs discussion** with the other developers first.
-
 ### Experiments welcome
 
-Experiments are allowed and encouraged. But: use your own branch and don't be upset if it doesn't find it's way into the master branch. If a feature is not a core functionality or controversial, better develop it as a plugin.
+Experiments are allowed and encouraged. But: Don't be upset if your idea is getting rejected. If a feature is not a core functionality or controversial, better develop it as a plugin.
 
 ### Create documentation
 
