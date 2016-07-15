@@ -1,4 +1,4 @@
-The goal of this project is to create an official fork (no mod) of Sauerbraten, establishing a bigger audience for sauerbraten and keeping Sauerbraten alive for the future.
+The goal of this project is to create an standalone fork of [Cube 2: Sauerbraten](http://sauerbraten.org/), establishing a bigger audience for the gameplay and keeping the game alive for the future by enhance and modernize it.
 
 We would be happy if you are interested in joining our team.
 
@@ -17,11 +17,12 @@ To make the fork successful we need your help. We need different types of skills
  * Sound FX
  * [Voice Acting](https://github.com/inexor-game/code/issues/255)
 * **[Coders](https://github.com/inexor-game/code/wiki/How-To-Contribute-Code)**
- * C/C++
+ * C++
  * JavaScript
 * **Web Developers**
- * HTML5
+ * HTML5, CSS3
  * JavaScript
+ * PHP
 * **Community Managers**
  * Marketing / Make the game more popular
  * Write announcements for releases
@@ -29,5 +30,5 @@ To make the fork successful we need your help. We need different types of skills
 
 ### How you get involved
 
-* Contact us in game, [in IRC, on Mumble see](Developing-Communication)
+* Contact us in game, [in IRC, on Mumble see](Contact)
 * Create a GitHub Account and join the project 
