@@ -19,7 +19,7 @@ Presteps:
     * [difficulty beginner](https://github.com/inexor-game/code/issues?utf8=%E2%9C%93&q=label%3A%22good%20first%20bug%22%20%20label%3A%22diff%3Abeginner%22%20); if you just starting to code or if you are unfamiliar with our technologies
     * [difficulty intermediate](https://github.com/inexor-game/code/issues?utf8=%E2%9C%93&q=label%3A%22good%20first%20bug%22%20%20label%3A%22diff%3Aintermediate%22%20); you are familiar with our technologies
     * [difficulty advanced](https://github.com/inexor-game/code/issues?utf8=%E2%9C%93&q=label%3A%22good%20first%20bug%22%20%20label%3A%22diff%3Aadvanced%22%20); you know exactly what you are doing
-  * You have a new idea for which we don't have an existing issue? 
+  * You have a new idea for which we don't have an existing issue? (**Use the search first!**)
     * [Create a new issue](https://github.com/inexor-game/code/issues/new)
     * Get the discussion going, provide more information when asked
     * If you get positive feedback from an Inexor team member, you can start implementing your feature
