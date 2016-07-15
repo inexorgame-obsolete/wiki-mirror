@@ -5,7 +5,7 @@
 * **Pads** _(Task lists, cooperative writings, archive..)_
  * https://pad.inexor.org/p/Inexor_Pads
 
-* **Mumble** _(for meetings, see below)_
+* [**Mumble**](https://www.mumble.info/) _(for meetings, see below)_
  * nooblounge.net port 64738
 
 * **Social Media**
