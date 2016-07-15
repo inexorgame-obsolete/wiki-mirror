@@ -33,7 +33,7 @@ Presteps:
  * Push your work to the remote repository on GitHub
 
 3. Tell the others about your feature 
- * see [Developing Communication](Developing-Communication)
+ * see [[Contact]]
  * and create a Pull Request (https://help.github.com/articles/using-pull-requests/)
 
 4. If your branch is successfully merged into master you should delete your feature branch do keep the repository clean.
