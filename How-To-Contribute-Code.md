@@ -36,7 +36,8 @@ _If you don't understand the following steps, this [Git-Tutorial](http://pcottle
 
 2. Develop the feature in your branch
  * Checkout your branch
- * Develop your feature 
+ * Develop your feature
+ * Please respect our [[Coding Standards]] (don't worry if you don't understand every detail, it may not apply to your work, likely if you choosed a _difficulty beginner_ issue)
  * At every logical step, commit your work to git
     * Commit often
        * Your feature has to be merged into other branches as easy as possible
@@ -54,26 +55,3 @@ _If you don't understand the following steps, this [Git-Tutorial](http://pcottle
 
 Experiments are allowed and encouraged. But: Don't be upset if your idea is getting rejected. If a feature is not a core functionality or controversial, better develop it as a plugin.
 
-### Create documentation
-
-Creating documentation is an essential part of the software development process. Please have a look [here to learn more about documentation](Documentation).
-
-If you create a new feature or make a non-trivial change, it has to be documented in the [Changelog](https://github.com/inexor-game/code/blob/master/changelog.md).
-
-### Develop modular, clean and document your work
-
-* No spaghetti code
-* No code duplication
-* No overengineering
-* Refactor your work
-* Use comments 
-* Other Stuff (e.g. Sauerbraten Uniques) [here](Coding Standards)
-
-### Merging Pull Requests
-
-    git checkout master
-    git pull origin master
-    git checkout <<featurebranch>>
-    git rebase master
-    git checkout master
-    git merge <<featurebranch>>
