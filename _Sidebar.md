@@ -11,7 +11,7 @@
 [[Coding Standards]]  
 [[Documentation]]  
 [[How To Debug]]    
-[[Git Submodule]]  
+[[Git FAQ]]  
 [[Directory Structure]]
 
 
