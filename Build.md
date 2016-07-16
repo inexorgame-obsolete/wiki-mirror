@@ -17,7 +17,7 @@ This will give you a pretty good exemplary environment if you are on Windows.
  * _(Less supported but open source)_ alternative: Code::Blocks **16.01**
    * Please [download here](http://www.codeblocks.org/downloads/26) the latest release, with the `mingw-setup.exe` addition
 
-* Download and install [CMake](http://www.cmake.org/download/)
+* Download and install [CMake](http://www.cmake.org/download/) >= v3.0.0
    * CMake will generate your project files
 
 * Download and install Git
@@ -154,13 +154,13 @@ You can specify them from the command line like this: `-D<variable name>=<value>
 
   Skips compiling the client.
 
-* **BUILD_SERVER=0** _default: `1`_
+* **BUILD_SERVER=1** _default: `0`_
 
-  Skips compiling the server.
+  Compiling the server.
 
-* **BUILD_MASTER=0** _default: `1`_
+* **BUILD_MASTER=1** _default: `0`_
 
-  Skips compiling the master server.
+  Compiling the master server.
 
 # Get the content
 
@@ -178,7 +178,7 @@ Data like maps and fonts is provided in a separate [data repository](https://git
         ├── data
         └── data-additional
 
-More on that see: [Directory-Structure](https://github.com/inexor-game/code/wiki/Directory-Structure)
+More on that see: [[Directory Structure]]
 
 ## Troubleshooting
 
