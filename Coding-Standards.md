@@ -6,7 +6,7 @@
 * No overengineering
 * Refactor your work
 * Use comments 
-* Other stuff, like e.g. [Sauerbraten Uniques](#Sauerbraten Uniques)
+* Other stuff, like e.g. [Sauerbraten Uniques](#sauerbraten-uniques)
 
 # Documentation
 
