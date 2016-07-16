@@ -150,6 +150,10 @@ You can specify them from the command line like this: `-D<variable name>=<value>
 
   The path to the toolchain file to use for cross compiling. Change this to `../inexor/platform/linux-toolchain-mingw.cmake` to cross compile for Windows.
   
+* **BUILD_ALL=1** _default: `0`_
+
+  Build _everything_.
+
 * **BUILD_CLIENT=0** _default: `1`_
 
   Skips compiling the client.
@@ -161,6 +165,10 @@ You can specify them from the command line like this: `-D<variable name>=<value>
 * **BUILD_MASTER=1** _default: `0`_
 
   Compiling the master server.
+
+* **BUILD_GLUEGEN=1** _default: `0`_
+
+  Compile gluegen.
 
 # Get the content
 
