@@ -170,6 +170,11 @@ You can specify them from the command line like this: `-D<variable name>=<value>
 
   Compile gluegen.
 
+## Run
+
+Start Inexor with the `inexor_unix` file.
+
+
 # Get the content
 
 Data like maps and fonts is provided in a separate [data repository](https://github.com/inexor-game/data). Clone that repository along with the optional repository [data-additional](https://github.com/inexor-game/data-additional) in the `media` directory, which should be in the root directory of the Inexor code repository. Alternatively you can use a symbolic link like in the following example.
@@ -201,8 +206,12 @@ This is a list of common problems and their solutions
 
 * Random errors like `XY was set to NOTFOUND`
    
-   This can have multiply sources, probably your cmake cache is somehow disturbed by changes around it or you are missing parts of the repository.
+   This can have multiply sources, probably your CMake cache is somehow disturbed by changes around it or you are missing parts of the repository.
    What you should try to solve this:
-   Check for existence of the submodules folders: in `inexor/platform` should be files.  
+   Check for existence of the submodules folders: in `platform` should be files.  
    (Only needed if you do not use a GUI for git supporting submodules, like SmartGit): Furthermore these submodules need to be up to date if you previously checked out another version of the repo, so you need to do `git submodule update` to fetch the needed one.  
     And last but not least, if you previously created makefiles/projectfiles/whatever into a `build` directory, delete it and create a new `build` directory instead.
+
+* Core textures not found (e.g. `texture/inexor/notexture.png`)
+
+    Two likely possibilities: Either you didn't get the [media repositories](#get-the-content) or you didn't start Inexor via the scripts (`inexor.bat` on Windows or `inexor_unix` on Linux).
