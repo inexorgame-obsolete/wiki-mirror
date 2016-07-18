@@ -15,14 +15,13 @@ Presteps:
 * Always helpful: [Speak with the other Inexor people](Contact) about your feature idea.
 
 * Take some time to document a roadmap for yourself. Which features would you like to work on or help implementing them? 
-  * Pick up an issue. We have **_good first bug_** issues to help you getting started:
-    * [difficulty beginner](https://github.com/inexor-game/code/issues?utf8=%E2%9C%93&q=label%3A%22good%20first%20bug%22%20%20label%3A%22diff%3Abeginner%22%20); you just starting to code or you are unfamiliar with our technologies
-    * [difficulty intermediate](https://github.com/inexor-game/code/issues?utf8=%E2%9C%93&q=label%3A%22good%20first%20bug%22%20%20label%3A%22diff%3Aintermediate%22%20); you are familiar with our technologies
-    * [difficulty advanced](https://github.com/inexor-game/code/issues?utf8=%E2%9C%93&q=label%3A%22good%20first%20bug%22%20%20label%3A%22diff%3Aadvanced%22%20); you know exactly what you are doing
+  * Pick up an issue. We have **_good first bug_** (meaning small Inexor related preknowledge is required) issues to help you getting started:
+    * [difficulty beginner](https://github.com/inexor-game/code/issues?utf8=%E2%9C%93&q=label%3A%22good%20first%20bug%22%20%20label%3A%22diff%3Abeginner%22%20); Task which doesn't require you to have any previous experiences with the used language/the used technologies.
+    * [difficulty intermediate](https://github.com/inexor-game/code/issues?utf8=%E2%9C%93&q=label%3A%22good%20first%20bug%22%20%20label%3A%22diff%3Aintermediate%22%20); You already made first touch with the used language and are ready for more.
+    * [difficulty advanced](https://github.com/inexor-game/code/issues?utf8=%E2%9C%93&q=label%3A%22good%20first%20bug%22%20%20label%3A%22diff%3Aadvanced%22%20); Trickier tasks which also requires you to have some experience with the language and in approaching tasks.
   * You have a new idea for which we don't have an existing issue? (**Use the search first!**)
     * [Create a new issue](https://github.com/inexor-game/code/issues/new)
-    * Get the discussion going, provide more information when asked
-    * If you get positive feedback from an Inexor team member, you can start implementing your feature
+    * Positive feedback from an Inexor team member will verify you the feature fits into the big picture
 
 
 ***
@@ -32,26 +31,25 @@ _If you don't understand the following steps, this [Git-Tutorial](http://pcottle
 
 1. Create a new branch
  * master-branch has to stay functional
- * naming usually `<yournick>/<newfeature>` so e.g. `a_teammate/ambient-occlusion`
+ * naming usually `<yournick>/<newfeature>` so e.g. `donald_trump/great_wall`
 
 2. Develop the feature in your branch
  * Checkout your branch
  * Develop your feature
- * Please respect our [[Coding Standards]] (don't worry if you don't understand every detail, it may not apply to your work, likely if you choosed a _difficulty beginner_ issue)
+ * Respect our [[Coding Standards]] (don't worry if you don't understand every detail, reviewing your work we will notify you about passages adaptions are needed)
  * At every logical step, commit your work to git
-    * Commit often
+    * Commit often (but logically)
        * Your feature has to be merged into other branches as easy as possible
        * Big commits often make problems then
+       * Use meaningful (!!!) commit messages, with your feature prepending your message e.g. "[physics] add gravity modifiers <new line> <empty line> More detailed description"
  * Push your work to the remote repository on GitHub
 
-3. [Create a Pull Request](https://github.com/inexor-game/code/compare) (https://help.github.com/articles/using-pull-requests/)
- * You don't need to be completely finished with your work, you can create Pull Requests to get early feedback, just don't forget to mention, that you are not finished yet.
- * You might get requests to change serveral things about your implementation.
- * In the worst case scenario we have to reject your Pull Request. You can extremely reduce this risk if you are **keep communicating with us about your ideas and progress. Transparency is the key.** So we will be able to tell you from the beginning if we don't favor an idea.
+3. [Create a Pull Request](https://help.github.com/articles/using-pull-requests/)
+ * You don't need to be completely finished with your work, you can create Pull Requests to get early feedback, just  note it then.
+ * You might get requests to change several things about your implementation.
 
-4. If your branch is successfully merged into master you should delete your feature branch do keep the repository clean.
 
 ### Experiments welcome
 
-Experiments are allowed and encouraged. But: Don't be upset if your idea is getting rejected. If a feature is not a core functionality or controversial, better develop it as a plugin.
+Experiments are allowed and encouraged. But: Don't be upset if your idea is getting outvoted by the other Inexor people. If a feature is not a core functionality or controversial, better develop it as a plugin.
 
