@@ -8,7 +8,7 @@
 * [**Mumble**](https://www.mumble.info/) _(for meetings, see below)_
  * nooblounge.net port 64738
 
-* **Social Media**
+* **Social Media** _(**good for player questions**)_
   * [Twitter](https://twitter.com/inexorgame)
   * [Facebook](https://www.facebook.com/inexorgame)
   * [YouTube](https://www.youtube.com/channel/UCKOcY8wxvWq8pGLcESSpfhw)
