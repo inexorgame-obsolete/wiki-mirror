@@ -12,6 +12,7 @@
 [[Documentation]]  
 [[How To Debug]]    
 [[Git FAQ]]  
+[[GitHub Issues]]  
 [[Directory Structure]]
 
 
