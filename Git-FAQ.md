@@ -31,7 +31,7 @@ When this is happening the current initialized submodule repository is invalid. 
 
 # Merging
 
-#### Merging Pull Requests
+#### Merging Pull Requests without merge message
 
     git checkout master
     git pull origin master
