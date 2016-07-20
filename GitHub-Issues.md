@@ -12,4 +12,4 @@ plat   | platform     | windows, linux, osx
 prio   | priority     | build failing, critical
 
 ### Special Labels
-Furthermore, we have the special label [**_good first bug_**](https://github.com/inexor-game/code/labels/good%20first%20bug) pointing to issues, which are very suitable for people new to Inexor. If you are also new to coding in general or our specific technologies, you can [search for a combination](https://github.com/inexor-game/code/issues?utf8=%E2%9C%93&q=label%3A%22good%20first%20bug%22%20%20label%3A%22diff%3Abeginner%22%20) between **_good first bug_** and **_diff:beginner_**.
+Furthermore, we have the special label [**_good first bug_**](https://github.com/inexor-game/code/labels/good%20first%20bug) pointing to issues, which are very suitable for people new to Inexor. If you are also new to coding in general or our specific technologies, you can [search for a combination](https://github.com/inexor-game/code/issues?q=label%3A%22good+first+bug%22+label%3Adiff%3Abeginner+is%3Aopen) between **_good first bug_** and **_diff:beginner_**.
