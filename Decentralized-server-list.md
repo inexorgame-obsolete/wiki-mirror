@@ -71,6 +71,19 @@ Branches | Issues | Main developers
  * Clients can blacklist and whitelist servers locally
  * Clients can check if a server is blacklisted or whitelisted by multiple remote servers
 
+## Server capabilities
+
+* Game server provides information about his capabilities.
+* Once a client knows about a game server it can ask it for it's capabilities.
+* The list of capabilities is extensible (just extend the Inexor Tree with additional nodes)
+
+Typical capabilities are:
+
+* available game modes
+* enabled game modes
+* maximum number of players
+* plugin extensions
+
 ## Inexor Tree
 
     /
@@ -92,3 +105,10 @@ Branches | Issues | Main developers
           /motd
           /blacklisted
           /whitelisted
+
+## Why not ENet?
+
+ENet is fine for transferring the game data like position changes and other game events. Also, ENet is fast and has a low latency. But for some use cases it isn't necessary to have a low latency and enet makes things more complicated.
+
+Server list propagation ("Masterserver") and server capabilities ("extinfo") are available globally and can be integrated in 3rd party apps (e.g. a homepage) easily.
+
