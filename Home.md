@@ -23,10 +23,10 @@ _Stays Sauer, becomes better._
  * [Generic RPC Subsystem + Node.js integration](RPC-Node.js)
  * [Ambient Occlusion](Ambient Occlusion)
  * [[Logging]]
+ * [[Inexor-Tree]] (Proposal: [[Inexor Tree API]])
 
 * ### In Progress
 
-  * [[Inexor Tree API]]
   * [[Version Control System]]
   * [[Particle System]]
   * [HTML5 User Interface / CEF](HTML5 User Interface)
@@ -40,7 +40,6 @@ _Stays Sauer, becomes better._
 
   * [Ideas for Features](Feature-Ideas)
   * [[Improved Selection]]
-  * [New Masterserver-System (XMPP)](XMPP Integration)
   * [[Make anything more dynamic]]
   * [[Distributing Content System]]
   * [[Extendable Map Format]]
