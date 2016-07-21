@@ -18,7 +18,7 @@
 
 ### Architecture
 
-[[Overall Architecture]]
+[[Overall Architecture]]  
 [[Inexor Tree]]
 
 ### General
