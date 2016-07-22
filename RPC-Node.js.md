@@ -1,66 +1,41 @@
 Branches | Issues | Main developers
 -------- | ------ | ---
-master | [#51](/inexor-game/code/issues/51), [#69](/inexor-game/code/pull/69) | [@koraa](/koraa)
+master, a_teammate/gluegen_cpp_api | [#51](/inexor-game/code/issues/51), [#311](/inexor-game/code/pull/311) | [@a_teammate](/a-teammate), [@aschaeffer](/aschaeffer)
 
-Implementation of a very basic IPC method for Inexor.
+### Glossary
+Abbreviation | Full Term
+-------------|---------
+IPC  | [Inter-process communication](https://en.wikipedia.org/wiki/Inter-process_communication) is done when different Processes need to communicate
+RPC  | [Remote Procedure Call](https://en.wikipedia.org/wiki/Remote_procedure_call) is a subtopic of IPC
 
-Ultimately this should provide a method of sending CRUD commands to the Inexor process,
-thereby making it possible to outsource most of the business logic to a high-level language,
-while keeping the performance critical and graphic rendering stuff inside the C++ Inexor process.
+## Architecture
 
-See [[Inexor Tree API]] for the next steps.
+Instead of integrating a JavaScript engine (like V8/Spidermonkey) directly into Inexor we chose the way of binding node.js (a standalone JS engine) via IPC.  
+Choosing a multi-process design over a multi-threaded design gives us the following advantages
 
-### Current Status
+* we do not need to maintain the JS code
+   * (as much)
+   * no need to integrate newer v8-versions every now and then into Inexor
+* node.js is completely independ
+   * if your script crashes your app still lives and vice versa
+   * less worrying, less maintainance
+* node.js works asynchronously out of the box
+   * no need to invent our own custom solutions
+* node.js has tons of shipped packages in its package managers
 
-The current status of the IPC implementation is very basic, but it works:
-The communication between Client and Server works, there is some basic tests and it is documented to a large degree.
+The implementation therefore uses [gRPC](http://www.grpc.io/docs/) as underlying library, which is a language neutral framework with bindings in more than 10 languages (and its ecosystem is growing rapidly).  
+**This means our API ([[Inexor Tree]]) can be used 1:1 for many different purposes**:
 
-At the moment one RPC instruction is implemented, which lets a client execute arbitrary cubescript code on the server.
+* Different (Scripting) languages simultaneously
+   * People want python? Easy
+* Generell Server/Client communication like a gameclient to gameserver
+   * Thanks to the new API classes/variables/functions could be synced without manually writing network code
+ 
 
-The purpose of this pull request is to kick of a public beta for this:
-The basic architecture of Inexor has not been changed; using the IPC subsystem is completely opt in at the moment.
+# Future Steps
 
-As the IPC system is always being compiled into the Inexor binary, protobuf and boost/asio is, beginning with this branch, a hard requirement for compiling Inexor.
-Node.js is only required is one want's to test the reference client.
-
-### Tech
-
-The Inexor IPC protocol implements an RPC interface using google Protocol buffers to encode remote call instructions and to encode Function arguments and return values.
-This utilizes a reliable, connection oriented transport that preserves message boundaries. At the moment we're either using stream oriented unix sockets or tcp and cut the streams manually.
-TCP and Unix Sockets abstractions are provided by ASIO.
-
-## Testing
-
-### *nix
-
-1. Run Inexor (and keep it running): $ inexor_unix
-3. Execute in inexor: `initrpc`
-4. Run the client: $ inexor_cipc_unix # A shell should open, INEXOR must be running for this!
-  1. > Inexor = require 'inexor'
-  2. > Inexor.eval "echo hallo123", (x) -> console.log x
-
-You should now have a text "hallo123" in the console of inexor.
-
-### Windows
-
-1. Run Inexor (and keep it running)
-2. Execute in inexor: `initrpc`
-3. CD into the node directory
-4. Update the node packages: $ npm update
-5. Run the client: $ NODE_PATH=. node node_modules/.bin/coffee # A shell should open, INEXOR must be running for this!
-  1. > Inexor = require 'inexor'
-  2. > Inexor.eval "echo hallo123", (x) -> console.log x
-
-You should now have a text "hallo123" in the console of Inexor.
-
-## Further Direction
-
-I am planning to add a few more basic features to the IPC interface:
-* Event handling
-* Locking (for sending a lot of commands to sauer consecutively)
-* A remote object interface for things like the ents/players/...
-* Method based cubescript interface (calling Inexor.cube.echo instead of Inexor.eval "echo ...")
-* Improved IPC transports (e.g. shared memory queue + signals)
-
-
-# PLEASE TEST :)
+* More efficient IPC methods
+  * Currently we use TCP, unix-sockets/named-pipes would be more efficient (or shared_memory)
+    * Lets see what gRPC comes up with next
+* Make multi RPC connections really work (currently only one is supported)
+* Extend the [[Inexor Tree]]
