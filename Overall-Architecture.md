@@ -9,9 +9,9 @@ Inexor-User-Interface | HTML5+JS+CSS | The user interface is basically a website
 
 ### Component / System Interoperability
 
-Component / System    | Technology                  | Component / System
+Component / System    | Connection                  | Component / System
 --------------------- | --------------------------- | -----------
-Inexor-Kernel         | [[Inexor Tree]] using grpc  | Inexor-Flex
+Inexor-Kernel         | Inexor Tree [using gRPC](/inexor-game/code/wiki/RPC-Node.js)  | Inexor-Flex
 Inexor-Flex           | [[Inexor Tree]] using REST  | Inexor-User-Interface
 Inexor-Kernel         | Key Events using CEF-RPC    | Inexor-User-Interface
 
