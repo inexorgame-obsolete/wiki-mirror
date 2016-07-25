@@ -1,11 +1,11 @@
-* **IRC** _(mainly used, **good for first contact**)_
+* **IRC** _(mainly used, **good for first contact, player questions and developer questions**)_
  * [web client](https://webchat.gamesurge.net/?channels=inexor)
  * [#inexor on GameSurge.net](irc://gamesurge.net/#inexor)
 
 * **Pads** _(Task lists, cooperative writings, archive..)_
  * https://pad.inexor.org/p/Inexor_Pads
 
-* [**Mumble**](https://www.mumble.info/) _(for meetings, see below)_
+* [**Mumble**](https://www.mumble.info/) _(for developer meetings, see below)_
  * nooblounge.net port 64738
 
 * **Social Media** _(**good for player questions**)_
