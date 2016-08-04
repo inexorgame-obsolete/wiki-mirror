@@ -1,4 +1,4 @@
-The structure and dependencies in Inexor are as follows:
+The structure and dependencies in Inexor could be exemplary (and highly incomplete) displayed as follows:
 
 
 _**Most widely effecting parts on the bottom, most visible parts at the top**_
