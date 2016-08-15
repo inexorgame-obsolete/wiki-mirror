@@ -13,31 +13,70 @@
 * Currently data and game state are spread all over the cube2 code base
 * Some variables are accessible via cubescript
 * The variables are located in a single flat namespace
-* The names of the variables must be unique
+   * The names of the variables must be unique
+* You don't see all variables/functions available with their current values
+   * The variables get replaced/functions get executed when parsing your cubescript
+     * faster than always syncing all vars, but not fast enough: it's blocking and it's depended on the parser
 
 ### Inexor Tree
 
-* The namespaces are organized hierarchical
-* All variables are located in a namespace
-* The names of the variables must be unique within a namespace only
+* The variables are organized hierarchical
+  * All variables are located in a namespace
+  * The names of the variables must be unique within a namespace only
+  * or within a class (which gets treated as namespace)
+* Complete Tree always available everywhere 
+  * All its its variables and functions always get synced
+  * Overhead when you change a var instead of when you parse the script.
+    * Still faster since non-blocking
+    * Tradeof was made to allow a design where even Inexor gameservers and clients could communicate this way.
 
-## Accessing to Inexor Tree
+## Accessing the Inexor Tree
 
 ### C++
 
-Make the shared variable available in the current context:
+Declaring variables as shared across the components:
 
-    namespace inexor { namespace rendering {
-        extern SharedVar<int64> maxfps;
-    } }
+```cpp
+namespace inexor {
+namespace rendering {
+    // This declares the variable under the path inexor/rendering/maxfps.
+    // It gets initialized with the value 200 and has the SharedOptions Range() and Persistent().
+    // More on SharedOptions (aka attributes for SharedDeclarations) see below.
+    SharedVar<int> maxfps(200, Range(0, 1000)|Persistent());
 
-Getting the value of the shared variable by just using it (inexor magically hides the complexity):
+    // We can also use classes as namespacing: we declare the variable inexor/rendering/screen/width here.
+    // It also calls a function every time it gets touched.
+    // Preprocessor logic gets handled, any other logic is forbidden in SharedOptions argument lists (see Range(...)).
+    #define MIN_SCREEN_W 768
+    class screen 
+    {
+      public:
+        SharedVar<int> width(1024, Range(MIN_SCREEN_W, 10000)|Function({log::get("global")->debug() << "changed width!"});
+    };
+} } // ns inexor::rendering
+```
 
-    int64 maxfps2 = inexor::rendering::maxfps + 1;
+### Rules
+* Do not use any logic as arguments for SharedOptions
+    * e.g. `Range(1024, std::min(1200, 1440))` will definitely not work!
+    * Preprocessor logic is not forbidden though: defines will be correctly replaced before parsing the SharedVar.
+* Only public class members will be found
+    * private ones will be silently skipped
+* Currently usable types are:
+    * `char *`
+    * `int`
+    * `float`
 
-Setting the value of the shared variable by just using it (Inexor magically synchronizes the changes):
 
-    inexor::rendering::maxfps = 200;
+You can treat the variable as if it is a normal primitive.  
+Just remember there is some hidden overhead when setting the variable.
+```cpp
+    // It acts like a normal var.
+    int current_maxfps_plus_20 = inexor::rendering::maxfps + 20;
+
+    // However this will be synced to any other component which has the tree:
+    inexor::rendering::maxfps = 300;
+```
 
 ### NodeJS
 
