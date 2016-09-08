@@ -1,6 +1,6 @@
-The goal of this project is to create an standalone fork of [Cube 2: Sauerbraten](http://sauerbraten.org/), establishing a bigger game audience and keeping the game alive for the future by enhancing and modernizing it.
+The goal of this project is to create a standalone fork of [Cube 2: Sauerbraten](http://sauerbraten.org/), establishing a bigger game audience and keeping the game alive for the future by enhancing and modernizing it.
 
-We would be happy if you are interested in joining our team.
+We will be very happy if you join our team!
 
 ### What you can contribute
 
