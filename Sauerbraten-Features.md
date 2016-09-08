@@ -1,7 +1,7 @@
 ## Game Features
 
  * Old-school fast & intense gameplay (read: similar to Doom 2 / Quake 1).
- * 23 multiplayer gameplay modes, most in teamplay variants as well: ffa (free for all, deathmatch alike), instagib, efficiency, tactics, capture (domination/battlefield style), CTF (capture the flag), protect (one teammate have to carry the flag), hold (hold a randomly spawning flag for a specific time to score), collect (kill enemies and collect their skulls) and coop edit (create maps together!).
+ * 23 multiplayer gameplay modes, mostly available in teamplay variants as well: ffa (free for all, deathmatch alike), instagib, efficiency, tactics, capture (domination/battlefield style), CTF (capture the flag), protect (one teammate have to carry the flag), hold (hold a randomly spawning flag for a specific time to score), collect (kill enemies and collect their skulls) and coop edit (create maps together!).
  * 7 weapons: double barrelled shotgun, rocket launcher, machine gun, rifle, grenade launcher, pistol and chainsaw.
  
 ## Engine Features
