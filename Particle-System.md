@@ -11,7 +11,7 @@ You can watch a [tech demo here](https://www.youtube.com/watch?v=j622-D-CCTI&lis
 
 ## Features
 
-* **Good performance** and **dynamic**
+* **Good performance** and **dynamic architecture**
 * **Component Types**
  * Emitters
  * Initializers
