@@ -8,7 +8,7 @@ Branches | Issues | Main developers
 * Each server registers itself to the masterserver.
 * Each game client requests a server list from the masterserver.
 
-## What are the problems with the masterserver?
+## What are the problems with the original Sauerbraten masterserver?
 
 * Single point of failure (centralized server list)!
 * One person **dictates** if a server is suitable or not!
