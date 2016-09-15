@@ -13,4 +13,4 @@
  * Loading of md2/md3/md5/obj/smd/iqm models for skeletal and vertex animated characters, weapons, items, and world objects. Supports animation blending, procedural pitch animation, and ragdoll physics for skeletally-animated characters.
  * Simple stereo positional sound system.
  * Particle engine, supporting text particles, volumetric explosions, soft particles, and decals.
- * 3d menu/gui system, for in-world representation of choices.
+ * 3d menu/gui system, for in-world representation of choices. **(removed from Inexor due to refactoring of the entire UI system)**
