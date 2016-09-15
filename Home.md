@@ -18,7 +18,9 @@ _Stays Sauer, becomes better._
 ## Features
 
 * [Milestones](https://github.com/inexor-game/code/milestones) / [Changelog] (https://github.com/inexor-game/code/blob/master/changelog.md)
-* [[Sauerbraten Features]]
+* [[Sauerbraten Features]] (this is where we started)
+
+### Done
 * Engine
  * [Generic RPC Subsystem + Node.js integration](RPC-Node.js)
  * [Ambient Occlusion](Ambient Occlusion)
