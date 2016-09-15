@@ -2,9 +2,57 @@ Branches | Issues | Main developers
 --- | --- | --- 
 [NewEntities](/inexor-game/code/tree/NewEntities), [cef+entities](/inexor-game/code/tree/cef+entities), [rebased-cef+entities](/inexor-game/code/tree/rebased-cef+entities), [cef+ipc+entities](/inexor-game/code/tree/cef+ipc+entities), [cef+ipc+entities+bezier](/inexor-game/code/tree/cef+ipc+entities+bezier) |  [#111](/inexor-game/code/issues/111) | [@aschaeffer](/aschaeffer), [@super-tux](/super-tux) 
 
-### Goal: New dynamic entity system
+### The goal
 
-Goal is to implement an flexible entity system.
+The goal is to implement a new entity system which will provide a solid basis for other so called subsystems like mapmodels, the Visual Scripting Enviroment or the particle system (and many more).
+
+## AttributeBase
+
+![AttributeBase](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/AttributeBase.png)
+
+## AttributeRefPtr
+
+![AttributeRefPtr](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/AttributeRefPtr.png)
+
+## EntityAttribute
+
+![EntityAttribute](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/EntityAttribute.png)
+
+## EntityFunction
+
+![EntityFunction](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/EntityFunction.png)
+
+## EntityInstanceManager
+
+![InstanceManager](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/EntityInstanceManager.png)
+
+## EntityTypeFactory
+
+![EntityTypeFactory](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/EntityTypeFactory.png)
+
+## EntityTypeManager
+
+![EntityTypeManager](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/EntityTypeManager.png)
+
+## EntityTypeProvider
+
+![EntityTypeProvider](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/EntityTypeProvider.png)
+
+## FunctionRefPtr
+
+![FunctionRefPtr](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/FunctionRefPtr.png)
+
+## InstanceRefPtr
+
+![InstanceRefPtr](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/InstanceRefPtr.png)
+
+## ParticleWorker
+
+![ParticleWorker](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/ParticleWorker.png)
+
+## RelationshipTypeProvider
+
+![RelationshipTypeProvider](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/RelationshipTypeProvider.png)
 
 ### Entities are used for
 
