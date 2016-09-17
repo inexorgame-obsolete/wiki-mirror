@@ -12,6 +12,8 @@ This will give you a pretty good exemplary environment if you are on Windows.
 * Download and install 
  * Microsoft Visual Studio **2015 (Update3)**
     * download and install [VS 2015 Community Edition](https://www.visualstudio.com)
+    * on first start tell it to use the C++ package
+        * do so by clicking "Create new C++ project"
     * only version 15 is supported _(otherwise you are required to rebuild the precompiled dependencies yourself)_
 
 * Download and install [CMake](http://www.cmake.org/download/) >= v3.0.0
