@@ -10,12 +10,9 @@ This will give you a pretty good exemplary environment if you are on Windows.
 ## Setup
 
 * Download and install 
- * Microsoft Visual Studio **2015** (Recommended)
+ * Microsoft Visual Studio **2015 (Update3)**
     * download and install [VS 2015 Community Edition](https://www.visualstudio.com)
-    * afterwards you will need the VS 2015 C/C++ package, which you can install by clicking on "Create new C++ project" 
-    * only version 15 is supported _(or you are required to rebuild the precompiled dependencies yourself)_
- * _(Less supported but open source)_ alternative: Code::Blocks **16.01**
-   * Please [download here](http://www.codeblocks.org/downloads/26) the latest release, with the `mingw-setup.exe` addition
+    * only version 15 is supported _(otherwise you are required to rebuild the precompiled dependencies yourself)_
 
 * Download and install [CMake](http://www.cmake.org/download/) >= v3.0.0
    * CMake will generate your project files
