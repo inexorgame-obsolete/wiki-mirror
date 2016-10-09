@@ -24,4 +24,5 @@ These categories are:
 * teams
 * win32 stuff
 
-TODO...
+so when you want to change something about the bots you know which file you should take a look at.
+Also this speeds up compiling time because unmodified files aren't needed to be recompiled to new object files.
