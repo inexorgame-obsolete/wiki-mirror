@@ -38,6 +38,10 @@ _Stays Sauer, becomes better._
   * [[Visual Scripting Environment]]
   * [[Decentralized server list]]
 
+* ### Code Refactoring
+
+  * [[New server]]
+
 * ### Planned
 
   * [Ideas for Features](Feature-Ideas)
