@@ -1,6 +1,7 @@
 * [Windows](#windows)
 * [Linux](#linux)
 * [Get The Content](#get-the-content)
+* [Troubleshooting](#troubleshooting)
 
 ***
 
@@ -90,7 +91,7 @@ Also install your distribution's development packages of Mesa, SDL2, SDL2_image,
 
 OS  | What to do
 --- | ---
-Debian/Debian-derived/Ubuntu | `sudo apt-get install git cmake build-essential libsdl2{,-mixer,-image}-dev libgl1-mesa-dev libprotobuf-dev protobuf-compiler libenet-dev libudev-dev libboost-all-dev clang llvm-dev libclang-dev doxygen`  You also might need `sudo apt-get install libfontconfig1 libfreetype6 libnss3 libxcomposite1 libxtst6 libgconf-2-4 libcups2 libcairo2 libpango-1.0-0 libpangocairo-1.0-0` because of CEF.
+Debian/Debian-derived/Ubuntu | `sudo apt-get install git cmake build-essential libsdl2{,-mixer,-image}-dev libgl1-mesa-dev libprotobuf-dev protobuf-compiler libenet-dev libudev-dev libboost-all-dev clang llvm-dev libclang-dev doxygen`  CEF dependencies: `sudo apt-get install libfontconfig1 libfreetype6 libnss3 libxcomposite1 libxtst6 libgconf-2-4 libcups2 libcairo2 libpango-1.0-0 libpangocairo-1.0-0`
 OpenSUSE | Run `zypper in -t pattern devel_C_C++` then run `zypper install mesa-libgl-devel libSDL2_mixer-devel libSDL2_image-devel libprotobuf-c-devel  protobuf-c libudev-devel boost-devel enet libenet7`.
 ArchLinux | Run `sudo pacman -S --needed git cmake sdl2 sdl2_gfx sdl2_image sdl2_mixer protobuf mesa mesa-libgl enet boost boost-libs`. <br> Currently you need for libcef also some other dependencies, install them via: `sudo pacman -S --needed pango cairo libxi libxcomposite alsa-lib libxtst gconf libxrandr`
 
