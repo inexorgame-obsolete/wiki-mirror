@@ -37,10 +37,7 @@ _Stays Sauer, becomes better._
   * [Entity System](Entity System)
   * [[Visual Scripting Environment]]
   * [[Decentralized server list]]
-
-* ### Code Refactoring
-
-  * [[New server]]
+  * [Server refactoring](New server)
 
 * ### Planned
 
