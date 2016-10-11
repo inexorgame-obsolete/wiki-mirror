@@ -22,6 +22,7 @@ Free resources
 * [Reddit Gameassets] (https://www.reddit.com/r/gameassets) - All kind
 * [Sitters Electronics](http://md2.sitters-electronics.nl) - Models, Skyboxes, Sounds
 * [Nobiax Texture Pack](https://github.com/The-Yak/NobiaxTexturePack) - Textures
+* [Clara.io Free Models](https://clara.io/library) - Fast growing model pack
 
 Tools
 =====
