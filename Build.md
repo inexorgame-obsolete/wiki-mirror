@@ -17,7 +17,7 @@ This will give you a pretty good exemplary environment if you are on Windows.
         * do so by clicking "Create new C++ project"
     * only version 15 is supported _(otherwise you are required to rebuild the precompiled dependencies yourself)_
 
-* Download and install [CMake](http://www.cmake.org/download/) >= v3.0.0
+* Download and install [CMake](http://www.cmake.org/download/) >= v3.1.0
    * CMake will generate your project files
 
 * Download and install Git
@@ -86,7 +86,7 @@ The first step of building this project is rather obvious, but for sake of compl
 
 The next step is to get all the required dependencies to compile. For convenience, all the dependencies are prebuilt and packed in the `platform` directory. You only need an environment that can build C++ programs such as Visual Studio, CodeBlocks, XCode or MinGW.
 
-Specifically, on Linux you will need CMake >= 3.0, make and GCC >= 4.9 or Clang >= 3.8 as your compiler. The version numbers are minimum: They might work with older versions (but it's not official supported) and newer versions are better!
+Specifically, on Linux you will need CMake >= 3.1, make and GCC >= 4.9 or Clang >= 3.8 as your compiler. The version numbers are minimum: They might work with older versions (but it's not official supported) and newer versions are better!
 Also install your distribution's development packages of Mesa, SDL2, SDL2_image, SDL2_mixer, Boost and Google Protobuf >= 3.0b3. Also you might need additional packages because of CEF, see the Debian row.
 
 OS  | What to do
@@ -100,7 +100,7 @@ ArchLinux | Run `sudo pacman -S --needed git cmake sdl2 sdl2_gfx sdl2_image sdl2
 The next step is to run CMake, this tool generates project files for your favourite IDE or tool.
 If you have CMake in your path you can run `(mkdir build && cmake ..)`, you probably will need to add a `-G "<generator>"` flag to make it generate a project file for your precious IDE (you do not need this for makefiles on linux).
 
-The most commonly used generators will probably include `Visual Studio`, `CodeBlocks`, `MinGW Makefiles`, `Unix Makefiles` and `Xcode`. There are also makefiles for Eclipse, Sublime Text and a lot others. The complete list can be found [here](https://www.cmake.org/cmake/help/v3.4/manual/cmake-generators.7.html).
+The most commonly used generators will probably include `Visual Studio`, `CodeBlocks`, `MinGW Makefiles`, `Unix Makefiles` and `Xcode`. There are also makefiles for Eclipse, Sublime Text and a lot others. The complete list can be found [here](https://www.cmake.org/cmake/help/v3.6/manual/cmake-generators.7.html).
 
 ### Examples
 
