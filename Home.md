@@ -38,7 +38,6 @@ _Stays Sauer, becomes better._
   * [JSON configuration support](JSON-Implementation)
   * [Entity System](Entity System)
   * [[Visual Scripting Environment]]
-  * [[Decentralized server list]]
   * [Server refactoring](New server)
 
 * ### Planned
@@ -49,6 +48,7 @@ _Stays Sauer, becomes better._
   * [[Distributing Content System]]
   * [[Extendable Map Format]]
   * [[Mappers Toolset]]
+  * [[Decentralized server list]]
 
 ### Development
 
