@@ -13,7 +13,7 @@ The bit mask describes for which layers are affected by the key bind. The bits c
 | Bit           | Input Layer   |
 |:------------- |:------------- |
 | Bit 0         | GameLayer     |
-| -Bit 1-       | -HudLayer-    |
+| Bit 1         | -HudLayer-    |
 | Bit 2         | AppLayer      |
 | Bit 3         | ChatLayer     |
 
