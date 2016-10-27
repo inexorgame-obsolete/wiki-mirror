@@ -32,6 +32,7 @@ _Stays Sauer, becomes better._
   * [[Version Control System]]
   * [[Particle System]]
   * [HTML5 User Interface / CEF](HTML5 User Interface)
+    * [[Keyboard and mouse input handling]]
   * [Bezier curve camera flights](Bezier curve)
   * [JSON configuration support](JSON-Implementation)
   * [Entity System](Entity System)
