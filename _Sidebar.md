@@ -20,6 +20,7 @@
 
 [[Overall Architecture]]  
 [[Inexor Tree]]
+[[Keyboard and mouse input handling]]
 
 ### General
 [[Supported File Formats]]  
