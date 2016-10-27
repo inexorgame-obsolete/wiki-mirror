@@ -19,7 +19,7 @@
 ### Architecture
 
 [[Overall Architecture]]  
-[[Inexor Tree]]
+[[Inexor Tree]]  
 [[Keyboard and mouse input handling]]
 
 ### General
