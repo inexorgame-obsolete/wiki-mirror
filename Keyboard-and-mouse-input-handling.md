@@ -85,3 +85,10 @@ If no bind (key+bitmask) has matched, the key input is handled as text input. Te
 | Mousewheel U / D | *         | *         | active   | inactive  | AppLayer      | Mouse wheel in the UI    |
 | Mousewheel U / D | *         | *         | *        | active    | ChatLayer     | Binds                    |
 
+## Converting SDL2 key codes to Browser/JavaScript key codes
+
+* https://wiki.libsdl.org/SDL_Keycode
+* http://unixpapa.com/js/key.html
+* https://www.mediaevent.de/javascript/Extras-Javascript-Keycodes.html
+* https://jeffkayser.com/projects/keyboard-keycodes-and-charcodes-in-javascript/index.html
+* http://www.asquare.net/javascript/tests/KeyCode.html
