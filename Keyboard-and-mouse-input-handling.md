@@ -23,11 +23,11 @@ Though the HudLayer is a valid input layer, it doesn't receive any input (neithe
 
 The game layer has a sub bit mask.
 
-| Bit           | Sub layer     |
-|:------------- |:------------- |
-| Bit 0         | Playing       |
-| Bit 1         | Editing       |
-| Bit 2         | Spectating    |
+| Bit           | Input Sub layer     |
+|:------------- |:------------------- |
+| Bit 0         | Playing             |
+| Bit 1         | Editing             |
+| Bit 2         | Spectating          |
 
 #### Bind mask
 
