@@ -29,16 +29,16 @@ _Stays Sauer, becomes better._
 
 * ### In Progress
 
-  * [[Version Control System]]
-  * [[Particle System]]
   * [HTML5 User Interface / CEF](HTML5 User Interface)
     * [[Keyboard and mouse input handling]]
     * [[User interface Menu]]
-  * [Bezier curve camera flights](Bezier curve)
-  * [JSON configuration support](JSON-Implementation)
   * [Entity System](Entity System)
-  * [[Visual Scripting Environment]]
+    * [[Particle System]]
+    * [[Visual Scripting Environment]]
   * [Server refactoring](New server)
+  * [JSON configuration support](JSON-Implementation)
+  * [Bezier curve camera flights](Bezier curve)
+  * [[Version Control System]]
 
 * ### Planned
 
