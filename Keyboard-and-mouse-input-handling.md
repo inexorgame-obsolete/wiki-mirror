@@ -1,3 +1,7 @@
+Branches | Issues | Main developers
+-------- | ------ | ---
+[cef_fixex_prepr](/inexor-game/code/tree/cef_fixex_prepr) | ? | [@aschaeffer](/aschaeffer)
+
 The new user interface requires a redesign of the keyboard and mouse handling.
 
 ## Keyboard input Handling
