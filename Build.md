@@ -152,7 +152,7 @@ You can specify them from the command line like this: `-D<variable name>=<value>
   
 * **BUILD_ALL=1** _default: `0`_
 
-  Build _everything_.
+  Builds _client, server, master_ **NOT:** _gluegen_.
 
 * **BUILD_CLIENT=0** _default: `1`_
 
