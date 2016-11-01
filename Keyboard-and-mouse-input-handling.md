@@ -20,6 +20,7 @@ The bit mask describes for which layers are affected by the key bind. The bits c
 | Bit 1         | HudLayer      |
 | Bit 2         | AppLayer      |
 | Bit 3         | ChatLayer     |
+| Bit 4         | G3DLayer      |
 
 Though the HudLayer is a valid input layer, it doesn't receive any input (neither key nor mouse input).
 
