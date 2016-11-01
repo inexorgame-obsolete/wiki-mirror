@@ -49,6 +49,7 @@ _Stays Sauer, becomes better._
   * [[Extendable Map Format]]
   * [[Mappers Toolset]]
   * [[Decentralized server list]]
+  * [[Packaging]]
 
 ### Development
 
