@@ -30,8 +30,8 @@ The game layer has a sub bit mask.
 | Bit           | Input Sub layer     |
 |:------------- |:------------------- |
 | Bit 0         | Playing             |
-| Bit 1         | Editing             |
-| Bit 2         | Spectating          |
+| Bit 1         | Spectating          |
+| Bit 2         | Editing             |
 
 #### Bind mask
 
@@ -66,12 +66,12 @@ It shouldn't be able to bind all keys on all layers. In order to prevent useless
 | T        | OpenChatLayer  | x  |    | x  |    |                                                           |
 | ESC      | CloseChatLayer |    |    |    | x  |                                                           |
 | F1       | OpenServerBr.  | x0 |    |    |    | When playing, open AppLayer, Change location to server browser  |
-| F3       | OpenTextureBr. | x1 |    |    |    | When editing, open AppLayer, Change location to texture browser |
-| F4       | OpenModelBr.   | x1 |    |    |    | When editing, open AppLayer, Change location to model browser   |
+| F3       | OpenTextureBr. | x2 |    |    |    | When editing, open AppLayer, Change location to texture browser |
+| F4       | OpenModelBr.   | x2 |    |    |    | When editing, open AppLayer, Change location to model browser   |
 | MWHEEL 1 | WeaponChange   | x0 |    |    |    |                                                           |
 | MWHEEL 2 | WeaponChange   | x0 |    |    |    |                                                           |
-| MWHEEL 1 |                | x1 |    |    |    | Different actions in combination with other key modifiers |
-| MWHEEL 2 |                | x1 |    |    |    | Different actions in combination with other key modifiers |
+| MWHEEL 1 |                | x2 |    |    |    | Different actions in combination with other key modifiers |
+| MWHEEL 2 |                | x2 |    |    |    | Different actions in combination with other key modifiers |
 | MWHEEL 1 | ScrollConsole  |    |    |    | x  | Scroll console up                                         |
 | MWHEEL 2 | ScrollConsole  |    |    |    | x  | Scroll console down                                       |
 
