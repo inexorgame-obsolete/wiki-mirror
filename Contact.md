@@ -1,6 +1,6 @@
 * **IRC** _(mainly used, **good for first contact, player questions and developer questions**)_
- * [web client](https://webchat.gamesurge.net/?channels=inexor)
- * [#inexor on GameSurge.net](irc://gamesurge.net/#inexor)
+ * [web client](https://webchat.freenode.net/?channels=#inexor)
+ * [#inexor on chat.freenode.net:6697](irc://chat.freenode.net:6697/#inexor)
 
 * **Pads** _(Task lists, cooperative writings, archive..)_
  * https://pad.inexor.org/p/Inexor_Pads
