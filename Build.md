@@ -5,6 +5,34 @@
 
 ***
 
+# Dependencies
+
+There are seven hard dependencies currently for building Inexor.  
+You will need to obtain them in some form (see the specific [Windows](#windows) and [Linux](#linux) sections below)
+
+* git
+  * a version control system
+* [CMake](http://www.cmake.org/download/)
+  * Generates our platform specific build code from cross platform scripts
+  * >= v3.1.0
+* A Compiler
+  * Translates the human-readable source code to executable binary code
+* [python](https://www.python.org/downloads/)
+  * version doesn't matter, although 2.x is prefered to 3.x
+  * we need it for our package manager conan
+* [Conan](https://www.conan.io/)
+  * Our package manager
+    * (through which we obtain all libraries Inexor depends on)
+* [node.js + npm](https://nodejs.org/)
+  * This is the base for InexorFlex (our scripting environment)
+  * npm (the node package manager) is usually included with node
+* [Doxygen](http://www.stack.nl/~dimitri/doxygen/download.html)
+  * This is needed for our build-time reflection
+    * (code generation for our network code and scripting binding)
+    * Yes, not only the docs
+
+On Linux you will be able to download all these through your package manager.
+
 # Windows
 This will give you a pretty good exemplary environment if you are on Windows.
 
@@ -13,19 +41,25 @@ This will give you a pretty good exemplary environment if you are on Windows.
 * Download and install 
  * Microsoft Visual Studio **2015**
     * download and install [VS 2015 Community Edition](https://www.visualstudio.com)
-    * on first start tell it to use the C++ package
-        * do so by clicking "Create new C++ project"
-    * _older versions of Visual Studio are not recommended_
-
-* Download and install [CMake](http://www.cmake.org/download/) >= v3.1.0
-   * CMake will generate your project files
-
+      * _on first start tell it to use the C++ preset_
+         * _do so by clicking "Create new C++ project"_
+    * VS 2013 might also work but is definitely not recommended
+    * **The newest update is required** (VS 2015 Update 1 will fail to build)
 * Download and install Git
    * Use one of the following tools if you don't already have Git:
-     * [SmartGit](http://www.syntevo.com/smartgit/download) - Heavily developed and intuitive GUI
+     * [SmartGit](http://www.syntevo.com/smartgit/download) - Heavily developed and intuitive GUI [Recommended]
+       * You'll need to manually [**add Git to your PATH**](https://github.com/inexor-game/code/wiki/%5BWindows%5D-add-git-to-PATH)
      * [GitHub Desktop](https://desktop.github.com) - Very simple and clean UI.
      * [git-scm.com](http://git-scm.com/download) is the official Git website, and has downloads for the CLI version, and links to several GUIs.
-
+* Download and install [CMake](http://www.cmake.org/download/)
+* Download and install [python](https://www.python.org/downloads/)
+  * version doesn't matter, although 2.x is prefered to 3.x
+* Download and install [Conan](https://www.conan.io/downloads)
+* Download and install [node.js + npm](https://nodejs.org/)
+  * version does not matter, either LTS or normal
+* Download and install [Doxygen](http://www.stack.nl/~dimitri/doxygen/download.html)
+  * [**add doxygen to your PATH**](https://github.com/inexor-game/code/wiki/%5BWindows%5D-add-git-to-PATH)
+    * Replace `git.exe` with `doxygen.exe` when searching, add it as the point 2 says.
 
 
 ## Fetching the Repository
@@ -47,7 +81,20 @@ You will have to clone the Project somewhere.
 ## Create the Visual Studio or CodeBlocks Project
   _(or the project file for another generator)_
 
-Open the CMake-GUI and follow the steps as [described here](#cmake-gui). Then jump back to this point to not get confused with explanations for Linux ;)
+Execute the `tool/create_visual_studio_project.bat`.  
+This will:
+
+1. create a new `build` folder
+  * which will contain your project file `Inexor.sln` (you can open that one to open VS)
+2. receive all dependencies
+  * (which **takes some time** the first time you do it) (using [`conan install`](http://docs.conan.io/en/latest/getting_started.html#building-the-timer-example) internally)
+3. Create the VS project using CMake
+4. do a first build
+  * which also takes some time
+
+So relax and sit back.
+
+Advanced users can also manually do the conan-install step and and use the CMake Gui as [described here](#cmake-gui).
 
 ## Compile Inexor
 * If you use Visual Studio:
@@ -65,10 +112,6 @@ See [Directory-Structure](https://github.com/inexor-game/code/wiki/Directory-Str
 ## Run
 Start Inexor with the `inexor.bat` file.
 
-## Cross-compiling from Linux to Windows
-If you are using Linux to cross-compile Inexor to Windows using `mingw32` and `mingw-w64` then you should use
-`cmake -DMINGW=1 -DMINGW_TYPE=X ..` where  X is your architecture (either use `i686` or `x86_64` in substitute of X )
-
 ***
 
 # Linux
@@ -78,100 +121,55 @@ The first step of building this project is rather obvious, but for sake of compl
 
 * Download the repository, you can either use the command line ```git clone --recursive https://github.com/inexor-game/code.git``` or your favourite git GUI.
 
-## Downloading the dependencies
+## Install the build requirements
 
-The next step is to get all the required dependencies to compile. You only need an environment that can build C++ programs such as Visual Studio, CodeBlocks, XCode or MinGW.
+The next step is to get all the required dependencies to compile. You'll need an environment that can build C++ programs such as Eclipse, CLion, CodeBlocks.
 
-Specifically, on Linux you will need CMake >= 3.1, make and GCC >= 4.9 or Clang >= 3.8 as your compiler. The version numbers are minimum: They might work with older versions (but it's not official supported) and newer versions are better!
-Also install your distribution's development packages of Mesa, SDL2, SDL2_image, SDL2_mixer, Boost and Google Protobuf >= 3.0b3. Also you might need additional packages because of CEF, see the Debian row.
+Specifically, on Linux you will need CMake >= 3.1, conan, make and GCC >= 4.9 or Clang >= 3.5 as your compiler. The version numbers are minimum: They might work with older versions (but it's not official supported) and newer versions are better!
+Also install your distribution's development packages of Mesa
 
 OS  | What to do
 --- | ---
-Debian/Debian-derived/Ubuntu | `sudo apt-get install git cmake build-essential libsdl2{,-mixer,-image}-dev libgl1-mesa-dev libprotobuf-dev protobuf-compiler libenet-dev libudev-dev libboost-all-dev doxygen`  CEF dependencies: `sudo apt-get install libfontconfig1 libfreetype6 libnss3 libxcomposite1 libxtst6 libgconf-2-4 libcups2 libcairo2 libpango-1.0-0 libpangocairo-1.0-0`
-OpenSUSE | Run `zypper in -t pattern devel_C_C++` then run `zypper install mesa-libgl-devel libSDL2_mixer-devel libSDL2_image-devel libprotobuf-c-devel  protobuf-c libudev-devel boost-devel enet libenet7`.
-ArchLinux | Run `sudo pacman -S --needed git cmake sdl2 sdl2_gfx sdl2_image sdl2_mixer protobuf mesa mesa-libgl enet boost boost-libs`. <br> Currently you need for libcef also some other dependencies, install them via: `sudo pacman -S --needed pango cairo libxi libxcomposite alsa-lib libxtst gconf libxrandr`
+Debian/Debian-derived/Ubuntu | `sudo apt-get install git cmake build-essential libgl1-mesa-dev conan node doxygen`  CEF dependencies: `sudo apt-get install libfontconfig1 libfreetype6 libnss3 libxcomposite1 libxtst6 libgconf-2-4 libcups2 libcairo2 libpango-1.0-0 libpangocairo-1.0-0`
+OpenSUSE | Run `zypper in -t pattern devel_C_C++` then run `zypper install mesa-libgl-devel conan node doxygen cmake git`.
+ArchLinux | Run `sudo pacman -S --needed git cmake mesa mesa-libgl conan doxygen`. <br> Currently you need for libcef also some other dependencies, install them via: `sudo pacman -S --needed pango cairo libxi libxcomposite alsa-lib libxtst gconf libxrandr`
 
-## Running CMake
+## Running Conan & CMake
 
-The next step is to run CMake, this tool generates project files for your favourite IDE or tool.
-If you have CMake in your path you can run `(mkdir build && cmake ..)`, you probably will need to add a `-G "<generator>"` flag to make it generate a project file for your precious IDE (you do not need this for makefiles on linux).
+Run Conan to get all the used libraries in place. [conan instructions](http://docs.conan.io/en/latest/getting_started.html#building-the-timer-example) 
+See the examples below.
+
+Afterwards run CMake, which generates project files for your favourite IDE or tool.
+If you have CMake in your path you can run `(mkdir build && cmake ..)`, you probably will need to add a `-G "<generator>"` flag to make it generate a project file for your precious IDE (you do not need this for makefiles on linux).  
+Alternatively use the example lines below.
 
 The most commonly used generators will probably include `Visual Studio`, `CodeBlocks`, `MinGW Makefiles`, `Unix Makefiles` and `Xcode`. There are also makefiles for Eclipse, Sublime Text and a lot others. The complete list can be found [here](https://www.cmake.org/cmake/help/v3.7/manual/cmake-generators.7.html).
 
 ### Examples
 
 ```shell
-(mkdir build; cd build && cmake .. && make install) # Should work on mingw (you may need -G "MinGW Makefiles"), linux and mac
-(mkdir xcode; cd xcode && cmake .. -G Xcode) # Generate an xcode project
-md vstudio && cd vstudio && cmake .. -G "Visual Studio 14 2015" :: Generate a Visual Studio 14 Project
-
+(mkdir build && cd build && conan install .. && conan build ..) # Should work for any setting any compiler, any OS
+# By default conan install uses build_type `Release`.
+(mkdir build && cd build && conan install .. -s build_type=Debug && conan build ..)
+# to create a debug build and build it.
+(mkdir build && cd build && conan install .. -s compiler=gcc -s compiler.version=5.2 && conan build ..)
+# to set a specific compiler and version if you got multiple ones installed.
+# Reading some stuff up in the conan docs might be helpful here
 ```
 
 Notice: make sure to do *cmake ..* and *make* from a directory that is not referenced by a symlink somewhere in the path (otherwise you will have some problems with protobuf).
-
-### Working around the libudev error
-There is a known ABI change within libudev which might break libcef.so for you.
-Refer to the [askubuntu article](http://askubuntu.com/questions/288821/how-do-i-resolve-a-cannot-open-shared-object-file-libudev-so-0-error) for technical details.
-The suggested quickfix is
-```
-sudo ln -sf /lib/$(arch)-linux-gnu/libudev.so.1 /lib/$(arch)-linux-gnu/libudev.so.0
-```
-
-### CMake GUI
-
-Some users might prefer CMake GUI. 
-
-   * Select your Inexor root directory for `Where is the source code`
-   * Create a new directory within the root directory named `build`
-   * Select the new `build` directory for `Where to build the binaries`
-   * Click `Configure`
-   * Select your desired generator
-     * If you use Visual Studio select VS-Version *Visual Studio 14 2015* and (if you have) the x64-Version so e.g. `Visual Studio 14 2015 Win64`
-   * Click `Generate` to generate a project file
 
 ## Actually building the sources
 
 This step greatly depends on your IDE or environment but if you have used makefiles you can probably just run `(cd build && make install)`. Add `-j<number of cores>` to make to run it multithreaded. Note that `make install` will not install any files globally, but only within the directory structure of the project.
 
-## CMake Variables
-
-The following variables can be used to change the behaviour of the build system.
-You can specify them from the command line like this: `-D<variable name>=<value>`
-
-* **CMAKE_BUILD_TYPE** _default: `Debug`_
-
-  Built in CMake variable that affects flags that are used to compile. For example `-O0` when debugging and `-O3` in release mode.
-
-* **CMAKE_TOOLCHAIN_FILE** _default: ``_
-
-  The path to the toolchain file to use for cross compiling. Change this to `../inexor/platform/linux-toolchain-mingw.cmake` to cross compile for Windows.
-  
-* **BUILD_ALL=1** _default: `0`_
-
-  Builds _client, server, master_ **NOT:** _gluegen_.
-
-* **BUILD_CLIENT=0** _default: `1`_
-
-  Skips compiling the client.
-
-* **BUILD_SERVER=1** _default: `0`_
-
-  Compiling the server.
-
-* **BUILD_MASTER=1** _default: `0`_
-
-  Compiling the master server.
-
-* **BUILD_GLUEGEN=1** _default: `0`_
-
-  Compile gluegen.
-
 ## Run
 
 Start Inexor with the `inexor_unix` file.
 
+# Other
 
-# Get the content
+## Get the content
 
 Data like maps and fonts is provided in a separate [data repository](https://github.com/inexor-game/data). Clone that repository along with the optional repository [data-additional](https://github.com/inexor-game/data-additional) in the `media` directory, which should be in the root directory of the Inexor code repository. Alternatively you can use a symbolic link like in the following example.
 
@@ -188,6 +186,28 @@ Data like maps and fonts is provided in a separate [data repository](https://git
         └── data-additional
 
 More on that see: [[Directory Structure]]
+
+## CMake GUI
+
+Some users might prefer CMake GUI. 
+
+   * Select your Inexor root directory for `Where is the source code`
+   * Create a new directory within the root directory named `build`
+   * Select the new `build` directory for `Where to build the binaries`
+   * Click `Configure`
+   * Select your desired generator
+     * If you use Visual Studio select VS-Version *Visual Studio 14 2015* and (if you have) the x64-Version so e.g. `Visual Studio 14 2015 Win64`
+   * Click `Generate` to generate a project file
+
+## Working around the libudev error
+
+(On some linux systems)
+There is a known ABI change within libudev which might break libcef.so for you.
+Refer to the [askubuntu article](http://askubuntu.com/questions/288821/how-do-i-resolve-a-cannot-open-shared-object-file-libudev-so-0-error) for technical details.
+The suggested quickfix is
+```
+sudo ln -sf /lib/$(arch)-linux-gnu/libudev.so.1 /lib/$(arch)-linux-gnu/libudev.so.0
+```
 
 ## Troubleshooting
 
