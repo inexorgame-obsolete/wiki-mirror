@@ -11,19 +11,19 @@ This will give you a pretty good exemplary environment if you are on Windows.
 ## Setup
 
 * Download and install 
- * Microsoft Visual Studio **2015 (Update3)**
+ * Microsoft Visual Studio **2015**
     * download and install [VS 2015 Community Edition](https://www.visualstudio.com)
     * on first start tell it to use the C++ package
         * do so by clicking "Create new C++ project"
-    * only version 15 is supported _(otherwise you are required to rebuild the precompiled dependencies yourself)_
+    * _older versions of Visual Studio are not recommended_
 
 * Download and install [CMake](http://www.cmake.org/download/) >= v3.1.0
    * CMake will generate your project files
 
 * Download and install Git
    * Use one of the following tools if you don't already have Git:
-     * [SmartGit](http://www.syntevo.com/smartgit/download) - Heavily developed and intuitive GUI (e.g. Supports submodules in the GUI) (Recommended)
-     * [GitHub Desktop](https://desktop.github.com) - Very simple and clean UI. Does not support submodules. You must use the command line to update them.
+     * [SmartGit](http://www.syntevo.com/smartgit/download) - Heavily developed and intuitive GUI
+     * [GitHub Desktop](https://desktop.github.com) - Very simple and clean UI.
      * [git-scm.com](http://git-scm.com/download) is the official Git website, and has downloads for the CLI version, and links to several GUIs.
 
 
@@ -35,7 +35,7 @@ You will have to clone the Project somewhere.
 * If you use SmartGit:
   * click `Repository` and `Clone` (or press `Ctrl+Shift+O`)
   * Select "Remote Git ... repository", URL = https://github.com/inexor-game/code
-  * On the next Page select both `Include Submodules` as well as `Fetch all Heads and Tags`
+  * On the next Page select `Fetch all Heads and Tags`
   * Select a folder on the next page. Your local Git repository will be created here. 
   * Select `Finish`
 
@@ -43,7 +43,6 @@ You will have to clone the Project somewhere.
   * Go to the overview of our `code` repository and click on `Clone in Desktop`
   * Choose a directory in which the repository is getting cloned
   * Click `Ok`
-  * You will need to checkout the submodules as well, you can doing that by clicking on the wheel symbol, selecting `Open in Git Shell` and typing in `git submodule init; git submodule sync; git submodule update`
 
 ## Create the Visual Studio or CodeBlocks Project
   _(or the project file for another generator)_
@@ -79,12 +78,9 @@ The first step of building this project is rather obvious, but for sake of compl
 
 * Download the repository, you can either use the command line ```git clone --recursive https://github.com/inexor-game/code.git``` or your favourite git GUI.
 
-* If you want to checkout the latest master only you need to initialise the submodules as well
- ```git clone --depth 1 https://github.com/inexor-game/code.git; cd code; git submodule init; git submodule sync; git submodule update;```
-
 ## Downloading the dependencies
 
-The next step is to get all the required dependencies to compile. For convenience, all the dependencies are prebuilt and packed in the `platform` directory. You only need an environment that can build C++ programs such as Visual Studio, CodeBlocks, XCode or MinGW.
+The next step is to get all the required dependencies to compile. You only need an environment that can build C++ programs such as Visual Studio, CodeBlocks, XCode or MinGW.
 
 Specifically, on Linux you will need CMake >= 3.1, make and GCC >= 4.9 or Clang >= 3.8 as your compiler. The version numbers are minimum: They might work with older versions (but it's not official supported) and newer versions are better!
 Also install your distribution's development packages of Mesa, SDL2, SDL2_image, SDL2_mixer, Boost and Google Protobuf >= 3.0b3. Also you might need additional packages because of CEF, see the Debian row.
@@ -100,7 +96,7 @@ ArchLinux | Run `sudo pacman -S --needed git cmake sdl2 sdl2_gfx sdl2_image sdl2
 The next step is to run CMake, this tool generates project files for your favourite IDE or tool.
 If you have CMake in your path you can run `(mkdir build && cmake ..)`, you probably will need to add a `-G "<generator>"` flag to make it generate a project file for your precious IDE (you do not need this for makefiles on linux).
 
-The most commonly used generators will probably include `Visual Studio`, `CodeBlocks`, `MinGW Makefiles`, `Unix Makefiles` and `Xcode`. There are also makefiles for Eclipse, Sublime Text and a lot others. The complete list can be found [here](https://www.cmake.org/cmake/help/v3.6/manual/cmake-generators.7.html).
+The most commonly used generators will probably include `Visual Studio`, `CodeBlocks`, `MinGW Makefiles`, `Unix Makefiles` and `Xcode`. There are also makefiles for Eclipse, Sublime Text and a lot others. The complete list can be found [here](https://www.cmake.org/cmake/help/v3.7/manual/cmake-generators.7.html).
 
 ### Examples
 
