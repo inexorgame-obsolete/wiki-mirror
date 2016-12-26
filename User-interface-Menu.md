@@ -26,3 +26,35 @@ The menu manager provides several methods for manipulating the menu tree:
 * renameMenuEntry(id, newName)
 * moveMenuEntry(newParentId, id)
 
+
+<pre>
+{
+    'name': 'root',
+    'action': 'menu',
+    'subMenus': [
+        {
+            'name': 'multiplayer',
+            'action': 'menu',
+            'subMenus': [
+                {
+                    'name': 'Server 1',
+                    'action': 'connect',
+                    'subMenus': [
+                    ]
+                }
+            ]
+        } , {
+            'name': 'singleplayer',
+            'action': 'menu',
+            'subMenus': [
+                {
+                    'name': 'Server 1',
+                    'action': 'connect',
+                    'subMenus': [
+                    ]
+                }
+            ]
+        }
+    ]
+}
+</pre>
