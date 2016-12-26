@@ -26,6 +26,7 @@ The menu manager provides several methods for manipulating the menu tree:
 * renameMenuEntry(id, newName)
 * moveMenuEntry(newParentId, id)
 
+## Menu definition as JSON data structure
 
 <pre>
 {
