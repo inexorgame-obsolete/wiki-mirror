@@ -134,7 +134,7 @@ Debian/Debian-derived/Ubuntu | `sudo apt-get install git cmake build-essential n
 OpenSUSE | Run `zypper in -t pattern devel_C_C++` then run `zypper install mesa-libgl-devel conan node doxygen cmake git`.
 ArchLinux | Run `sudo pacman -S --needed git cmake mesa mesa-libgl conan doxygen`. <br> Currently you need for libcef also some other dependencies, install them via: `sudo pacman -S --needed pango cairo libxi libxcomposite alsa-lib libxtst gconf libxrandr`
 
-_Note:_Dependencies were measured on a CI server, on a desktop machine some dependencies might already be installed.
+_Note:_ Dependencies were measured on a CI server, on a desktop machine some dependencies might already be installed.
 ### Installing conan.io
 Conan.io is usually to be installed using the python package manager `pip`
 Simply `pip install conan` should do it.
