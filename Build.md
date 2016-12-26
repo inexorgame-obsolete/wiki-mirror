@@ -140,7 +140,7 @@ Simply `pip install conan` should do it.
 Although conan officially supports `python>=3` the version `python2.7` is suggested.
 
 ### Getting the latest Node.js
-For the application to run appropiately Node.js >= 6.9.1 is required (it might work on lower, version, **might**). 
+For the application to run appropiately `Node.js >= 6.9.1` is required (it might work on lower versions, ** it might**). 
 Consider [their website](https://nodejs.org/en/) for install instructions.
 
 ## Running Conan & CMake
