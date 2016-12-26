@@ -130,17 +130,18 @@ Also install your distribution's development packages of Mesa
 
 OS  | What to do
 --- | ---
-Debian/Debian-derived/Ubuntu | `sudo apt-get install git cmake build-essential nodejs doxygen python-pip`  CEF dependencies: `sudo apt-get freeglut3 freeglut3-dev libglew1.5-dev libglm-dev libxcomposite1 libgconf-2-4 libcairo2 libpango-1.0-0 libpangocairo-1.0-0`
+Debian/Debian-derived/Ubuntu | `sudo apt-get install git cmake build-essential nodejs doxygen python-pip`  CEF dependencies: `sudo apt-get freeglut3 freeglut3-dev libglew1.5-dev libglm-dev libxcomposite1 libgconf-2-4 libcairo2 libpango-1.0-0 libpangocairo-1.0-0 libxcursor-dev libxss1 libasound2 libatk1.0-dev libxrandr-dev`
 OpenSUSE | Run `zypper in -t pattern devel_C_C++` then run `zypper install mesa-libgl-devel conan node doxygen cmake git`.
 ArchLinux | Run `sudo pacman -S --needed git cmake mesa mesa-libgl conan doxygen`. <br> Currently you need for libcef also some other dependencies, install them via: `sudo pacman -S --needed pango cairo libxi libxcomposite alsa-lib libxtst gconf libxrandr`
 
+_Note:_Dependencies were measured on a CI server, on a desktop machine some dependencies might already be installed.
 ### Installing conan.io
 Conan.io is usually to be installed using the python package manager `pip`
 Simply `pip install conan` should do it.
 Although conan officially supports `python>=3` the version `python2.7` is suggested.
 
 ### Getting the latest Node.js
-For the application to run appropiately `Node.js >= 6.9.1` is required (it might work on lower versions, ** it might**). 
+For the application to run appropiately `Node.js >= 6.9.1` is required (it might work on lower versions, **it might**). 
 Consider [their website](https://nodejs.org/en/) for install instructions.
 
 ## Running Conan & CMake
