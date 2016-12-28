@@ -2,22 +2,24 @@
 
 Component / System                | Language     | Description
 --------------------------------- | ------------ | -----------
-Inexor-Kernel                     | C/C++        | Game-State, Rendering and calculate anything performance sensitive
+Inexor-Core                       | C/C++        | Game-State, Rendering and calculate anything performance sensitive
 Inexor-GlueGen                    | C/C++        | External application used in the build-process to generate our networking code (and potentially other glue code)
 [Inexor-Flex](/inexor-game/flex/) | JS (NodeJS)  | Provides a scripting environment for the server and client, provides the Inexor-User-Interface
-Inexor-User-Interface             | HTML5+JS+CSS | The user interface is basically a website, which is rendered by the Inexor-Kernel
+Inexor-UI-HUD                     | HTML5+JS+CSS | The Inexor UI HUD is basically a website, which is rendered by the Inexor-Core
+Inexor-UI-APP                     | HTML5+JS+CSS | The Inexor UI APP is basically a website, which is rendered by the Inexor-Core
 
 ### Component / System Interoperability
 
 Component / System                | Connection                  | Component / System
 --------------------------------- | --------------------------- | -----------
-Inexor-Kernel                     | Inexor Tree [using gRPC](/inexor-game/code/wiki/RPC-Node.js)  | Inexor-Flex
-[Inexor-Flex](/inexor-game/flex/) | [[Inexor Tree]] using REST  | Inexor-User-Interface
-Inexor-Kernel                     | Key Events using CEF-RPC    | Inexor-User-Interface
+Inexor-Core                       | Inexor Tree [using gRPC](/inexor-game/code/wiki/RPC-Node.js)  | Inexor-Flex
+Inexor-Flex                       | [[Inexor Tree]] using REST  | Inexor-UI-HUD
+Inexor-Flex                       | [[Inexor Tree]] using REST  | Inexor-UI-APP
+Inexor-Core                       | Key Events using CEF-RPC    | Inexor-UI-APP (only APP, not HUD!)
 
 ### Components / Systems
 
-#### Inexor Kernel
+#### Inexor Core
 
 * Game State
   * Physics
@@ -25,7 +27,8 @@ Inexor-Kernel                     | Key Events using CEF-RPC    | Inexor-User-In
   * ...
 * Graphics
   * Rendering Game-Graphics
-  * Rendering Inexor-User-Interface
+  * Rendering the Inexor-UI-HUD
+  * Rendering the Inexor-UI-APP
 * Input Handling
   * Mouse
   * Keyboard
