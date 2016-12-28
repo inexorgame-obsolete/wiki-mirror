@@ -16,7 +16,7 @@ Command Line Argument    | Short | Default   | Description
 --start-client-width     | -w    | 640       | Sets the screen resolution width
 --start-client-height    | -h    | 480       | Sets the screen resolution height
 
-### Configuring Inexor Core (Client) Instances
+### Configuring Inexor Core (Server) Instances
 
 Command Line Argument    | Short | Default   | Description
 ------------------------ | ----- | --------- | -----------
