@@ -24,7 +24,7 @@
 
 ### General
 [[Supported File Formats]]  
-[[Command Line Options]]  
+[Command Line](Command Line Options And Commands)  
 [[Sauerbraten Features]]  
 
 ### Tools
