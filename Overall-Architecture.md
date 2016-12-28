@@ -38,8 +38,8 @@ Inexor-Core                       | Key Events using CEF-RPC    | Inexor-UI-APP 
 
 * Webserver
   * Provides [[Inexor Tree]] REST API
-  * Provides Inexor-User-Interface (HTML5/JS/CSS webapplication)
-  * Provides Inexor-Game-HUD (HTML5/JS/CSS webapplication)
+  * Provides Inexor-UI-APP (HTML5/JS/CSS webapplication)
+  * Provides Inexor-UI-HUD (HTML5/JS/CSS webapplication)
 * Business Logic
   * Texture-Manager
   * Map-Manager
@@ -47,7 +47,7 @@ Inexor-Core                       | Key Events using CEF-RPC    | Inexor-UI-APP 
   * Server-List-Manager
   * ...
 
-#### Inexor-User-Interface
+#### Inexor-UI-APP
 
 * Modular Single-Page-Webapplication written using web standards (HTML5/JS/CSS).
 * Loads data from the [[Inexor Tree]] REST API
@@ -61,3 +61,8 @@ Texture-Browser       | Texture-Manager
 Map-Chooser           | Map-Manager
 Media-Player          | Media-Manager
 
+#### Inexor-UI-HUD
+
+* The ingame HUD for the Inexor Core (Client)
+* Small web application written in HTML5/JS/CSS
+* Loads data from the [[Inexor Tree]] REST API
