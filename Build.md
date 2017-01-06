@@ -23,7 +23,7 @@ You will need to obtain them in some form (see the specific [Windows](#windows) 
 * [Conan](https://www.conan.io/)
   * Our package manager
     * (through which we obtain all libraries Inexor depends on)
-* [node.js + npm](https://nodejs.org/)
+* [Node.js + npm >= 3.0](https://nodejs.org/)
   * This is the base for InexorFlex (our scripting environment)
   * npm (the node package manager) is usually included with node
 * [Doxygen](http://www.stack.nl/~dimitri/doxygen/download.html)
