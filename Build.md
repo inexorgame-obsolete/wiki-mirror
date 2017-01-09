@@ -12,23 +12,22 @@ You will need to obtain them in some form (see the specific [Windows](#windows) 
 
 * git
   * a version control system
-* [CMake](http://www.cmake.org/download/)
+* [CMake >= v3.1.0](http://www.cmake.org/download/)
   * Generates our platform specific build code from cross platform scripts
-  * >= v3.1.0
 * A Compiler
   * Translates the human-readable source code to executable binary code
-* [python](https://www.python.org/downloads/)
+* [Python](https://www.python.org/downloads/)
   * version doesn't matter, although 2.x is prefered to 3.x
   * we need it for our package manager conan
-* [Conan](https://www.conan.io/)
+* [Conan](https://www.conan.io)
   * Our package manager
-    * (through which we obtain all libraries Inexor depends on)
-* [Node.js + npm >= 3.0](https://nodejs.org/)
+    * through which we obtain all libraries Inexor depends on
+* [Node.js >= 6.9.1 + npm >= 3.0](https://nodejs.org)
   * This is the base for InexorFlex (our scripting environment)
   * npm (the node package manager) is usually included with node
 * [Doxygen](http://www.stack.nl/~dimitri/doxygen/download.html)
   * This is needed for our build-time reflection
-    * (code generation for our network code and scripting binding)
+    * code generation for our network code and scripting binding
     * Yes, not only the docs
 
 On Linux you will be able to download all these through your package manager.
