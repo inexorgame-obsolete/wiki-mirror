@@ -42,7 +42,6 @@ This will give you a pretty good exemplary environment if you are on Windows.
     * download and install [VS 2015 Community Edition](https://www.visualstudio.com)
       * _on first start tell it to use the C++ preset_
          * _do so by clicking "Create new C++ project"_
-    * VS 2013 might also work but is definitely not recommended
     * **The newest update is required** (VS 2015 Update 1 will fail to build)
 * Download and install Git
    * Use one of the following tools if you don't already have Git:
