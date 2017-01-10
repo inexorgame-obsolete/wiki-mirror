@@ -1,9 +1,15 @@
 ### Configuring Inexor Flex
 
-Command Line Option      | Short | Default | Description
------------------------- | ----- | --------- | -----------
---flex-port              | -p    | 0         | The port of the flex webserver
---preferences            | -u    | $HOME/... | The path to the flex configuration file
+<pre>
+./flex flex <port> [host] [webdir] [binary]
+
+Option      | Type   | Default    | Description
+----------- | ------ | ---------- | -----------
+port        | number | 0          | The port of the flex webserver
+host        | string | localhost  | The hostname to listen on.
+webdir      | string | inexor-ui/ | The path to the user interface
+binary      | string | null       | The path to the Inexor Core binary
+</pre>
 
 ### Command Line Commands
 
