@@ -15,6 +15,7 @@ Component / System                | Connection                  | Component / Sy
 Inexor-Core                       | Inexor Tree [using gRPC](/inexor-game/code/wiki/RPC-Node.js)  | Inexor-Flex
 Inexor-Flex                       | [[Inexor Tree]] using REST  | Inexor-UI-HUD
 Inexor-Flex                       | [[Inexor Tree]] using REST  | Inexor-UI-APP
+Inexor-Flex                       | [[Inexor Tree]] using REST  | Inexor-Flex (remote)
 Inexor-Core                       | Key Events using CEF-RPC    | Inexor-UI-APP (only APP, not HUD!)
 
 ### Components / Systems
