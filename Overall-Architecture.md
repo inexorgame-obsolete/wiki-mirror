@@ -39,8 +39,12 @@ Inexor-Core                       | Key Events using CEF-RPC    | Inexor-UI-APP 
 
 * Webserver
   * Provides [[Inexor Tree]] REST API
-  * Provides Inexor-UI-APP (HTML5/JS/CSS webapplication)
-  * Provides Inexor-UI-HUD (HTML5/JS/CSS webapplication)
+  * Provides multiple web applications
+* Web applications (HTML5/JS/CSS)
+  * Inexor Flex User Interface
+  * Inexor Core (Client) Menu & Application
+  * Inexor Core (Client) HUD
+  * Inexor Core (Server) User Interface
 * Business Logic
   * Texture-Manager
   * Map-Manager
