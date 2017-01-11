@@ -1,7 +1,7 @@
 ### Configuring Inexor Flex
 
 <pre>
-./flex flex <port> [host] [webdir] [binary]
+node server/index.js flex <port> [host] [webdir] [binary]
 
 Option      | Type   | Default    | Description
 ----------- | ------ | ---------- | -----------
