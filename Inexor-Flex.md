@@ -26,7 +26,7 @@ The core API of Inexor Flex is the REST API. All other possibilities uses the RE
 The REST API is prefixed by `/api` and an API version `/v1`:
 
 <pre>
-http://<localhost|hostname>:31416/api/v1/ ...
+http://&lt;localhost|hostname&gt;:31416/api/v1/ ...
 </pre>
 
 Follow this link to see what's possible with the REST API: `TODO: link to generated REST API docs`
@@ -42,7 +42,7 @@ Moreover the Inexor Flex TreeClient can be used by Inexor Flex itself in order t
 The Command Line API allows humans and scripts to interact with a running local instance of Inexor Flex from the command line. As mentioned above, the `Command Line Tool` uses the Inexor Flex TreeClient.
 
 <pre>
-flex/inexor <command> <subcommand> ...
+flex/inexor &lt;command&gt; &lt;subcommand&gt; ...
 </pre>
 
 The Command Line API is important for the desktop integration like the Linux `.desktop` files.
@@ -52,5 +52,5 @@ The Command Line API is important for the desktop integration like the Linux `.d
 Another way of interacting with Inexor Flex is the URL scheme handler. By `opening` an URL starting with the protocol `inexor:` you can use the same commands as the Command Line API because the URL passed through to the Command Line API.
 
 <pre>
-inexor:<command> <subcommand> ...
+inexor:&lt;command&gt; &lt;subcommand&gt; ...
 </pre>
