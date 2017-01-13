@@ -59,6 +59,27 @@ inexor:&lt;command&gt; &lt;subcommand&gt; ...
 
 ## Instances
 
+### Lifecycle States
+
+| State Name | Description                                         |
+| ---------- | --------------------------------------------------- |
+| stopped    | The Inexor Core instance exists, but is not running |
+| started    | The Inexor Core instance is running                 |
+| paused     | The Inexor Core instance is paused                  |
+| starting   | The Inexor Core instance is starting                |
+| stopping   | The Inexor Core instance is stopping                |
+
+#### State Transitions
+
+| Source State | Transition Name | Target State |
+| ------------ | --------------- | ------------------------------------ |
+|              | create          | stopped |
+| stopped      | start           | started |
+| started      | pause           | paused  |
+| paused       | resume          | started |
+| started      | stop            | stopped |
+| stopped      | remove          |         |
+
 ### Inexor Tree Structure
 
 | Tree Path                           | Description                                                  |
