@@ -20,6 +20,7 @@
 
 [[Overall Architecture]]  
 [[Inexor Tree]]  
+[[Inexor Flex]]  
 [[Keyboard and mouse input handling]]
 
 ### General
