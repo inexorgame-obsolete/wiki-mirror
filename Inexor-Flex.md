@@ -56,3 +56,16 @@ Another way of interacting with Inexor Flex is the URL scheme handler. By `openi
 <pre>
 inexor:&lt;command&gt; &lt;subcommand&gt; ...
 </pre>
+
+## Instances
+
+### Inexor Tree Structure
+
+| Tree Path                           | Description                                                  |
+| ----------------------------------- | ------------------------------------------------------------ |
+| /instances/:instance_id/name        | The name of the instance                                     |
+| /instances/:instance_id/name        | The grpc port                                                |
+| /instances/:instance_id/description | A description text                                           |
+| /instances/:instance_id/type        | The instance type (either server or client)                  |
+| /instances/:instance_id/state       | The state (either 'stopped' or 'started')                    |
+| /instances/:instance_id/instance    | The instance object (internal, contains the process handler) |
