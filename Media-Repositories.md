@@ -108,3 +108,67 @@ Either a TOML or a JSON file specifies the meta information of a `media item`.
 The dependencies contains the repository where to get the media item and the name and version of the media item. These informations are enough to resolve a media item.
 
 (future) If a media repository is missing, Inexor suggest the user to add the media repository.
+
+#### Textures
+
+The file names are defined (automatic indexation):
+
+* config.[toml|json]
+* readme.[txt|md] (optional)
+* diffuse.jpg
+* secondary.jpg (optional)
+* normalmap.jpg (optional)
+* specularitymap.jpg (optional)
+* heightmap.jpg (optional)
+
+The configuration file follows the specification of media item configuration files (see above) and adds extra information about the texture:
+
+<pre>
+{
+  ...,
+  "texture": {
+    "shader": "xyz",
+  }
+}
+</pre>
+
+#### Maps
+
+The file names are defined (automatic indexation):
+
+* config.[toml|json]
+* readme.[txt|md] (optional)
+* octree.ogz
+* waypoint.wpt (optional)
+* screenshots (folder, optional)
+  * 1.[png|jpg] (optional)
+  * 2.[png|jpg] (optional)
+  * ...
+
+The configuration file follows the specification of media item configuration files (see above) and adds extra information about the map:
+
+<pre>
+{
+  "textures": [
+    {
+      "slot": 0,
+      "name": "golden_floor",
+      "mode": "nsz",
+      "scale": .5,
+      "color": [ .8, .7, 1 ],
+      "scroll": [ .05 .01 ],
+      "shader": {
+        "name": "bumpspecmapparallaxworld",
+        "params": [
+          {
+            "specscale": [ 3, 3, 3 ],
+            "parallaxscale": [ .04, -.02]
+          }
+        ]
+      }
+    }
+  ],
+  "material": {
+...
+  }
+</pre>
