@@ -21,7 +21,8 @@
 [[Overall Architecture]]  
 [[Inexor Tree]]  
 [[Inexor Flex]]  
-[[Keyboard and mouse input handling]]
+[[Keyboard and mouse input handling]]  
+[[Media Repositories]]
 
 ### General
 [[Supported File Formats]]  
