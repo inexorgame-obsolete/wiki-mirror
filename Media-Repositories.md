@@ -113,8 +113,8 @@ The dependencies contains the repository where to get the media item and the nam
 
 The file names are defined (automatic indexation):
 
-* config.[toml|json]
-* readme.[txt|md] (optional)
+* config.toml|json
+* readme.txt|md (optional)
 * diffuse.jpg
 * secondary.jpg (optional)
 * normalmap.jpg (optional)
@@ -136,13 +136,13 @@ The configuration file follows the specification of media item configuration fil
 
 The file names are defined (automatic indexation):
 
-* config.[toml|json]
-* readme.[txt|md] (optional)
+* config.toml|json
+* readme.txt|md (optional)
 * octree.ogz
 * waypoint.wpt (optional)
 * screenshots (folder, optional)
-  * 1.[png|jpg] (optional)
-  * 2.[png|jpg] (optional)
+  * 1.png|jpg (optional)
+  * 2.png|jpg (optional)
   * ...
 
 The configuration file follows the specification of media item configuration files (see above) and adds extra information about the map:
