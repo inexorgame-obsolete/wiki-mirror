@@ -23,6 +23,21 @@ Inexor automatically scans the file system for media repositories in the usual l
 * /usr/share/inexor/media
 * /var/lib/snapd/desktop/inexor/media
 
+#### Media Repository Configuration
+
+Either a TOML or a JSON file:
+
+<pre>
+{
+  "name": "core",
+  "title": "Inexor Data Files",
+  "description": "This repository contains all data for Inexor. It is intended as the core package, featuring up our main dependencies plus a few maps in ~300MB. Anything else can get delivered via custom packages ingame.",
+  "url": "https://github.com/inexor-game/data.git"
+}
+</pre>
+
+The name of the media repository (here: core) is important and defines the name of the repository in the file system.
+
 ### Media Items
 
 Each `media repository` contains `media items`. The file system structure is clearly defined to enable automatic indexation.
