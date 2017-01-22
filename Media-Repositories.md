@@ -85,7 +85,7 @@ Either a TOML or a JSON file specifies the meta information of a `media item`.
 {
   "name": "dust6",
   "description": "Map A",
-  "license": "cc4.0by",
+  "license": "CC-BY-4.0",
   "authors": [
     {
       "name": "noob",
