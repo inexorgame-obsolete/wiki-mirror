@@ -156,16 +156,23 @@ The most commonly used generators will probably include `Visual Studio`, `CodeBl
 ### Examples
 
 ```shell
-(mkdir build && cd build && conan install .. && conan build ..) # Should work for any setting any compiler, any OS
+(mkdir build && cd build && conan install .. --build=missing && conan build ..) # Should work for any setting any compiler, any OS
 # By default conan install uses build_type `Release`.
-(mkdir build && cd build && conan install .. -s build_type=Debug && conan build ..)
+(mkdir build && cd build && conan install .. -s build_type=Debug --build=missing && conan build ..)
 # to create a debug build and build it.
-(mkdir build && cd build && conan install .. -s compiler=gcc -s compiler.version=5.2 && conan build ..)
+(mkdir build && cd build && conan install .. -s compiler=gcc -s compiler.version=5.2 --build=missing && conan build ..)
 # to set a specific compiler and version if you got multiple ones installed.
 # Reading some stuff up in the conan docs might be helpful here
 ```
 
 Notice: make sure to do *cmake ..* and *make* from a directory that is not referenced by a symlink somewhere in the path (otherwise you will have some problems with protobuf).
+
+### Parallel build using make (-j for conan)
+
+You need to set the environment var `MAKEFLAGS` to include the numbers of cores you can use.
+(With conan we build all dependencies if not previously build. So set this before running conan)
+
+Do `setenv MAKEFLAGS '-j 8'` before building for having 8 jobs running (usually you want `jobs = your_number_of_cores + 2` 2 is a margin for disk IO)
 
 ## Actually building the sources
 
