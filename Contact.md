@@ -1,14 +1,17 @@
-* **IRC** _(mainly used, **good for first contact, player questions and developer questions**)_
- * [web client](https://webchat.freenode.net/?channels=#inexor)
- * [#inexor on chat.freenode.net:6697](irc://chat.freenode.net:6697/#inexor)
+#### **IRC** _(mainly used, **good for first contact, player questions and developer questions**)_
 
-* **Pads** _(Task lists, cooperative writings, archive..)_
+You have three options to connect to our room:
+ * **[Riot.im #inexor](https://riot.im/app/#/room/#inexor:matrix.org) recommended**
+ * [Freenode web client](https://webchat.freenode.net/?channels=#inexor)
+ * [Your personal IRC App: #inexor on chat.freenode.net:6697](irc://chat.freenode.net:6697/#inexor)
+
+#### **Pads** _(Task lists, cooperative writings, archive..)_
  * https://hackmd.io/CYFhFYCYCMGYEYC0A2e9yJAYwKYENE4AOWRPHCABiz2AE5hLIg==?both
 
-* [**Mumble**](https://www.mumble.info/) _(for developer meetings, see below)_
+[**Mumble**](https://www.mumble.info/) _(for developer meetings, see below)_
  * nooblounge.net port 64738
 
-* **Social Media** _(**good for player questions**)_
+#### **Social Media** _(**good for player questions**)_
   * [Twitter](https://twitter.com/inexorgame)
   * [Facebook](https://www.facebook.com/inexorgame)
   * [YouTube](https://www.youtube.com/channel/UCKOcY8wxvWq8pGLcESSpfhw)
