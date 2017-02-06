@@ -3,7 +3,7 @@
  * [#inexor on chat.freenode.net:6697](irc://chat.freenode.net:6697/#inexor)
 
 * **Pads** _(Task lists, cooperative writings, archive..)_
- * https://public.etherpad-mozilla.org/p/inexor
+ * https://hackmd.io/CYFhFYCYCMGYEYC0A2e9yJAYwKYENE4AOWRPHCABiz2AE5hLIg==?both
 
 * [**Mumble**](https://www.mumble.info/) _(for developer meetings, see below)_
  * nooblounge.net port 64738
