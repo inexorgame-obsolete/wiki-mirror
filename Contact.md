@@ -22,4 +22,4 @@ Meetings take place when necessary and will be announced in the IRC channel.
 In advance to every meeting a pad will be created with topics to be discussed.
 
 _Protocols of old or upcoming meetings:_ 
-* Can be found here: https://pad.inexor.org/p/Inexor_Pads
+* Can be found here: https://hackmd.io/CYFhFYCYCMGYEYC0A2e9yJAYwKYENE4AOWRPHCABiz2AE5hLIg==?both
