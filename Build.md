@@ -50,11 +50,9 @@ This will give you a pretty good exemplary environment if you are on Windows.
      * [GitHub Desktop](https://desktop.github.com) - Very simple and clean UI.
      * [git-scm.com](http://git-scm.com/download) is the official Git website, and has downloads for the CLI version, and links to several GUIs.
 * Download and install [CMake](http://www.cmake.org/download/)
-* Download and install [python](https://www.python.org/downloads/)
-  * version doesn't matter, although 2.x is prefered to 3.x
+* Download and install [Python](https://www.python.org/downloads/)
 * Download and install [Conan](https://www.conan.io/downloads)
-* Download and install [node.js + npm](https://nodejs.org/)
-  * version does not matter, either LTS or normal
+* Download and install [Node.js >= >= 6.9.1 + npm](https://nodejs.org)
 * Download and install [Doxygen](http://www.stack.nl/~dimitri/doxygen/download.html)
   * [**add doxygen to your PATH**](https://github.com/inexor-game/code/wiki/%5BWindows%5D-add-git-to-PATH)
     * Replace `git.exe` with `doxygen.exe` when searching, add it as the point 2 says.
@@ -76,7 +74,7 @@ You will have to clone the Project somewhere.
   * Choose a directory in which the repository is getting cloned
   * Click `Ok`
 
-## Create the Visual Studio or CodeBlocks Project
+## Create the Visual Studio
   _(or the project file for another generator)_
 
 Execute the `tool/create_visual_studio_project.bat`.  
