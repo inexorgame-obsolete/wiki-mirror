@@ -121,14 +121,14 @@ The first step of building this project is rather obvious, but for sake of compl
 
 The next step is to get all the required dependencies to compile. You'll need an environment that can build C++ programs such as Eclipse, CLion, CodeBlocks.
 
-Specifically, on Linux you will need CMake >= 3.1, conan, make and GCC >= 4.9 or Clang >= 3.5 as your compiler. The version numbers are minimum: They might work with older versions (but it's not official supported) and newer versions are better!
+Specifically, on Linux you will need CMake >= 3.1, Conan, make and GCC >= 4.9 or Clang >= 3.5 as your compiler. The version numbers are minimum: They might work with older versions (but it's not official supported) and newer versions are better!
 Also install your distribution's development packages of Mesa
 
 OS  | What to do
 --- | ---
-Debian/Debian-derived/Ubuntu | `sudo apt-get install git cmake build-essential nodejs doxygen python-pip`  CEF dependencies: `sudo apt-get install libgtk2.0-dev libgtkglext1-dev`
+Debian/Debian-derived/Ubuntu | `sudo apt-get install git cmake build-essential nodejs doxygen python-pip` <br> CEF dependencies: `sudo apt-get install libgtk2.0-dev libgtkglext1-dev`
 OpenSUSE | Run `zypper in -t pattern devel_C_C++` then run `zypper install mesa-libgl-devel conan node doxygen cmake git`.
-ArchLinux | Run `sudo pacman -S --needed git cmake mesa mesa-libgl conan doxygen`. <br> Currently you need for libcef also some other dependencies, install them via: `sudo pacman -S --needed pango cairo libxi libxcomposite alsa-lib libxtst gconf libxrandr`
+ArchLinux | Run `sudo pacman -S --needed git cmake mesa mesa-libgl conan doxygen`. <br> CEF dependencies: `sudo pacman -S --needed pango cairo libxi libxcomposite alsa-lib libxtst gconf libxrandr`
 
 ### Installing conan.io
 Conan.io is usually to be installed using the python package manager `pip`
