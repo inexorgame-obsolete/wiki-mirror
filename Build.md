@@ -211,16 +211,6 @@ Some users might prefer CMake GUI.
      * If you use Visual Studio select VS-Version *Visual Studio 14 2015* and (if you have) the x64-Version so e.g. `Visual Studio 14 2015 Win64`
    * Click `Generate` to generate a project file
 
-## Working around the libudev error
-
-(On some linux systems)
-There is a known ABI change within libudev which might break libcef.so for you.
-Refer to the [askubuntu article](http://askubuntu.com/questions/288821/how-do-i-resolve-a-cannot-open-shared-object-file-libudev-so-0-error) for technical details.
-The suggested quickfix is
-```
-sudo ln -sf /lib/$(arch)-linux-gnu/libudev.so.1 /lib/$(arch)-linux-gnu/libudev.so.0
-```
-
 ## Troubleshooting
 
 This is a list of common problems and their solutions
