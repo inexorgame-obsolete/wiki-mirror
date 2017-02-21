@@ -126,7 +126,7 @@ Also install your distribution's development packages of Mesa
 
 OS  | What to do
 --- | ---
-Debian/Debian-derived/Ubuntu | `sudo apt-get install git cmake build-essential nodejs doxygen python-pip` <br> CEF dependencies: `sudo apt-get install libgtk2.0-dev libgtkglext1-dev`
+Debian/Debian-derived/Ubuntu | `sudo apt-get install git cmake build-essential nodejs doxygen python-pip` <br> CEF dependencies: `sudo apt-get install libgtk2.0-dev libgtkglext1-dev libnss3 libgconf-2-4 libxss1 libasound2 libxtst6`
 OpenSUSE | Run `zypper in -t pattern devel_C_C++` then run `zypper install mesa-libgl-devel conan node doxygen cmake git`.
 ArchLinux | Run `sudo pacman -S --needed git cmake mesa mesa-libgl conan doxygen`. <br> CEF dependencies: `sudo pacman -S --needed pango cairo libxi libxcomposite alsa-lib libxtst gconf libxrandr`
 
