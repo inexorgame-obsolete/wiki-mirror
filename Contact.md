@@ -1,7 +1,8 @@
 #### **IRC** _(mainly used, **good for first contact, player questions and developer questions**)_
 
-You have three options to connect to our room:
+You have several options to connect to our room:
  * **[Riot.im #inexor](https://riot.im/app/#/room/#inexor:matrix.org) recommended**
+ * Connect with every compatible [Matrix](https://matrix.org) client to #inexor:matrix.org
  * [Freenode web client](https://webchat.freenode.net/?channels=#inexor)
  * [Your personal IRC App: #inexor on chat.freenode.net:6697](irc://chat.freenode.net:6697/#inexor)
 
