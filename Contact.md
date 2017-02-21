@@ -1,4 +1,4 @@
-#### **IRC** _(mainly used, **good for first contact, player questions and developer questions**)_
+#### **IRC/Matrix** _(mainly used, **good for first contact, player questions and developer questions**)_
 
 You have several options to connect to our room:
  * **[Riot.im #inexor](https://riot.im/app/#/room/#inexor:matrix.org) recommended**
