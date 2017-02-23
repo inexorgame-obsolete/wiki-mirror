@@ -1,3 +1,5 @@
+[![Build Status](https://ci.inexor.org/job/inexor/job/flex/job/master/badge/icon)](https://ci.inexor.org/job/inexor/job/flex/job/master/)  
+
 ## Starting Inexor Flex
 
 In the `flex` folder execute:
