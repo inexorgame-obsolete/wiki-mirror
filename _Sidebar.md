@@ -9,7 +9,7 @@
 [[How to Contribute Code]]  
 [[Recruiting]]  
 [[Coding Standards]]  
-[[Documentation]]  
+[Generating API Documentation](Documentation)  
 [[How To Debug]]    
 [[Git FAQ]]  
 [[GitHub Issues]]  
@@ -20,7 +20,8 @@
 
 [[Overall Architecture]]  
 [[Inexor Tree]]  
-[[Inexor Flex]]  
+[[Inexor Core]] ([API-Docs](https://ci.inexor.org/job/inexor/job/code/job/aschaeffer%252Fjenkins%252Fdoxygen/Inexor_Core_API_Documentation/))  
+[[Inexor Flex]] ([API-Docs](https://ci.inexor.org/job/inexor/job/flex/job/master/Inexor_Flex_API_Documentation/))  
 [[Keyboard and mouse input handling]]  
 [[Media Repositories]]
 
