@@ -20,8 +20,8 @@
 
 [[Overall Architecture]]  
 [[Inexor Tree]]  
-[[Inexor Core]] ([API-Docs](https://ci.inexor.org/job/inexor/job/code/job/aschaeffer%252Fjenkins%252Fdoxygen/Inexor_Core_API_Documentation/))  
-[[Inexor Flex]] ([API-Docs](https://ci.inexor.org/job/inexor/job/flex/job/master/Inexor_Flex_API_Documentation/))  
+[[Inexor Core]] ([API-Docs](https://docs.inexor.org/core/index.html))  
+[[Inexor Flex]] ([API-Docs](https://docs.inexor.org/flex/index.html))  
 [[Keyboard and mouse input handling]]  
 [[Media Repositories]]
 
