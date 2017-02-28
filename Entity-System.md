@@ -9,10 +9,13 @@ The goal is to implement a new entity system which will provide a solid basis fo
 ## Contents
 
 1. [[Introduction|Entity System Introduction]]
-2. [[Architecture|Entity System Architecture]]
-  1. [[Type System|Entity System Type System]]
-  2. [[Entity Graph|Entity System Graph]] (Entities on the Inexor Tree)
+2. [[Type System|Entity System Type System]]
 3. [[Entity System API]]
 4. Entity Subsystems
   1. [[Particle System]]
   2. [[Visual Scripting|Visual Scripting Environment]]
+  3. Player
+  4. Game State
+  5. Lights
+  6. Camera(s)
+5. [[Architecture|Entity System Architecture]]
