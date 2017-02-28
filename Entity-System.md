@@ -2,81 +2,16 @@ Branches | Issues | Main developers
 --- | --- | --- 
 [NewEntities](/inexor-game/code/tree/NewEntities), [cef+entities](/inexor-game/code/tree/cef+entities), [rebased-cef+entities](/inexor-game/code/tree/rebased-cef+entities), [cef+ipc+entities](/inexor-game/code/tree/cef+ipc+entities), [cef+ipc+entities+bezier](/inexor-game/code/tree/cef+ipc+entities+bezier) |  [#111](/inexor-game/code/issues/111) | [@aschaeffer](/aschaeffer), [@super-tux](/super-tux) 
 
-### The goal
+## The goal
 
 The goal is to implement a new entity system which will provide a solid basis for other so called subsystems like mapmodels, the Visual Scripting Enviroment or the particle system (and many more).
 
-## AttributeBase
+## Contents
 
-![AttributeBase](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/AttributeBase.png)
-
-## AttributeRefPtr
-
-![AttributeRefPtr](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/AttributeRefPtr.png)
-
-## EntityAttribute
-
-![EntityAttribute](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/EntityAttribute.png)
-
-## EntityFunction
-
-![EntityFunction](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/EntityFunction.png)
-
-## EntityInstanceManager
-
-![InstanceManager](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/EntityInstanceManager.png)
-
-## EntityTypeFactory
-
-![EntityTypeFactory](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/EntityTypeFactory.png)
-
-## EntityTypeManager
-
-![EntityTypeManager](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/EntityTypeManager.png)
-
-## EntityTypeProvider
-
-![EntityTypeProvider](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/EntityTypeProvider.png)
-
-## FunctionRefPtr
-
-![FunctionRefPtr](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/FunctionRefPtr.png)
-
-## InstanceRefPtr
-
-![InstanceRefPtr](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/InstanceRefPtr.png)
-
-## ParticleWorker
-
-![ParticleWorker](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/ParticleWorker.png)
-
-## RelationshipTypeProvider
-
-![RelationshipTypeProvider](https://raw.githubusercontent.com/inexor-game/visualisations/45f342299fce76f3ea603c745da0cfbade201a85/hanacks%20entity%20and%20particle%20system/RelationshipTypeProvider.png)
-
-### Entities are used for
-
-* players
-* mapmodels
-* mode specific entities: flags, bases, ...
-* player state changing pickups: ammo, armor, health, ...
-* weapons and bouncers: grenades, rockets, fog grenades, ...
- * grenades
-  * grenade launcher = particle emitter instance
-  * grenade = particle
-  * plus geometry collision particle modifier
- * decals
-  * special type of particles
-  * decal particle renderer
- * explosions, splinter
-  * volumetric expansion of explosions (also using the densitiy attributes)
-* particle system entities
- * particle emitter instance
- * particle modifier instance
- * particle renderer instance
-* event system entities
- * positional trigger
-  * positional entity
+1. [[Introduction|Entity System Introduction]]
+2. [[Architecture|Entity System Architecture]]
+3. [[Type System|Entity System Type System]]
+4. [[Entity Graph|Entity System Graph]]
 
 ## Entities itself
 
