@@ -12,6 +12,7 @@ The goal is to implement a new entity system which will provide a solid basis fo
 2. [[Architecture|Entity System Architecture]]
   1. [[Type System|Entity System Type System]]
   2. [[Entity Graph|Entity System Graph]] (Entities on the Inexor Tree)
-3. Entity Subsystems
+3. [[Entity System API]]
+4. Entity Subsystems
   1. [[Particle System]]
   2. [[Visual Scripting|Visual Scripting Environment]]
