@@ -5,7 +5,7 @@
 
 [[Build]]  
 [[Contact]]  
-[Milestones](https://github.com/inexor-game/code/milestones) / [Changelog] (https://github.com/inexor-game/code/blob/master/changelog.md)  
+[Milestones](https://github.com/inexor-game/code/milestones) / [Changelog](https://github.com/inexor-game/code/blob/master/changelog.md)  
 [[How to Contribute Code]]  
 [[Recruiting]]  
 [[Coding Standards]]  
@@ -21,8 +21,8 @@
 [[Overall Architecture]]  
 [[Inexor Tree]]  
 [[Entity System]]  
-[[Inexor Core]] ([API-Docs](https://docs.inexor.org/core/index.html))  
-[[Inexor Flex]] ([API-Docs](https://docs.inexor.org/flex/index.html))  
+[[Inexor Core]]([API-Docs](https://docs.inexor.org/core/index.html))  
+[[Inexor Flex]]([API-Docs](https://docs.inexor.org/flex/index.html))  
 [[Keyboard and mouse input handling]]  
 [[Media Repositories]]
 
