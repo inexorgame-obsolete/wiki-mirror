@@ -22,23 +22,23 @@ Inexor-Core                       | Key Events using CEF-RPC    | Inexor-UI-APP 
 
 #### Inexor Core
 
-Component / System                | Topic                  | Sub Topic                    | Sub Sub Topic
---------------------------------- | ---------------------- | ---------------------------- | ----------
-[[Inexor Core]]                   | Game State             | Physics                      | 
-                                  |                        | World                        | 
-                                  |                        | Player                       | 
-                                  | Graphics               | Rendering Game-Graphics      | Octree
-                                  |                        |                              | Textures
-                                  |                        |                              | Models
-                                  |                        |                              | Entities
-                                  |                        |                              | Particles
-                                  |                        | Rendering HTML5 Applications | Inexor-UI-HUD
-                                  |                        |                              | Inexor-UI-APP
-                                  | Input                  | Game Movement                | Mouse
-                                  |                        |                              | Keyboard
-                                  |                        |                              | Key Bindings
-                                  |                        | UI Input Handling            | Mouse Events
-                                  |                        |                              | Key Events
+| Component / System                | Topic                  | Sub Topic                    | Sub Sub Topic
+| --------------------------------- | ---------------------- | ---------------------------- | -------------
+| [[Inexor Core]]                   | Game State             | Physics                      | 
+|                                   |                        | World                        | 
+|                                   |                        | Player                       | 
+|                                   | Graphics               | Rendering Game-Graphics      | Octree
+|                                   |                        |                              | Textures
+|                                   |                        |                              | Models
+|                                   |                        |                              | Entities
+|                                   |                        |                              | Particles
+|                                   |                        | Rendering HTML5 Applications | Inexor-UI-HUD
+|                                   |                        |                              | Inexor-UI-APP
+|                                   | Input                  | Game Movement                | Mouse
+|                                   |                        |                              | Keyboard
+|                                   |                        |                              | Key Bindings
+|                                   |                        | UI Input Handling            | Mouse Events
+|                                   |                        |                              | Key Events
 
 #### Inexor Flex
 
