@@ -38,7 +38,8 @@ _Stays Sauer, becomes better._
   * [Server refactoring](New server)
   * [JSON configuration support](JSON-Implementation)
   * [Bezier curve camera flights](Bezier curve)
-  * [[Version Control System]]
+  * [[Version Control System for mapping]]
+  * [[New Sound system (refactoring)]]
 
 * ### Planned
 
