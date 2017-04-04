@@ -17,7 +17,7 @@ _Stays Sauer, becomes better._
 
 ## Features
 
-* [Milestones](https://github.com/inexor-game/code/milestones) / [Changelog] (https://github.com/inexor-game/code/blob/master/changelog.md)
+* [Milestones](https://github.com/inexor-game/code/milestones) / [Changelog](https://github.com/inexor-game/code/blob/master/changelog.md)
 * [[Sauerbraten Features]] (this is where we started)
 
 ### Done
@@ -32,7 +32,7 @@ _Stays Sauer, becomes better._
   * [HTML5 User Interface / CEF](HTML5 User Interface)
     * [[Keyboard and mouse input handling]]
     * [[User interface Menu]]
-  * [Entity System](Entity System)
+  * [[Entity System]]
     * [[Particle System]]
     * [[Visual Scripting Environment]]
   * [Server refactoring](New server)
