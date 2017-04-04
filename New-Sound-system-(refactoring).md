@@ -1,2 +1,2 @@
 # Introduction
-Until now Inexor is using the Cube2's old sound system. Sound code is mostly separated from other code parts and can be refactored easily. The goal is to implement *module_sound* as a replacement for sounds.cpp. **SDL_Mixer** will be replaced with either **ALMixer** or pure **OpenAL**.
+Until now Inexor is using Cube2's old sound system. Sound code is mostly separated from other code parts and can be refactored easily. The goal is to implement *module_sound* in order to further modularize the code.
