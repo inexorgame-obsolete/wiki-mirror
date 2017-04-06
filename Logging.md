@@ -7,23 +7,23 @@ master |   | [@a-teammate](/a-teammate), [@aschaeffer](/aschaeffer)
 Logging is an important requirement for software nowadays. Inexor is now able to log to multiple loggers, which writes to multiple targets (called sinks) with a customizable logging format. The advantage is the flexibility of the new logging system. Please notice that logoutf and conoutf have been replaced by the logging system (see Usage below).
 
 * Log levels
- * Debug
- * Info
- * Warn
- * Error
- * Critical
+  * Debug
+  * Info
+  * Warn
+  * Error
+  * Critical
 * Log targets (= Sinks)
- * Inexor Ingame Console
- * Stdout / Stderr
- * Daily Logfile
- * Rotating Logfile
- * MSVC
- * Syslog
+  * Inexor Ingame Console
+  * Stdout / Stderr
+  * Daily Logfile
+  * Rotating Logfile
+  * MSVC
+  * Syslog
 * Log format
- * Date / Time
- * Logger name
- * Log level
- * Message
+  * Date / Time
+  * Logger name
+  * Log level
+  * Message
 
 ## Default loggers in Inexor
 
@@ -38,10 +38,10 @@ Logging is an important requirement for software nowadays. Inexor is now able to
 ## Cubescript commands
 
 * loglevel <logger_name> <log_level>
- * Example: /loglevel "global" "warning"
+  * Example: /loglevel "global" "warning"
 * logformat <logger_name> <pattern>
- * Example: /logformat "global" "%H:%M:%S [%n] [%l] %v"
- * see [spdlog formatting strings](https://github.com/gabime/spdlog/wiki/3.-Custom-formatting) for reference 
+  * Example: /logformat "global" "%H:%M:%S [%n] [%l] %v"
+  * see [spdlog formatting strings](https://github.com/gabime/spdlog/wiki/3.-Custom-formatting) for reference 
 
 ## How to use the loggers
 
