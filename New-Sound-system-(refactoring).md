@@ -13,7 +13,7 @@ _See main article:_ [[Cube2's old sound system code]]
 ## Step II - Planing the new sound system
 _See main article:_ [[Inexor's sound system (architecture)]]
 
-## Step III - Compare 
+## Step III - Learning OpenAL/ALMixer
 TODO...
 
 ## Step IV - Implementation and documentation
