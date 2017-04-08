@@ -1,6 +1,6 @@
 # Inexor Documentation
 
-## [FAQ](Frequently Asked Questions)
+## [FAQ](Frequently-Asked-Questions)
 
 ## Objectives
 _Stays Sauer, becomes better._
@@ -35,9 +35,9 @@ _Stays Sauer, becomes better._
   * [[Entity System]]
     * [[Particle System]]
     * [[Visual Scripting Environment]]
-  * [Server refactoring](New server)
+  * [Server refactoring](New-server)
   * [JSON configuration support](JSON-Implementation)
-  * [Bezier curve camera flights](Bezier curve)
+  * [Bezier curve camera flights](Bezier-curve)
   * [[Version Control System]]
   * [[New Sound system (refactoring)]]
 
