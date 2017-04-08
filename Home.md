@@ -21,11 +21,12 @@ _Stays Sauer, becomes better._
 * [[Sauerbraten Features]] (this is where we started)
 
 ### Done
+
 * Engine
- * [Generic RPC Subsystem + Node.js integration](RPC-Node.js)
- * [[Ambient Occlusion]]
- * [[Logging]]
- * [[Inexor-Tree]] (Proposal: [[Inexor Tree API]])
+  * [Generic RPC Subsystem + Node.js integration](RPC-Node.js)
+  * [[Ambient Occlusion]]
+  * [[Logging]]
+  * [[Inexor-Tree]] (Proposal: [[Inexor Tree API]])
 
 * ### In Progress
 
