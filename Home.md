@@ -35,7 +35,7 @@ _Stays Sauer, becomes better._
   * [[Entity System]]
     * [[Particle System]]
     * [[Visual Scripting Environment]]
-  * [Server refactoring](New-server)
+  * [Server refactoring](Refactoring-The-Server)
   * [JSON configuration support](JSON-Implementation)
   * [Bezier curve camera flights](Bezier-curve)
   * [[Version Control System]]
