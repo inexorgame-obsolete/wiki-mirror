@@ -28,7 +28,7 @@
 
 ### General
 [[Supported File Formats]]  
-[Command Line](Command Line Options And Commands)  
+[Command Line](Command-Line-Options-And-Commands)  
 [[Standard Paths]]  
 [[Sauerbraten Features]]  
 
@@ -47,7 +47,7 @@ Continuous Integration For...
 
 ### Other
 [[Code of Conduct]]  
-[Other Related Projects](Other Projects)  
+[Other Related Projects](Other-Projects)  
 [[How to host a server]]  
  
 
