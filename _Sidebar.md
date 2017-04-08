@@ -23,10 +23,10 @@
 [[Entity System]]  
 [[Inexor Core]] ([API-Docs](https://docs.inexor.org/core/index.html))  
 [[Inexor Flex]] ([API-Docs](https://docs.inexor.org/flex/index.html))  
-[[Keyboard and mouse input handling]]  
 [[Media Repositories]]
 
 ### General
+
 [[Supported File Formats]]  
 [Command Line](Command-Line-Options-And-Commands)  
 [[Standard Paths]]  
