@@ -42,9 +42,11 @@ in C++ code this would include the following:
 
 Comments that are not _Documentation_ (e.g. inside a method, sometimes implementation details) should always use C-Style online comments
 
+```c++
     // This describes some implementation detail that is only
     // important for people touching this code, not for people
     // who only need to call this function we're inside.
+```
 
 Classes, functions, methods, fields must have API documentation,
 this style uses triple-slash style.  
@@ -55,6 +57,7 @@ In addition to the description, some semantic information can
 be added; these tags use javadoc at notation and are primarily
 used to declare the input and output of functions.
 
+```c++
     /// Safety dance.
     ///
     /// You can leave your friends if you want to,
@@ -73,6 +76,7 @@ used to declare the input and output of functions.
       T flaming = fire->takeFlaimigObject();
       return std::makepair(old_+flaiming, new_+old_);
     }
+```
 
 Any documentation and any comments in general may be formatted using markdown syntax.
 
