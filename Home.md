@@ -23,13 +23,13 @@ _Stays Sauer, becomes better._
 ### Done
 * Engine
  * [Generic RPC Subsystem + Node.js integration](RPC-Node.js)
- * [Ambient Occlusion](Ambient Occlusion)
+ * [[Ambient Occlusion]]
  * [[Logging]]
  * [[Inexor-Tree]] (Proposal: [[Inexor Tree API]])
 
 * ### In Progress
 
-  * [HTML5 User Interface / CEF](HTML5 User Interface)
+  * [[HTML5 User Interface]] / New UX using Chromium Embedded
     * [[Keyboard and mouse input handling]]
     * [[User interface Menu]]
   * [[Entity System]]
