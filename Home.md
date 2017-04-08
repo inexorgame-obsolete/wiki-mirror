@@ -19,39 +19,38 @@ _Stays Sauer, becomes better._
 
 * [Milestones](https://github.com/inexor-game/code/milestones) / [Changelog](https://github.com/inexor-game/code/blob/master/changelog.md)
 * [[Sauerbraten Features]] (this is where we started)
+* [Ideas for Features](Feature-Ideas)
 
-### Done
-
-* Engine
-  * [Generic RPC Subsystem + Node.js integration](RPC-Node.js)
-  * [[Ambient Occlusion]]
-  * [[Logging]]
-  * [[Inexor-Tree]] (Proposal: [[Inexor Tree API]])
-
-* ### In Progress
-
-  * [[HTML5 User Interface]] / New UX using Chromium Embedded
-    * [[Keyboard and mouse input handling]]
-    * [[User interface Menu]]
-  * [[Entity System]]
-    * [[Particle System]]
-    * [[Visual Scripting Environment]]
-  * [Server refactoring](Refactoring-The-Server)
-  * [JSON configuration support](JSON-Implementation)
-  * [Bezier curve camera flights](Bezier-curve)
-  * [[Version Control System]]
-  * [[New Sound system (refactoring)]]
-
-* ### Planned
-
-  * [Ideas for Features](Feature-Ideas)
-  * [[Improved Selection]]
-  * [[Make anything more dynamic]]
-  * [[Distributing Content System]]
-  * [[Extendable Map Format]]
-  * [[Mappers Toolset]]
-  * [[Decentralized server list]]
-  * [[Packaging]]
+| Subsystem    | Topic                                                    | [Core](Inexor-Core) | [Flex](Inexor-Flex) | [UI](Inexor-UI) |
+| ------------ | -------------------------------------------------------- | -------- | -------- | -------- |
+| **Done**     | 
+|              | 
+| RPC          | [Generic RPC Subsystem + Node.js integration](RPC-Node.js) | &#10003; | &#10003; |        |
+|              | [[Inexor-Tree]] (Proposal: [[Inexor Tree API]])          | &#10003; | &#10003; | &#10003; |
+| Rendering    | [[Ambient Occlusion]]                                    | &#10003; |          |          |
+| Overall      | [[Logging]]                                              | &#10003; | &#10003; |          |
+| **In Progress** | 
+|              | 
+| UI           | [[HTML5 User Interface]]                                 | &#10003; | &#10003; |          |
+|              | [[Keyboard and mouse input handling]]                    | &#10003; | &#10003; | &#10003; |
+|              | [[User interface Menu]]                                  |          | &#10003; |          |
+| Entities     | New [[Entity System]]                                    | &#10003; | &#10003; |          |
+|              | [[Particle System]]                                      | &#10003; | &#10003; |          |
+|              | [[Visual Scripting Environment]]                         | &#10003; | &#10003; |          |
+|              | [Bezier curve camera flights](Bezier-curve)              | &#10003; |          |          |
+| Server       | [Server refactoring](Refactoring-The-Server)             | &#10003; |          |          |
+| Config       | [JSON configuration support](JSON-Implementation)        |          | &#10003; |          |
+| Editing      | [[Version Control System]]                               | &#10003; |          |          |
+| Audio        | [[New Sound system (refactoring)]]                       | &#10003; |          |          |
+| **Planned**  | 
+|              | 
+| Overall      | [[Make anything more dynamic]]                           | &#10003; | &#10003; | &#10003; |
+| Content      | [[Distributing Content System]]                          |          | &#10003; |          |
+| World        | [[Extendable Map Format]]                                | &#10003; |          |          |
+| Editing      | [[Improved Selection]]                                   | &#10003; |          |          |
+|              | [[Mappers Toolset]]                                      | &#10003; | &#10003; | &#10003; |
+| Multiplayer  | [[Decentralized server list]]                            |          | &#10003; |          |
+| Distribution | [[Packaging]]                                            |          |          |          |
 
 ### Development
 
