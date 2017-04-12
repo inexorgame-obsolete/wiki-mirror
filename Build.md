@@ -12,13 +12,13 @@ You will need to obtain them in some form (see the specific [Windows](#windows) 
 
 * git
   * a version control system
-* [CMake >= v3.1.0](http://www.cmake.org/download/)
+* [CMake >= v3.1.0](https://www.cmake.org/download/)
   * Generates our platform specific build code from cross platform scripts
 * A Compiler
   * Translates the human-readable source code to executable binary code
 * [Python](https://www.python.org/downloads/)
-  * version doesn't matter, although 2.x is prefered to 3.x
-  * we need it for our package manager conan
+  * version doesn't matter, although 2.x is preferred to 3.x
+  * we need it for our package manager Conan
 * [Conan](https://www.conan.io)
   * Our package manager
     * through which we obtain all libraries Inexor depends on
@@ -38,18 +38,16 @@ This will give you a pretty good exemplary environment if you are on Windows.
 ## Setup
 
 * Download and install 
- * Microsoft Visual Studio **2015**
-    * download and install [VS 2015 Community Edition](https://www.visualstudio.com)
-      * _on first start tell it to use the C++ preset_
-         * _do so by clicking "Create new C++ project"_
-    * **The newest update is required** (VS 2015 Update 1 will fail to build)
+ * Microsoft Visual Studio **2017** (or 2015 Update 1 and newer)
+    * download and install [VS 2017 Community Edition](https://www.visualstudio.com)
+      * choose at least the "Desktop Development with C++" module in the setup
 * Download and install Git
    * Use one of the following tools if you don't already have Git:
      * [SmartGit](http://www.syntevo.com/smartgit/download) - Heavily developed and intuitive GUI [Recommended]
        * You'll need to manually [**add Git to your PATH**](https://github.com/inexor-game/code/wiki/%5BWindows%5D-add-git-to-PATH)
      * [GitHub Desktop](https://desktop.github.com) - Very simple and clean UI.
-     * [git-scm.com](http://git-scm.com/download) is the official Git website, and has downloads for the CLI version, and links to several GUIs.
-* Download and install [CMake](http://www.cmake.org/download/)
+     * [git-scm.com](https://git-scm.com/download) is the official Git website, and has downloads for the CLI version, and links to several GUIs.
+* Download and install [CMake](https://www.cmake.org/download/)
 * Download and install [Python](https://www.python.org/downloads/)
 * Download and install [Conan](https://www.conan.io/downloads)
 * Download and install [Node.js >= >= 6.9.1 + npm](https://nodejs.org)
@@ -77,7 +75,7 @@ You will have to clone the Project somewhere.
 ## Create the Visual Studio
   _(or the project file for another generator)_
 
-Execute the `tool/create_visual_studio_project.bat`.  
+Execute the `tool/create_visual_studio2017_project.bat` (or `tool/create_visual_studio2015_project.bat`).  
 This will:
 
 1. create a new `build` folder
@@ -97,10 +95,6 @@ Advanced users can also manually do the conan-install step and and use the CMake
   * Open `build/Inexor.sln `
      * It will automatically open with Visual Studio
   * Right click the **`INSTALL`** solution in solution explorer, and click build.
-* If you use CodeBlocks:
-  * Open `build/Inexor.cbp`
-  * Select the target `install`
-  * Click on `Build`
 
 ## Get the data
 See [Directory-Structure](https://github.com/inexor-game/code/wiki/Directory-Structure) to see how your folder structure should look like to start Inexor.
@@ -115,11 +109,11 @@ Start Inexor with the `inexor.bat` file.
 
 The first step of building this project is rather obvious, but for sake of completeness here you have it.
 
-* Download the repository, you can either use the command line ```git clone --recursive https://github.com/inexor-game/code.git``` or your favourite git GUI.
+* Download the repository, you can either use the command line ```git clone --recursive https://github.com/inexor-game/code.git``` or your favorite git GUI.
 
 ## Install the build requirements
 
-The next step is to get all the required dependencies to compile. You'll need an environment that can build C++ programs such as Eclipse, CLion, CodeBlocks.
+The next step is to get all the required dependencies to compile. You'll need an environment that can build C++ programs such as Eclipse, CLion, NetBeans.
 
 Specifically, on Linux you will need CMake >= 3.1, Conan, make and GCC >= 4.9 or Clang >= 3.5 as your compiler. The version numbers are minimum: They might work with older versions (but it's not official supported) and newer versions are better!
 Also install your distribution's development packages of Mesa
@@ -148,7 +142,7 @@ Afterwards run CMake, which generates project files for your favourite IDE or to
 If you have CMake in your path you can run `(mkdir build && cmake ..)`, you probably will need to add a `-G "<generator>"` flag to make it generate a project file for your precious IDE (you do not need this for makefiles on linux).  
 Alternatively use the example lines below.
 
-The most commonly used generators will probably include `Visual Studio`, `CodeBlocks`, `MinGW Makefiles`, `Unix Makefiles` and `Xcode`. There are also makefiles for Eclipse, Sublime Text and a lot others. The complete list can be found [here](https://www.cmake.org/cmake/help/v3.7/manual/cmake-generators.7.html).
+The most commonly used generators will probably include `Visual Studio`, `CodeBlocks`, `MinGW Makefiles`, `Unix Makefiles` and `Xcode`. There are also makefiles for Eclipse, Sublime Text and a lot others. The complete list can be found [here](https://www.cmake.org/cmake/help/v3.8/manual/cmake-generators.7.html).
 
 ### Examples
 
@@ -159,10 +153,10 @@ The most commonly used generators will probably include `Visual Studio`, `CodeBl
 # to create a debug build and build it.
 (mkdir build && cd build && conan install .. -s compiler=gcc -s compiler.version=5.2 --build=missing && conan build ..)
 # to set a specific compiler and version if you got multiple ones installed.
-# Reading some stuff up in the conan docs might be helpful here
+# Reading some stuff up in the Conan docs might be helpful here
 ```
 
-Notice: make sure to do *cmake ..* and *make* from a directory that is not referenced by a symlink somewhere in the path (otherwise you will have some problems with protobuf).
+Notice: make sure to do *cmake ..* and *make* from a directory that is not referenced by a symlink somewhere in the path (otherwise you will have some problems with Protobuf).
 
 ### Parallel build using make (-j for conan)
 
