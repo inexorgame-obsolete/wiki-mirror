@@ -2,6 +2,16 @@ Branches | Issues | Main developers
 --- | --- | --- 
 master |  [#128](/inexor-game/code/pull/128) | [@a-teammate](/a-teammate)
 
+------------
+This will be dropped again in favor of dynamic lighting.
+Reason:
+* Makes dynamic worlds possible
+* Better editing experience
+* Cleaner shader and rendering system
+------------
+
+
+
 Pictures are louder than words:
 
 Complete Album for comparison of some maps with and without AO: [http://www.bilderhoster.net/g/m3gld18a.html](http://www.bilderhoster.net/g/m3gld18a.html)
