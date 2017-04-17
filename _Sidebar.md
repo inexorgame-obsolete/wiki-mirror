@@ -11,7 +11,7 @@
 [[Coding Standards]]  
 [Generating API Documentation](Documentation)  
 [[How To Debug]]    
-[[Git FAQ]]  
+[[Frequently Asked Questions]]  
 [[GitHub Issues]]  
 [[Directory Structure]]
 
