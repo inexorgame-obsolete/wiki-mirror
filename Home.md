@@ -29,6 +29,7 @@ _Stays Sauer, becomes better._
 | Synchronisation  | [Generic RPC Subsystem + Node.js integration](RPC-Node.js) | &#10003; | &#10003; |        |
 |              | [[Inexor-Tree]] (Proposal: [[Inexor Tree API]])          | &#10003; | &#10003; | &#10003; |
 | Overall      | [[Logging]]                                              | &#10003; | &#10003; |          |
+| Build        | [[Build]]                                                | &#10003; |          |          |
 |              |
 | **In Progress** | 
 |              | 
