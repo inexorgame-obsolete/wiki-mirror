@@ -1,6 +1,6 @@
-Adding the location of program executables to the `PATH` environment variable is needed to execute them on the command-line. Hence some scripts won't work otherwise.
+Adding the location of program executables to the `PATH` environment variable is needed to execute them on the command-line. Hence some scripts won't work otherwise
 
-To do that:
+To do that, we do it here on the example of git:
 
 
 ## 1. Locate git.exe
