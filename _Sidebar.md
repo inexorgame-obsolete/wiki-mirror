@@ -27,7 +27,7 @@
 
 ### General
 
-[(Get started with inexor)(https://github.com/inexor-game/code/wiki/Get-started-with-the-new-Inexor)]
+[Get started with inexor](https://github.com/inexor-game/code/wiki/Get-started-with-the-new-Inexor)
 [[Supported File Formats]]  
 [Command Line](Command-Line-Options-And-Commands)  
 [[Standard Paths]]  
