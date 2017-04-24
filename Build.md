@@ -171,9 +171,13 @@ Do `setenv MAKEFLAGS '-j 8'` before building for having 8 jobs running (usually 
 
 This step greatly depends on your IDE or environment but if you have used makefiles you can probably just run `(cd build && make install)`. Add `-j<number of cores>` to make to run it multithreaded. Note that `make install` will not install any files globally, but only within the directory structure of the project.
 
+
+## Installing flex
+After building Inexor you must clone [flex](https://github.com/inexor-game/flex) at a path of your choice, and install it via `npm install`
+
 ## Run
 
-Start Inexor with the `inexor_unix` file.
+Here's [how to start Inexor](https://github.com/inexor-game/code/wiki/Get-started-with-the-new-Inexor).
 
 # Other
 
