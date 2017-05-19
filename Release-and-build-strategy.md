@@ -12,15 +12,15 @@ Proposed system will bring releases more often and fast:
 ## The Inexor installer
 The following proposal should make it easy for everyone to obtain Inexor:
 
-- the core client and server will be npm modules
- - shipped via npm/update
- - built for Ubuntu 16.04 and Windows (cross-compile) *only* for now
- - building and publishing could/should be done via Travis
-  - how is it possible to ship build stuff from conan?
-- flex will be a npm module
- - flex has a standalone user interface
- - is opened by default in a Browser when core is *not* installed
- - contains: Install, Manage Plugins, Manage Instances
+* the core client and server will be npm modules
+  * shipped via npm/update
+  * built for Ubuntu 16.04 and Windows (cross-compile) *only* for now
+  * building and publishing could/should be done via Travis
+    * how is it possible to ship build stuff from conan?
+* flex will be a npm module
+  * flex has a standalone user interface
+  * is opened by default in a Browser when core is *not* installed
+  * contains: Install, Manage Plugins, Manage Instances
 
 ## Release plan, why
 We've been seeing a much decreased rate of commitment to Inexor, mainly because "the average user" cannot see/touch/use Inexor at all. That should be changed.
