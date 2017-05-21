@@ -38,8 +38,9 @@ This will give you a pretty good exemplary environment if you are on Windows.
 ## Setup
 
 * Download and install 
- * Microsoft Visual Studio **2017** (or 2015 Update 1 and newer)
-    * download and install [VS 2017 Community Edition](https://www.visualstudio.com)
+ * Microsoft Visual Studio **2015** (Update 2 or newer)
+    * download and install [VS 2015 Community Edition](https://www.visualstudio.com)
+      * **vs 2017 is currently not fully supported**, you need to obtain vs 2015 for building Inexor
       * choose at least the "Desktop Development with C++" module in the setup
 * Download and install Git
    * Use one of the following tools if you don't already have Git:
