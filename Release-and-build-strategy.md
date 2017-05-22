@@ -14,8 +14,9 @@ The following proposal should make it easy for everyone to obtain Inexor:
 
 * the core client and server will be npm modules
   * shipped via npm/update
-  * built for Ubuntu 16.04 and Windows (cross-compile) *only* for now
-  * building and publishing could/should be done via Travis
+  * built for Ubuntu 16.04 and Windows *only* for now
+  * x64 is enough for now we think
+  * building and publishing could/should be done via Travis and Appveyor
     * how is it possible to ship build stuff from conan?
 * flex will be a npm module
   * flex has a standalone user interface
