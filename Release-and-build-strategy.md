@@ -33,3 +33,6 @@ We've been seeing a much decreased rate of commitment to Inexor, mainly because 
 - add the Flex UI
 - go on with usual tickets (Refactoring, CEF bugs)
 - add the information on the website!
+
+### Graphical illustration
+![Below](https://github.com/inexor-game/visualisations/blob/e66f6aa962e18629cee67478e67a84a39d9685f2/releases/Inexor%20Release%20Management.png) is a graphical illustration of the build process.
