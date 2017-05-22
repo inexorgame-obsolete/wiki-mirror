@@ -1,5 +1,3 @@
-# Self-regulating distributed network
-
 ## Server list protocol - why a distributed network
 
 In the past there's been multiple attempts (such as DDos) in Sauerbraten to bring down centralized authorities, which lead's us to design our network differently.
