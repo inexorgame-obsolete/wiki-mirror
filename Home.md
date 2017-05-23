@@ -45,6 +45,7 @@ _Stays Sauer, becomes better._
 | Config       | [JSON configuration support](JSON-Implementation)        |          | &#10003; |          |
 | Editing      | [[Version Control System]]                               | &#10003; |          |          |
 | Audio        | [[New Sound system (refactoring)]]                       | &#10003; |          |          |
+| Release      | [[Release and build strategy]]                           | &#10003; | &#10003; |          | 
 |              |
 | **Planned**  | 
 |              | 
@@ -56,7 +57,6 @@ _Stays Sauer, becomes better._
 |              | [[Mappers Toolset]]                                      | &#10003; | &#10003; | &#10003; |
 | Multiplayer  | [[Decentralized server list]]                            |          | &#10003; |          |
 | Distribution | [[Packaging]]                                            |          |          |          |
-
 ### Development
 
 * [[Build]]
