@@ -3,6 +3,10 @@
 - add real toolset links (.bat/.sh)
 - add images + description of the flex UI
 
+## Note to users
+Inexor is currently in Alpha stage. Expect many updates (since we have a fast, rolling-release system), and expect things to be broken. Anyhow we're set on your feedback! See the wiki on [how to contact us](https://github.com/inexor-game/code/wiki/Contact). 
+
+# Installation guide
 Inexor for end user's currently supports the following platforms:
 
 - Windows 7 and newer
