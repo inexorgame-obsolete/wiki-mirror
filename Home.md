@@ -1,7 +1,7 @@
 # Inexor Documentation
 
 ## [FAQ](Frequently-Asked-Questions)
-
+ 
 ## Objectives
 _Stays Sauer, becomes better._
 
