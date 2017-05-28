@@ -25,10 +25,6 @@ You will need to obtain them in some form (see the specific [Windows](#windows) 
 * [Node.js >= 6.9.1 + npm >= 3.0](https://nodejs.org)
   * This is the base for InexorFlex (our scripting environment)
   * npm (the node package manager) is usually included with node
-* [Doxygen](http://www.stack.nl/~dimitri/doxygen/download.html)
-  * This is needed for our build-time reflection
-    * code generation for our network code and scripting binding
-    * Yes, not only the docs
 
 On Linux you will be able to download all these through your package manager.
 
@@ -55,8 +51,6 @@ This will give you a pretty good exemplary environment if you are on Windows.
 * Download and install [Conan](https://www.conan.io/downloads)
    * [**add it to your path**](https://github.com/inexor-game/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
 * Download and install [Node.js >= >= 6.9.1 + npm](https://nodejs.org)
-   * [**add it to your path**](https://github.com/inexor-game/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
-* Download and install [Doxygen](http://www.stack.nl/~dimitri/doxygen/download.html)
    * [**add it to your path**](https://github.com/inexor-game/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
 
 ## Fetching the Repository
@@ -118,7 +112,7 @@ The first step of building this project is rather obvious, but for sake of compl
 
 The next step is to get all the required dependencies to compile. You'll need an environment that can build C++ programs such as Eclipse, CLion, NetBeans.
 
-Specifically, on Linux you will need CMake >= 3.1, Conan, make and GCC >= 4.9 or Clang >= 3.5 as your compiler. The version numbers are minimum: They might work with older versions (but it's not official supported) and newer versions are better!
+Specifically, on Linux you will need CMake >= 3.1, Conan, make and GCC >= 5.4 or Clang >= 3.5 as your compiler. The version numbers are minimum: They might work with older versions (but it's not official supported) and newer versions are better!
 Also install your distribution's development packages of Mesa
 
 OS  | What to do
