@@ -1,3 +1,74 @@
+# Overall Architecture
+
+We needed a way to make Inexor more dynamic and extendable.
+
+We chose to not only expose some functions and variables to the Users for changing stuff dynamically but going a way more profound way:  
+We let our scripting engine **Inexor Flex** feed the Core game engine (**Inexor Core**)!
+
+**Inexor Core** is hence regarded as being our high-performance component of an overall bundle of different processes: The Scripting process and the traditional C++ game process.
+
+To illustrate in how far that is different from the traditional game scripting, you can imagine our structure to be like a train on rails. The train just goes where the rails force it to. Traditional scripting is more similar to the steering wheel of a car: you give the driver access to control the position of the wheels.  
+This example is probably not best as it omits the illustration **why** this approach is better for us (does anyone find a better one? replace it!)
+
+## Why this approach and in how far is it making a difference?
+
+We have to deal with a legacy codebase, which – like all legacy codebases – has become stuck in several places in dead ends.
+
+The traditional scripting is pretty great if you have a clean Core codebase, inventing stuff in that codebase is guaranteed to be doable fast and you want **some** places exposed for User control.  
+Our approach really shines in its way of being totally decoupled from the Core!  
+This allows us to rewrite some functionality from scratch in a really dynamic environment (node.js).
+
+However the idea behind that is simply: Not everything in Inexor is solvable in the same fashion. On the one hand you want performance, on the other hand you want usability, features and possibilities.
+
+While performance in Sauerbraten (the predecessor of Inexor) has always been the main optimization goal, we want an arsenal of weapons by hand to let people write awesome features in short time.  
+As a consequence the high-performance part uses C++ as its language (which is one of the languages which allows a lot of optimizations for performance) and the feature-rich, slower but more dynamic part uses JavaScript (and more precisely node.js [with npm](https://www.npmjs.com/)).
+
+## How does this change development?
+
+In Sauerbraten if you wanted to develop a new masterserver (+ serverbrowser) you would:
+
+1. Write in C++ (≈ InexorCore) a masterserver having a REST-API to your game servers and clients.
+2. Write in C++ the code for the game servers and clients to connect to that.
+3. Write in C++ the code for saying what you want the masterserver to know about you/to send you.
+4. Expose in the client the list of servers to the scripting language.
+5. Write in CubeScript the server browsers based on that array of servers.
+6. Render in the C++ code that CubeScript UI.
+
+----
+
+In Inexor you would:
+
+1. Write all of that in InexorFlex (== node.js)
+   * the masterserver
+   * the connection between game clients/game servers and the masterserver
+   * ..
+2. Using a rich package-set of already written node.js packages.
+3. Create a website with a serverbrowser (that's what node.js is originally build for)
+4. Render that website in InexorCore
+
+and that's only a very simplistic approach (e.g not using a distributed system)!
+
+-----
+
+Other really useful wholes this fills:
+
+People are crying for a content deployment system.  
+You can't (however) create it with CubeScript because of safety considerations.  
+Hence one would have needed to invent a complete new way in InexorCore to load content (and we tried. But its not scaling).
+
+What we want to do is different:
+
+Everything not directly required for rendering gets handled prior to loading in InexorFlex.
+And its just feeding InexorCore with the stuff it really needs to load (like the absolute texture path and type).  
+This way the C++ part shrinks, only **removing** functionality there and the from scratch written part is in node.js with all its benefits, see above.
+
+---
+
+The **Inexor Tree** is the glue between InexorCore and InexorFlex. It gets updated by both sides (and is readable by both sides).
+Additionally we can store things like the Content handling in the Tree comfortably, allowing us e.g. to link various stuff together in InexorFlex.
+
+# Technical Overview
+
 ## Component / System Overview
 
 Component / System  | Repository                             | Language     | Description
