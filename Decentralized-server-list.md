@@ -112,3 +112,6 @@ ENet is fine for transferring the game data like position changes and other game
 
 Server list propagation ("Masterserver") and server capabilities ("extinfo") are available globally and can be integrated in 3rd party apps (e.g. a homepage) easily.
 
+## Solution
+An accepted solution is proposed on this https://github.com/inexor-game/code/wiki/Self-regulating-distributed-network article
+
