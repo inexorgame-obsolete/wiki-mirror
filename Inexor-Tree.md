@@ -30,6 +30,12 @@
     * Still faster since non-blocking
     * Trade of was made to allow a design where even Inexor gameservers and clients could communicate this way.
 
+### Example: Difference to Sauerbraten
+
+**Sauerbraten** would let you set an "intermission" script and it will execute it when intermission is started. (and thats probably one of <5 places where such stuff gets executed)
+
+In **Inexor** everything is stored in the InexorTree. One would attach in InexorFlex a listener on the /game/is_intermission variable which gets executed as soon as that variable changed. No waiting time for the script in InexorCore hence.
+
 ## Accessing the Inexor Tree
 
 ### C++
