@@ -1,3 +1,14 @@
+
+# This page is for reference only at the moment.
+
+# Look in this issue instead:
+
+# https://github.com/inexor-game/code/issues/37
+
+---
+---
+-------------
+---------------------------------
 # Release and build strategy
 The following article addresses main concerns and how to solve them during _alpha_ release phase (current).
 The pad for this article can be found [here](https://hackmd.io/IYDgzARgpuYLQE5gHYDGcAsIBMA2OwEEAZnCBACaoCMyFEYqUyQA#).
