@@ -56,7 +56,7 @@ _Stays Sauer, becomes better._
 | Editing      | [[Improved Selection]]                                   | &#10003; |          |          |
 |              | [[Mappers Toolset]]                                      | &#10003; | &#10003; | &#10003; |
 | Multiplayer  | [[Decentralized server list]]                            |          | &#10003; |          |
-| Multiplayer  | [[Self regulating distributed network]]                  |          |          | &#10003; |
+| Multiplayer  | [[Self regulating distributed network]]                  |          | &#10003; | &#10003; |
 | Distribution | [[Packaging]]                                            |          |          |          |
 ### Development
 
