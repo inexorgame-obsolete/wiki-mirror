@@ -117,9 +117,9 @@ Also install your distribution's development packages of Mesa
 
 OS  | What to do
 --- | ---
-Debian/Debian-derived/Ubuntu | `sudo apt-get install git cmake build-essential nodejs doxygen python-pip` <br> CEF dependencies: `sudo apt-get install libgtk2.0-dev libgtkglext1-dev libnss3 libgconf-2-4 libxss1 libasound2 libxtst6`
-OpenSUSE | Run `zypper in -t pattern devel_C_C++` then run `zypper install mesa-libgl-devel conan node doxygen cmake git`.
-ArchLinux | Run `sudo pacman -S --needed git cmake mesa mesa-libgl conan doxygen`. <br> CEF dependencies: `sudo pacman -S --needed pango cairo libxi libxcomposite alsa-lib libxtst gconf libxrandr`
+Debian/Debian-derived/Ubuntu | `sudo apt-get install git cmake build-essential nodejs python-pip` <br> CEF dependencies: `sudo apt-get install libgtk2.0-dev libgtkglext1-dev libnss3 libgconf-2-4 libxss1 libasound2 libxtst6`
+OpenSUSE | Run `zypper in -t pattern devel_C_C++` then run `zypper install mesa-libgl-devel conan node cmake git`.
+ArchLinux | Run `sudo pacman -S --needed git cmake mesa mesa-libgl conan`. <br> CEF dependencies: `sudo pacman -S --needed pango cairo libxi libxcomposite alsa-lib libxtst gconf libxrandr`
 
 ### Installing conan.io
 Conan.io is usually to be installed using the python package manager `pip`
@@ -148,7 +148,7 @@ The most commonly used generators will probably include `Visual Studio`, `CodeBl
 # By default conan install uses build_type `Release`.
 (mkdir build && cd build && conan install .. -s build_type=Debug --build=missing && conan build ..)
 # to create a debug build and build it.
-(mkdir build && cd build && conan install .. -s compiler=gcc -s compiler.version=5.2 --build=missing && conan build ..)
+(mkdir build && cd build && conan install .. -s compiler=gcc -s compiler.version=6.3 --build=missing && conan build ..)
 # to set a specific compiler and version if you got multiple ones installed.
 # Reading some stuff up in the Conan docs might be helpful here
 ```
@@ -182,12 +182,12 @@ Data like maps and fonts is provided in a separate [data repository](https://git
 
     .
     ├── code
-    │   ├── bin
-    │   ├── build
-    │   ├── inexor
-    │   ├── media -> ../media
-    │   ├── node
-    │   └── tool
+    │   ├── bin
+    │   ├── build
+    │   ├── inexor
+    │   ├── media -> ../media
+    │   ├── node
+    │   └── tool
     └── media
         ├── data
         └── data-additional
