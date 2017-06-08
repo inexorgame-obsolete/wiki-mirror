@@ -135,10 +135,10 @@ The REST API is available on the [[Inexor Client]] and on the [[Inexor Server]].
 
 | HTTP Method   | URL                                          | Description   | Result         |
 | ------------- | -------------------------------------------- | ------------- | -------------- |
-| GET           | http://localhost:48030/tree/path/to/the/node | Returns the value of a single node, if the node is a leaf (no childs) | value          |
-| GET           | http://localhost:48030/tree/path/to          | Returns the subtree as JSON, if the node has childs | `{ the: { node: 'value' } }` |
-| POST          | http://localhost:48030/tree/path/to/the/node | Changes the value of a node | - |
-| DELETE        | http://localhost:48030/tree/path/to/the/node | Deletes the node              | - |
+| GET           | http://localhost:31416/tree/path/to/the/node | Returns the value of a single node, if the node is a leaf (no childs) | value          |
+| GET           | http://localhost:31416/tree/path/to          | Returns the subtree as JSON, if the node has childs | `{ the: { node: 'value' } }` |
+| POST          | http://localhost:31416/tree/path/to/the/node | Changes the value of a node | - |
+| DELETE        | http://localhost:31416/tree/path/to/the/node | Deletes the node              | - |
 
 
 
