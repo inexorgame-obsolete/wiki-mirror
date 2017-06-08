@@ -22,6 +22,7 @@ We are not afraid of using modern methods and libraries where appropriate to ach
 (The traditional view in the C-world is to write things from scratch)
 
 Creating Inexor is traditionally part of the game. It was that way before in Sauerbraten (in form of creating maps ingame) and we are aiming to improve on that.
+We first started by basing our work on the sauer old-fashioned ways of doing things to start with something and we are now migrating as much as we can to a more modern approach.
 
 ## Renewal Strategy
 
