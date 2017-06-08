@@ -2,6 +2,55 @@ Branches | Issues | Main developers
 -------- | ------ | ---
 master | [#4](/inexor-game/code/issues/4) | [@a-teammate](/a-teammate), [@Fohlen](/Fohlen), [@Croydon](/Croydon)
 
+## Inexor Files and Directories Structure
+- Building Inexor:
+	- **build** | *has to be created manually, holds all the build files*
+	- cmake | *generates build configuration, used by conan*
+	- CMakeLists.txt | *cmake configuration file*
+	- conanfile.py | *conan configuration*
+ 	- dependencies.py | *references needed packages to be installed by conan*
+	- **node_modules** | *contains modules installed using npm, currently only holds TOML module required for configuration*
+	-  Continuous Integration:
+		- appveyor.yml | *CI for Windows*
+		- Jenkinsfile | *CI pipeline configuration file*
+		-  **tool** | *contains scripts for easy compilation and continuous integration*
+
+- Documentation
+	- **doc** | *holds generated documentation*
+	- doxygen.conf | *generates the configuration*
+
+- Deprecated in the future:
+	- history.cfg
+	- init.cfg
+	- inexor.bat
+	- master.cfg
+	- **media** (relocated, see *Out-of-tree*)
+	- server-init.cfg
+	- server.bat
+- Game:
+	- **bin**	| *game binaries*
+	- **dist** | *holds per-distribution elements*
+		- **Linux** | *contains freedesktop standard desktop entry file for integration with linux desktop environments* 
+	- **flex** | *Node.js client and server management platform and scripting engine*
+	- **inexor** | *contains the core engine called by inexor-flex*
+	**screenshot** | *contains screenshot taken by user*
+	- inexor.log | *log file*
+	- inexor_unix | *bash script to easily start inexor* on UNIX-like platforms 
+	
+- Information: (self-explanatory)
+	- changelog.md
+	- contributing.md
+	- credits.md
+	- license.md
+	- readme.md
+
+- Out-of-tree:  ( *~/.local/usr/share/inexor/* )
+	- **media** | *holds hierarchically all contents used	by inexor-flex to feed inexor-core*	
+		- **core** | *required media content*
+		- **data-additional** | *additional media content, will be deprecated in favor of a content delivery system*
+		- **user**  | *deprecated*
+
+
 ## Media Repositories
 Since we split data files from the code files for using Git with less waiting time, we have 2+ repositories now for a single Inexor game.  
 So you'll need to bring back the data repositories (data (required) , data-additional (optional), ..) with the code repo.
