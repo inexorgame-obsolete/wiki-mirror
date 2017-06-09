@@ -33,7 +33,7 @@ master | [#4](/inexor-game/code/issues/4) | [@a-teammate](/a-teammate), [@Fohlen
 		- **Linux** | *contains freedesktop standard desktop entry file for integration with linux desktop environments* 
 	- **flex** | *Node.js client and server management platform and scripting engine*
 	- **inexor** | *contains the core engine called by inexor-flex*
-	**screenshot** | *contains screenshot taken by user*
+	- **screenshot** | *contains screenshot taken by user*
 	- inexor.log | *log file*
 	- inexor_unix | *bash script to easily start inexor* on UNIX-like platforms 
 	
