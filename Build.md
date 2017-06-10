@@ -33,11 +33,8 @@ This will give you a pretty good exemplary environment if you are on Windows.
 
 ## Setup
 
-* Download and install 
- * Microsoft Visual Studio **2015** (Update 2 or newer)
-    * download and install [VS 2015 Community Edition](https://www.visualstudio.com)
-      * **vs 2017 is currently not fully supported**, you need to obtain vs 2015 for building Inexor
-      * choose at least the "Desktop Development with C++" module in the setup
+* Download and install Microsoft [Visual Studio **2017** Community Edition](https://www.visualstudio.com) (or VS 2015 Update 2 or newer)
+  * choose at least the "Desktop Development with C++" module in the setup
 * Download and install Git
    * Use one of the following tools if you don't already have Git:
      * [SmartGit](http://www.syntevo.com/smartgit/download) - Heavily developed and intuitive GUI [Recommended]
@@ -50,7 +47,7 @@ This will give you a pretty good exemplary environment if you are on Windows.
    * [**add it to your path**](https://github.com/inexor-game/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
 * Download and install [Conan](https://www.conan.io/downloads)
    * [**add it to your path**](https://github.com/inexor-game/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
-* Download and install [Node.js >= >= 6.9.1 + npm](https://nodejs.org)
+* Download and install [Node.js >= 6.9.1 + npm >= 3](https://nodejs.org)
    * [**add it to your path**](https://github.com/inexor-game/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
 
 ## Fetching the Repository
