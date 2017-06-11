@@ -114,14 +114,13 @@ Also install your distribution's development packages of Mesa
 
 OS  | What to do
 --- | ---
-Debian/Debian-derived/Ubuntu | `sudo apt-get install git cmake build-essential nodejs python-pip` <br> CEF dependencies: `sudo apt-get install libgtk2.0-dev libgtkglext1-dev libnss3 libgconf-2-4 libxss1 libasound2 libxtst6`
+Debian/Debian-derived/Ubuntu | `sudo apt-get install git cmake build-essential nodejs python-pip` <br> CEF dependencies: `sudo apt-get install libpangocairo-1.0-0 libxcomposite1 libxrandr2 libatk1.0-0 libcups2 libnss3 libgconf-2-4 libxss1 libasound2 libxtst6`
 OpenSUSE | `zypper in -t pattern devel_C_C++` then run `zypper install mesa-libgl-devel node cmake git`
 ArchLinux | Run `sudo pacman -S --needed git cmake mesa mesa-libgl conan`. <br> CEF dependencies: `sudo pacman -S --needed pango cairo libxi libxcomposite alsa-lib libxtst gconf libxrandr`
 
 ### Installing conan.io
 Conan.io is usually to be installed using the python package manager `pip`
 Simply `pip install conan` should do it.
-Although conan officially supports `python>=3` the version `python2.7` is suggested.
 
 ### Getting the latest Node.js
 For the application to run appropiately `Node.js >= 6.9.1` is required (it might work on lower versions, **it might**). 
