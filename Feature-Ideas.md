@@ -31,6 +31,6 @@
 
 * Idea pool:
  * [Quadropolis - Sauerbraten Updates Wishlist](http://quadropolis.us/node/3086)
- * [Existing Mods/Forks/Projects](https://github.com/inexor-game/code/wiki/Other-Projects)
+ * [Existing Mods/Forks/Projects](https://github.com/inexorgame/code/wiki/Other-Projects)
  * [https://poop.piratenpad.de/sauer-changes](https://poop.piratenpad.de/sauer-changes)
  * [Sauerworld Forum - Ideas for Sauerbraten](http://sauerworld.org/forum/index.php?board=4.0)

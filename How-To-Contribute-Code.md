@@ -4,7 +4,7 @@ You might also be interested in [[How to Contribute Content]].
 
 ### Git
 
-We divided the Project in [**only-code**](https://github.com/inexor-game/code) (the game itself) and [**only-data**](https://github.com/inexor-game/data) (game content like maps). 
+We divided the Project in [**only-code**](https://github.com/inexorgame/code) (the game itself) and [**only-data**](https://github.com/inexorgame/data) (game content like maps). 
 Why? Because checkouts and commits are much faster without binary blobs.
 
 Avoid committing binaries into the **code** repository, so the repository stays lightweight.
@@ -16,11 +16,11 @@ Presteps:
 
 * Take some time to document a roadmap for yourself. Which features would you like to work on or help implementing them? 
   * Pick up an issue. We have **_good first bug_** (meaning small Inexor related preknowledge is required) issues to help you getting started:
-    * [difficulty beginner](https://github.com/inexor-game/code/issues?q=label%3A%22good+first+bug%22+label%3Adiff%3Abeginner+is%3Aopen); Task which doesn't require you to have any previous experiences with the used language/the used technologies.
-    * [difficulty intermediate](https://github.com/inexor-game/code/issues?q=label%3A%22good+first+bug%22+label%3Adiff%3Aintermediate+is%3Aopen); You already made first touch with the used language and are ready for more.
-    * [difficulty advanced](https://github.com/inexor-game/code/issues?q=label%3A%22good+first+bug%22+label%3Adiff%3Aadvanced+is%3Aopen); Trickier tasks which also requires you to have some experience with the language and in approaching tasks.
+    * [difficulty beginner](https://github.com/inexorgame/code/issues?q=label%3A%22good+first+bug%22+label%3Adiff%3Abeginner+is%3Aopen); Task which doesn't require you to have any previous experiences with the used language/the used technologies.
+    * [difficulty intermediate](https://github.com/inexorgame/code/issues?q=label%3A%22good+first+bug%22+label%3Adiff%3Aintermediate+is%3Aopen); You already made first touch with the used language and are ready for more.
+    * [difficulty advanced](https://github.com/inexorgame/code/issues?q=label%3A%22good+first+bug%22+label%3Adiff%3Aadvanced+is%3Aopen); Trickier tasks which also requires you to have some experience with the language and in approaching tasks.
   * You have a new idea for which we don't have an existing issue? (**Use the search first!**)
-    * [Create a new issue](https://github.com/inexor-game/code/issues/new)
+    * [Create a new issue](https://github.com/inexorgame/code/issues/new)
     * Positive feedback from an Inexor team member will verify you the feature fits into the big picture
 
 

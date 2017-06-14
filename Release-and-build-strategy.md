@@ -3,7 +3,7 @@
 
 # Look in this issue instead:
 
-# https://github.com/inexor-game/code/issues/37
+# https://github.com/inexorgame/code/issues/37
 
 ---
 ---
@@ -46,7 +46,7 @@ We've been seeing a much decreased rate of commitment to Inexor, mainly because 
 - add the information on the website!
 
 ### Graphical illustration
-![Graphical](https://github.com/inexor-game/visualisations/blob/e66f6aa962e18629cee67478e67a84a39d9685f2/releases/Inexor%20Release%20Management.png) 
+![Graphical](https://github.com/inexorgame/visualisations/blob/e66f6aa962e18629cee67478e67a84a39d9685f2/releases/Inexor%20Release%20Management.png) 
 
 ## Maintain new releases
 

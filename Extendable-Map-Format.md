@@ -1,6 +1,6 @@
 Branches | Issues | Main developers
 -------- | ------ | ---
-[newmapformat](/inexor-game/code/tree/newmapformat) | [#53](/inexor-game/code/issues/53) | [@aschaeffer](/aschaeffer), [@a-teammate](/a-teammate)
+[newmapformat](/inexorgame/code/tree/newmapformat) | [#53](/inexorgame/code/issues/53) | [@aschaeffer](/aschaeffer), [@a-teammate](/a-teammate)
 
 ### Objective
 

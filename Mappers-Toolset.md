@@ -1,6 +1,6 @@
 Branches | Issues | Main developers
 -------- | ------ | ---
-_none_ | [#299](/inexor-game/code/issues/299) | [@MartinMuzatko](/MartinMuzatko)
+_none_ | [#299](/inexorgame/code/issues/299) | [@MartinMuzatko](/MartinMuzatko)
 
 **Depends on:** [CEF](HTML5 User Interface)
 

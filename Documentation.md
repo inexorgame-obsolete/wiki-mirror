@@ -82,4 +82,4 @@ Any documentation and any comments in general may be formatted using markdown sy
 
 [Modules][2] should have a documentation inside a readme.md file.
 
-[2]: https://github.com/inexor-game/code/issues/70 "Suggestion for a code module structure"
+[2]: https://github.com/inexorgame/code/issues/70 "Suggestion for a code module structure"

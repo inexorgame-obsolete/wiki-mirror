@@ -8,7 +8,7 @@ This page shows how to create environment for running multiple servers.
 
     mkdir -p /srv/inexor/git
     cd /srv/inexor/git
-    git clone --recursive https://github.com/inexor-game/code.git inexor-code
+    git clone --recursive https://github.com/inexorgame/code.git inexor-code
 
 ## Build environment and building
 

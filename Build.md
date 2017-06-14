@@ -38,17 +38,17 @@ This will give you a pretty good exemplary environment if you are on Windows.
 * Download and install Git
    * Use one of the following tools if you don't already have Git:
      * [SmartGit](http://www.syntevo.com/smartgit/download) - Heavily developed and intuitive GUI [Recommended]
-       * You'll need to manually [**add Git to your PATH**](https://github.com/inexor-game/code/wiki/%5BWindows%5D-add-git-to-PATH)
+       * You'll need to manually [**add Git to your PATH**](https://github.com/inexorgame/code/wiki/%5BWindows%5D-add-git-to-PATH)
      * [GitHub Desktop](https://desktop.github.com) - Very simple and clean UI.
      * [git-scm.com](https://git-scm.com/download) is the official Git website, and has downloads for the CLI version, and links to several GUIs.
 * Download and install [CMake](https://www.cmake.org/download/)
-   * [**add it to your path**](https://github.com/inexor-game/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
+   * [**add it to your path**](https://github.com/inexorgame/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
 * Download and install [Python](https://www.python.org/downloads/)
-   * [**add it to your path**](https://github.com/inexor-game/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
+   * [**add it to your path**](https://github.com/inexorgame/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
 * Download and install [Conan](https://www.conan.io/downloads)
-   * [**add it to your path**](https://github.com/inexor-game/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
+   * [**add it to your path**](https://github.com/inexorgame/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
 * Download and install [Node.js >= 6.9.1 + npm >= 3](https://nodejs.org)
-   * [**add it to your path**](https://github.com/inexor-game/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
+   * [**add it to your path**](https://github.com/inexorgame/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
 
 ## Fetching the Repository
 
@@ -56,7 +56,7 @@ You will have to clone the Project somewhere.
 
 * If you use SmartGit:
   * click `Repository` and `Clone` (or press `Ctrl+Shift+O`)
-  * Select "Remote Git ... repository", URL = https://github.com/inexor-game/code
+  * Select "Remote Git ... repository", URL = https://github.com/inexorgame/code
   * On the next Page select `Fetch all Heads and Tags`
   * Select a folder on the next page. Your local Git repository will be created here. 
   * Select `Finish`
@@ -91,7 +91,7 @@ Advanced users can also manually do the conan-install step and and use the CMake
   * Right click the **`INSTALL`** solution in solution explorer, and click build.
 
 ## Get the data
-See [Directory-Structure](https://github.com/inexor-game/code/wiki/Directory-Structure) to see how your folder structure should look like to start Inexor.
+See [Directory-Structure](https://github.com/inexorgame/code/wiki/Directory-Structure) to see how your folder structure should look like to start Inexor.
 
 ## Run
 Start Inexor with the `inexor.bat` file.
@@ -103,7 +103,7 @@ Start Inexor with the `inexor.bat` file.
 
 The first step of building this project is rather obvious, but for sake of completeness here you have it.
 
-* Download the repository, you can either use the command line ```git clone --recursive https://github.com/inexor-game/code.git``` or your favorite git GUI.
+* Download the repository, you can either use the command line ```git clone --recursive https://github.com/inexorgame/code.git``` or your favorite git GUI.
 
 ## Install the build requirements
 
@@ -164,17 +164,17 @@ This step greatly depends on your IDE or environment but if you have used makefi
 
 
 ## Installing flex
-After building Inexor you must clone [flex](https://github.com/inexor-game/flex) at a path of your choice, and install it via `npm install`
+After building Inexor you must clone [flex](https://github.com/inexorgame/flex) at a path of your choice, and install it via `npm install`
 
 ## Run
 
-Here's [how to start Inexor](https://github.com/inexor-game/code/wiki/Get-started-with-the-new-Inexor).
+Here's [how to start Inexor](https://github.com/inexorgame/code/wiki/Get-started-with-the-new-Inexor).
 
 # Other
 
 ## Get the content
 
-Data like maps and fonts is provided in a separate [data repository](https://github.com/inexor-game/data). Clone that repository along with the optional repository [data-additional](https://github.com/inexor-game/data-additional) in the `media` directory, which should be in the root directory of the Inexor code repository. Alternatively you can use a symbolic link like in the following example.
+Data like maps and fonts is provided in a separate [data repository](https://github.com/inexorgame/data). Clone that repository along with the optional repository [data-additional](https://github.com/inexorgame/data-additional) in the `media` directory, which should be in the root directory of the Inexor code repository. Alternatively you can use a symbolic link like in the following example.
 
     .
     ├── code

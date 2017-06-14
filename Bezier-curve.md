@@ -1,6 +1,6 @@
 Branches | Issues | Main developers
 -------- | ------ | ---
-[cef+ipc+entities+bezier](/inexor-game/code/tree/cef+ipc+entities+bezier) | [#111](/inexor-game/code/issues/111) | [@IAmNotHanni](/IAmNotHanni)
+[cef+ipc+entities+bezier](/inexorgame/code/tree/cef+ipc+entities+bezier) | [#111](/inexorgame/code/issues/111) | [@IAmNotHanni](/IAmNotHanni)
 
 ## Motivation
 

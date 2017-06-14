@@ -5,7 +5,7 @@
 
 [[Build]]  
 [[Contact]]  
-[Milestones](https://github.com/inexor-game/code/milestones) / [Changelog](https://github.com/inexor-game/code/blob/master/changelog.md)  
+[Milestones](https://github.com/inexorgame/code/milestones) / [Changelog](https://github.com/inexorgame/code/blob/master/changelog.md)  
 [[How to Contribute Code]]  
 [[Recruiting]]  
 [[Coding Standards]]  
@@ -27,7 +27,7 @@
 
 ### General
 
-[Get started with Inexor](https://github.com/inexor-game/code/wiki/Get-started-with-the-new-Inexor)
+[Get started with Inexor](https://github.com/inexorgame/code/wiki/Get-started-with-the-new-Inexor)
 [[Supported File Formats]]  
 [Command Line](Command-Line-Options-And-Commands)  
 [[Standard Paths]]  
@@ -36,8 +36,8 @@
 ### Tools
 
 Continuous Integration For...  
-[Linux](https://travis-ci.org/inexor-game/code) | [Windows](https://ci.appveyor.com/project/inexor-game/code)  
-[Kanboard](https://waffle.io/inexor-game/code)   
+[Linux](https://travis-ci.org/inexorgame/code) | [Windows](https://ci.appveyor.com/project/inexorgame/code)  
+[Kanboard](https://waffle.io/inexorgame/code)   
 [[Other Tools]]  
 
 ### Content Management

@@ -1,6 +1,6 @@
 Branches | Issues | Main developers
 -------- | ------ | ---
-[fohlen/nodetree](/inexor-game/code/tree/fohlen/nodetree), [karo/tree-gen](/inexor-game/code/tree/karo/tree-gen), [karo/node-tree-api-ARCHIVE ](/inexor-game/code/tree/karo/node-tree-api-ARCHIVE ) | ? | [@Fohlen](/fohlen), [@koraa](/koraa)
+[fohlen/nodetree](/inexorgame/code/tree/fohlen/nodetree), [karo/tree-gen](/inexorgame/code/tree/karo/tree-gen), [karo/node-tree-api-ARCHIVE ](/inexorgame/code/tree/karo/node-tree-api-ARCHIVE ) | ? | [@Fohlen](/fohlen), [@koraa](/koraa)
 
 # Inexor File System API
 

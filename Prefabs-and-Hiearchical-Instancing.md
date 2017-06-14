@@ -39,4 +39,4 @@ Below follows some brief thoughts on how prefabs and instancing may be accomplis
 * Unlinking an instance entirely from its prefab, creating standard world geometry out of all of the content in the prefab and its possible sub-prefabs.
 
 Possibly useful resources:
-* [Tesseract prefabs](https://github.com/inexor-game/tesseract/blob/1531ab89afe2dfc6a57f58c94f456dd8e6486516/src/engine/octaedit.cpp#L1121)
+* [Tesseract prefabs](https://github.com/inexorgame/tesseract/blob/1531ab89afe2dfc6a57f58c94f456dd8e6486516/src/engine/octaedit.cpp#L1121)

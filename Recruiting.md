@@ -6,7 +6,7 @@ We will be very happy if you join our team!
 
 To make the fork successful we need your help. We need different types of skills:
 
-* **[Content Creators](https://github.com/inexor-game/code/wiki/How-to-Contribute-Content)**
+* **[Content Creators](https://github.com/inexorgame/code/wiki/How-to-Contribute-Content)**
  * Maps
  * Textures
  * Map Models
@@ -15,8 +15,8 @@ To make the fork successful we need your help. We need different types of skills
  * HTML5 user interfaces
  * Music and Sounds
  * Sound FX
- * [Voice Acting](https://github.com/inexor-game/code/issues/255)
-* **[Coders](https://github.com/inexor-game/code/wiki/How-To-Contribute-Code)**
+ * [Voice Acting](https://github.com/inexorgame/code/issues/255)
+* **[Coders](https://github.com/inexorgame/code/wiki/How-To-Contribute-Code)**
  * C++
  * JavaScript
 * **Web Developers**

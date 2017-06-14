@@ -8,5 +8,5 @@
  * Using [Google Test](https://code.google.com/p/googletest/)
 
 ## Upcoming Tools
-* _Jenkins_ [#23](https://github.com/inexor-game/code/issues/23)
+* _Jenkins_ [#23](https://github.com/inexorgame/code/issues/23)
  * _https://jenkins-ci.org_ 

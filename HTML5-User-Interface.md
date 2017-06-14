@@ -1,6 +1,6 @@
 Branches | Issues | Main developers
 -------- | ------ | ---
-[cef](/inexor-game/code/tree/cef), [cef+entities](/inexor-game/code/tree/cef+entities), [cef+ipc+entities](/inexor-game/code/tree/cef+ipc+entities), [cef+ipc+entities+bezier](/inexor-game/code/tree/cef+ipc+entities+bezier), [rebased-cef+entities](/inexor-game/code/tree/rebased-cef+entities), [additional bug fix branches](/inexor-game/code/branches/all?utf8=%E2%9C%93&query=cef), [karo+fohlen+hanack/fix_cef](/inexor-game/code/tree/karo+fohlen+hanack/fix_cef) |  [#50](/inexor-game/code/issues/50), [#292](/inexor-game/code/issues/292) [Label: cef](/inexor-game/code/labels/cef) | [@aschaeffer](/aschaeffer), [@koraa](/koraa), [@a-teammate](/a-teammate), [@IAmNotHanni](/IAmNotHanni), [@Fohlen](/Fohlen)
+[cef](/inexorgame/code/tree/cef), [cef+entities](/inexorgame/code/tree/cef+entities), [cef+ipc+entities](/inexorgame/code/tree/cef+ipc+entities), [cef+ipc+entities+bezier](/inexorgame/code/tree/cef+ipc+entities+bezier), [rebased-cef+entities](/inexorgame/code/tree/rebased-cef+entities), [additional bug fix branches](/inexorgame/code/branches/all?utf8=%E2%9C%93&query=cef), [karo+fohlen+hanack/fix_cef](/inexorgame/code/tree/karo+fohlen+hanack/fix_cef) |  [#50](/inexorgame/code/issues/50), [#292](/inexorgame/code/issues/292) [Label: cef](/inexorgame/code/labels/cef) | [@aschaeffer](/aschaeffer), [@koraa](/koraa), [@a-teammate](/a-teammate), [@IAmNotHanni](/IAmNotHanni), [@Fohlen](/Fohlen)
 
 ### Goals
 
@@ -116,11 +116,11 @@ In order to use CSS Preprocessors and to transpile typescript or coffeescript to
 Using Sass or Less to build our own components. 
 We have to declare our own styleguide for colors, typohraphy and components and how to use each in which context.
 
-Nearly all js components offered by bootstrap are not interesting for our project. Just the CSS components such as buttons or badges would be interesting. This is because the platform we use fundamentally requires other components than bootstrap has to offer. A list of components that we'd need is listed here: https://github.com/inexor-game/ui-prototype#components
+Nearly all js components offered by bootstrap are not interesting for our project. Just the CSS components such as buttons or badges would be interesting. This is because the platform we use fundamentally requires other components than bootstrap has to offer. A list of components that we'd need is listed here: https://github.com/inexorgame/ui-prototype#components
 
 The atlassian UI offers way more different components to see what we could need: https://docs.atlassian.com/aui/latest/docs/auiselect2.html
 
-So it is to evaluate what we need and how to develop these components to fit our theme, which has yet to be decided, see Issue [#304](https://github.com/inexor-game/code/issues/304)
+So it is to evaluate what we need and how to develop these components to fit our theme, which has yet to be decided, see Issue [#304](https://github.com/inexorgame/code/issues/304)
  
 Secondly, the grid system doesn't suit our needs either. Which is why I'd go with something more sophisticated as Flexbox. [Angular Material](https://material.angularjs.org/latest/layout/alignment) does a great job to implement this layout grid as a framework. Since they do not offer a standalone version of the grid anymore, I decided to provide it on my own: https://github.com/MartinMuzatko/flexproperties/.
 

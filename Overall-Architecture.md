@@ -73,17 +73,17 @@ Additionally we can store things like the Content handling in the Tree comfortab
 
 Component / System  | Repository                             | Language     | Description
 ------------------- | -------------------------------------- | ------------ | -----------
-[[Inexor Core]]     | [code](/inexor-game/flex/)             | C/C++        | Game-State, Rendering and calculate anything performance sensitive
-[[Inexor GlueGen]]  | [code](/inexor-game/code/)             | C/C++        | External application used in the build-process to generate our networking code (and potentially other glue code)
-[[Inexor Flex]]     | [flex](/inexor-game/flex/)             | JS (NodeJS)  | Provides a scripting environment for the server and client, provides the Inexor User Interfaces
-Inexor UI HUD       | [interfaces](/inexor-game/interfaces/) | HTML5+JS+CSS | The Inexor UI HUD is basically a website, which is rendered by the Inexor Core
-Inexor UI APP       | [interfaces](/inexor-game/interfaces/) | HTML5+JS+CSS | The Inexor UI APP is basically a website, which is rendered by the Inexor Core
+[[Inexor Core]]     | [code](/inexorgame/flex/)             | C/C++        | Game-State, Rendering and calculate anything performance sensitive
+[[Inexor GlueGen]]  | [code](/inexorgame/code/)             | C/C++        | External application used in the build-process to generate our networking code (and potentially other glue code)
+[[Inexor Flex]]     | [flex](/inexorgame/flex/)             | JS (NodeJS)  | Provides a scripting environment for the server and client, provides the Inexor User Interfaces
+Inexor UI HUD       | [interfaces](/inexorgame/interfaces/) | HTML5+JS+CSS | The Inexor UI HUD is basically a website, which is rendered by the Inexor Core
+Inexor UI APP       | [interfaces](/inexorgame/interfaces/) | HTML5+JS+CSS | The Inexor UI APP is basically a website, which is rendered by the Inexor Core
 
 ### Component / System Interoperability
 
 Component / System                | Connection                  | Component / System
 --------------------------------- | --------------------------- | -----------
-[[Inexor Core]]                   | Inexor Tree [using gRPC](/inexor-game/code/wiki/RPC-Node.js)  | Inexor-Flex
+[[Inexor Core]]                   | Inexor Tree [using gRPC](/inexorgame/code/wiki/RPC-Node.js)  | Inexor-Flex
 [[Inexor Flex]]                   | [[Inexor Tree]] using REST  | Inexor-UI-HUD
 [[Inexor Flex]]                   | [[Inexor Tree]] using REST  | Inexor-UI-APP
 [[Inexor Flex]]                   | [[Inexor Tree]] using REST  | [[Inexor Flex]] (remote)

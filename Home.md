@@ -1,6 +1,6 @@
 # Inexor Documentation
 
-## [FAQ](https://github.com/inexor-game/code/wiki/Frequently-Asked-Questions)
+## [FAQ](https://github.com/inexorgame/code/wiki/Frequently-Asked-Questions)
  
 ## Objectives
 _Stays Sauer, becomes better._
@@ -32,7 +32,7 @@ The structure of a game like Inexor could be exemplary (and highly incomplete) d
 
 _**Most widely effecting parts on the bottom, most visible parts at the top**_
 
-![strategy pyramide](https://rawgit.com/inexor-game/visualisations/master/jobs/a_teamate_strategy_pyramid.svg)
+![strategy pyramide](https://rawgit.com/inexorgame/visualisations/master/jobs/a_teamate_strategy_pyramid.svg)
 
 Those bottom systems are giving the major direction, while the higher parts have to act in the frame of the lower choices.
 
@@ -68,7 +68,7 @@ We want to keep a playable state.
 
 ## Features
 
-* [Milestones](https://github.com/inexor-game/code/milestones) / [Changelog](https://github.com/inexor-game/code/blob/master/changelog.md)
+* [Milestones](https://github.com/inexorgame/code/milestones) / [Changelog](https://github.com/inexorgame/code/blob/master/changelog.md)
 * [[Sauerbraten Features]] (this is where we started)
 * [Ideas for Features](Feature-Ideas)
 

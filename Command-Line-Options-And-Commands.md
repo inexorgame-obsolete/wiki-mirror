@@ -37,10 +37,10 @@ binary      | string | null       | The path to the Inexor Core binary
 ./inexor start server --config=server.toml
 
 # Adds a mediadir globally and for all already running instances
-./inexor mediadir add /usr/local/share/games/inexor-game/data
+./inexor mediadir add /usr/local/share/games/inexorgame/data
 
 # Adds a mediadir for the given instance id
-./inexor mediadir add /usr/local/share/games/inexor-game/data --instance=30001
+./inexor mediadir add /usr/local/share/games/inexorgame/data --instance=30001
 
 # Updates the tree
 ./inexor tree inexor.tree.path.to.the.node=value

@@ -1,6 +1,6 @@
 Branches | Issues | Main developers
 --- | --- | --- 
-[boomerang/version_control](/inexor-game/code/tree/boomerang/version_control) |  [#200](/inexor-game/code/issues/200) | [@basile-henry](/basile-henry)
+[boomerang/version_control](/inexorgame/code/tree/boomerang/version_control) |  [#200](/inexorgame/code/issues/200) | [@basile-henry](/basile-henry)
 
 A Version Control System (VCS) for Inexor's maps can help mappers with their map creation by adding some flexibility to the process, making collaboration easier and keeping a trace of the history not to lose any progress.
 

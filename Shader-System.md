@@ -62,7 +62,7 @@ Dealing with different related asset-shaders would mainly mean having different 
 That is however not the main advantage of this approach, but the modularity you base your abstraction on: you have different functions for different tasks e.g. color modification, advanced filters..  
 You need to write these modules ofc, so we need to provide a template for such modules, but otherwise artists could write them themselves on demand.  
 
-_(An example of such a graph-based scripting is Hanni's [3D flowgraph system](https://github.com/inexor-game/code/wiki/3-Dimensional-Visual-Scripting-Environment-(3DVS)))._  
+_(An example of such a graph-based scripting is Hanni's [3D flowgraph system](https://github.com/inexorgame/code/wiki/3-Dimensional-Visual-Scripting-Environment-(3DVS)))._  
 
 However this is pretty advanced and we probably need to start with something simpler.
 

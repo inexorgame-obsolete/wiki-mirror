@@ -3,7 +3,7 @@ We're collecting here some **content** sources, where you can get free stuff and
 Free resources
 ==============
 
-* [Inexor/Hanni's Audioaugust](https://github.com/inexor-game/audioaugust) - Sounds
+* [Inexor/Hanni's Audioaugust](https://github.com/inexorgame/audioaugust) - Sounds
 * [Freesound.org](http://freesound.org) - Sounds
 * [Freezurbern.com](http://www.freezurbern.com/#skybox) - Skyboxes
 * [Opengameart.org](http://opengameart.org) - Icons, Sounds, Skyboxes, Textures...
@@ -16,7 +16,7 @@ Free resources
 * [cloudkickermusic.com](http://cloudkickermusic.com) - Music
 * [Google Fonts](http://www.google.com/fonts) - Fonts
 * [Jamendo](https://jamendo.com) - Music
-* [Nieb's Models](https://github.com/inexor-game/tesseract/tree/master/media/model/mapmodel/nieb) - Map models
+* [Nieb's Models](https://github.com/inexorgame/tesseract/tree/master/media/model/mapmodel/nieb) - Map models
 * [Blend Swap](http://www.blendswap.com) - Models
 * Argofox on [SoundCloud](https://soundcloud.com/argofox) or [YouTube](https://www.youtube.com/user/MMMontageMusic) - Music
 * [Reddit Gameassets] (https://www.reddit.com/r/gameassets) - All kind

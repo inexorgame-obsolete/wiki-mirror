@@ -2,7 +2,7 @@
 We're currently working on automated installation, and this wiki article will be completed as soon as possible!
 
 # Note to users
-Inexor is currently in Alpha stage. Expect many updates, and expect things to be broken. But please, submit on your feedback! See the wiki on [how to get in touch with us](https://github.com/inexor-game/code/wiki/Contact). 
+Inexor is currently in Alpha stage. Expect many updates, and expect things to be broken. But please, submit on your feedback! See the wiki on [how to get in touch with us](https://github.com/inexorgame/code/wiki/Contact). 
 
 # Installation guide
 Inexor for end user's currently supports the following platforms:

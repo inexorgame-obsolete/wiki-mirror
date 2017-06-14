@@ -32,7 +32,7 @@ Either a TOML or a JSON file:
   "name": "core",
   "title": "Inexor Data Files",
   "description": "This repository contains all data for Inexor. It is intended as the core package, featuring up our main dependencies plus a few maps in ~300MB. Anything else can get delivered via custom packages ingame.",
-  "url": "https://github.com/inexor-game/data.git"
+  "url": "https://github.com/inexorgame/data.git"
 }
 </pre>
 
@@ -95,7 +95,7 @@ Either a TOML or a JSON file specifies the meta information of a `media item`.
   "dependencies": {
     "textures": [
       {
-          "repository": "https://github.com/inexor-game/data.git",
+          "repository": "https://github.com/inexorgame/data.git",
           "name": "golden_floor",
           "media_type": "texture",
           "version": 1

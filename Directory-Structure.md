@@ -1,6 +1,6 @@
 Branches | Issues | Main developers
 -------- | ------ | ---
-master | [#4](/inexor-game/code/issues/4) | [@a-teammate](/a-teammate), [@Fohlen](/Fohlen), [@Croydon](/Croydon)
+master | [#4](/inexorgame/code/issues/4) | [@a-teammate](/a-teammate), [@Fohlen](/Fohlen), [@Croydon](/Croydon)
 
 ## Inexor Files and Directories Structure
 - Building Inexor:
@@ -72,14 +72,14 @@ inexor.bat
 inexor_unix
 ..
 ```
-To create this structure you are required to git clone (more info on Git [here](https://github.com/inexor-game/code/wiki/Build)) the content of the [data](https://github.com/inexor-game/data) repository in a subfolder inside `media`.
+To create this structure you are required to git clone (more info on Git [here](https://github.com/inexorgame/code/wiki/Build)) the content of the [data](https://github.com/inexorgame/data) repository in a subfolder inside `media`.
  
-If you want to have some additional maps, textures and other content you can clone [data-additional](https://github.com/inexor-game/data-additional) in a separate subfolder inside `media`. Only the main `data`-repository is required.
+If you want to have some additional maps, textures and other content you can clone [data-additional](https://github.com/inexorgame/data-additional) in a separate subfolder inside `media`. Only the main `data`-repository is required.
 
 It doesn't matter how you name the folders inside media, they will all get mounted.
 
 _To start Inexor you should remember to always use the specific scripts (`inexor_unix` on Linux, `inexor.bat` on Windows)._
-_Therefore you need to build the `install` target before, more on that see [Build](https://github.com/inexor-game/code/wiki/Build)._
+_Therefore you need to build the `install` target before, more on that see [Build](https://github.com/inexorgame/code/wiki/Build)._
 
 ## Content Structure
 ```

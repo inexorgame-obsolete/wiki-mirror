@@ -1,6 +1,6 @@
 Branches | Issues | Main developers
 -------- | ------ | ---
-master, a_teammate/gluegen_cpp_api | [#51](/inexor-game/code/issues/51), [#311](/inexor-game/code/pull/311) | [@a_teammate](/a-teammate), [@aschaeffer](/aschaeffer)
+master, a_teammate/gluegen_cpp_api | [#51](/inexorgame/code/issues/51), [#311](/inexorgame/code/pull/311) | [@a_teammate](/a-teammate), [@aschaeffer](/aschaeffer)
 
 ### Glossary
 Abbreviation | Full Term

@@ -1,4 +1,4 @@
-You disagree with something written on this page? Let us know here: https://github.com/inexor-game/code/issues/270
+You disagree with something written on this page? Let us know here: https://github.com/inexorgame/code/issues/270
 
 ***
 
