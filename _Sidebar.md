@@ -4,7 +4,7 @@
 ### Development
 
 [[Build]]  
-[[Contact]]  
+[[Platform Support]]  
 [Milestones](https://github.com/inexorgame/code/milestones) / [Changelog](https://github.com/inexorgame/code/blob/master/changelog.md)  
 [[How to Contribute Code]]  
 [[Recruiting]]  
@@ -27,7 +27,7 @@
 
 ### General
 
-[Get started with Inexor](https://github.com/inexorgame/code/wiki/Get-started-with-the-new-Inexor)
+[Get started with Inexor](https://github.com/inexorgame/code/wiki/Get-started-with-the-new-Inexor)  
 [[Supported File Formats]]  
 [Command Line](Command-Line-Options-And-Commands)  
 [[Standard Paths]]  
