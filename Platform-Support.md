@@ -15,8 +15,7 @@ This page **DOES _NOT_** tell you on which operating systems, compilers, compile
 
 ## Official support for operating system 
  * Windows 7 and newer (32/64bit)
- * Ubuntu 16.04 and newer (64bit)
- * Fedora 25 and newer (64bit)
+ * Ubuntu 16.04 (always the latest stable LTS)
 
 
 **Notes:** Naturally, every other Linux distribution, which is similar up-to-date should be fine. [MacOS support](https://github.com/inexorgame/code/issues/385) is upcoming. 
