@@ -45,6 +45,7 @@ This page **DOES _NOT_** tell you on which operating systems, compilers, compile
 <tr><td>Visual Studio 17 Community + Windows 10 64bit</td><td><a href="https://github.com/Croydon">Croydon (Nooby)</a></td></tr>
 <tr><td>Visual Studio 15 Community + Windows 8.1 64bit</td><td><a href="https://github.com/a-teammate">a_teammate</a></td></tr>
 <tr><td>Eclipse + GCC on Ubuntu 16.04 64bit</td><td><a href="https://github.com/aschaeffer">Hanack</a></td></tr>
+<tr><td>Atom + Clang 4.0 + Arch Linux</td><td><a href="https://github.com/terencode">terencode</a></td</tr>
 </table>
 
 <b>We also have our CI running tests on all officially supported compilers + compiler-versions</b>.
