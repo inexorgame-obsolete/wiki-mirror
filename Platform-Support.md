@@ -17,6 +17,7 @@ This page **DOES _NOT_** tell you on which operating systems, compilers, compile
  * Windows 7 and newer (32/64bit)
  * Ubuntu 16.04 (always the latest stable LTS)
  * Fedora 25 and newer (64bit)
+ * Arch Linux (64bit)
 
 
 **Notes:** Naturally, every other Linux distribution, which is similar up-to-date should be fine. [MacOS support](https://github.com/inexorgame/code/issues/385) is upcoming. 
@@ -36,6 +37,8 @@ This page **DOES _NOT_** tell you on which operating systems, compilers, compile
 <tr><td></td><td>7 64bit</td><td> <a href="https://github.com/Croydon">Croydon (Nooby)</a> </td></tr>
 <tr><td>Ubuntu </td><td>16.04 64bit</td><td> <a href="https://github.com/Fohlen">Fohlen</a>, <a href="http://github.com/aschaeffer">Hanack</a> </td> </td></tr>
 <tr><td>Fedora </td><td>25 64bit</td><td> <a href="https://github.com/Croydon">Croydon (Nooby)</a> </td></tr>
+<tr><td>Arch Linux </td><td>64bit</td><td> <a href="https://github.com/terencode">terencode</a> </td></tr>
+
 </table>
 
 <b>Compilers/IDEs (on which we are testing regulary that Inexor is BUILDABLE):</b>
