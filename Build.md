@@ -43,10 +43,11 @@ This will give you a pretty good exemplary environment if you are on Windows.
      * [git-scm.com](https://git-scm.com/download) is the official Git website, and has downloads for the CLI version, and links to several GUIs.
 * Download and install [CMake](https://www.cmake.org/download/)
    * [**add it to your path**](https://github.com/inexorgame/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
-* Download and install [Python](https://www.python.org/downloads/)
+* Download and install [Python](https://www.python.org/downloads/) and install **pip** with it
    * [**add it to your path**](https://github.com/inexorgame/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
 * Download and install [Conan](https://www.conan.io/downloads)
-   * [**add it to your path**](https://github.com/inexorgame/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
+   * `pip install conan`
+   * `conan remote add inexor https://api.bintray.com/conan/inexorgame/inexor-conan`
 * Download and install [Node.js >= 6.9.1 + npm >= 3](https://nodejs.org)
    * [**add it to your path**](https://github.com/inexorgame/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
 
