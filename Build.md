@@ -21,7 +21,7 @@ You will need to obtain them in some form (see the specific [Windows](#windows) 
   * we need it for our package manager Conan
 * [Conan](https://www.conan.io)
   * Our C++ package manager for our dependencies
-    * don't forget to add our Conan repository: `conan remote add inexor https://api.bintray.com/conan/inexorgame/inexor-conan`
+    * don't forget to add our Conan repository: `conan remote add inexor https://api.bintray.com/conan/inexorgame/inexor-conan --insert`
 * [Node.js >= 6.9.1 + npm >= 3.0](https://nodejs.org)
   * This is the base for InexorFlex (our scripting environment)
   * npm (the node package manager) is usually included with node
@@ -47,7 +47,7 @@ This will give you a pretty good exemplary environment if you are on Windows.
    * [**add it to your path**](https://github.com/inexorgame/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
 * Download and install [Conan](https://www.conan.io/downloads)
    * `pip install conan`
-   * `conan remote add inexor https://api.bintray.com/conan/inexorgame/inexor-conan`
+   * `conan remote add inexor https://api.bintray.com/conan/inexorgame/inexor-conan --insert` 
 * Download and install [Node.js >= 6.9.1 + npm >= 3](https://nodejs.org)
    * [**add it to your path**](https://github.com/inexorgame/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
 
@@ -122,7 +122,7 @@ ArchLinux | Run `sudo pacman -S --needed git cmake mesa mesa-libgl conan`. <br> 
 ### Installing conan.io
 Conan.io is usually to be installed using the python package manager `pip`
 Simply `pip install conan` should do it.
-Afterwards you need to add our Conan repository. Execute `conan remote add inexor https://api.bintray.com/conan/inexorgame/inexor-conan`.
+Afterwards you need to add our Conan repository. Execute `conan remote add inexor https://api.bintray.com/conan/inexorgame/inexor-conan --insert`.
 
 ### Getting the latest Node.js
 For the application to run appropiately `Node.js >= 6.9.1` is required (it might work on lower versions, **it might**). 
