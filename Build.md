@@ -158,7 +158,7 @@ Notice: make sure to do *cmake ..* and *make* from a directory that is not refer
 You need to set the environment var `MAKEFLAGS` to include the numbers of cores you can use.
 (With conan we build all dependencies if not previously build. So set this before running conan)
 
-Do `setenv MAKEFLAGS '-j 8'` before building for having 8 jobs running (usually you want `jobs = your_number_of_cores + 2` 2 is a margin for disk IO)
+Do `setenv MAKEFLAGS '-j 8'` or `export MAKEFLAGS='-j 8'` before building for having 8 jobs running (usually you want `jobs = your_number_of_cores + 2` 2 is a margin for disk IO)
 
 ## Actually building the sources
 
