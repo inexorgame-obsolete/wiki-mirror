@@ -1,7 +1,16 @@
 # How should i format my Git commit message?
 
-Try to follow the template from https://github.com/conventional-changelog/validate-commit-msg.
-Only thing we do differently is that we *require* a scope (e.g. "UI" or "network")
+Try to follow the template from
+
+* https://github.com/conventional-changelog/validate-commit-msg
+
+or
+
+* https://gist.github.com/stephenparish/9941e89d80e2bc58a153
+
+and you're good to go.
+
+We **require** a scope (e.g. "UI" or "network"), though (in contrast to validate-commit-msg, which has it set to `optional`)
 
 
 
