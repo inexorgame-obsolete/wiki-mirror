@@ -1,4 +1,12 @@
-# Submodule FAQ:
+# How should i format my Git commit message?
+
+Try to follow the template from https://github.com/conventional-changelog/validate-commit-msg.
+Only thing we do differently is that we *require* a scope (e.g. "UI" or "network")
+
+
+
+# Other:
+## Submodule FAQ:
 
 * How can I create a submodule?
 * [Someone else has updated a submodule on the origin (read: GitHub). How can I get the latest version?](#someone-else-has-updated-a-submodule-on-the-origin-read-github-how-can-i-get-the-latest-version)
