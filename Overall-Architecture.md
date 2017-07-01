@@ -44,7 +44,7 @@ In Inexor you would:
    * ..
 2. Using a rich package-set of already written node.js packages.
 3. Create a website with a serverbrowser (that's what node.js is originally build for)
-4. Render that website in InexorCore
+4. Render that website in [[Inexor Core]]
 
 and that's only a very simplistic approach (e.g not using a distributed system)!
 
@@ -54,18 +54,18 @@ Other really useful wholes this fills:
 
 People are crying for a content deployment system.  
 You can't (however) create it with CubeScript because of safety considerations.  
-Hence one would have needed to invent a complete new way in InexorCore to load content (and we tried. But its not scaling).
+Hence one would have needed to invent a complete new way in [[Inexor Core]] to load content (and we tried. But its not scaling).
 
 What we want to do is different:
 
-Everything not directly required for rendering gets handled prior to loading in InexorFlex.
-And its just feeding InexorCore with the stuff it really needs to load (like the absolute texture path and type).  
+Everything not directly required for rendering gets handled prior to loading in [[Inexor Flex]].
+And its just feeding [[Inexor Core]] with the stuff it really needs to load (like the absolute texture path and type).  
 This way the C++ part shrinks, only **removing** functionality there and the from scratch written part is in node.js with all its benefits, see above.
 
 ---
 
-The **Inexor Tree** is the glue between InexorCore and InexorFlex. It gets updated by both sides (and is readable by both sides).
-Additionally we can store things like the Content handling in the Tree comfortably, allowing us e.g. to link various stuff together in InexorFlex.
+The **Inexor Tree** is the glue between [[Inexor Core]] and [[Inexor Flex]]. It gets updated by both sides (and is readable by both sides).
+Additionally we can store things like the Content handling in the Tree comfortably, allowing us e.g. to link various stuff together in [[Inexor Flex]].
 
 # Technical Overview
 
@@ -76,8 +76,9 @@ Component / System  | Repository                             | Language     | De
 [[Inexor Core]]     | [code](/inexorgame/flex/)             | C/C++        | Game-State, Rendering and calculate anything performance sensitive
 [[Inexor GlueGen]]  | [code](/inexorgame/code/)             | C/C++        | External application used in the build-process to generate our networking code (and potentially other glue code)
 [[Inexor Flex]]     | [flex](/inexorgame/flex/)             | JS (NodeJS)  | Provides a scripting environment for the server and client, provides the Inexor User Interfaces
-Inexor UI HUD       | [interfaces](/inexorgame/interfaces/) | HTML5+JS+CSS | The Inexor UI HUD is basically a website, which is rendered by the Inexor Core
-Inexor UI APP       | [interfaces](/inexorgame/interfaces/) | HTML5+JS+CSS | The Inexor UI APP is basically a website, which is rendered by the Inexor Core
+Inexor UI HUD       | [ui-client-hud](/inexorgame/ui-client-hud/) | HTML5+JS+CSS | The Inexor UI HUD is basically a website, which is rendered by the Inexor Core
+Inexor UI APP       | [ui-client-interface](/inexorgame/ui-client-interface/) | HTML5+JS+CSS | The Inexor UI APP is basically a website, which is rendered by the Inexor Core
+Console             | [ui-console](/inexorgame/ui-console/) | HTML5+JS+CSS | Console web application
 
 ### Component / System Interoperability
 
@@ -87,7 +88,7 @@ Component / System                | Connection                  | Component / Sy
 [[Inexor Flex]]                   | [[Inexor Tree]] using REST  | Inexor-UI-HUD
 [[Inexor Flex]]                   | [[Inexor Tree]] using REST  | Inexor-UI-APP
 [[Inexor Flex]]                   | [[Inexor Tree]] using REST  | [[Inexor Flex]] (remote)
-Inexor-Core                       | Key Events using CEF-RPC    | Inexor-UI-APP (only APP, not HUD!)
+[[Inexor Core]]                   | Key Events using CEF-RPC    | Inexor-UI-APP (only APP, not HUD!)
 
 ### Components / Systems
 
@@ -103,8 +104,9 @@ Inexor-Core                       | Key Events using CEF-RPC    | Inexor-UI-APP 
 |                                   |                        |                              | Models
 |                                   |                        |                              | Entities
 |                                   |                        |                              | Particles
-|                                   |                        | Rendering HTML5 Applications | Inexor-UI-HUD
-|                                   |                        |                              | Inexor-UI-APP
+|                                   |                        | Rendering HTML5 Applications | HUD
+|                                   |                        |                              | User Interface
+|                                   |                        |                              | Console
 |                                   | Input                  | Game Movement                | Mouse
 |                                   |                        |                              | Keyboard
 |                                   |                        |                              | Key Bindings
@@ -113,37 +115,38 @@ Inexor-Core                       | Key Events using CEF-RPC    | Inexor-UI-APP 
 
 #### Inexor Flex
 
-* Webserver
-  * Provides [[Inexor Tree]] REST API
-  * Provides multiple web applications
-* Web applications (HTML5/JS/CSS)
-  * Inexor Flex User Interface
-  * Inexor Core (Client) Menu & Application
-  * Inexor Core (Client) HUD
-  * Inexor Core (Server) User Interface
-* Business Logic
-  * Texture-Manager
-  * Map-Manager
-  * Media-Manager (Music, Sound, Videos)
-  * Server-List-Manager
-  * ...
-
-#### Inexor-UI-APP
-
-* Modular Single-Page-Webapplication written using web standards (HTML5/JS/CSS).
-* Loads data from the [[Inexor Tree]] REST API
-* User Interface
-  * Menus
-  * Frontend for the Business Logic in Inexor-Flex
-
-Inexor-User-Interface | Inexor-Flex Business Logic Component
---------------------- | ------------------------------------
-Texture-Browser       | Texture-Manager
-Map-Chooser           | Map-Manager
-Media-Player          | Media-Manager
-
-#### Inexor-UI-HUD
-
-* The ingame HUD for the Inexor Core (Client)
-* Small web application written in HTML5/JS/CSS
-* Loads data from the [[Inexor Tree]] REST API
+| Component / System                | Topic                  | Sub Topic                    | Sub Sub Topic
+| --------------------------------- | ---------------------- | ---------------------------- | -------------
+| [[Inexor Flex]]                   | Webserver              | REST API                     | [[Inexor Tree]]
+|                                   |                        | [[User interfaces]]          | [Inexor Flex User Interface](/inexorgame/ui-flex)
+|                                   |                        |                              | [Inexor Core (Client) Menu & Application](/inexorgame/ui-client-interface)
+|                                   |                        |                              | [Inexor Core (Client) HUD](/inexorgame/ui-client-hud)
+|                                   |                        |                              | [Inexor Core (Client+Server) Console](/inexorgame/ui-console)
+|                                   | [[Inexor Tree]]        | Management                   | CRUD
+|                                   |                        | Eventing                     |
+|                                   | Profiles               | Management                   | CRUD
+|                                   |                        |                              | Switch / restart
+|                                   | Instances              | Management                   | CRUD
+|                                   |                        |                              | Load configuration
+|                                   |                        | Connector                    | RPC Synchronization
+|                                   |                        |                              | Instance Tree
+|                                   |                        |                              | Console + Logging
+|                                   | Media                  | Repositories                 | CRUD
+|                                   |                        |                              | Index to tree
+|                                   |                        |                              | Download / update
+|                                   |                        |                              | Switch branch
+|                                   |                        | Textures                     | CRUD
+|                                   |                        |                              | Index to tree
+|                                   |                        | Maps                         | CRUD
+|                                   |                        |                              | Index to tree
+|                                   |                        | Music                        | CRUD
+|                                   |                        |                              | Index to tree
+|                                   |                        | Sound                        | CRUD
+|                                   |                        |                              | Index to tree
+|                                   |                        | Videos                       | CRUD
+|                                   |                        |                              | Index to tree
+|                                   | User Interfaces        | Management                   | CRUD
+|                                   |                        | Updates                      | Detect, Download, Install
+|                                   | Releases               | Updates                      | Detect, Download, Install
+|                                   | Server List            | Management                   | CRUD
+|                                   |                        | Updates                      | Synchronization with other Flexes
