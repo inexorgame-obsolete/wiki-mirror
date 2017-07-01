@@ -22,7 +22,7 @@ The Inexor project provides the following user interfaces:
 | --- | --- | --- |
 | [ui-flex](/inexorgame/ui-flex) | <ul><li>[ ] Ingame</li><li>[x] Standalone</li></ul> | Management of instances, media repositories, user interfaces, logging and updating Inexor |
 | [ui-client-hud](/inexorgame/ui-client-hud) | <ul><li>[x] Ingame</li><li>[ ] Standalone</li></ul> | Ingame HUD |
-| [ui-client-interface](/inexorgame/ui-client-interface) | <ul><li>[x] </li></ul> | Ingame dialogs like settings |
+| [ui-client-interface](/inexorgame/ui-client-interface) | <ul><li>[x] Ingame</li><li>[ ] Standalone</li></ul> | Ingame dialogs like settings |
 | [ui-console](/inexorgame/ui-console) | <ul><li>[x] Ingame</li><li>[x] Standalone</li></ul> | The console prints text messages (chat or command output) and allows to input commands. The console is used in the game client but also in a web browser for managing game servers |
  
 It's possible to extend Inexor to provide own user interfaces. Here are some ideas:
