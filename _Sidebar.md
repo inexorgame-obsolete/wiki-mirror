@@ -24,6 +24,7 @@
 [[Inexor Core]] ([API-Docs](https://docs.inexor.org/core/index.html))  
 [[Inexor Flex]] ([API-Docs](https://docs.inexor.org/flex/index.html))  
 [[Media Repositories]]
+[[User Interfaces]]
 
 ### General
 
