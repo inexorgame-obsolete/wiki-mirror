@@ -1,4 +1,4 @@
-You disagree with something written on this page? Let us know here: https://github.com/inexorgame/code/issues/270
+You disagree with something written on this page? Let us know here: https://github.com/inexorgame/inexor-core/issues/270
 
 ***
 
@@ -7,7 +7,8 @@ You disagree with something written on this page? Let us know here: https://gith
   * All file names should be lower case
 
 ## Sounds & Music
- * Use .ogg
+ * Use Flac for recoding
+ * Use .ogg vorbis for inclusion ingame
  * No lyrics in background music
 
 ## Textures:
