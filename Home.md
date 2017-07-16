@@ -5,33 +5,39 @@
 ## Objectives
 _Stays Sauer, becomes better._
 
-*What is it?*
-* It's a fork of [Cube2: Sauerbraten](http://sauerbraten.org/) aiming to replace it!
+**What is it?**
 
-*What isn't it?*
-* It is not compatible with Sauerbraten! In order to make a new game we need to break up with old standards!
+* It's a fork of [Cube2: Sauerbraten](http://sauerbraten.org/) aiming to replace it one day!
 
-*What are the main goals of this project?*
-* Keep this old school game alive and make it ready for the future.
-* Reach a bigger audience it deserves.
-* Make it 100% [open source software](https://creativecommons.org/about/program-areas/technology/technology-resources/software/) and free of restricting licenses.
+**What are the main goals of this project?**
 
-## Philosophy
+* Keep this old school game with its classic gameplay alive
+* Discuss and implement community ideas
+* Reach the audience this game deserves
+* Make it 100% [open source software](https://creativecommons.org/about/program-areas/technology/technology-resources/software/) and free of restricting licenses
 
-Our philosophy is making maintenance as easy as possible.
+**Will it stay compatible with Cube2?**
+* No. In order to make a new game we need to break up the old world.
 
-Hence we try to make the code easier understandable and easier to dive into.  
-However some changes (e.g. regarding our [[Overall Architecture]]) add _some_ complexity to make team-development easier,
-i.e. modularity has been introduced as a general concept we try to follow.
 
-We are not afraid of using modern methods and libraries where appropriate to achieve our goal of a next-gen game.  
-(The traditional view in the C-world is to write things from scratch)
+## Coding philosophy
 
-Creating Inexor is traditionally part of the game. It was that way before in Sauerbraten (in form of creating maps ingame) and we are aiming to improve on that.
+To begin with, [refactoring](https://en.wikipedia.org/wiki/Code_refactoring) the old Cube2 code is essential.
+You can find a lot of "write it from scratch in C"-philosophy in Sauerbraten's code.
+We are not afraid of using modern methods and libraries whenever it's appropriate to achieve our goal.
+Therefore we shall consider the following aspects of development:
 
-We first started by basing our work on the sauer old-fashioned ways of doing things to start with something and we are now migrating as much as we can to a more modern approach.
+1. **documentation**: always [[document|Documentation]] your work
+2. **simplicity**: make it as easy as possible (only as complicated as needed)
+3. **modularity**: write your code in [[modules]]
+4. **maintenance**: make it easy to maintain (for someone else!)
+5. **partitition** split your work up into small files
+6. **consistency**: dont replicate code parts and try to use standard libraries
+7. **communication**: tell other team members about your work
 
-## Renewal Strategy
+You should also take a look at our [[Overall Architecture]].
+
+## Project strategy
 
 The structure of a game like Inexor could be exemplary (and highly incomplete) displayed as follows:
 
