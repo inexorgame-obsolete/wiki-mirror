@@ -5,10 +5,16 @@
 ## Objectives
 _Stays Sauer, becomes better._
 
-* Fork of Sauerbraten in order to replace Sauerbraten - no mod
+*What is it?*
+* It's a fork of [http://sauerbraten.org/](Cube2: Sauerbraten) aiming to replace it!
+
+*What isn't it?*
+* It is not compatible with Sauerbraten! In order to make a new game we need to break up with old standards!
+
+*What are the main goals of this project?*
+* Keep this old school game alive and make it ready for the future
 * Bigger audience for the game
-* Keep the game alive for the future
-* 100% Open Source software (OSS), no restricted licensed content
+* Provide a 100% [open source software](https://creativecommons.org/about/program-areas/technology/technology-resources/software/) without restrictly licensed content
 
 ## Philosophy
 
