@@ -6,7 +6,7 @@
 _Stays Sauer, becomes better._
 
 *What is it?*
-* It's a fork of [http://sauerbraten.org/](Cube2: Sauerbraten) aiming to replace it!
+* It's a fork of [Cube2: Sauerbraten](http://sauerbraten.org/) aiming to replace it!
 
 *What isn't it?*
 * It is not compatible with Sauerbraten! In order to make a new game we need to break up with old standards!
