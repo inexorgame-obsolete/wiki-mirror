@@ -1,24 +1,42 @@
 # Inexor Documentation
 
-## [FAQ](https://github.com/inexorgame/code/wiki/Frequently-Asked-Questions)
- 
-## Objectives
 _Stays Sauer, becomes better._
 
 **What is it?**
 
-* It's a fork of [Cube2: Sauerbraten](http://sauerbraten.org/) aiming to replace it one day!
+* Inexor is a fork of the first person shooter [Cube2: Sauerbraten](http://sauerbraten.org/) aiming to replace it one day!
+This project's name arised from our _inexorable_ efforts to reach our goal.
 
-**What are the main goals of this project?**
+**Who are you?**
+
+* We're all people from the old cube2 community. We are a group of programmers, mappers, artists..
+See [this page](https://github.com/orgs/inexorgame/people) for more information.
+
+**What created Inexor?**
+
+* For over one decade now the cube2 community has seen astonishing projects trying to extract the maximum gameplay out of Sauerbraten. The amount and variety of the ideas the community came up with is impressive: from race maps, hide and seek, zombie apocalypse to rugby - nearly anything imaginable has been implemented.
+
+* Nevertheless, the development of Cube2 is in the hand of a small circle of persons who are not open minded for new ideas or changes. We've seen so much great work being rejected from being included. It's their decision which ones are the good ideas and which ones are not. It's their decision which maps, game modes and features will make it into the releases and which ones won't.
+
+* Speaking of releases, the release cycles have become longer and longer since 2008. The last Cube2 release until this day was in 2013. We have come to the conclusion that the development of Sauerbraten has reached its end.
+
+* Inexor disagrees with this setup because we believe this is not suitable for an open source game!
+The creative voices of the community remained unheard for too long.
+We are the place where all these ideas can gravitate to so we can discuss them openly.
+
+**Will it stay compatible with Cube2?**
+* No. In the old days people came up with their own mods which were still compatible with the original game.
+But it is this compatibility to Cube2 which obligated mod developers to stay within the old boundaries of the cube engine technologies. In order to make a new game we need to break up the old world. This is a fork, not a mod!
+
+For more information see the
+## [FAQ](https://github.com/inexorgame/code/wiki/Frequently-Asked-Questions)
+ 
+## Objectives
 
 * Keep this old school game with its classic gameplay alive
 * Discuss and implement community ideas
 * Reach the audience this game deserves
 * Make it 100% [open source software](https://creativecommons.org/about/program-areas/technology/technology-resources/software/) and free of restricting licenses
-
-**Will it stay compatible with Cube2?**
-* No. In order to make a new game we need to break up the old world.
-
 
 ## Coding philosophy
 
