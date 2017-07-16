@@ -12,9 +12,9 @@ _Stays Sauer, becomes better._
 * It is not compatible with Sauerbraten! In order to make a new game we need to break up with old standards!
 
 *What are the main goals of this project?*
-* Keep this old school game alive and make it ready for the future
-* Bigger audience for the game
-* Provide a 100% [open source software](https://creativecommons.org/about/program-areas/technology/technology-resources/software/) without restrictly licensed content
+* Keeping this old school game alive and make it ready for the future.
+* Reaching a bigger audience it deserves.
+* Making it 100% [open source software](https://creativecommons.org/about/program-areas/technology/technology-resources/software/) and free of restricting licenses.
 
 ## Philosophy
 
