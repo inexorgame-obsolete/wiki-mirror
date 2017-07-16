@@ -20,6 +20,8 @@ See [this page](https://github.com/orgs/inexorgame/people) for more information.
 
 * Speaking of releases, the release cycles have become longer and longer since 2008. The last Cube2 release until this day was in 2013. We have come to the conclusion that the development of Sauerbraten has reached its end.
 
+**What do you believe in?**
+
 * Inexor disagrees with this setup because we believe this is not suitable for an open source game!
 The creative voices of the community remained unheard for too long.
 We are the place where all these ideas can gravitate to so we can discuss them openly.
