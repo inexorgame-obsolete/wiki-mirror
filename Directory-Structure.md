@@ -1,19 +1,18 @@
 Branches | Issues | Main developers
 -------- | ------ | ---
-master | [#4](/inexorgame/code/issues/4) | [@a-teammate](/a-teammate), [@Fohlen](/Fohlen), [@Croydon](/Croydon)
+master    | [#378](/inexorgame/inexor-core/issues/378) | @aschaeffer @a_teammate
 
 ## Inexor Files and Directories Structure
+
 - Building Inexor:
 	- **build** | *has to be created manually, holds all the build files*
 	- cmake | *generates build configuration, used by conan*
 	- CMakeLists.txt | *cmake configuration file*
 	- conanfile.py | *conan configuration*
  	- dependencies.py | *references needed packages to be installed by conan*
-	- **node_modules** | *contains modules installed using npm, currently only holds TOML module required for configuration*
-	-  Continuous Integration:
-		- appveyor.yml | *CI for Windows*
-		- Jenkinsfile | *CI pipeline configuration file*
-		-  **tool** | *contains scripts for easy compilation and continuous integration*
+	- appveyor.yml | *CI for Windows*
+	- Jenkinsfile | *CI pipeline configuration file*
+	-  **tool** | *contains scripts for easy compilation and continuous integration*
 
 - Documentation
 	- **doc** | *holds generated documentation*
@@ -51,35 +50,6 @@ master | [#4](/inexorgame/code/issues/4) | [@a-teammate](/a-teammate), [@Fohlen]
 		- **user**  | *deprecated*
 
 
-## Media Repositories
-Since we split data files from the code files for using Git with less waiting time, we have 2+ repositories now for a single Inexor game.  
-So you'll need to bring back the data repositories (data (required) , data-additional (optional), ..) with the code repo.
-
-This is the structure you want:
-
-```
-bin
-media
-    data
-        map
-        texture        
-        ..
-    additional
-        map                   // more info on the exact package directories see below
-        texture
-        ..
-inexor.bat
-inexor_unix
-..
-```
-To create this structure you are required to git clone (more info on Git [here](https://github.com/inexorgame/code/wiki/Build)) the content of the [data](https://github.com/inexorgame/data) repository in a subfolder inside `media`.
- 
-If you want to have some additional maps, textures and other content you can clone [data-additional](https://github.com/inexorgame/data-additional) in a separate subfolder inside `media`. Only the main `data`-repository is required.
-
-It doesn't matter how you name the folders inside media, they will all get mounted.
-
-_To start Inexor you should remember to always use the specific scripts (`inexor_unix` on Linux, `inexor.bat` on Windows)._
-_Therefore you need to build the `install` target before, more on that see [Build](https://github.com/inexorgame/code/wiki/Build)._
 
 ## Content Structure
 ```
@@ -148,8 +118,6 @@ media                         // previously known as "packages"
 Notice: everything is **singular**, otherwise its pretty self-explaining. 
 Directories, to which map designers normally often add files, have a ``directory/nickname/stuff`` structure to keep them clean.
 
-We encourage you to use subdirectories for different themes etc. so that you will get a structure like ``directory/nickname/theme1/stuff``, ``directory/nickname/another_theme/stuff``.
-
 ## Differences to Sauerbratens structure
 
 * scripts are in config/
@@ -158,5 +126,6 @@ We encourage you to use subdirectories for different themes etc. so that you wil
   * makes independent (shareable) folders possible
 
 ## In the future:
-* every texture has its own cfg
-* every skybox has its own cfg
+* every content has its own configuration file
+* TOMLs instead of .cfgs
+* versions and more
