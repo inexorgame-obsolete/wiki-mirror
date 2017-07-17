@@ -1,3 +1,27 @@
+## Who are you?
+
+We're **currently** mostly people from the old Sauerbraten community. We are a group of programmers, mappers, artists..
+
+Yes, you are still welcome if you are not!
+The really most important part is: be willing to learn. That's it. We all started somewhere somewhen.
+
+## Why did you fork?
+
+For over one decade now the Sauerbraten community has seen astonishing projects trying to extract the maximum out of Sauerbraten. The amount and variety of the ideas the community came up with is impressive.
+However the Sauerbraten project is regarded (by its very small circle of private developers) to best be as stable as possible.
+The [bus factor](https://en.wikipedia.org/wiki/Bus_factor) was just too high to keep on improving for them.
+
+## Why didn't you start with another engine?
+
+We do not want to remain in the state of creating an engine, without providing the Sauerbraten people with something they can play.
+Hence its an iterative process to get the fundamental changes and renewals _ready enough_, adding features and still keep a playable state.
+
+## Will Inexor stay compatible with Cube2:Sauerbraten?
+
+No. In the old days people came up with their own mods which were still compatible with the original game.  
+But it is this compatibility to Cube2 which obligated mod developers to stay within the old boundaries of the cube engine technologies. In order to make a new game we need to break up the old world. This is a fork, not a mod!
+
+
 ## Is maintaining as little as possible a key reason for most questions here?
 Yes.
 
