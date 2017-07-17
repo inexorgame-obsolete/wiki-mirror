@@ -4,8 +4,7 @@ _Stays Sauer, becomes better._
 
 **What is it?**
 
-* Inexor is a fork of the first person shooter [Cube2: Sauerbraten](http://sauerbraten.org/) aiming to replace it one day!
-This project's name arised from our _inexorable_ efforts to reach our goal.
+* Inexor is a fork of the first person shooter [Cube2: Sauerbraten](http://sauerbraten.org/). This project's goal is to combine state of the art technologies (like [NodeJS](https://nodejs.org/en/) , [CEF](https://bitbucket.org/chromiumembedded/cef)...) with the classic old school gameplay from cube2 in a new open source shooter.
 
 **Who are you?**
 
