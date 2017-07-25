@@ -47,7 +47,8 @@ This will give you a pretty good exemplary environment if you are on Windows.
    * [**add it to your path**](https://github.com/inexorgame/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
 * Download and install [Conan](https://www.conan.io/downloads)
    * `pip install conan`
-   * `conan remote add inexor https://api.bintray.com/conan/inexorgame/inexor-conan --insert` 
+   * `conan remote add inexor https://api.bintray.com/conan/inexorgame/inexor-conan --insert`
+   * _Insert these commands into Windows Powershell or any other terminal you deem appropriate_
 * Download and install [Node.js >= 6.9.1 + npm >= 3](https://nodejs.org)
    * [**add it to your path**](https://github.com/inexorgame/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
 
