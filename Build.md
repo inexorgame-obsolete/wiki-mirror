@@ -35,6 +35,7 @@ This will give you a pretty good exemplary environment if you are on Windows.
 
 * Download and install Microsoft [Visual Studio **2017** Community Edition](https://www.visualstudio.com) (or VS 2015 Update 2 or newer)
   * choose at least the "Desktop Development with C++" module in the setup
+  * _It is essential that either 2017/2015 is installed, older version's won't work with future steps_
 * Download and install Git
    * Use one of the following tools if you don't already have Git:
      * [SmartGit](http://www.syntevo.com/smartgit/download) - Heavily developed and intuitive GUI [Recommended]
