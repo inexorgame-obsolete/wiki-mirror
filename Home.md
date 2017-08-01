@@ -16,8 +16,7 @@ See [this page](https://github.com/orgs/inexorgame/people) for more information.
 * A collective of people from the old cube2 community willing to create a new game.
 
 **Will it stay compatible with Cube2?**
-* No. In the old days people came up with their own mods which were still compatible with the original game.
-But it is this compatibility to Cube2 which obligated mod developers to stay within the old boundaries of the cube engine technologies. In order to make a new game we need to break up the old world. This is a fork, not a mod!
+* No. In order to make a new game we have to break up with the old standards. This is a fork, not a mod!
 
 For more information see the
 ## [FAQ](https://github.com/inexorgame/code/wiki/Frequently-Asked-Questions)
