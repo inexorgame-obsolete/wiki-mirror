@@ -134,3 +134,4 @@ We want to keep a playable state.
 | Multiplayer  | [[Decentralized server list]]                            |          | &#10003; |          |
 | Multiplayer  | [[Self regulating distributed network]]                  |          | &#10003; | &#10003; |
 | Distribution | [[Packaging]]                                            |          |          |          |
+
