@@ -90,7 +90,7 @@ Inexor's 3D visual scripting system needs a keyword as a name.
 
 ### Idea 1: FEYNMAN
 
-![error:image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/e595582bf03c915f771fb68659864cd3772fbf8c/feynman/feynman_logo.png)
+![error:image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/d2f9d6cd1beae855f01710c931f2a0da0d262c44/feynman/feynman_logo.png)
 
 To name Inexor's visual scripting enviroment after physicist and nobel price winner _Richard Feynman_ would be an appropriate suggestion. Feynman was one of the most brilliant scientists of the 20st century and he had a neck for illustrating the most complex things with in the easiest way. His Feynman Diagrams for example are still in use. The have nothing in common with a flowgraph for game logic but they look similar.
 
