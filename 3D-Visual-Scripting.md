@@ -26,6 +26,9 @@ You don't have to recompile your binary every time you're making a change. You c
 ### flexibility
 Every important C/C++ function is available on the scripting side.
 
+### multithreading
+Timers and event emitters start code execution in their own thread which helps to distrubute the processor usage.
+
 ### portability
 Scripts can be interpreted on every platform (Windows, Linux, Mac..) where an interpreter is available whereas making sure your C/C++ source code works everywhere usually is a hard job. Interpreters are available for all platforms and it's not your job as a game developer to ensure it is working. The engine developer take care of that for you!
 
@@ -64,7 +67,11 @@ callback OnPlayerPressButton(player,button)
 ```
 
 ## What is visual scripting?
-TODO 
+Visual scripting takes all this to the next level. You no longer have to write code by hand with text editors, you put together so called **nodes** to a **graph**.
+
+**It's the way you connect nodes with eachother that makes up the script code!**
+
+To illustrate this, the two code examples from above have been "rewritten" into the following flowgraph:
 
 ## Why 3D visual scripting?
 TODO 
@@ -83,3 +90,10 @@ TODO
 
 # Architecture
 TODO
+
+## Terminology
+There are various different **types** of nodes and each has their specific **attributes** and **methods**.
+
+* An **attribute** represents a property of a node.
+
+* A **method** is something a node can do. method may accept **parameters**.
