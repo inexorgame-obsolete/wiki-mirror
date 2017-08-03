@@ -33,7 +33,7 @@ Timers and event emitters start code execution in their own thread which helps t
 Scripts can be interpreted on every platform (Windows, Linux, Mac..) where an interpreter is available whereas making sure your C/C++ source code works everywhere usually is a hard job. Interpreters are available for all platforms and it's not your job as a game developer to ensure it is working. The engine developer take care of that for you!
 
 ## Examples
-Imagine you would like to add a button A to your map that opens door 1 and plays a sound once a player presses it. This is done with the following script:
+Imagine you would like to add a **button A** to your map that opens **door 1** and plays a sound once a player presses it. This is done with the following script:
 
 ```
 callback OnPlayerPressButton(player, button)
@@ -43,10 +43,10 @@ callback OnPlayerPressButton(player, button)
 }
 ```
 
-Once you save this script the interpreter will execute it. If you press button A door 1 will open.
+Once you save this script the interpreter will execute it. If you press button A **door 1** will open.
 
 Here's another example:
-imagine an explosive barrel that blows up when you shoot it. The barrel also explodes when somebody pushes button B.
+imagine an explosive barrel that blows up when you shoot it. The barrel also explodes when somebody pushes **button B**.
 
 ```
 function MyExplosion(barrel)
@@ -71,29 +71,25 @@ Visual scripting takes all this to the next level. You no longer have to write c
 
 **It's the way you connect nodes with eachother that makes up the script code!**
 
-To illustrate this, the two code examples from above have been "rewritten" into the following flowgraph:
+To illustrate this, the two code examples from above have been "rewritten" into the following visual script:
 
 ## Why 3D visual scripting?
 TODO 
 
-## Name?
+# Architecture
+TODO
+
+## Naming the system
 Inexor's 3D visual scripting system needs a keyword as a name.
 
 ### Idea 1: FEYNMAN
 To name Inexor's visual scripting enviroment after physicist and nobel price winner _Richard Feynman_ would be an appropriate suggestion. Feynman was one of the most brilliant scientists of the 20st century and he had a neck for illustrating the most complex things with in the easiest way. His Feynman Diagrams for example are still in use. The have nothing in common with a flowgraph for game logic but they look similar.
 
-# What's the plan
-TODO 
-
 ## Proof of concept
-TODO
-
-# Architecture
-TODO
+A very basic system has already been implemented.
 
 ## Terminology
 There are various different **types** of nodes and each has their specific **attributes** and **methods**.
 
 * An **attribute** represents a property of a node.
-
 * A **method** is something a node can do. method may accept **parameters**.
