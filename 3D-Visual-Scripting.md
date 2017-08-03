@@ -13,6 +13,8 @@ One of the most popular scripting languages is [JavaScript](https://en.wikipedia
 ## How are scripts being used in games?
 The big part of the game logic in modern games has been scripted. From simple player interactions (like a button that opens a door) to complex systems (like artificial intelligence controllers). The biggest benefit is that the development of the game (map, level..) and its logic can be **separated** from the development of the game engine. The game engine delivers the tools which content creators (mappers..) then use.
 
+![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/1d5b631c2acb87235c2c997735253556f3c847e4/wiki/scripting_illustration.png)
+
 ## What are the benefits?
 So why should we script the logic?
 Why can't we just modify the source code?
@@ -45,6 +47,8 @@ callback OnPlayerPressButton(player, button)
 
 Once you save this script the interpreter will execute it. If you press button A **door 1** will open.
 
+___
+
 Here's another example:
 imagine an explosive barrel that blows up when you shoot it. The barrel also explodes when somebody pushes **button B**.
 
@@ -72,6 +76,8 @@ Visual scripting takes all this to the next level. You no longer have to write c
 **It's the way you connect nodes with eachother that makes up the script code!**
 
 To illustrate this, the two code examples from above have been "rewritten" into the following visual script:
+
+![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/6676208ef61a704f2c7e7300ffd0f55a6f86c35b/wiki/vs_graph_example_1.png)
 
 ## Why 3D visual scripting?
 TODO 
