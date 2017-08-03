@@ -6,24 +6,60 @@ Branches | Issues | Main developers
 The following text was written for somebody without and knowledge about scripting at all. It starts with the very basics and leads to the architecture of Inexor's 3D visual scripting.
 
 ## What is a script in general?
-Scripts allow you to change the logic of a game (or a program in general) without having to change one line of C/C++ source code. Scripting languages are **easier to learn** than high level programming languages. They are written in a [scripting language](https://en.wikipedia.org/wiki/Scripting_language) which is then processed by the [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)).
+Scripts allow you to change the logic of a game (or a program in general) without having to change one line of C/C++ source code. Scripting languages are easier to learn than high level programming languages. They are written in a [scripting language](https://en.wikipedia.org/wiki/Scripting_language) which is then processed by the [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)).
 
 One of the most popular scripting languages is [JavaScript](https://en.wikipedia.org/wiki/JavaScript) which for example runs in your browser while you are reading this. Thanks to the integration of [NodeJS](https://nodejs.org/en/) (see [[Inexor-Flex]]) we have the full power of Javascript available in our engine as well. NodeJS runs on [Google's V8 engine](https://developers.google.com/v8/) which powers Google Chrome.
 
 ## How are scripts being used in games?
-The big part of the game logic in modern games has been scripted. From simple player interactions (like a button that opens a door) to complex systems like artificial intelligence. The biggest benefit is that the development of the game and its logic can be separated from the development of the game engine. The game engine delivers the tools which content creators use to make their game.
+The big part of the game logic in modern games has been scripted. From simple player interactions (like a button that opens a door) to complex systems (like artificial intelligence controllers). The biggest benefit is that the development of the game (map, level..) and its logic can be **separated** from the development of the game engine. The game engine delivers the tools which content creators (mappers..) then use.
 
 ## What are the benefits?
-TODO
+So why should we script the logic?
+Why can't we just modify the source code?
+
+### simplicity
+Scripting frameworks offer predefined events, functions and access to variables. Everything is already there. You just have to put it together which requires little knowledge about what's behind it.
+
+### speed
+You don't have to recompile your binary every time you're making a change. You can test everything live. Most scripting interpreters like Google's V8 engine offer you high speed code execution.
+
+### flexibility
+Every important C/C++ function is available on the scripting side.
+
+### portability
+Scripts can be interpreted on every platform (Windows, Linux, Mac..) where an interpreter is available whereas making sure your C/C++ source code works everywhere usually is a hard job. Interpreters are available for all platforms and it's not your job as a game developer to ensure it is working. The engine developer take care of that for you!
 
 ## Examples
-Imagine you would like to add a button to your map that opens a door and plays a sound once a player presses it. This is done with the following script:
+Imagine you would like to add a button A to your map that opens door 1 and plays a sound once a player presses it. This is done with the following script:
 
 ```
-function OnPlayerPressButton(player,button)
+callback OnPlayerPressButton(player, button)
 {
     OpenDoor(1);
     PlaySound('door_open');
+}
+```
+
+Once you save this script the interpreter will execute it. If you press button A door 1 will open.
+
+Here's another example:
+imagine an explosive barrel that blows up when you shoot it. The barrel also explodes when somebody pushes button B.
+
+```
+function MyExplosion(barrel)
+{
+    CreateExplosion(barrel.pos);
+    HideMapModel(barrel); // hide it because it has been destroyed
+}
+
+callback OnPlayerShootsBarrel(player, barrel)
+{
+    MyExplosion();
+}
+
+callback OnPlayerPressButton(player,button)
+{
+    if(button.name == 'B') MyExplosion();
 }
 ```
 
