@@ -113,7 +113,7 @@ We want to keep a playable state.
 |              | [[User interface Menu]]                                  |          | &#10003; |          |
 | Entities     | New [[Entity System]]                                    | &#10003; | &#10003; |          |
 |              | [[Particle System]]                                      | &#10003; | &#10003; |          |
-|              | [[Visual Scripting Environment]]                         | &#10003; | &#10003; |          |
+|              | [[3D Visual Scripting]]                         | &#10003; | &#10003; |          |
 |              | [Bezier curve camera flights](Bezier-curve)              | &#10003; |          |          |
 | Rendering    | [[Shader System]]                                        | &#10003; | &#10003; |          |
 | Server       | [Server refactoring](Refactoring-The-Server)             | &#10003; |          |          |
