@@ -61,11 +61,31 @@ Instead of writing your script code in a text editor, you just playfully put tog
 
 ![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/3270f1200c37d38ec0880c974373490996203d84/wiki/vs_graph_example_1.png)
 
+As you can see an event emitter node (here OnPlayerPressButton) starts code execution. The direction and flow of execution is indicated by the green arrows, the red arrows show parameter references. A full explanation of this can be found in the section "graphic design of visual scripting" below.
+
 Here is the visual script for the second example:
 
 ![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/1a8044eb19f87aab5fdefc6a6c16edf54f3565c4/wiki/vs_graph_example_2.png)
 
+Two event emitter nodes will cause the same function call. This visual script represents the idea that both shooting the barrel and pressing the button will cause the explosion.
+
 ## What are the benefits of visual scripting?
+
+#### No syntax errors anymore!
+Because the visual scripting system exactly controls how nodes are linked together, there are only logic errors or runtime errors possible. [Syntax errors](https://en.wikipedia.org/wiki/Syntax_error) like in the following example are not possible in a graph representation of script code:
+
+```
+function OnPlayerPressButton(player // syntax error: forgot )
+{
+    // Heal the player as soon as he presses the button
+    RestorePlayerHealth(player);
+}
+```
+
+#### 
+TODO
+
+####
 TODO
 
 ## Why 3D visual scripting?
