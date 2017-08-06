@@ -59,11 +59,11 @@ callback OnPlayerPressButton(player, button)
 Visual scripting takes all this to the next level. Every script code can be expressed as a [graph](https://en.wikipedia.org/wiki/Graph_theory)!
 Instead of writing your script code in a text editor, you just playfully put together specific **relations** between certain **nodes** to a **graph**. It is the types of nodes and their relations with each others that represent a script code. To illustrate this, the 2 code examples from above have been "rewritten" into the following corresponding visual script:
 
-![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/8528b83f946bc8063ea2248d3c482769a6c13662/wiki/vs_graph_example_1.png)
+![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/3270f1200c37d38ec0880c974373490996203d84/wiki/vs_graph_example_1.png)
 
 Here is the visual script for the second example:
 
-
+![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/1a8044eb19f87aab5fdefc6a6c16edf54f3565c4/wiki/vs_graph_example_2.png)
 
 ## What are the benefits of visual scripting?
 TODO
