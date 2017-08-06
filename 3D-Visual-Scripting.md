@@ -3,7 +3,7 @@ Branches | Issues | Main developers
 [hanni/3DVisualScripting](/inexorgame/code/tree/hanni/3DVisualScripting) |  [#99](/inexorgame/code/issues/99), [#111](/inexorgame/code/issues/111) | [@IAmNotHanni](/IAmNotHanni)
 
 # Introduction
-The following text was written for somebody without and knowledge about scripting at all. It starts with the very basics and leads to the architecture of Inexor's 3D visual scripting.
+This article was written for somebody without any experience in the field of scripting. After a general discussion it leads on to the architecture of Inexor's visual scripting system.
 
 ## What is a script in general?
 Scripts allow you to change the logic of a game (or a program in general) without having to change one line of C/C++ source code. Scripting languages are easier to learn than high level programming languages. They are written in a [scripting language](https://en.wikipedia.org/wiki/Scripting_language) which is then processed by the [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)).
