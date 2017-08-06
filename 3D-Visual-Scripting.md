@@ -24,13 +24,13 @@ You don't have to recompile your code into a new binary every time you've made a
 Scripting frameworks offer you predefined events, functions and access to variables. Everything is already there. You just have to put it together which requires much less knowledge about the technology behind it.
 
 #### portability
-Scripts can be interpreted on every platform (Windows, Linux, Mac..) where an interpreter is available. You can test your script on one platform and be assured that it will work on every other platform as well. Making sure your C/C++ source code works everywhere on the other hand is usually a very hard job. Interpreters are available for all platforms and the engine developers make sure its working for you!
+Scripts can be interpreted on every [platform](https://en.wikipedia.org/wiki/Computing_platform) (Windows, Linux, Mac..) where an interpreter is available. You can test your script on one platform and be assured that it will work on every other platform as well. Making sure your C/C++ source code works everywhere on the other hand is usually a very hard job. Interpreters are available for all platforms and the engine developers make sure its working for you!
 
 #### multithreading
 Script tasks can be started in their own [thread](https://en.wikipedia.org/wiki/Thread_(computing)) which helps to distribute processor usage.
 
 ## Example scripts
-Imagine you would like to add a **button A** to your map that opens **door 1** and plays a sound as soon as a player presses it. This is done with the following script:
+Imagine you would like to add a **button** to your map that opens **door 1** and plays a sound as soon as a player pressed it. This could be done with the following script:
 
 ```
 callback OnPlayerPressButton(player, button)
@@ -40,12 +40,8 @@ callback OnPlayerPressButton(player, button)
 }
 ```
 
-Once you save this script the interpreter will execute it. If you press button A **door 1** will open.
-
-___
-
 Here's another example:
-imagine an explosive barrel that blows up when you shoot it. The barrel also explodes when somebody pushes **button B**.
+imagine an **explosive barrel** that blows up when you shoot it. The barrel also explodes when somebody pushes **button B**. It could be scripted like this:
 
 ```
 function MyExplosion(barrel)
@@ -61,18 +57,22 @@ callback OnPlayerShootsBarrel(player, barrel)
 
 callback OnPlayerPressButton(player,button)
 {
-    if(button.name == 'B') MyExplosion();
+    if(button.name == 'B')
+    {
+        MyExplosion();
+    }
 }
 ```
 
 ## What is visual scripting?
-Visual scripting takes all this to the next level. You no longer have to write code by hand with text editors, you put together so called **nodes** to a **graph**.
-
-**It's the way you connect nodes with eachother that makes up the script code!**
-
-To illustrate this, the two code examples from above have been "rewritten" into the following visual script:
+Visual scripting takes all this to the next level. Every script code can be expressed as a [graph](https://en.wikipedia.org/wiki/Graph_theory)!
+Instead of writing your script code in a text editor, you just playfully put together specific **relations** between certain **nodes** to a **graph**. It is the types of nodes and their relations with each others that represent a script code. To illustrate this, the 2 code examples from above have been "rewritten" into the following corresponding visual script:
 
 ![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/6676208ef61a704f2c7e7300ffd0f55a6f86c35b/wiki/vs_graph_example_1.png)
+
+
+## What are the benefits of visual scripting?
+TODO
 
 ## Why 3D visual scripting?
 TODO 
@@ -81,7 +81,7 @@ TODO
 TODO
 
 ## Naming the system
-Inexor's 3D visual scripting system needs a keyword as a name.
+Inexor's 3D visual scripting system needs a keyword as a name. Just like "Inexor Flex" stands for NodeJS integration.
 
 ### Idea 1: FEYNMAN
 
@@ -90,6 +90,12 @@ Inexor's 3D visual scripting system needs a keyword as a name.
 To name Inexor's visual scripting enviroment after physicist and nobel price winner _Richard Feynman_ would be an appropriate suggestion. Feynman was one of the most brilliant scientists of the 20st century and he had a neck for illustrating complex things with easy models. He got famous for his [Feynman Diagrams](https://en.wikipedia.org/wiki/Feynman_diagram) which are still used today.
 
 The have not much in common with a graph for game logic but they look quite similar.
+
+### Idea 2: AGENDA
+TODO
+
+### Idea 3: FEMTO
+(=Flowgraph Editing Multi Tool)
 
 ## Proof of concept
 A very basic system has already been implemented.
