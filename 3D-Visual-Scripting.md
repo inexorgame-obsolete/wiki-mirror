@@ -13,7 +13,7 @@ One of the most popular [scripting languages](https://en.wikipedia.org/wiki/Scri
 ## How are scripts being used in games?
 The big part of the game logic in modern games - from simple player interactions (for example a button that opens a door) to complex systems (for example artificial intelligence controllers) - is scripted. The biggest benefit of this is that **the development of the game itself (the map and its logic) can be separated from the development of the game engine**! The game engine delivers the tools which content creators then use.
 
-![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/1d5b631c2acb87235c2c997735253556f3c847e4/wiki/scripting_illustration.png)
+![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/a10c0c475f5b663e13fb39b5404ca174ad887b04/wiki/scripting_illustration.png)
 
 ## What are the benefits?
 So why should we script the logic?
