@@ -72,15 +72,17 @@ Two event emitter nodes will cause the same function call. This visual script re
 ## What are the benefits of visual scripting?
 
 #### No syntax errors anymore!
-Because the visual scripting system exactly controls how nodes are linked together, there are only logic errors or runtime errors possible. [Syntax errors](https://en.wikipedia.org/wiki/Syntax_error) like in the following example are not possible in a graph representation of script code:
+The visual scripting system exactly controls how nodes are linked together. [Syntax errors](https://en.wikipedia.org/wiki/Syntax_error) like in the following example are not possible in a graph representation of script code:
 
 ```
-function OnPlayerPressButton(player // syntax error: forgot )
+callback OnPlayerPressButton player) // syntax error: forgot (
 {
     // Heal the player as soon as he presses the button
     RestorePlayerHealth(player);
 }
 ```
+
+Logic errors however are still possible. Neither a compiler nor an interpreter can discuss the logic of your code. If your intention is to kill the player as soon as he hits the button although you programmed it to heal him that's an example for a logic mistake!
 
 #### 
 TODO
