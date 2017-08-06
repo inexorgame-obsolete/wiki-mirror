@@ -98,11 +98,15 @@ Logic errors however are still possible. Neither a compiler nor an interpreter c
 Every modern game engine has a visual scripting enviroment. [Unreal Engine 4 ](https://www.unrealengine.com/en-US/blog) (epic games) for example has a system called [Blueprint](https://docs.unrealengine.com/latest/INT/Engine/Blueprints/) (formet Kismet). CryEngine (Crytek GmbH) has a visual scripting enviroment called [Flowgraph](https://www.cryengine.com/features/sandbox-tools#features/flowgraph).
 
 ## Conclusion
-Inexor needs a visual scripting system. A proof of concept has already been implemented. Because Inexor supports [CEF (Chromium Embedded Framework)](https://bitbucket.org/chromiumembedded/cef) we have all we need for HTML5 visual scripting enviroments. In 2D it could be done using [visJS](http://visjs.org/).
+Inexor needs a visual scripting system. Because Inexor supports [CEF (Chromium Embedded Framework)](https://bitbucket.org/chromiumembedded/cef) we have all we need for HTML5 visual scripting enviroments. In 2D it could be done using [visJS](http://visjs.org/).
 
 # 3D Visual Scripting!
+Now that we have discussed visual scripting in 2 dimensions, lets go one step further. All those programming concepts can be applied in 3 dimensions as well! **The map itself is our visual scripting enviroment!**
 
--Video here-
+## Why in 3D?
+
+####  intuitive code placement
+TODO
 
 ## Name?
 Inexor's 3D visual scripting system needs a keyword as a name. Just like "Inexor Flex" stands for NodeJS integration.
