@@ -71,6 +71,12 @@ Two event emitter nodes will cause the same function call. This visual script re
 
 ## What are the benefits of visual scripting?
 
+#### even more simplicity
+A visual scripting enviroment offers everything you need but still stays simple to use. 
+
+#### visually appearing working enviroment
+Visual scripting is fun! You primarily work with your mouse to connect nodes playfully. You don't have to type that much on your keyboard anymore. It's much easier to look at a big visual script than to look a long lines of code.
+
 #### No syntax errors anymore!
 The visual scripting system exactly controls how nodes are linked together. [Syntax errors](https://en.wikipedia.org/wiki/Syntax_error) like in the following example are not possible in a graph representation of script code:
 
@@ -83,12 +89,6 @@ callback OnPlayerPressButton player) // syntax error: forgot (
 ```
 
 Logic errors however are still possible. Neither a compiler nor an interpreter can discuss the logic of your code. If your intention is to kill the player as soon as he hits the button although you programmed it to heal him that's an example for a logic mistake!
-
-#### 
-TODO
-
-####
-TODO
 
 ## Why 3D visual scripting?
 TODO 
