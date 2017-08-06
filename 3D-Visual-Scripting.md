@@ -16,23 +16,21 @@ The big part of the game logic in modern games - from simple player interactions
 ![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/a10c0c475f5b663e13fb39b5404ca174ad887b04/wiki/scripting_illustration.png)
 
 ## What are the benefits?
-So why should we script the logic?
-Why can't we just modify the source code?
-
-#### simplicity
-Scripting frameworks offer predefined events, functions and access to variables. Everything is already there. You just have to put it together which requires much less knowledge about the technology behind it.
 
 #### development speed
 You don't have to recompile your code into a new binary every time you've made a change. You can test everything in realtime. Modern scripting languages offer code execution with a speed that is similar to assembly code.
 
-#### multithreading
-Starting a script task in a separated thread helps to distribute processor usage.
+#### simplicity
+Scripting frameworks offer you predefined events, functions and access to variables. Everything is already there. You just have to put it together which requires much less knowledge about the technology behind it.
 
 #### portability
-Scripts can be interpreted on every platform (Windows, Linux, Mac..) where an interpreter is available. On the other hand making sure your C/C++ source code works everywhere is usually a hard job. Interpreters are available for all platforms and the engine developers make sure its working for you!
+Scripts can be interpreted on every platform (Windows, Linux, Mac..) where an interpreter is available. You can test your script on one platform and be assured that it will work on every other platform as well. Making sure your C/C++ source code works everywhere on the other hand is usually a very hard job. Interpreters are available for all platforms and the engine developers make sure its working for you!
+
+#### multithreading
+Script tasks can be started in their own thread which helps to distribute processor usage.
 
 ## Examples
-Imagine you would like to add a **button A** to your map that opens **door 1** and plays a sound once a player presses it. This is done with the following script:
+Imagine you would like to add a **button A** to your map that opens **door 1** and plays a sound as soon as a player presses it. This is done with the following script:
 
 ```
 callback OnPlayerPressButton(player, button)
