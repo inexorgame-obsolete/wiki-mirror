@@ -41,26 +41,17 @@ callback OnPlayerPressButton(player, button)
 ```
 
 Here's another example:
-imagine an **explosive barrel** that blows up when you shoot it. The barrel also explodes when somebody pushes **button B**. It could be scripted like this:
+imagine an **explosive barrel** that blows up when you shoot it. The barrel also explodes when somebody pushes a **button**. It could be done with the following script:
 
 ```
-function MyExplosion(barrel)
-{
-    CreateExplosion(barrel.pos);
-    HideMapModel(barrel); // hide it because it has been destroyed
-}
-
 callback OnPlayerShootsBarrel(player, barrel)
 {
-    MyExplosion();
+    CreateExplosion();
 }
 
-callback OnPlayerPressButton(player,button)
+callback OnPlayerPressButton(player, button)
 {
-    if(button.name == 'B')
-    {
-        MyExplosion();
-    }
+    CreateExplosion();
 }
 ```
 
@@ -69,6 +60,9 @@ Visual scripting takes all this to the next level. Every script code can be expr
 Instead of writing your script code in a text editor, you just playfully put together specific **relations** between certain **nodes** to a **graph**. It is the types of nodes and their relations with each others that represent a script code. To illustrate this, the 2 code examples from above have been "rewritten" into the following corresponding visual script:
 
 ![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/8528b83f946bc8063ea2248d3c482769a6c13662/wiki/vs_graph_example_1.png)
+
+Here is the visual script for the second example:
+
 
 
 ## What are the benefits of visual scripting?
