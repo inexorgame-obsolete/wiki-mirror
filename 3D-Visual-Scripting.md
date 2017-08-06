@@ -95,18 +95,15 @@ Logic errors however are still possible. Neither a compiler nor an interpreter c
 
 ## How important is visual scripting used in modern game engines?
 
-Every modern game engine has a visual scripting enviroment. [Unreal Engine 4 ](https://www.unrealengine.com/en-US/blog) (epic games) for example has a system called [Blueprint](https://docs.unrealengine.com/latest/INT/Engine/Blueprints/) (formet Kismet). CryEngine (Crytek GmbH) has a visual scripting enviroment called [Flowgraph](https://www.cryengine.com/features/sandbox-tools#features/flowgraph).
+Every modern game engine has a visual scripting enviroment. [Unreal Engine 4 ](https://www.unrealengine.com/en-US/blog) (epic games) for example has a system called [Blueprint](https://docs.unrealengine.com/latest/INT/Engine/Blueprints/) (formerly called Kismet). CryEngine (Crytek GmbH) has a visual scripting enviroment called [Flowgraph](https://www.cryengine.com/features/sandbox-tools#features/flowgraph).
 
 ## Conclusion
 Inexor needs a visual scripting system. Because Inexor supports [CEF (Chromium Embedded Framework)](https://bitbucket.org/chromiumembedded/cef) we have all we need for HTML5 visual scripting enviroments. In 2D it could be done using [visJS](http://visjs.org/).
 
 # 3D Visual Scripting!
-Now that we have discussed visual scripting in 2 dimensions, lets go one step further. All those programming concepts can be applied in 3 dimensions as well! **The map itself is our visual scripting enviroment!**
-
-## Why in 3D?
-
-####  intuitive code placement
-TODO
+Now that we have discussed visual scripting in 2 dimensions, lets go one step further. All those programming concepts can be applied in 3 dimensions as well! 
+In most other visual scripting systems the **graph** is edited in a planar 2D window that is separated from the game world. It is intuitive to place script code (= **nodes** and **relations**) at the place where they affets the game world!
+> **The map itself is our visual scripting enviroment!**
 
 ## Name?
 Inexor's 3D visual scripting system needs a keyword as a name. Just like "Inexor Flex" stands for NodeJS integration.
@@ -137,3 +134,5 @@ There are various different **types** of nodes and each has their specific **att
 
 * An **attribute** represents a property of a node.
 * A **method** is something a node can do. method may accept **parameters**.
+
+TODO
