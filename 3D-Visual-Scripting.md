@@ -6,12 +6,12 @@ Branches | Issues | Main developers
 This article was written for somebody without any experience in the field of scripting. After a general discussion it leads on to the architecture of Inexor's visual scripting system.
 
 ## What is a script in general?
-Scripts allow you to change the logic of a game (or a program in general) without having to change one line of C/C++ source code. Scripting languages are easier to learn than high level programming languages. [Scripting languages](https://en.wikipedia.org/wiki/Scripting_language) will not be compiled directly into an executable file (.exe), they will be processed by the [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)).
+Scripts allow you to change the logic of a game (or a program in general) without having to change one line of C/C++ source code. Scripts will not be compiled directly into a binary executable like an exe file, they will be processed by an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)). Usually they are easier to learn than high level programming languages.
 
-One of the most popular scripting languages is [JavaScript](https://en.wikipedia.org/wiki/JavaScript) which for example runs in your browser while you are reading this. Thanks to the integration of [NodeJS](https://nodejs.org/en/) (see [[Inexor-Flex]]) we have the full power of Javascript available in our engine as well. NodeJS runs on [Google's V8 engine](https://developers.google.com/v8/) which powers Google Chrome.
+One of the most popular [scripting languages](https://en.wikipedia.org/wiki/Scripting_language) is [JavaScript](https://en.wikipedia.org/wiki/JavaScript) which for example runs in your browser while you are reading this. Thanks to the integration of [NodeJS](https://nodejs.org/en/) (see [[Inexor-Flex]]) we have the full power of Javascript available in our engine as well. NodeJS runs on [Google's V8 engine](https://developers.google.com/v8/) which powers Google Chrome.
 
 ## How are scripts being used in games?
-The big part of the game logic in modern games has been scripted. From simple player interactions (like a button that opens a door) to complex systems (like artificial intelligence controllers). The biggest benefit is that the development of the game (map, level..) and its logic can be **separated** from the development of the game engine. The game engine delivers the tools which content creators (mappers..) then use.
+The big part of the game logic in modern games - from simple player interactions (for example a button that opens a door) to complex systems (for example artificial intelligence controllers) - is scripted. The biggest benefit of this is that **the development of the game itself (the map and its logic) can be separated from the development of the game engine**! The game engine delivers the tools which content creators then use.
 
 ![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/1d5b631c2acb87235c2c997735253556f3c847e4/wiki/scripting_illustration.png)
 
