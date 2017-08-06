@@ -6,7 +6,7 @@ Branches | Issues | Main developers
 This article was written for somebody without any experience in the field of scripting. After a general discussion it leads on to the architecture of Inexor's visual scripting system.
 
 ## What is a script in general?
-Scripts allow you to change the logic of a game (or a program in general) without having to change one line of C/C++ source code. Scripting languages are easier to learn than high level programming languages. They are written in a [scripting language](https://en.wikipedia.org/wiki/Scripting_language) which is then processed by the [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)).
+Scripts allow you to change the logic of a game (or a program in general) without having to change one line of C/C++ source code. Scripting languages are easier to learn than high level programming languages. [Scripting languages](https://en.wikipedia.org/wiki/Scripting_language) will not be compiled directly into an executable file (.exe), they will be processed by the [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)).
 
 One of the most popular scripting languages is [JavaScript](https://en.wikipedia.org/wiki/JavaScript) which for example runs in your browser while you are reading this. Thanks to the integration of [NodeJS](https://nodejs.org/en/) (see [[Inexor-Flex]]) we have the full power of Javascript available in our engine as well. NodeJS runs on [Google's V8 engine](https://developers.google.com/v8/) which powers Google Chrome.
 
