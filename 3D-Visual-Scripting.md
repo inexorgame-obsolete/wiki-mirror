@@ -19,20 +19,17 @@ The big part of the game logic in modern games - from simple player interactions
 So why should we script the logic?
 Why can't we just modify the source code?
 
-### simplicity
-Scripting frameworks offer predefined events, functions and access to variables. Everything is already there. You just have to put it together which requires little knowledge about what's behind it.
+#### simplicity
+Scripting frameworks offer predefined events, functions and access to variables. Everything is already there. You just have to put it together which requires much less knowledge about the technology behind it.
 
-### speed
-You don't have to recompile your binary every time you're making a change. You can test everything live. Most scripting interpreters like Google's V8 engine offer you high speed code execution.
+#### development speed
+You don't have to recompile your code into a new binary every time you've made a change. You can test everything in realtime. Modern scripting languages offer code execution with a speed that is similar to assembly code.
 
-### flexibility
-Every important C/C++ function is available on the scripting side.
+#### multithreading
+Starting a script task in a separated thread helps to distribute processor usage.
 
-### multithreading
-Timers and event emitters start code execution in their own thread which helps to distrubute the processor usage.
-
-### portability
-Scripts can be interpreted on every platform (Windows, Linux, Mac..) where an interpreter is available whereas making sure your C/C++ source code works everywhere usually is a hard job. Interpreters are available for all platforms and it's not your job as a game developer to ensure it is working. The engine developer take care of that for you!
+#### portability
+Scripts can be interpreted on every platform (Windows, Linux, Mac..) where an interpreter is available. On the other hand making sure your C/C++ source code works everywhere is usually a hard job. Interpreters are available for all platforms and the engine developers make sure its working for you!
 
 ## Examples
 Imagine you would like to add a **button A** to your map that opens **door 1** and plays a sound once a player presses it. This is done with the following script:
