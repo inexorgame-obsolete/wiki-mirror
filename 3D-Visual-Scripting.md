@@ -3,7 +3,7 @@ Branches | Issues | Main developers
 [hanni/3DVisualScripting](/inexorgame/code/tree/hanni/3DVisualScripting) |  [#99](/inexorgame/code/issues/99), [#111](/inexorgame/code/issues/111) | [@IAmNotHanni](/IAmNotHanni)
 
 # Introduction
-This article was written for somebody without any experience in the field of scripting. After a general discussion it leads on to the architecture of Inexor's visual scripting system.
+This article was written for somebody without any experience in the field of scripting. After a general discussion it leads on to the architecture of Inexor's 3D visual scripting system. 
 
 ## What is a script in general?
 Scripts allow you to change the logic of a game (or a program in general) without having to change one line of C/C++ source code. Scripts will not be compiled directly into a binary executable like an exe file, they will be processed by an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)). Usually they are easier to learn than high level programming languages.
@@ -98,17 +98,13 @@ Logic errors however are still possible. Neither a compiler nor an interpreter c
 Every modern game engine has a visual scripting enviroment. [Unreal Engine 4 ](https://www.unrealengine.com/en-US/blog) (epic games) for example has a system called [Blueprint](https://docs.unrealengine.com/latest/INT/Engine/Blueprints/) (formet Kismet). CryEngine (Crytek GmbH) has a visual scripting enviroment called [Flowgraph](https://www.cryengine.com/features/sandbox-tools#features/flowgraph).
 
 ## Conclusion
-Inexor needs a visual scripting system.
+Inexor needs a visual scripting system. A proof of concept has already been implemented. Because Inexor supports [CEF (Chromium Embedded Framework)](https://bitbucket.org/chromiumembedded/cef) we have all we need for HTML5 visual scripting enviroments. In 2D it could be done using [visJS](http://visjs.org/).
 
-# Inexor: 3D Visual Scripting Enviroment!
+# 3D Visual Scripting!
 
-## Why 3D visual scripting?
-TODO 
+-Video here-
 
-# Architecture
-TODO
-
-## Naming the system
+## Name?
 Inexor's 3D visual scripting system needs a keyword as a name. Just like "Inexor Flex" stands for NodeJS integration.
 
 ### Idea 1: FEYNMAN
@@ -129,8 +125,8 @@ TODO
 (=Visually Appearing Programming Enviroment)
 Because you'll become addicted to it
 
-## Proof of concept
-A very basic system has already been implemented.
+# Architecture
+TODO
 
 ## Terminology
 There are various different **types** of nodes and each has their specific **attributes** and **methods**.
