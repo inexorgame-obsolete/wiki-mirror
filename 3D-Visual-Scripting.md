@@ -27,9 +27,9 @@ Scripting frameworks offer you predefined events, functions and access to variab
 Scripts can be interpreted on every platform (Windows, Linux, Mac..) where an interpreter is available. You can test your script on one platform and be assured that it will work on every other platform as well. Making sure your C/C++ source code works everywhere on the other hand is usually a very hard job. Interpreters are available for all platforms and the engine developers make sure its working for you!
 
 #### multithreading
-Script tasks can be started in their own thread which helps to distribute processor usage.
+Script tasks can be started in their own [thread](https://en.wikipedia.org/wiki/Thread_(computing)) which helps to distribute processor usage.
 
-## Examples
+## Example scripts
 Imagine you would like to add a **button A** to your map that opens **door 1** and plays a sound as soon as a player presses it. This is done with the following script:
 
 ```
