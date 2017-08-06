@@ -77,6 +77,9 @@ A visual scripting enviroment offers everything you need but still stays simple 
 #### visually appearing working enviroment
 Visual scripting is fun! You primarily work with your mouse to connect nodes playfully. You don't have to type that much on your keyboard anymore. It's much easier to look at a big visual script than to look a long lines of code.
 
+#### visual debugging
+It' much easier to illustrate code execution in a visual script. We will come back to this later on.
+
 #### No syntax errors anymore!
 The visual scripting system exactly controls how nodes are linked together. [Syntax errors](https://en.wikipedia.org/wiki/Syntax_error) like in the following example are not possible in a graph representation of script code:
 
@@ -89,6 +92,15 @@ callback OnPlayerPressButton player) // syntax error: forgot (
 ```
 
 Logic errors however are still possible. Neither a compiler nor an interpreter can discuss the logic of your code. If your intention is to kill the player as soon as he hits the button although you programmed it to heal him that's an example for a logic mistake!
+
+## How important is visual scripting used in modern game engines?
+
+Every modern game engine has a visual scripting enviroment. [Unreal Engine 4 ](https://www.unrealengine.com/en-US/blog) (epic games) for example has a system called [Blueprint](https://docs.unrealengine.com/latest/INT/Engine/Blueprints/) (formet Kismet). CryEngine (Crytek GmbH) has a visual scripting enviroment called [Flowgraph](https://www.cryengine.com/features/sandbox-tools#features/flowgraph).
+
+## Conclusion
+Inexor needs a visual scripting system.
+
+# Inexor: 3D Visual Scripting Enviroment!
 
 ## Why 3D visual scripting?
 TODO 
@@ -112,6 +124,10 @@ TODO
 
 ### Idea 3: FEMTO
 (=Flowgraph Editing Multi Tool)
+
+### Idea 4: VAPE
+(=Visually Appearing Programming Enviroment)
+Because you'll become addicted to it
 
 ## Proof of concept
 A very basic system has already been implemented.
