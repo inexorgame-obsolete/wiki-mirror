@@ -23,6 +23,7 @@
 [[Entity System]]  
 [[Inexor Core]] ([API-Docs](https://docs.inexor.org/core/index.html))  
 [[Inexor Flex]] ([API-Docs](https://docs.inexor.org/flex/index.html))  
+[[3D Visual Scripting]]  
 [[Media Repositories]]  
 [[User Interfaces]]  
 
