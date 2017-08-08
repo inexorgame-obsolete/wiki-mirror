@@ -135,7 +135,7 @@ In most visual scripting systems the **graph** is edited in a planar 2D window t
 ## Proof of concept
 In the following youtube video you can see a spheric area. A console message will appear once you enter or leave the area. Please note that this very basic implementation in 3D may looks different than the 2D graph examples from above but in essence this does represent a visual script!
 
-[![error: image not found](https://img.youtube.com/vi/4GuqvjhE_Gw/0.jpg)](https://www.youtube.com/watch?v=4GuqvjhE_Gw)
+[![error: image not found](https://img.youtube.com/vi/VC2eyxCNVfw/0.jpg)](https://www.youtube.com/watch?v=VC2eyxCNVfw)
 
 Before the new system will be implemented everything should be _planned_ here in the wiki first!
 
