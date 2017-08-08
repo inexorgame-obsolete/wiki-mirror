@@ -70,11 +70,18 @@ callback OnPlayerPressButton(player, button)
 
 ## What is visual scripting?
 Visual scripting takes all this to the next level. Every script code can be expressed as a [graph](https://en.wikipedia.org/wiki/Graph_theory)!
-Instead of writing your script code in a text editor, you just playfully put together specific **relations** between certain **nodes** to a **graph**. It is the types of nodes and their relations with each others that represent a script code. To illustrate this, the 2 code examples from above have been "rewritten" into the following corresponding visual script:
+Instead of writing your script code in a text editor, you just playfully put together specific **relations** between certain **nodes** to a **graph**.
+
+**It is the types of nodes and their relations with each others that represent a script code.**
+
+To illustrate this, the first code example from above has been "rewritten" into the following corresponding **visual script**:
 
 ![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/3270f1200c37d38ec0880c974373490996203d84/wiki/vs_graph_example_1.png)
 
-As you can see an event emitter node (here OnPlayerPressButton) starts code execution. The direction and flow of execution is indicated by the green arrows, the red arrows show parameter references. A full explanation of this can be found in the section "graphic design of visual scripting" below.
+What you should notice already:
+* An event node (here OnPlayerPressButton) starts code execution.
+* The direction and flow of execution is indicated by the green arrows, the red arrows show parameter references.
+We will discuss this in detail later on.
 
 Here is the visual script for the second example:
 
@@ -83,17 +90,19 @@ Here is the visual script for the second example:
 Two event emitter nodes will cause the same function call. This visual script represents the idea that both shooting the barrel and pressing the button will cause the explosion.
 
 ## What are the benefits of visual scripting?
+**Please remember that it's just another way of illustrating code! A visual scripting system is as powerful as script code in text form.**
 
 #### even more simplicity
-A visual scripting enviroment offers everything you need but still stays simple to use. 
+* You primarily work with your mouse to connect nodes.
+* You don't have to type that much on your keyboard anymore.
+* Visual scripting is fun!
 
-#### visually appearing working enviroment
-Visual scripting is fun! You primarily work with your mouse to connect nodes playfully. You don't have to type that much on your keyboard anymore. It's much easier to look at a big visual script than to look a long lines of code.
+#### visually appearing work enviroment
+* It's much easier to look at a big visual script than to look a long lines of code.
+* Nodes can be grouped just like code can be split up into different files.
+* It' much easier to illustrate code execution in a visual script. We will come back to **visual debugging** later on.
 
-#### visual debugging
-It' much easier to illustrate code execution in a visual script. We will come back to this later on.
-
-#### No syntax errors anymore!
+#### No syntax errors possible!
 The visual scripting system exactly controls how nodes are linked together. [Syntax errors](https://en.wikipedia.org/wiki/Syntax_error) like in the following example are not possible in a graph representation of script code:
 
 ```
@@ -104,14 +113,17 @@ callback OnPlayerPressButton player) // syntax error: forgot (
 }
 ```
 
-Logic errors however are still possible. Neither a compiler nor an interpreter can discuss the logic of your code. If your intention is to kill the player as soon as he hits the button although you programmed it to heal him that's an example for a logic mistake!
+> **Logic errors** however are still possible. Neither a compiler nor an interpreter can discuss the logic of your code. If your intention is to kill the player as soon as he hits the button although you programmed it to heal him that's an example for a logic mistake!
 
-## How important is visual scripting used in modern game engines?
+## How important is visual scripting for modern game engines?
 
-Every modern game engine has a visual scripting enviroment. [Unreal Engine 4 ](https://www.unrealengine.com/en-US/blog) (epic games) for example has a system called [Blueprint](https://docs.unrealengine.com/latest/INT/Engine/Blueprints/) (formerly called Kismet). CryEngine (Crytek GmbH) has a visual scripting enviroment called [Flowgraph](https://www.cryengine.com/features/sandbox-tools#features/flowgraph).
+Every modern game engine has a visual scripting enviroment. 
+* [Unreal Engine 4 ](https://www.unrealengine.com/en-US/blog) (epic games) for example has a system called [Blueprint](https://docs.unrealengine.com/latest/INT/Engine/Blueprints/) (formerly called Kismet).
+* [CryEngine](http://crytek.com/) (Crytek GmbH) has a visual scripting enviroment called [Flowgraph](https://www.cryengine.com/features/sandbox-tools#features/flowgraph).
+* [Blender](https://www.blender.org/) has a built in visual scripting enviroment called Blender Game Engine.
+* [Unity](https://unity3d.com/de/) has a visual scripting editor available in the assets store.
 
-## Conclusion
-Inexor needs a visual scripting system. Because Inexor supports [CEF (Chromium Embedded Framework)](https://bitbucket.org/chromiumembedded/cef) we have all we need for HTML5 visual scripting enviroments. In 2D it could be done using [visJS](http://visjs.org/).
+> **Visual scripting can also be used to create GPU shaders like vertex or pixel shaders!**
 
 # 3D Visual Scripting!
 Now that we have discussed visual scripting in 2 dimensions, lets go one step further. All those programming concepts can be applied in 3 dimensions as well! 
