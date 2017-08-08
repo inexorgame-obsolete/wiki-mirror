@@ -86,10 +86,9 @@ To illustrate this, the first code example from above has been "rewritten" into 
 
 ![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/aa4aa88812784dbb473c2e16c75a4e3d39c187ec/wiki/vs_graph_example_1.png)
 
-What you should notice already:
+What you may noticed already:
 * An event node (here OnPlayerPressButton) starts code execution.
-* The direction and flow of execution is indicated by the green arrows, the red arrows show parameter references.
-We will discuss this in detail later on.
+* The direction of execution is indicated by the arrows (= **relations**) which are green, the red arrows show parameter references.
 
 Here is the visual script for the second example:
 
@@ -128,8 +127,8 @@ callback OnPlayerPressButton player) // syntax error: forgot (
 ## How important is visual scripting for modern game engines?
 
 Every modern game engine has a visual scripting enviroment. 
-* [Unreal Engine 4 ](https://www.unrealengine.com/en-US/blog) (epic games) for example has a system called [Blueprint](https://docs.unrealengine.com/latest/INT/Engine/Blueprints/) (formerly called Kismet).
-* [CryEngine](http://crytek.com/) (Crytek GmbH) has a visual scripting enviroment called [Flowgraph](https://www.cryengine.com/features/sandbox-tools#features/flowgraph).
+* [Unreal Engine 4 ](https://www.unrealengine.com/en-US/blog) for example has a system called [Blueprint](https://docs.unrealengine.com/latest/INT/Engine/Blueprints/) (formerly called Kismet).
+* [CryEngine](http://crytek.com/) has a visual scripting enviroment called [Flowgraph](https://www.cryengine.com/features/sandbox-tools#features/flowgraph).
 * [Blender](https://www.blender.org/) has a built in visual scripting enviroment called Blender Game Engine.
 * [Unity](https://unity3d.com/de/) has a visual scripting editor available in the assets store.
 
