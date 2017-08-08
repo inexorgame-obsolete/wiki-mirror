@@ -127,17 +127,19 @@ Every modern game engine has a visual scripting enviroment.
 
 # 3D Visual Scripting!
 Now that we have discussed visual scripting in 2 dimensions, lets go one step further. All those programming concepts can be applied in 3 dimensions as well! 
-In most other visual scripting systems the **graph** is edited in a planar 2D window that is separated from the game world. However it is intuitive to place script code (= **nodes** and **relations**) at the place where it affects the game world!
-> **The map itself is our visual scripting enviroment!**
+In most visual scripting systems the **graph** is edited in a planar 2D window that is separated from the game world. 
+* Inexor disagrees with this concept and lets you place you nodes directly into the map!
+* It is intuitive to place script code (= **nodes** and **relations**) at the place where it affects the game world!
+* **The map itself is our visual scripting enviroment!**
 
 ## Proof of concept
-A very basic system has already been implemented but the final implementation will start from scratch again. This time _everything_ will be planned before implementing it.
-
-In the following youtube video you can see a spheric area. A console message will appear once you enter or leave the area.
+In the following youtube video you can see a spheric area. A console message will appear once you enter or leave the area. Please note that this very basic implementation in 3D may looks different than the 2D graph examples from above but in essence this does represent a visual script!
 
 [![error: image not found](https://img.youtube.com/vi/4GuqvjhE_Gw/0.jpg)](https://www.youtube.com/watch?v=4GuqvjhE_Gw)
 
-## Name?
+Before the new system will be implemented everything should be _planned_ here in the wiki first!
+
+## How to name it?
 Inexor's 3D visual scripting system needs a keyword as a name. Just like "Inexor Flex" stands for NodeJS integration.
 
 ### Idea 1: FEYNMAN
@@ -156,15 +158,24 @@ TODO
 
 ### Idea 4: VAPE
 (=Visually Appearing Programming Enviroment)
-Because you'll become addicted to it
+..You'll become addicted to it!
 
 # Architecture
 TODO
 
 ## Terminology
-There are various different **types** of nodes and each has their specific **attributes** and **methods**.
+TODO
 
+There are various different **types** of nodes and each has their specific **attributes** and **methods**.
 * An **attribute** represents a property of a node.
 * A **method** is something a node can do. method may accept **parameters**.
 
+What is
+A visual script
+A visual scripting system
+A visual scripting enviroment
+A visual scripting language
+...
+
 TODO
+...
