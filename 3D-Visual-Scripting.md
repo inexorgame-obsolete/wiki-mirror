@@ -8,6 +8,14 @@ This article was written for somebody without any experience in the field of scr
 ## What is a script in general?
 Scripts allow you to change the logic of a game (or a program in general) without having to change one line of C/C++ source code. Scripts will not be compiled directly into a binary executable like an exe file, they will be processed by an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)). [Scripting languages](https://en.wikipedia.org/wiki/Scripting_language) are usually easier to learn than high level programming languages.
 
+```
+void main()
+{
+    console('Hello world!');
+}
+```
+> This script would print "Hello world!" to the game console on execution.
+
 One of the most popular is [JavaScript](https://en.wikipedia.org/wiki/JavaScript) which for example runs in your browser while you are reading this. Thanks to the integration of [NodeJS](https://nodejs.org/en/) (see [[Inexor-Flex]]) we have the full power of Javascript available in our engine as well. NodeJS runs on [Google's V8 engine](https://developers.google.com/v8/) which powers Google Chrome.
 
 ## How are scripts being used in games?
@@ -76,7 +84,7 @@ Instead of writing your script code in a text editor, you just playfully put tog
 
 To illustrate this, the first code example from above has been "rewritten" into the following corresponding **visual script**:
 
-![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/3270f1200c37d38ec0880c974373490996203d84/wiki/vs_graph_example_1.png)
+![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/aa4aa88812784dbb473c2e16c75a4e3d39c187ec/wiki/vs_graph_example_1.png)
 
 What you should notice already:
 * An event node (here OnPlayerPressButton) starts code execution.
@@ -85,7 +93,7 @@ We will discuss this in detail later on.
 
 Here is the visual script for the second example:
 
-![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/1a8044eb19f87aab5fdefc6a6c16edf54f3565c4/wiki/vs_graph_example_2.png)
+![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/4ce7e69803cbc25eb95a41ffaf1f22f1143f887e/wiki/vs_graph_example_2.png)
 
 Two event emitter nodes will cause the same function call. This visual script represents the idea that both shooting the barrel and pressing the button will cause the explosion.
 
