@@ -92,6 +92,8 @@ Two event emitter nodes will cause the same function call. This visual script re
 ## What are the benefits of visual scripting?
 **Please remember that it's just another way of illustrating code! A visual scripting system is as powerful as script code in text form.**
 
+> It is possible to transform the data from visual scripts to script code in text form. This means that we could transform our input data to javascript.
+
 #### even more simplicity
 * You primarily work with your mouse to connect nodes.
 * You don't have to type that much on your keyboard anymore.
@@ -123,7 +125,7 @@ Every modern game engine has a visual scripting enviroment.
 * [Blender](https://www.blender.org/) has a built in visual scripting enviroment called Blender Game Engine.
 * [Unity](https://unity3d.com/de/) has a visual scripting editor available in the assets store.
 
-> **Visual scripting can also be used to create GPU shaders like vertex or pixel shaders!**
+> Visual scripting can also be used to create **GPU shaders** like vertex or pixel shaders!
 
 # 3D Visual Scripting!
 Now that we have discussed visual scripting in 2 dimensions, lets go one step further. All those programming concepts can be applied in 3 dimensions as well! 
@@ -142,25 +144,29 @@ Before the new system will be implemented everything should be _planned_ here in
 ## How to name it?
 Inexor's 3D visual scripting system needs a keyword as a name. Just like "Inexor Flex" stands for NodeJS integration.
 
-### Idea 1: FEYNMAN
+#### Idea 1: VAPE
+(=Visually Appearing Programming Enviroment)
+You'll become addicted to it!
+It's a game changer!
 
+#### Idea 2: FEYNMAN
 ![error:image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/d2f9d6cd1beae855f01710c931f2a0da0d262c44/feynman/feynman_logo.png)
 
 To name Inexor's visual scripting enviroment after physicist and nobel price winner _Richard Feynman_ would be an appropriate suggestion. Feynman was one of the most brilliant scientists of the 20st century and he had a neck for illustrating complex things with easy models. He got famous for his [Feynman Diagrams](https://en.wikipedia.org/wiki/Feynman_diagram) which are still used today.
 
 The have not much in common with a graph for game logic but they look quite similar.
 
-### Idea 2: AGENDA
+# Architecture
 TODO
 
-### Idea 3: FEMTO
-(=Flowgraph Editing Multi Tool)
+## Code Execution
+TODO
 
-### Idea 4: VAPE
-(=Visually Appearing Programming Enviroment)
-..You'll become addicted to it!
+### Who can start code execution?
+Events. Timers are a special form of an event.
+TODO.
 
-# Architecture
+### Where does code execution stop?
 TODO
 
 ## Terminology
@@ -175,7 +181,15 @@ A visual script
 A visual scripting system
 A visual scripting enviroment
 A visual scripting language
-...
 
+# Language specification
+
+## Node types
 TODO
-...
+
+### Event nodes
+TODO
+
+### Timer nodes
+TODO
+
