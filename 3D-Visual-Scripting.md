@@ -151,17 +151,24 @@ Before the new system will be implemented everything should be _planned_ here in
 ## How to name it?
 Inexor's 3D visual scripting system needs a keyword as a name. Just like "Inexor Flex" stands for NodeJS integration.
 
-#### Idea 1: VAPE
-(=Visually Appearing Programming Enviroment)
-You'll become addicted to it!
-It's a game changer!
+#### Idea 1: AGENDA
+![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/ee7c9356415c966670637256c8a57e75d2071265/agenda/agenda_logo_2.png)
+* Its a keyword for something that needs to be done.
 
-#### Idea 2: FEYNMAN
+#### Idea 2: VAPE
+![error:image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/ee7c9356415c966670637256c8a57e75d2071265/vape/vape_logo_rendered.png)
+* akronyme for Visually Appealing Programming Enviroment
+* It's a _game changer!_ (literally..)
+
+#### Idea 3: FEYNMAN
 ![error:image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/d2f9d6cd1beae855f01710c931f2a0da0d262c44/feynman/feynman_logo.png)
 
 To name Inexor's visual scripting enviroment after physicist and nobel price winner _Richard Feynman_ would be an appropriate suggestion. Feynman was one of the most brilliant scientists of the 20st century and he had a neck for illustrating complex things with easy models. He got famous for his [Feynman Diagrams](https://en.wikipedia.org/wiki/Feynman_diagram) which are still used today.
 
 The have not much in common with a graph for game logic but they look quite similar.
+
+
+
 
 # Architecture
 TODO
@@ -190,6 +197,7 @@ A visual scripting enviroment
 A visual scripting language
 
 # Language specification
+TODO
 
 ## Node types
 TODO
@@ -198,5 +206,11 @@ TODO
 TODO
 
 ### Timer nodes
+TODO
+
+# Integration
+TODO
+
+## How to integrate it into the world editor?
 TODO
 
