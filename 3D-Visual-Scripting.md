@@ -2,7 +2,7 @@ Branches | Issues | Main developers
 --- | --- | --- 
 [hanni/3DVisualScripting](/inexorgame/code/tree/hanni/3DVisualScripting) |  [#99](/inexorgame/code/issues/99), [#111](/inexorgame/code/issues/111) | [@IAmNotHanni](/IAmNotHanni)
 
-# 1. Introduction
+# Introduction
 This article was written for somebody without any experience in the field of scripting. It begins with a general discussion about scripting and leads on to the architecture of Inexor's 3D visual scripting system.
 
 ## What is a script in general?
@@ -134,7 +134,7 @@ Every modern game engine has a visual scripting enviroment.
 
 > Visual scripting can also be used to create **GPU shaders** like vertex or pixel shaders!
 
-# 2. Visual Scripting in 3D!
+# Visual Scripting in 3D!
 Now that we have discussed visual scripting in 2 dimensions, lets go one step further. All those programming concepts can be applied in 3 dimensions as well! 
 In most visual scripting systems the **graph** is edited in a planar 2D window that is separated from the game world. 
 * Inexor disagrees with this concept and lets you place you nodes directly into the map!
@@ -150,49 +150,21 @@ Before the new system will be implemented everything should be _planned_ here in
 
 ## How to name it?
 Inexor's 3D visual scripting system needs a keyword as a name. Just like "Inexor Flex" stands for NodeJS integration.
+For now it's not clear wheter we'll name it "Agenda" or "Vape":
 
-#### Idea 1: AGENDA
 ![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/ee7c9356415c966670637256c8a57e75d2071265/agenda/agenda_logo_2.png)
 * Its a keyword for something that needs to be done.
 
-#### Idea 2: VAPE
 ![error:image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/ee7c9356415c966670637256c8a57e75d2071265/vape/vape_logo_rendered.png)
 * akronyme for Visually Appealing Programming Enviroment
 * It's a _game changer!_ (literally..)
 
-# 3. Architecture
+# VAPE: Inexor's 3D Visual Scripting System
 
-## Let's talk about nodes
-TODO
+[[3DVS Architecture]]
 
-## Let's talk about relations
-TODO
+[[3DVS Nodes and Relations]]
 
-There are various different **types** of nodes and each has their specific **attributes** and **methods**.
-* An **attribute** represents a property of a node.
-* A **method** is something a node can do. method may accept **parameters**.
+[[3DVS Integration]]
 
-## Code Execution
-TODO
-
-### Who can start code execution?
-Events. Timers are a special form of an event.
-TODO.
-
-# Language specification
-TODO
-
-## Node types
-TODO
-
-### Event nodes
-TODO
-
-### Timer nodes
-TODO
-
-# 4. Integration
-TODO: How to integrate visual scripting into the world editor?
-
-# 5. Examples
-TODO
+[[3DVS Documentation]]
