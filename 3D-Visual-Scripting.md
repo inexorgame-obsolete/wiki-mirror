@@ -2,7 +2,7 @@ Branches | Issues | Main developers
 --- | --- | --- 
 [hanni/3DVisualScripting](/inexorgame/code/tree/hanni/3DVisualScripting) |  [#99](/inexorgame/code/issues/99), [#111](/inexorgame/code/issues/111) | [@IAmNotHanni](/IAmNotHanni)
 
-# Introduction
+# 1. Introduction
 This article was written for somebody without any experience in the field of scripting. It begins with a general discussion about scripting and leads on to the architecture of Inexor's 3D visual scripting system.
 
 ## What is a script in general?
@@ -134,7 +134,7 @@ Every modern game engine has a visual scripting enviroment.
 
 > Visual scripting can also be used to create **GPU shaders** like vertex or pixel shaders!
 
-# 3D Visual Scripting!
+# 2. Visual Scripting in 3D!
 Now that we have discussed visual scripting in 2 dimensions, lets go one step further. All those programming concepts can be applied in 3 dimensions as well! 
 In most visual scripting systems the **graph** is edited in a planar 2D window that is separated from the game world. 
 * Inexor disagrees with this concept and lets you place you nodes directly into the map!
@@ -160,18 +160,17 @@ Inexor's 3D visual scripting system needs a keyword as a name. Just like "Inexor
 * akronyme for Visually Appealing Programming Enviroment
 * It's a _game changer!_ (literally..)
 
-#### Idea 3: FEYNMAN
-![error:image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/d2f9d6cd1beae855f01710c931f2a0da0d262c44/feynman/feynman_logo.png)
+# 3. Architecture
 
-To name Inexor's visual scripting enviroment after physicist and nobel price winner _Richard Feynman_ would be an appropriate suggestion. Feynman was one of the most brilliant scientists of the 20st century and he had a neck for illustrating complex things with easy models. He got famous for his [Feynman Diagrams](https://en.wikipedia.org/wiki/Feynman_diagram) which are still used today.
-
-The have not much in common with a graph for game logic but they look quite similar.
-
-
-
-
-# Architecture
+## Let's talk about nodes
 TODO
+
+## Let's talk about relations
+TODO
+
+There are various different **types** of nodes and each has their specific **attributes** and **methods**.
+* An **attribute** represents a property of a node.
+* A **method** is something a node can do. method may accept **parameters**.
 
 ## Code Execution
 TODO
@@ -179,22 +178,6 @@ TODO
 ### Who can start code execution?
 Events. Timers are a special form of an event.
 TODO.
-
-### Where does code execution stop?
-TODO
-
-## Terminology
-TODO
-
-There are various different **types** of nodes and each has their specific **attributes** and **methods**.
-* An **attribute** represents a property of a node.
-* A **method** is something a node can do. method may accept **parameters**.
-
-What is
-A visual script
-A visual scripting system
-A visual scripting enviroment
-A visual scripting language
 
 # Language specification
 TODO
@@ -208,9 +191,8 @@ TODO
 ### Timer nodes
 TODO
 
-# Integration
-TODO
+# 4. Integration
+TODO: How to integrate visual scripting into the world editor?
 
-## How to integrate it into the world editor?
+# 5. Examples
 TODO
-
