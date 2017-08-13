@@ -1,6 +1,25 @@
-[[VAPE nodes and relations]]
+# Terminology
+[[Nodes and Relations]]
 
-[[VAPE memory node types]]
+# Node Types
+## Code Execution Starters
+[[Event Nodes]]
 
-[[VAPE code execution strategy]]
+[[Timer Nodes]]
+
+## Other Nodes
+[[Memory Nodes]]
+
+[[Function Nodes]]
+
+## Conditional Nodes
+[[If Nodes]]
+
+[[Switch Nodes]]
+
+## Passive Nodes
+[[Comment Nodes]]
+
+# Code Execution
+[[Code Execution Strategy]]
 
