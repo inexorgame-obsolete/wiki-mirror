@@ -161,10 +161,8 @@ For now it's not clear wheter we'll name it "Agenda" or "Vape":
 
 # VAPE: Inexor's 3D Visual Scripting System
 
-[[3DVS Architecture]]
+[[VAPE Architecture]]
 
-[[3DVS Nodes and Relations]]
+[[VAPE Integration]]
 
-[[3DVS Integration]]
-
-[[3DVS Documentation]]
+[[VAPE Documentation]]
