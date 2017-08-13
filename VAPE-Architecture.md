@@ -1,6 +1,12 @@
 # Terminology
 [[Nodes and Relations]]
 
+# Introduction
+
+[[Ingoing and Outgoing Relations]]
+
+[[Parameter References]]
+
 # Node Types
 ## Code Execution Starters
 [[Event Nodes]]
