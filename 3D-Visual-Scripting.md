@@ -167,4 +167,6 @@ For now it's not clear wheter we'll name it "Agenda" or "Vape":
 
 [[VAPE Rendering]]
 
+[[VAPE Benchmarking]]
+
 [[VAPE Documentation]]
