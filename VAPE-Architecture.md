@@ -1,31 +1,9 @@
-# Terminology
-[[Nodes and Relations]]
+[[Data Model for Nodes and Relations]]
 
-# Introduction
+[[Node Type Specifications]]
 
-[[Ingoing and Outgoing Relations]]
+[[Rules for Connecting Nodes]]
 
-[[Parameter References]]
+[[Script Code Execution Strategy]]
 
-# Node Types
-## Code Execution Starters
-[[Event Nodes]]
-
-[[Timer Nodes]]
-
-## Other Nodes
-[[Memory Nodes]]
-
-[[Function Nodes]]
-
-## Conditional Nodes
-[[If Nodes]]
-
-[[Switch Nodes]]
-
-## Passive Nodes
-[[Comment Nodes]]
-
-# Code Execution
-[[Code Execution Strategy]]
-
+[[Client and Server Scripting Layer]]
