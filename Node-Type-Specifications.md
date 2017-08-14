@@ -1,22 +1,23 @@
-[[Comment Nodes Specification]]
+[[Comment Nodes]]
 
-[[Event Nodes Specification]]
+[[Event Nodes]]
 
-[[Timer Nodes Specification]]
+[[Timer Nodes]]
 
-[[Sleep Nodes Specification]]
+[[Sleep Nodes]]
 
-[[Memory Nodes Specification]]
+[[Memory Nodes]]
 
-( [[Advanced Data Type Nodes Specification]] )
+[[Advanced Memory Nodes]]
 
-[[Function Nodes Specification]]
+[[Function Nodes]]
 
-( [[Operator Nodes Specification]] )
+[[Operator Nodes]]
 
-[[If Nodes Specification]]
+[[If Nodes]]
 
-[[Switch Nodes Specification]]
+[[Switch Nodes]]
 
-[[While and Do Nodes Specification]]
+[[While Loop Nodes]]
+
 
