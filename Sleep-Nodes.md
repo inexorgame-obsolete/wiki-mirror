@@ -2,6 +2,11 @@
 
 A sleep node waits `sleep_interval` miliseconds before code execution continues.
 
+## Class hierarchy
+```
+class CSleepNode : public CScriptNode;
+```
+
 ## Constructors
 TODO
 
