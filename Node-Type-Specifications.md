@@ -1,3 +1,9 @@
+# Base Class
+
+[[Base Class for Nodes]]
+
+# Inheriting Classes
+
 [[Comment Nodes]]
 
 [[Event Nodes]]
