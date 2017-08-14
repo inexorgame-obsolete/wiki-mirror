@@ -4,4 +4,4 @@
 TODO
 
 # Specific Rules
-TODO
+Specific rules will be explained in the responsible node specification.
