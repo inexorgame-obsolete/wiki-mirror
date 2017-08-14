@@ -2,9 +2,7 @@
 
 A sleep node waits `sleep_interval` miliseconds before code execution continues.
 
-## Class hierarchy
-
-**CSleepNode** inherits from **CScriptNode**.
+> **CSleepNode** inherits from **CScriptNode**.
 
 ## Class Members:
 ```
@@ -20,10 +18,10 @@ unsigned int sleep_end;
 #define INEXOR_VSCRIPT_MAX_SLEEP_INTERVAL 1000 * 60 * 60 * 24  // 1 day
 ```
 
-## Constructor
+## Constructors
 TODO
 
-## Destructor
+## Destructors
 TODO
 
 ## Methods
