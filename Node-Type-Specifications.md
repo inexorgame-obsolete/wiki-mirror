@@ -10,6 +10,8 @@
 
 [[Advanced Memory Nodes]]
 
+[[Geometric Area Nodes]]
+
 [[Function Nodes]]
 
 [[Operator Nodes]]
