@@ -1,6 +1,31 @@
-# Base Class
+# Specification
 
-[[Base Class for Memory Nodes]]
+A memory node stores information of a certain type.
+
+## Class hierarchy
+
+**CMemoryNode** inherits from **CScriptNode**.
+
+## Class Members:
+```
+TODO
+```
+
+## Minimum and Maximum Values
+```
+TODO
+```
+
+## Constructor
+TODO
+
+## Destructor
+
+## Destructor
+TODO
+
+## Methods
+TODO
 
 # Simple Types
 
