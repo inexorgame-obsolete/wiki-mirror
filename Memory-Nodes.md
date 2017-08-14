@@ -1,3 +1,7 @@
+# Base Class
+
+[[Base Class for Memory Nodes]]
+
 # Simple Types
 
 [[Boolean Memory Nodes]]
