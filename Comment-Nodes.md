@@ -1,24 +1,20 @@
 # Specification
 
-A comment node does nothing at all. It has no imcoming or outgoing relations. Use comments whenever it is neccesary!
+A comment node does nothing at all. The value of ```m_comment``` will be rendered above the node. It has no imcoming or outgoing relations. Use comments whenever it is neccesary!
 
-## Class hierarchy
-
-**CCommentNode** inherits from **CScriptNode**.
-
-## Class Members:
+## Class Members
 ```
-void SetComment(std::string comment);
+std::string m_comment;
 ```
 
-## Minimum and Maximum Values
+## Constructors
 none
 
-## Constructor
-none
-
-## Destructor
+## Destructors
 none
 
 ## Methods
-none
+```
+void SetComment(std::string comment);
+void ResetComment(void);
+```
