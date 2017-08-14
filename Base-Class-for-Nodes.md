@@ -1,6 +1,12 @@
-In this article we will define which members and methods a base class for Visual Scripting Nodes should have.
+In this article we will define which **members** (= class variables) and **methods** (= class functions) a base class for Visual Scripting Nodes should have.
 
-# Members (= Class Variables)
+# Constructor
+TODO
+
+# Destructor
+TODO
+
+# Members
 
 ## Position
 
@@ -18,4 +24,5 @@ string comment;
 
 The user should be abled to add a comment to every script node.
 
-# Methods (= Class Functions)
+# Methods 
+TODO
