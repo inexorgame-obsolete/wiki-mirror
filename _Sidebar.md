@@ -31,6 +31,7 @@
 [[Architecture|VAPE Architecture]]  
 [[Rendering|VAPE Rendering]]  
 [[Integration|VAPE Integration]]  
+[[Benchmarking|VAPE Benchmarking]]  
 [[Documentation|VAPE Documentation]]  
 
 ### General
