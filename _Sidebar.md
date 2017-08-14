@@ -26,8 +26,12 @@
 [[Media Repositories]]  
 [[User Interfaces]]  
 
-### Visual Scripting
-[[3D Visual Scripting]]  
+### 3D Visual Scripting
+[[Introduction|3D Visual Scripting]]  
+[[Architecture|VAPE Architecture]]  
+[[Rendering|VAPE Rendering]]  
+[[Integration|VAPE Integration]]  
+[[Documentation|VAPE Documentation]]  
 
 ### General
 
