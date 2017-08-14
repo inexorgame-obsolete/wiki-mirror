@@ -14,8 +14,6 @@
 
 [[Memory Nodes]]
 
-[[Advanced Memory Nodes]]
-
 [[Geometric Area Nodes]]
 
 [[Function Nodes]]
