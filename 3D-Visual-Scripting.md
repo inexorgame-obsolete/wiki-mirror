@@ -163,7 +163,7 @@ For now it's not clear wheter we'll name it "Agenda" or "Vape":
 
 [[VAPE Architecture]]
 
-[[VAPE Integration]]
+[[VAPE Map Editor Integration]]
 
 [[VAPE Rendering]]
 
