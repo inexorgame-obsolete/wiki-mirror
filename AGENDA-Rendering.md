@@ -1,5 +1,5 @@
-[[VAPE Node Rendering]]
+[[AGENDA Node Rendering]]
 
-[[VAPE Relation Rendering]]
+[[AGENDA Relation Rendering]]
 
-[[VAPE Visual Debugging]]
+[[AGENDA Visual Debugging]]
