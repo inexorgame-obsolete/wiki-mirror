@@ -150,14 +150,4 @@ Before the new system will be implemented everything should be _planned_ here in
 
 ## Inexor's 3D visual scripting system: AGENDA
 
-![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/ee7c9356415c966670637256c8a57e75d2071265/agenda/agenda_logo_2.png)
-
-[[AGENDA Architecture]]
-
-[[AGENDA Rendering]]
-
-[[AGENDA Map Editor Integration]]
-
-[[AGENDA Benchmarking]]
-
-[[AGENDA Documentation]]
+go to the main page: [[AGENDA 3D Visual Scripting System]]
