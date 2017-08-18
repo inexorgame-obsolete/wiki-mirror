@@ -148,25 +148,16 @@ In the following youtube video you can see a spheric area. A console message wil
 
 Before the new system will be implemented everything should be _planned_ here in the wiki first!
 
-## How to name it?
-Inexor's 3D visual scripting system needs a keyword as a name. Just like "Inexor Flex" stands for NodeJS integration.
-For now it's not clear wheter we'll name it "Agenda" or "Vape":
+## Inexor's 3D visual scripting system: AGENDA
 
 ![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/ee7c9356415c966670637256c8a57e75d2071265/agenda/agenda_logo_2.png)
-* Its a keyword for something that needs to be done.
 
-![error:image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/ee7c9356415c966670637256c8a57e75d2071265/vape/vape_logo_rendered.png)
-* akronyme for Visually Appealing Programming Enviroment
-* It's a _game changer!_ (literally..)
+[[AGENDA Architecture]]
 
-# VAPE: Inexor's 3D Visual Scripting System
+[[AGENDA Rendering]]
 
-[[VAPE Architecture]]
+[[AGENDA Map Editor Integration]]
 
-[[VAPE Rendering]]
+[[AGENDA Benchmarking]]
 
-[[VAPE Map Editor Integration]]
-
-[[VAPE Benchmarking]]
-
-[[VAPE Documentation]]
+[[AGENDA Documentation]]
