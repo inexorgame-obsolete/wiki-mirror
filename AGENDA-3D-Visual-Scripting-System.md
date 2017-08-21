@@ -8,7 +8,7 @@
 
 [[AGENDA Rendering]]
 
-[[AGENDA Map Editor Integration]]
+[[AGENDA Integration]]
 
 [[AGENDA Documentation]]
 
