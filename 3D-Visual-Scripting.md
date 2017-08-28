@@ -6,7 +6,7 @@ Branches | Issues | Main developers
 This article was written for somebody without any experience in the field of scripting. It begins with a general discussion about scripting and leads on to the architecture of Inexor's 3D visual scripting system.
 
 ## What is a script in general?
-Scripts allow you to change the logic of a game (or a program in general) without having to change one line of C/C++ source code. Scripts will not be compiled directly into a binary executable like an exe file, they will be processed by an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)). [Scripting languages](https://en.wikipedia.org/wiki/Scripting_language) are usually easier to learn than high level programming languages.
+Scripts allow you to change the logic of a game (or a program in general) without having to change one line of C/C++ source code. Scripts will not be compiled directly into a binary executable like an exe file, they will be processed by an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)). This means that script code can be changed after the program in which it is embedded has been compiled. [Scripting languages](https://en.wikipedia.org/wiki/Scripting_language) are usually easier to learn than high level programming languages.
 
 ```
 void main()
