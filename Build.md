@@ -176,24 +176,6 @@ Here's [how to start Inexor](https://github.com/inexorgame/code/wiki/Get-started
 
 # Other
 
-## Get the content
-
-Data like maps and fonts is provided in a separate [data repository](https://github.com/inexorgame/data). Clone that repository along with the optional repository [data-additional](https://github.com/inexorgame/data-additional) in the `media` directory, which should be in the root directory of the Inexor code repository. Alternatively you can use a symbolic link like in the following example.
-
-    .
-    ├── code
-    │   ├── bin
-    │   ├── build
-    │   ├── inexor
-    │   ├── media -> ../media
-    │   ├── node
-    │   └── tool
-    └── media
-        ├── data
-        └── data-additional
-
-More on that see: [[Directory Structure]]
-
 ## CMake GUI
 
 Some users might prefer CMake GUI. 
