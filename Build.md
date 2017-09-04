@@ -38,9 +38,11 @@ This will give you a pretty good exemplary environment if you are on Windows.
   * _It is essential that either 2017/2015 is installed, older version's won't work with future steps_
 * Download and install Git
    * Use one of the following tools if you don't already have Git:
-     * [SmartGit](http://www.syntevo.com/smartgit/download) - Heavily developed and intuitive GUI [Recommended]
+     * [SmartGit](http://www.syntevo.com/smartgit/download) - Feature rich, intuitive GUI [Recommended]
        * You'll need to manually [**add Git to your PATH**](https://github.com/inexorgame/code/wiki/%5BWindows%5D-add-git-to-PATH)
      * [GitHub Desktop](https://desktop.github.com) - Very simple and clean UI.
+       * currently it does not clone the submodules correctly. so it is **not** ultimately **recommended** as yet.
+       * *if somebody finds an option to do that: remove this comment*
      * [git-scm.com](https://git-scm.com/download) is the official Git website, and has downloads for the CLI version, and links to several GUIs.
 * Download and install [CMake](https://www.cmake.org/download/)
    * [**add it to your path**](https://github.com/inexorgame/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
