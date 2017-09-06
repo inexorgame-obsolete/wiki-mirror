@@ -1,6 +1,6 @@
 * [Windows](#windows)
 * [Linux](#linux)
-* [Get The Content](#get-the-content)
+* [Run Inexor](https://github.com/inexorgame/code/wiki/Run-Inexor)
 * [Troubleshooting](#troubleshooting)
 
 ***
@@ -95,9 +95,6 @@ Advanced users can also manually do the conan-install step and and use the CMake
      * It will automatically open with Visual Studio
   * Right click the **`INSTALL`** solution in solution explorer, and click build.
 
-## Get the data
-See [Directory-Structure](https://github.com/inexorgame/code/wiki/Directory-Structure) to see how your folder structure should look like to start Inexor.
-
 ## Run
 Start Inexor with the `inexor.bat` file.
 
@@ -143,6 +140,13 @@ Alternatively use the example lines below.
 
 The most commonly used generators will probably include `Visual Studio`, `CodeBlocks`, `MinGW Makefiles`, `Unix Makefiles` and `Xcode`. There are also makefiles for Eclipse, Sublime Text and a lot others. The complete list can be found [here](https://www.cmake.org/cmake/help/v3.8/manual/cmake-generators.7.html).
 
+### Parallel builds
+
+You need to set the environment var `MAKEFLAGS` to include the numbers of cores you can use.
+(With conan we build all dependencies if not previously build. **So set this before running Conan**)
+
+Do `setenv MAKEFLAGS '-j 8'` or `export MAKEFLAGS='-j 8'` before building for having 8 jobs running (usually you want `jobs = your_number_of_cores + 2` 2 is a margin for disk IO)
+
 ### Examples
 
 ```shell
@@ -157,30 +161,29 @@ The most commonly used generators will probably include `Visual Studio`, `CodeBl
 
 Notice: make sure to do *cmake ..* and *make* from a directory that is not referenced by a symlink somewhere in the path (otherwise you will have some problems with Protobuf).
 
-### Parallel build using make (-j for conan)
-
-You need to set the environment var `MAKEFLAGS` to include the numbers of cores you can use.
-(With conan we build all dependencies if not previously build. So set this before running conan)
-
-Do `setenv MAKEFLAGS '-j 8'` or `export MAKEFLAGS='-j 8'` before building for having 8 jobs running (usually you want `jobs = your_number_of_cores + 2` 2 is a margin for disk IO)
-
 ## Actually building the sources
 
+**If you used `conan build` this is already DONE!** (as its building the sources under the hood already)
+
+##### Otherwise:
 This step greatly depends on your IDE or environment but if you have used makefiles you can probably just run `(cd build && make install)`. Add `-j<number of cores>` to make to run it multithreaded. Note that `make install` will not install any files globally, but only within the directory structure of the project.
-
-
-## Installing flex
-After building Inexor you must clone [flex](https://github.com/inexorgame/flex) at a path of your choice, and install it via `npm install`
 
 ## Run
 
-Here's [how to start Inexor](https://github.com/inexorgame/code/wiki/Get-started-with-the-new-Inexor).
+Here's [Run Inexor](https://github.com/inexorgame/code/wiki/Run-Inexor).
 
 # Other
 
+**If anything fails:  Remove your build folder, try again.** ("did you try to restart it?")
+
 ## CMake GUI
 
-Some users might prefer CMake GUI. 
+The order is:
+1. you run `Conan` in the build dir.
+2. you run `CMake` in the build dir.
+3. you run `make` in the build dir / open the Visual Studio file in your build dir.
+
+The second step might allow some better costumisations with the CMake Gui (as you see more parameters)
 
    * Select your Inexor root directory for `Where is the source code`
    * Create a new directory within the root directory named `build`
