@@ -1,6 +1,6 @@
 ### General
 [[Home]]  
-[Get started with Inexor](https://github.com/inexorgame/code/wiki/Get-started-with-the-new-Inexor)  
+[Run Inexor](https://github.com/inexorgame/code/wiki/Run-Inexor)  
 [[Contact]]  
 [Website](https://inexor.org)  
 [[Frequently Asked Questions]]  
