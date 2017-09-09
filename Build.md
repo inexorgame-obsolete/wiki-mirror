@@ -74,7 +74,7 @@ You will have to clone the Project somewhere.
 ## Create the Visual Studio
   _(or the project file for another generator)_
 
-Execute the `tool/create_visual_studio2017_project.bat` (or `tool/create_visual_studio2015_project.bat`).  
+Execute `tool/create_visual_studio2017_project.bat` (or `tool/create_visual_studio2015_project.bat` if your using Visual Studio 2015) with Administrator privileges.
 This will:
 
 1. create a new `build` folder
@@ -86,6 +86,8 @@ This will:
   * which also takes some time
 
 So relax and sit back.
+
+__
 
 Advanced users can also manually do the conan-install step and and use the CMake Gui as [described here](#cmake-gui).
 
