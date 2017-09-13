@@ -1,6 +1,8 @@
 # Inexor Documentation
 
-_Stays Sauer, becomes better._
+![Error:Inexor logo not found!](https://raw.githubusercontent.com/inexorgame/site/master/src/assets/logo_rendered/inexor_logo_600.png)
+
+_Nostalgic fps crossed with modern technology._
 
 **What is it?**
 
