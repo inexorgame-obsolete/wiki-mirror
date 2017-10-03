@@ -13,10 +13,6 @@ _Nostalgic fps crossed with modern technology._
 * Mostly people from the old cube2 community. We are a group of programmers, mappers, artists..
 See [this page](https://github.com/orgs/inexorgame/people) for more information.
 
-**Who created Inexor?**
-
-* A collective of people from the old cube2 community willing to create a new game.
-
 **Will it stay compatible with Cube2?**
 * No. In order to make a new game we have to break up with the old standards. This is a fork, not a mod!
 
