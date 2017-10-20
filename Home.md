@@ -14,14 +14,14 @@ _Nostalgic fps crossed with modern technology._
 See [this page](https://github.com/orgs/inexorgame/people) for more information.
 
 **Will it stay compatible with Cube2?**
-* No. In order to make a new game we have to break up with the old standards. This is a fork, not a mod!
+* No. In order to make a new game, we have to break up with the old standards. This is a fork, not a mod!
 
 For more information see the
 ## [FAQ](https://github.com/inexorgame/code/wiki/Frequently-Asked-Questions)
  
 ## Objectives
 
-* Keep this old school game with its classic gameplay alive
+* Keep this old school game with its' classic gameplay alive
 * Discuss and implement community ideas
 * Reach the audience this game deserves
 * Make it 100% [open source software](https://creativecommons.org/about/program-areas/technology/technology-resources/software/) and free of restricting licenses
@@ -29,16 +29,16 @@ For more information see the
 ## Coding philosophy
 
 To begin with, [refactoring](https://en.wikipedia.org/wiki/Code_refactoring) the old Cube2 code is essential.
-You can find a lot of "write it from scratch in C"-philosophy in Sauerbraten's code.
+You can find a lot of the "write it from scratch in C"-philosophy in Sauerbraten's code.
 We are not afraid of using modern methods and libraries whenever it's appropriate to achieve our goal.
-Therefore we shall consider the following aspects of development:
+Therefore, we shall consider the following aspects of development:
 
 1. **documentation**: always [[document|Documentation]] your work
 2. **simplicity**: make it as easy as possible (only as complicated as needed)
 3. **modularity**: write your code in [[modules]]
 4. **maintenance**: make it easy to maintain (for someone else!)
 5. **partitition** split your work up into small files
-6. **consistency**: dont replicate code parts and try to use standard libraries
+6. **consistency**: don't replicate code parts and try to use standard libraries
 7. **communication**: tell other team members about your work
 
 You should also take a look at our [[Overall Architecture]].
@@ -50,15 +50,15 @@ The structure of a game like Inexor could be exemplary (and highly incomplete) d
 
 _**Most widely effecting parts on the bottom, most visible parts at the top**_
 
-![strategy pyramide](https://rawgit.com/inexorgame/visualisations/master/jobs/a_teamate_strategy_pyramid.svg)
+![strategy pyramid](https://rawgit.com/inexorgame/visualisations/master/jobs/a_teamate_strategy_pyramid.svg)
 
 Those bottom systems are giving the major direction, while the higher parts have to act in the frame of the lower choices.
 
 On the other hand, the parts on the top are the ones which define the end-product, the ones the normal player will remember.
 
 Generally speaking we want to renew stuff in bottom-up order, as we think the whole codebase has too many flaws to be ready for our goals.  
-However we do not want to remain in the state of creating an engine, without providing the Sauerbraten people with something they can play.
-Hence its an iterative process to get the fundamental back-end _ready enough_ and providing features on the front-end with that new back-end functionality.
+However, we do not want to remain in the state of creating an engine, without providing the Sauerbraten people with something they can play.
+Hence it's an iterative process to get the fundamental back-end _ready enough_ and providing features on the front-end with that new back-end functionality.
 
 We want to keep a playable state.
 
