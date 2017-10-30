@@ -8,6 +8,8 @@ In the `flex` folder execute:
 npm start
 </pre>
 
+This will start Inexor Flex with the default profile which is adjustable via the Flex User Interface. See below for a more advanced usage.
+
 ## The API's of Inexor Flex
 
 Inexor Flex provides a set of interfaces for machines and humans: `REST`, `CLI`, `URL`, `web application`
@@ -92,3 +94,35 @@ inexor:&lt;command&gt; &lt;subcommand&gt; ...
 | /instances/:instance_id/type        | The instance type (either server or client)                  |
 | /instances/:instance_id/state       | The state (either 'stopped' or 'started')                    |
 | /instances/:instance_id/instance    | The instance object (internal, contains the process handler) |
+
+### How to start Inexor Flex with arguments
+
+Start with debugging enabled:
+
+<pre>
+npm start -- --level=debug
+</pre>
+
+Start with even more debugging enabled:
+
+<pre>
+npm start -- --level=debug
+</pre>
+
+Start with profile `devenv` (please check out the documentation about profiles!):
+
+<pre>
+npm run dev
+</pre>
+
+Start with profile `devenv` with extensive debugging:
+
+<pre>
+npm run dev -- --level=trace
+</pre>
+
+Start with profile `devenv` and set a log file to use:
+
+<pre>
+npm run dev -- --file=/tmp/test.log
+</pre>
