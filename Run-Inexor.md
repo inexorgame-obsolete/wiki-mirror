@@ -13,7 +13,9 @@ This is done by either:
    * Note however that on Linux you will end up requiring `sudo` permissions to do that with the node.js solution provided by some distributions. **Don't do that!** Instead use [nvm](https://github.com/creationix/nvm#installation) to install node.js (or go for **B)**)
  
 **B) add flex to the PATH**
-   * `npm install --global @inexorgame/inexor-flex`
+   * After `npm install @inexorgame/inexor-flex` you have a subfolder `node_modules/.bin`.
+   * Add that [directory to the PATH](https://www.google.de/search?q=add+folder+to+path) (that directory: the absolute path of that .bin folder)
+ 
 
 ## Manual build - How do I run it?
 
