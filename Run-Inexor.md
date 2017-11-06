@@ -1,30 +1,42 @@
-Once you've completed the build procedure, the procedure to start Inexor is a little bit complicated at the moment.
-That's due to ongoing refactorings.
+So you either built Inexor from source, installed it with `npm install @inexorgame/inexor-flex` or you used the windows installer.
 
-So this page serves as an introduction to the (temporal) startup-procedure.
-It's expected to get superseded as issue #449 is solved.
+To make it run you simply execute `inexor-flex` on the command line (so in any cmd/powershell/terminal window).
 
-### Prerequirements
+*{**Alternatively** you go into the installation directory of inexor-flex (usually somewhere in a `<installpath>/node_modules/@inexorgame/inexor-flex` folder) and run `npm start` to start the client profile.}*
 
-* You [built](https://github.com/inexorgame/inexor-core/wiki/Build) Inexor
-* (make sure the subfolders inside inexor-core/flex/interfaces are not empty)
+However you may need to tell your OS where this mysterious `inexor-flex` command is located.  
+**Note:** No need for users of the windows installer.  
+This is done by either:  
 
-## Get it first-time ready
+**A) installing flex globally**
+   * `npm install --global @inexorgame/inexor-flex`
+   * Note however that on Linux you will end up requiring `sudo` permissions to do that with the node.js solution provided by some distributions. **Don't do that!** Instead use [nvm](https://github.com/creationix/nvm#installation) to install node.js (or go for **B)**)
+ 
+**B) add flex to the PATH**
+   * `npm install --global @inexorgame/inexor-flex`
 
-1. Open a Terminal and go into the inexor-core flex subfolder
-    * windows users: right-click on the flex directory with your shift-key pressed. press the entry with `cmd`, `command prompt` or `Powershell`
-2. update flex
-    * **windows users** (this is an open bug see #478)
-        * run: `git fetch` and afterwards `git checkout 0dab4fa4e6039cb8e65bc50e4c94b1b0b9f2aafc`
-    * **linux users**
-        * run `git pull`
-3. install flex
-    * `npm install`
+## Manual build - How do I run it?
 
-## Run it:
+To run the Inexor you built manually, you need to add the parent folder of your `bin` folder to [`<flex-folder>/config/releases.toml/explicit_release_folders`](https://github.com/inexorgame/inexor-flex/blob/master/config/releases.toml#L12).  
 
-4. `npm start`
-    * in the flex subdirectory as well
+Then you need to tell the instances of your profile to use that specific version:
 
-### Dev setup (ui-flex):
-TODO @aschaeffer or @Fohlen
+As the comment in the releases.toml suggests, the version name is now the name of that parent folder you added to the releases.toml.  
+So we modify in [`config/client/instances.toml`](https://github.com/inexorgame/inexor-flex/blob/master/config/client/instances.toml#L9) the `versionRange` entry to the parents folders name.  
+(Note: if we start with i.e. `npm run dev` or `npm run serverfarm` we would need to edit the instances.toml in the according profile `config/dev/instances.toml` or `config/serverfarm/instances.toml`)
+
+Example:
+Let's say we cloned to `/home/inexor-dev/inexor-core/` we built it and now there is a `/home/inexor-dev/inexor-core/bin` folder filled with files.
+
+Now we add
+```
+explicit_release_folders = [
+"/home/inexor-dev/inexor-core/"
+]
+```
+to the `releases.toml`.
+The release now is named "inexor-core" and we need to tell the instances we start with `npm start`/`inexor-flex` that it shall use that "inexor-core" version. Hence we modify the specific line in the `instances.toml`:
+```
+versionRange = "inexor-core"
+channelSearch = "*"
+```
