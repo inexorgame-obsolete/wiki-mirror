@@ -1,8 +1,8 @@
-# Installing via a graphical installer
+## Installing via a graphical installer
 
 Our installers can be found at the [website](https://inexor.org/download)
 
-## Linux
+### Linux
 If you need a little bit of help or are confused about the `.snap` package, here's how it works
 
 - if you are on Ubuntu >= 16.04 you have to install nothing
