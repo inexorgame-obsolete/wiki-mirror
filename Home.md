@@ -17,7 +17,7 @@ See [this page](https://github.com/orgs/inexorgame/people) for more information.
 * No. In order to make a new game, we have to break up with the old standards. This is a fork, not a mod!
 
 **How to install the game?**
-You landed in this wiki, which is mainly targeted at developers. Nevertheless, [this article will](https://github.com/inexorgame/inexor-core/wiki/Install-Inexor-in-five-minutes) help you.
+You landed in this wiki, which is mainly targeted at developers. Nevertheless, [this article will](https://github.com/inexorgame/inexor-core/wiki/Installing-inexor-as-an-end-user) help you.
 
 For more information see the
 ## [FAQ](https://github.com/inexorgame/code/wiki/Frequently-Asked-Questions)
