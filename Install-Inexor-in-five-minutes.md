@@ -1,37 +1,35 @@
-# Note on this guide
-We're currently working on automated installation, and this wiki article will be completed as soon as possible!
+# Installing via a graphical installer
 
-# Note to users
-Inexor is currently in Alpha stage. Expect many updates, and expect things to be broken. But please, submit on your feedback! See the wiki on [how to get in touch with us](https://github.com/inexorgame/code/wiki/Contact). 
+Our installers can be found at the [website](https://inexor.org/download)
 
-# Installation guide
-Inexor for end user's currently supports the following platforms:
+## Linux
+If you need a little bit of help or are confused about the `.snap` package, here's how it works
 
-- Windows 7 and newer
-- Ubuntu 16.04 (always the latest stable LTS)
+- if you are on Ubuntu >= 16.04 you have to install nothing
+- on other platforms, you will need to [install snapcraft](https://docs.snapcraft.io/core/install)
+- now when you downloaded the `.snap` package all there left to do is: `snap install package-name.snap --dangerous`
 
-The installation process is tied to 2 different sections:
-- installing the dependency
-- [use Inexor Flex to install Inexor](#install-the-game-via-flex), start the game (...)
+In the future we are looking forward to
+- ship our package with the `stable` indicator, so you won't need the `--dangerous` flag any longer
+- ship our package in the [uAppExplorer](https://uappexplorer.com)
 
-Depending on your platform the setup is a bit different, see below:
+# Manual install using Node.js
 
-- [on Windows](#setup-inexor-on-windows)
-- [on Ubuntu](#setup-inexor-on-linux)
+Your prerequisites are
+- you should know a little bit of bash or cmd (on Windows)
+- you will need to have Node 7 or newer [installed](https://nodejs.org/en/)
+
+Now, open a bash / cmd prompt and run the following
+
+- `npm install --global @inexorgame/inexor-flex # on linux this may require sudo`
+- once installation finished run `inexor-flex` in your command line
+
+This will
+- start the flex daemon
+- instruct flex to download the core media repositories for you
+- instruct flex to download the latest stable binary release for your platform
+- once everything finished, start the Inexor for you!
+
+You can visit [http://localhost:31416] to see the status of currently running downloads.
 
 
-# Setup Inexor on Windows
-Inexor comes with Node.js as it's requirement. At this point we urge the user to install Node.js [manually](https://nodejs.org/dist/v6.10.3/node-v6.10.3-x86.msi) (just download and install the file).
-
-
-# Setup Inexor on Ubuntu
-In order to run Inexor, a few dependencies must be installed. Copy the code from below into a terminal, and it should work magically:
-`apt-get install xy`
-
-
-# Install the game via flex
-
-### Todo
-- add images
-- add real toolset links (.bat/.sh)
-- add images + description of the flex UI
