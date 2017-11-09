@@ -30,6 +30,6 @@ This will
 - instruct flex to download the latest stable binary release for your platform
 - once everything finished, start the Inexor for you!
 
-You can visit [http://localhost:31416] to see the status of currently running downloads.
+You can visit [http://localhost:31416](http://localhost:31416) to see the status of currently running downloads.
 
 
