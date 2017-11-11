@@ -7,10 +7,10 @@ If you need a little bit of help or are confused about the `.snap` package, here
 
 - if you are on Ubuntu >= 16.04 you have to install nothing
 - on other platforms, you will need to [install snapcraft](https://docs.snapcraft.io/core/install)
-- now when you downloaded the `.snap` package all there left to do is: `snap install package-name.snap --dangerous`
+- now when you downloaded the `.snap` package all there left to do is: `snap install package-name.snap --devmode --dangerous`
 
 In the future we are looking forward to
-- ship our package with the `stable` indicator, so you won't need the `--dangerous` flag any longer
+- ship our package with the `stable` indicator, so you won't need the `--dangerous` and `--devmode` flags any longer
 - ship our package in the [uAppExplorer](https://uappexplorer.com)
 
 # Manual install using Node.js
