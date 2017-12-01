@@ -9,7 +9,7 @@
 
 [[Build]]  
 [[Platform Support]]  
-[Milestones](https://github.com/inexorgame/code/milestones) / [~~Changelog~~](https://github.com/inexorgame/code/blob/master/changelog.md)  
+[Milestones](https://github.com/inexorgame/code/milestones) / [Changelog](https://github.com/inexorgame/code/blob/master/changelog.md)  
 [[How to Contribute Code]]  
 [[Recruiting]]  
 [[Coding Standards]]  
