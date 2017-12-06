@@ -20,7 +20,7 @@ Free resources
 * [Nieb's Models](https://github.com/inexorgame/tesseract/tree/master/media/model/mapmodel/nieb) - Map models
 * [Blend Swap](http://www.blendswap.com) - Models
 * Argofox on [SoundCloud](https://soundcloud.com/argofox) or [YouTube](https://www.youtube.com/user/MMMontageMusic) - Music
-* [Reddit Gameassets] (https://www.reddit.com/r/gameassets) - All kind
+* [Reddit Gameassets](https://www.reddit.com/r/gameassets) - All kind
 * [Sitters Electronics](http://md2.sitters-electronics.nl) - Models, Skyboxes, Sounds
 * [Nobiax Texture Pack](https://github.com/The-Yak/NobiaxTexturePack) - Textures
 * [Clara.io Free Models](https://clara.io/library) - Fast growing model pack
