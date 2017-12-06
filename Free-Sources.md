@@ -5,6 +5,7 @@ Free resources
 
 * [Inexor/Hanni's Audioaugust](https://github.com/inexorgame/audioaugust) - Sounds
 * [Freesound.org](http://freesound.org) - Sounds
+* [Blender Cloud Textures](https://cloud.blender.org/p/textures/about)
 * [Freezurbern.com](http://www.freezurbern.com/#skybox) - Skyboxes
 * [Opengameart.org](http://opengameart.org) - Icons, Sounds, Skyboxes, Textures...
  * [Pixar's Textures](http://opengameart.org/content/pixars-textures), see also [community.renderman.pixar.com](https://community.renderman.pixar.com/article/114/library-pixar-one-twenty-eight.html)
