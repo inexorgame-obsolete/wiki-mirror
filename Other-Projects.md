@@ -90,6 +90,7 @@ Jump to...
  * Demo recording
  * In-game IRC
 * [Android Port](https://github.com/realuptime/sauerbraten_android)
+* [A port](https://github.com/thalieht/Sauerbraten_aMod)
 
 #### Server Mods
 * [HopMod](https://code.google.com/p/hopmod/)
