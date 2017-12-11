@@ -193,7 +193,13 @@ The second step might allow some better costumisations with the CMake Gui (as yo
      * If you use Visual Studio select VS-Version *Visual Studio 14 2015* and (if you have) the x64-Version so e.g. `Visual Studio 14 2015 Win64`
    * Click `Generate` to generate a project file
 
-## Troubleshooting
+
+# MacOS
+  * if you haven't already install [brew](https://brew.sh)
+  * execute `brew install conan`  
+
+
+# Troubleshooting
 
 This is a list of common problems and their solutions
 
