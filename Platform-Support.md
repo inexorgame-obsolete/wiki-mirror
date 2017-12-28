@@ -16,11 +16,11 @@ This page **DOES _NOT_** tell you on which operating systems, compilers, compile
 ## Official support for operating system 
  * Windows 7 and newer (32/64bit)
  * Ubuntu 16.04 (always the latest stable LTS)
- * Fedora 25 and newer (64bit)
+ * Fedora 26 and newer (64bit)
  * Arch Linux (64bit)
 
 
-**Notes:** Naturally, every other Linux distribution, which is similar up-to-date should be fine. [MacOS support](https://github.com/inexorgame/code/issues/385) is upcoming. 
+**Notes:** Naturally, every other Linux distribution, which is similar up-to-date should be fine. [macOS support](https://github.com/inexorgame/code/issues/385) is upcoming. 
 
 
 ## Official hardware support
@@ -34,7 +34,7 @@ This page **DOES _NOT_** tell you on which operating systems, compilers, compile
 <tr><td><b>Name</b></td><td><b>Version</b></td><td><b>Maintainer(s)</b></td></tr>
 <tr><td>Windows </td><td>10 64bit</td><td> <a href="https://github.com/Croydon">Croydon (Nooby)</a> </td></tr>
 <tr><td></td><td>8.1 64bit</td><td> <a href="https://github.com/a-teammate">a_teammate</a> </td></tr>
-<tr><td></td><td>7 64bit</td><td> <a href="https://github.com/Croydon">Croydon (Nooby)</a> </td></tr>
+<tr><td></td><td>7 64bit</td><td> <b>Nobody at the moment?</b> </td></tr>
 <tr><td>Ubuntu </td><td>16.04 64bit</td><td> <a href="https://github.com/Fohlen">Fohlen</a>, <a href="http://github.com/aschaeffer">Hanack</a> </td> </td></tr>
 <tr><td>Fedora </td><td>25 64bit</td><td> <a href="https://github.com/Croydon">Croydon (Nooby)</a> </td></tr>
 <tr><td>Arch Linux </td><td>64bit</td><td> <a href="https://github.com/terencode">terencode</a> </td></tr>
