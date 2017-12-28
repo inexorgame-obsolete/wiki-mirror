@@ -36,7 +36,7 @@ This page **DOES _NOT_** tell you on which operating systems, compilers, compile
 <tr><td></td><td>8.1 64bit</td><td> <a href="https://github.com/a-teammate">a_teammate</a> </td></tr>
 <tr><td></td><td>7 64bit</td><td> <b>Nobody at the moment?</b> </td></tr>
 <tr><td>Ubuntu </td><td>16.04 64bit</td><td> <a href="https://github.com/Fohlen">Fohlen</a>, <a href="http://github.com/aschaeffer">Hanack</a> </td> </td></tr>
-<tr><td>Fedora </td><td>25 64bit</td><td> <a href="https://github.com/Croydon">Croydon (Nooby)</a> </td></tr>
+<tr><td>Fedora </td><td>26 64bit</td><td> <a href="https://github.com/Croydon">Croydon (Nooby)</a> </td></tr>
 <tr><td>Arch Linux </td><td>64bit</td><td> <a href="https://github.com/terencode">terencode</a> </td></tr>
 
 </table>
