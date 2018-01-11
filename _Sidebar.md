@@ -40,10 +40,8 @@
 
 ### Tools
 
-Continuous Integration For...  
-[Linux](https://travis-ci.org/inexorgame/code) | [Windows](https://ci.appveyor.com/project/inexorgame/code)  
+[[Continuous Integration]]   
 [Kanboard](https://waffle.io/inexorgame/code)   
-[[Other Tools]]  
 
 ### Content Management
 [[How to Contribute Content]]  
