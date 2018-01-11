@@ -80,12 +80,6 @@ We want to keep a playable state.
 * [[Documentation]]
 * [[How To Debug]]
 
-### Other
-
-* [Other Existing Projects](Other-Projects)
-* [Website](https://inexor.org)
-* [[Contact]]
-
 
 ## Features
 
