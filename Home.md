@@ -14,7 +14,7 @@ _Nostalgic fps crossed with modern technology._
 See [this page](https://github.com/orgs/inexorgame/people) for more information.
 
 **Will it stay compatible with Cube2?**
-* No. In order to make a new game, we have to break up with the old standards. This is a fork, not a mod!
+* No. In order to make a new game, we have to break up with the old standards. This is a fork, not a mod! However, we are trying to make it as easy as possible to import existing Sauerbraten content.
 
 **How to install the game?**
 You landed in this wiki, which is mainly targeted at developers. Nevertheless, [this article will](https://github.com/inexorgame/inexor-core/wiki/Installing-inexor-as-an-end-user) help you.
