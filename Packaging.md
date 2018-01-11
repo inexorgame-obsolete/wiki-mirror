@@ -2,8 +2,7 @@
 
 * git
 * cmake
-* conan ?
-* jenkins
+* conan
 
 ## Package targets
 
