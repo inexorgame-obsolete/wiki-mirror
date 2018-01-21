@@ -16,3 +16,7 @@
 
 ## More details
 Generally speaken, we are trying to build and test our applications on all [platforms (operating systems, compilers..) we support](https://github.com/inexorgame/inexor-core/wiki/Platform-Support).
+
+## References
+[[Conan best practices]]
+
