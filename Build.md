@@ -20,7 +20,6 @@ You will need to obtain them in some form (see the specific [Windows](#windows) 
   * version doesn't matter, although 2.x is preferred to 3.x
   * we need it for our package manager Conan
 * [Conan](https://www.conan.io)
-  * # PLEASE DOWNLOAD Conan 0.29.0 FOR NOW https://github.com/inexorgame/inexor-core/issues/547
   * Our C++ package manager for our dependencies
     * don't forget to add our Conan repository: `conan remote add inexor https://api.bintray.com/conan/inexorgame/inexor-conan --insert`
 * [Node.js >= 6.9.1 + npm >= 3.0](https://nodejs.org)
@@ -195,7 +194,7 @@ The second step might allow some better costumisations with the CMake Gui (as yo
    * Click `Generate` to generate a project file
 
 
-# MacOS
+# macOS
   * if you haven't already install [brew](https://brew.sh)
   * execute `brew install conan`  
 
