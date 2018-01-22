@@ -15,8 +15,8 @@ This includes doing stuff cooperatively.
 Inexor will always try to bring people together. There is no (official) single player planned.
 
 _See also:_
-* _The Main Theme_
-* _The Coding philosophy_
+* _[[The Main Theme]]_
+* _[The Coding philosophy](https://github.com/inexorgame/inexor-core/wiki/Home/_edit#coding-philosophy)_
 
 ## The Background
 
@@ -29,7 +29,6 @@ We forked off from Sauerbraten when its development died. We find the ideas of S
 The code-base has aged of course, but as we continue renewing it towards being easier to work with, we will be able to implement a lot of modern ideas and unique solutions.
 
 ## The Connection
-
 
 #### Coding philosophy
 
@@ -48,7 +47,7 @@ Therefore, we shall consider the following aspects of development:
 
 You should also take a look at our [[Overall Architecture]].
 
-## Project strategy
+#### Project strategy
 
 The structure of a game like Inexor could be exemplary (and highly incomplete) displayed as follows:
 
