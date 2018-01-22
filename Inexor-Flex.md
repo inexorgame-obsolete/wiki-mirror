@@ -1,4 +1,6 @@
-[![Build Status](https://ci.inexor.org/job/inexor/job/flex/job/master/badge/icon)](https://ci.inexor.org/job/inexor/job/flex/job/master/)  
+### See also
+
+* [[Overall-Architecture]]
 
 ## Starting Inexor Flex
 
