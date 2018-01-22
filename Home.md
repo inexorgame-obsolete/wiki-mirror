@@ -2,34 +2,36 @@
 
 ![Error:Inexor logo not found!](https://raw.githubusercontent.com/inexorgame/site/master/src/assets/logo_rendered/inexor_logo_600.png)
 
-_Nostalgic fps crossed with modern technology._
+## The Vision
 
-**What is it?**
+There are possibilities only an open-source game can offer.  
+There are ways only those can walk, who are not afraid of their ideas being stolen.
 
-* Inexor is a fork of the first person shooter [Cube2: Sauerbraten](http://sauerbraten.org/). This project's goal is to combine state of the art technologies with the classic old school gameplay from cube2 in a new open source shooter.
+We want to create a game which allows people to create the game.  
+To make it their own.  
+To have fun learning continuously more stuff as they dig deeper into making it their own.  
+And also: to develop the right mindset to attack challenging opportunities.
+This includes doing stuff cooperatively.  
+Inexor will always try to bring people together. There is no (official) single player planned.
 
-**Who are you?**
+_See also:_
+* _The Main Theme_
+* _The Coding philosophy_
 
-* Mostly people from the old cube2 community. We are a group of programmers, mappers, artists..
-See [this page](https://github.com/orgs/inexorgame/people) for more information.
+## The Background
 
-**Will it stay compatible with Cube2?**
-* No. In order to make a new game, we have to break up with the old standards. This is a fork, not a mod! However, we are trying to make it as easy as possible to import existing Sauerbraten content.
+We do not start from scratch. We derived from the famous open-source game [Cube2: Sauerbraten](http://sauerbraten.org/), which already went this walk a good distance.
+Including an ingame map creator, a unique and fun gameplay and a friendly community, it gives us a head-start
 
-**How to install the game?**
-You landed in this wiki, which is mainly targeted at developers. Nevertheless, [this article will](https://github.com/inexorgame/inexor-core/wiki/Installing-inexor-as-an-end-user) help you.
+The obvious advantage is that we always have something playable, even in times we consider ourselves not-yet-arrived.
 
-For more information see the
-## [FAQ](https://github.com/inexorgame/code/wiki/Frequently-Asked-Questions)
- 
-## Objectives
+We forked off from Sauerbraten when its development died. We find the ideas of Sauerbraten worthy enough to sustain in a new game.
+The code-base has aged of course, but as we continue renewing it towards being easier to work with, we will be able to implement a lot of modern ideas and unique solutions.
 
-* Keep this old school game with its' classic gameplay alive
-* Discuss and implement community ideas
-* Reach the audience this game deserves
-* Make it 100% [open source software](https://creativecommons.org/about/program-areas/technology/technology-resources/software/) and free of restricting licenses
+## The Connection
 
-## Coding philosophy
+
+#### Coding philosophy
 
 To begin with, [refactoring](https://en.wikipedia.org/wiki/Code_refactoring) the old Cube2 code is essential.
 You can find a lot of the "write it from scratch in C"-philosophy in Sauerbraten's code.
@@ -65,6 +67,17 @@ Hence it's an iterative process to get the fundamental back-end _ready enough_ a
 
 We want to keep a playable state.
 
+-----------
+
+For more information see the
+## [FAQ](https://github.com/inexorgame/code/wiki/Frequently-Asked-Questions)
+
+## Objectives
+
+* Keep this old school game with its' classic gameplay alive
+* Discuss and implement community ideas
+* Reach the audience this game deserves
+* Make it 100% [open source software](https://creativecommons.org/about/program-areas/technology/technology-resources/software/) and free of restricting licenses
 
 ### How to get involved
 * [[How to Contribute Code]]
@@ -79,7 +92,7 @@ We want to keep a playable state.
 * [[Coding Standards]]
 * [[Documentation]]
 * [[How To Debug]]
-
+* [FAQ](https://github.com/inexorgame/inexor-core/wiki/Frequently-Asked-Questions)
 
 ## Features
 
