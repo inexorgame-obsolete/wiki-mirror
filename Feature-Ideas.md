@@ -39,3 +39,4 @@
   * [Existing Mods/Forks/Projects](https://github.com/inexorgame/code/wiki/Other-Projects)
   * [https://poop.piratenpad.de/sauer-changes](https://poop.piratenpad.de/sauer-changes)
   * [Sauerworld Forum - Ideas for Sauerbraten](http://sauerworld.org/forum/index.php?board=4.0)
+  * [Roadmap / Ideas Ticket](https://github.com/inexorgame/inexor-core/issues/514)
