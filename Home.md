@@ -52,8 +52,8 @@ So how do we define seams? How to cut the system into logical chunks?
 In our [[Overall Architecture]] page we give a clear rule for the first selection:  
 * Is it performance-critical or not?
 
-If not it should be moved to the [[Inexor Flex]](NodeJS) part.  
-If it is it can remain in the [[Inexor Core]](C++) side.
+If not it should be moved to the [[Inexor Flex]]\(NodeJS\) part.  
+If it is it can remain in the [[Inexor Core]]\(C++\) side.
 
 Furthermore aiming for our goal of having a flexible sourcebase, we refactor and renew it following our [[Coding Standards]].
 
