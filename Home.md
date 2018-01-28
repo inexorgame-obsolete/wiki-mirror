@@ -30,27 +30,7 @@ The code-base has aged of course, but as we continue renewing it towards being e
 
 ## The Connection
 
-
-#### Coding philosophy
-
-To begin with, [refactoring](https://en.wikipedia.org/wiki/Code_refactoring) the old Cube2 code is essential.
-You can find a lot of the "write it from scratch in C"-philosophy in Sauerbraten's code.
-We are not afraid of using modern methods and libraries whenever it's appropriate to achieve our goal.
-Therefore, we shall consider the following aspects of development:
-
-1. **documentation**: always [[document|Documentation]] your work
-2. **simplicity**: make it as easy as possible (only as complicated as needed)
-3. **modularity**: write your code in [[modules]]
-4. **maintenance**: make it easy to maintain (for someone else!)
-5. **partitition** split your work up into small files
-6. **consistency**: don't replicate code parts and try to use standard libraries
-7. **communication**: tell other team members about your work
-
-You should also take a look at our [[Overall Architecture]].
-
-#### Project strategy
-
-The structure of a game like Inexor could be exemplary (and highly incomplete) displayed as follows:
+The structure of Inexor can be displayed as follows:
 
 
 _**Most widely effecting parts on the bottom, most visible parts at the top**_
@@ -59,24 +39,41 @@ _**Most widely effecting parts on the bottom, most visible parts at the top**_
 
 Those bottom systems are giving the major direction, while the higher parts have to act in the frame of the lower choices.
 
-On the other hand, the parts on the top are the ones which define the end-product, the ones the normal player will remember.
+On the other hand, the parts on the top are the ones which really impact the end-product, the ones the normal player will remember.
 
-Generally speaking we want to renew stuff in bottom-up order, as we think the whole codebase has too many flaws to be ready for our goals.  
-However, we do not want to remain in the state of creating an engine, without providing the Sauerbraten people with something they can play.
-Hence it's an iterative process to get the fundamental back-end _ready enough_ and providing features on the front-end with that new back-end functionality.
+We have the advantage that some systems do not necessarily need to be renewed for our plans to be fulfilled sufficiently.  
+And we have the time to iteratively create systems and the freedom to improve their maintainability and usability until they are considered done.
 
-We want to keep a playable state.
+Generally speaking we want to create and renew stuff in bottom-up order, as those low-level changes have the most impact over the whole system.
 
------------
+Developing software always includes to think about the level of abstraction you want to keep in each layer.  
+So how do we define seams? How to cut the system into logical chunks?
 
-For more information see the
-## [FAQ](https://github.com/inexorgame/code/wiki/Frequently-Asked-Questions)
+In our [[Overall Architecture]] page we give a clear rule for the first selection:  
+* Is it performance-critical or not?
+
+If not it should be moved to the [[Inexor Flex]](NodeJS) part.  
+If it is it can remain in the [[Inexor Core]](C++) side.
+
+Furthermore aiming for our goal of having a flexible sourcebase, we refactor and renew it following our [[Coding Standards]].
+
+However, we do not want to remain in the state of creating an engine, without providing the Sauerbraten people with something they can play.  
+Hence it's an iterative process to get the fundamental back-end _ready enough_ and providing features at the front-end (e.g. showcasing that new back-end functionality).
+
+_We want to keep a playable state._  
+
+See also:
+
+* [[Coding Standards]]
+* [[Overall Architecture]]
+* [[Features]]
+
 
 ## Objectives
 
-* Keep this old school game with its' classic gameplay alive
-* Discuss and implement community ideas
-* Reach the audience this game deserves
+* Keep Sauerbraten's spirit alive
+* Discuss community ideas, create creators
+* Increase the old audience
 * Make it 100% [open source software](https://creativecommons.org/about/program-areas/technology/technology-resources/software/) and free of restricting licenses
 
 ### How to get involved
@@ -93,10 +90,3 @@ For more information see the
 * [[Documentation]]
 * [[How To Debug]]
 * [FAQ](https://github.com/inexorgame/inexor-core/wiki/Frequently-Asked-Questions)
-
-## Features
-
-* [Milestones](https://github.com/inexorgame/code/milestones) / [Changelog](https://github.com/inexorgame/code/blob/master/changelog.md)
-* [[Sauerbraten Features]] (this is where we started)
-* [Ideas for Features](Feature-Ideas)
-
