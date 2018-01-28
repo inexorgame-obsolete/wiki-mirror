@@ -40,3 +40,45 @@
   * [https://poop.piratenpad.de/sauer-changes](https://poop.piratenpad.de/sauer-changes)
   * [Sauerworld Forum - Ideas for Sauerbraten](http://sauerworld.org/forum/index.php?board=4.0)
   * [Roadmap / Ideas Ticket](https://github.com/inexorgame/inexor-core/issues/514)
+
+
+## Legacy list:
+
+####  DONE
+
+| Subsystem    | Topic                                                    | [Core](Inexor-Core) | [Flex](Inexor-Flex) | [UI](Inexor-UI) |
+| ------------ | -------------------------------------------------------- | -------- | -------- | -------- |
+|              |
+| Synchronisation  | [Generic RPC Subsystem + Node.js integration](RPC-Node.js) | &#10003; | &#10003; |        |
+|              | [[Inexor-Tree]] (Proposal: [[Inexor Tree API]])          | &#10003; | &#10003; | &#10003; |
+| Overall      | [[Logging]]                                              | &#10003; | &#10003; |          |
+| Build        | [[Build]]                                                | &#10003; |          |          |
+|              |
+
+####  IN PROGRESS
+
+| Subsystem    | Topic                                                    | [Core](Inexor-Core) | [Flex](Inexor-Flex)  |[UI](Inexor-UI) |
+| ------------ | -------------------------------------------------------- | -------- | -------- | -------- |
+|              | 
+| UI           | [[HTML5 User Interface]]                                 | &#10003; | &#10003; |          |
+|              | [[Keyboard and mouse input handling]]                    | &#10003; | &#10003; | &#10003; |
+|              | [[User interface Menu]]                                  |          | &#10003; |          |
+| Entities     | New [[Entity System]]                                    | &#10003; | &#10003; |          |
+|              | [[Particle System]]                                      | &#10003; | &#10003; |          |
+|              | [[3D Visual Scripting]]                         | &#10003; | &#10003; |          |
+|              | [Bezier curve camera flights](Bezier-curve)              | &#10003; |          |          |
+| Rendering    | [[Shader System]]                                        | &#10003; | &#10003; |         |
+| Server       | [Server refactoring](Refactoring-The-Server)             | &#10003; |          |          |
+| Config       | [JSON configuration support](JSON-Implementation)        |          | &#10003; |          |
+| Editing      | [[Version Control System]]                               | &#10003; |          |          |
+| Audio        | [[New Sound system (refactoring)]]                       | &#10003; |          |          |
+| Release      | [[Release and build strategy]]                           | &#10003; | &#10003; |          | 
+| Overall      | [[Make anything more dynamic]]                           | &#10003; | &#10003; | &#10003; |
+| Content      | [[Distributing Content System]]                          |          | &#10003; |          |
+| World        | [[Extendable Map Format]]                                | &#10003; |          |          |
+| Rendering    | [[Dynamic Lighting]]                                     | &#10003; |          |          |
+| Editing      | [[Improved Selection]]                                   | &#10003; |          |          |
+|              | [[Mappers Toolset]]                                      | &#10003; | &#10003; | &#10003; |
+| Multiplayer  | [[Decentralized server list]]                            |          | &#10003; |          |
+| Multiplayer  | [[Self regulating distributed network]]                  |          | &#10003; | &#10003; |
+| Distribution | [[Packaging]]                                            |          |          |          |
