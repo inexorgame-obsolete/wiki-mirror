@@ -111,7 +111,7 @@ The first step of building this project is rather obvious, but for sake of compl
 
 The next step is to get all the required dependencies to compile. You'll need an environment that can build C++ programs such as Eclipse, CLion, NetBeans.
 
-Specifically, on Linux you will need CMake >= 3.4, Conan, make and GCC >= 5.4 or Clang >= 3.8 as your compiler. The version numbers are minimum: They might work with older versions (but it's not official supported) and newer versions are better!
+Specifically, on Linux you will need CMake >= 3.4, Conan, make and GCC >= 5.4 or Clang >= 3.9 as your compiler. The version numbers are minimum: They might work with older versions (but it's not official supported) and newer versions are better!
 Also install your distribution's development packages of Mesa
 
 OS  | What to do
