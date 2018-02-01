@@ -9,7 +9,7 @@ This page **DOES _NOT_** tell you on which operating systems, compilers, compile
 
 ## Official support for compilers
  * GCC >= 5.4
- * Clang >= 3.8
+ * Clang >= 3.9
  * Microsoft Visual C++ (Visual Studio) >= 2015 Update 2 (this includes 2017)
 
 
