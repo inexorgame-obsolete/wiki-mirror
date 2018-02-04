@@ -1,5 +1,6 @@
 * [Windows](#windows)
 * [Linux](#linux)
+* [macOS](#macos)
 * [Run Inexor](https://github.com/inexorgame/code/wiki/Run-Inexor)
 * [Troubleshooting](#troubleshooting)
 
