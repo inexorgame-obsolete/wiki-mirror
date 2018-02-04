@@ -200,6 +200,7 @@ The second step might allow some better costumisations with the CMake Gui (as yo
   * execute `brew install conan`  
   * execute `conan remote add inexor https://api.bintray.com/conan/inexorgame/inexor-conan --insert`
   * execute `brew install nasm`  
+  * execute `brew install git`  
   * we only supporting Apple Clang >= 9.0
   * see issue https://github.com/inexorgame/inexor-core/issues/385
 
