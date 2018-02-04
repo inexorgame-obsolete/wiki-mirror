@@ -197,6 +197,7 @@ The second step might allow some better costumisations with the CMake Gui (as yo
 # macOS
   * if you haven't already install [brew](https://brew.sh)
   * execute `brew install conan`  
+  * we only supporting Apple Clang >= 9.0
   * see issue https://github.com/inexorgame/inexor-core/issues/385
 
 
