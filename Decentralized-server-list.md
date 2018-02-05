@@ -11,13 +11,13 @@ Branches | Issues | Main developers
 ## What are the problems with the original Sauerbraten masterserver?
 
 * Single point of failure (centralized server list)!
-* One person **dictates** if a server is suitable or not!
+* One person decides if a server is suitable or not!
 * Proprietary data format!
 
 ## What we are about to change
 
 * No single point of failure (decentralized server list).
-* No **centralized dictationship** about the "suitability" of servers.
+* No centralized decisions about the "suitability" of servers.
  * Every server is welcome (including modified gameplay or altered user experiences)
  * Full transparency (highlighting modded servers).
  * Page-Rank like blacklist for malicious servers.
