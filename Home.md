@@ -21,7 +21,7 @@ _See also:_
 ## The Background
 
 We do not start from scratch. We derived from the famous open-source game [Cube2: Sauerbraten](http://sauerbraten.org/), which already went this walk a good distance.
-Including an ingame map creator, a unique and fun gameplay and a friendly community, it gives us a head-start
+Including an ingame map creator, a unique and fun gameplay and a friendly community, it gives us a head-start.
 
 The obvious advantage is that we always have something playable, even in times we consider ourselves not-yet-arrived.
 
@@ -35,18 +35,20 @@ The structure of Inexor can be displayed as follows:
 
 _**Most widely effecting parts on the bottom, most visible parts at the top**_
 
-![Project Structure](https://raw.githubusercontent.com/inexorgame/visualisations/master/wiki/Inexor-structure.svg?sanitize=true)
+<img src="https://raw.githubusercontent.com/inexorgame/visualisations/master/wiki/Inexor-structure.svg?sanitize=true" />
 
 Those bottom systems are giving the major direction, while the higher parts have to act in the frame of the lower choices.
 
 On the other hand, the parts on the top are the ones which really impact the end-product, the ones the normal player will remember.
 
 We have the advantage that some systems do not necessarily need to be renewed for our plans to be fulfilled sufficiently.  
-And we have the time to iteratively create systems and the freedom to improve their maintainability and usability until they are considered done.
+And we have the time to iteratively create systems, and the freedom to improve their maintainability and usability until they are considered done.
 
 Generally speaking we want to create and renew stuff in bottom-up order, as those low-level changes have the most impact over the whole system.
 
-Developing software always includes to think about the level of abstraction you want to keep in each layer.  
+---
+
+Developing software always includes thinking about the level of abstraction you want to keep in each layer.  
 So how do we define seams? How to cut the system into logical chunks?
 
 In our [[Overall Architecture]] page we give a clear rule for the first selection:  
