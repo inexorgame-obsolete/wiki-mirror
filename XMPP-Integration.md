@@ -1,1 +1,0 @@
-# This page is deprecated (and free for deletion) and moved to [[Decentralized-server-list]]
