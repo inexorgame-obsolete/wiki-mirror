@@ -1,11 +1,8 @@
-Branches | Issues | Main developers
--------- | ------ | ---
-[ogro/conquer_world](/inexorgame/code/tree/ogro/conqueror_world), [inky/killing_spree](/inexorgame/code/tree/inky/killing_spree) | [#6](/inexorgame/code/issues/6), [#7](/inexorgame/code/issues/7) | [@inexorgame](/inexorgame)
 
 See also:
 * [[Gamemodes]]
 * [[Weapon System]]
-* [[Map Creator: Visual Scripting]]
+* [[3D Visual Scripting]]
 
 ## The idea:
 
