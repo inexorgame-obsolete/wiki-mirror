@@ -35,7 +35,18 @@ The **direction** of relations with nodes is very important!
 For the implementation we are probably going to use the [boost graph library](http://www.boost.org/doc/libs/1_64_0/libs/graph/doc/index.html).
 
 
-[[Node Type Specifications]]
+#### Node Type Specifications
+- Comment Nodes
+- Event Nodes
+- Timer Nodes
+- Sleep Nodes
+- Memory Nodes
+- Geometric Area Nodes
+- Function Nodes
+- Operator Nodes
+- If Nodes
+- Switch Nodes
+- While Loop Nodes
 
 #### Rules for Connecting Nodes
 1. A node can't be connected to itself
