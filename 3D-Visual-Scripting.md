@@ -3,20 +3,12 @@ Branches | Issues | Main developers
 [hanni/3DVisualScripting](/inexorgame/code/tree/hanni/3DVisualScripting) |  [#99](/inexorgame/code/issues/99), [#111](/inexorgame/code/issues/111) | [@IAmNotHanni](/IAmNotHanni)
 
 # Introduction
-This article was written for somebody without any experience in the field of scripting. It begins with a general discussion about scripting and leads on to the architecture of Inexor's 3D visual scripting system.
+This article was written for readers without any technical knowledge of scripting. It's goal is to introduce some important concepts and ideas behind scripting languages. This is the foundation for the understanding of Inexor's 3D visual scripting system.
 
-## What is a script in general?
-Scripts allow you to change the logic of a game (or a program in general) without having to change one line of C/C++ source code. Scripts will not be compiled directly into a binary executable like an exe file, they will be processed by an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)). This means that script code can be changed after the program in which it is embedded has been compiled. [Scripting languages](https://en.wikipedia.org/wiki/Scripting_language) are usually easier to learn than high level programming languages.
+## What's a script?
+Scripts allow you to write programs without having to edit and recompile the source code. Scripts will not be compiled into an executable file (like an .exe), instead they will be processed by an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)). This means script code can be changed after the program in which the interpreter is embedded has been compiled. Script code can even be changed while the program is running. [Scripting languages](https://en.wikipedia.org/wiki/Scripting_language) are usually easier to learn than high level programming languages.
 
-```
-void main()
-{
-    console('Hello world!');
-}
-```
-> This script would print "Hello world!" to the game console on execution.
-
-One of the most popular is [JavaScript](https://en.wikipedia.org/wiki/JavaScript) which for example runs in your browser while you are reading this. Thanks to the integration of [NodeJS](https://nodejs.org/en/) (see [[Inexor-Flex]]) we have the full power of Javascript available in our engine as well. NodeJS runs on [Google's V8 engine](https://developers.google.com/v8/) which powers Google Chrome.
+One of the most popular scripting languages is [JavaScript](https://en.wikipedia.org/wiki/JavaScript), which runs in your browser while you are reading this. Javascript made the development of modern websites possible and every popular website uses it today. Because of the integration of [NodeJS](https://nodejs.org/en/) (see [[Inexor-Flex]]) we have the full power of Javascript available in Inexor. NodeJS runs on [Google's V8 engine](https://developers.google.com/v8/) which powers Google Chrome.
 
 ## How are scripts being used in games?
 The big part of the game logic in modern games - from simple player interactions (for example a button that opens a door) to complex systems (for example artificial intelligence controllers) - is scripted. The biggest benefit of this is that the **development of the game itself (the map and its logic)** can be **separated** from the **development of the game engine!** The game engine delivers the tools which content creators then use.
