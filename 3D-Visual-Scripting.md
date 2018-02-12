@@ -3,44 +3,45 @@ Branches | Issues | Main developers
 [hanni/3DVisualScripting](/inexorgame/code/tree/hanni/3DVisualScripting) |  [#99](/inexorgame/code/issues/99), [#111](/inexorgame/code/issues/111) | [@IAmNotHanni](/IAmNotHanni)
 
 # Introduction
-This article was written for readers without any technical knowledge of scripting. The objective is to introduce some important ideas behind scripting languages. This is the foundation for the understanding of Inexor's 3D visual scripting system.
+This article was written for readers without any technical knowledge of scripting. The objective is to introduce some important ideas behind scripting languages. This will lay the foundation for the understanding of Inexor's 3D visual scripting system.
 
 ## What's a script?
-Scripts allow you to write program code without having to edit and recompile the source code. Scripts will not be compiled into an executable file, instead they will be processed by an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)). This means script code can be changed after the program in which the interpreter is embedded has been compiled. Script code can even be changed while the program is running. [Scripting languages](https://en.wikipedia.org/wiki/Scripting_language) are usually easier and faster to learn than high level programming languages like C++.
+Scripts allow you to write or change your program without having to recompile the source code into a new executable file (like an .exe file). As instead, scripts are run by an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)). The executable file which contains this interpreter to make the script work is often referred as [runtime enviroment](https://en.wikipedia.org/wiki/Runtime_system). Once your runtime enviroment is set up and running you usually focus on writing scripts. Script code can be changed after the program in which the interpreter is embedded has been compiled. Script code can even be changed while the program is running. Changing the source code of your runtime enviroment and recompiling it should only be done when neccesary. The development of the scripting language and it's interpreter is usually not your job and is carried out by professionaly for you.
 
-One of the most popular scripting languages is [JavaScript](https://en.wikipedia.org/wiki/JavaScript), which runs in your browser while you are reading this. Javascript made the development of modern websites possible and every popular website uses it today. After this the development of [NodeJS](https://nodejs.org/en/) had a big impact on developers because it makes it possible to use Javascript to write desktop applications. NodeJS runs on [Google's V8 engine](https://developers.google.com/v8/) which powers Google Chrome. Since [NodeJS](https://nodejs.org/en/) (see [[Inexor-Flex]]) is integrated into Inexor we have the full power of Javascript available as well.
+[Scripting languages](https://en.wikipedia.org/wiki/Scripting_language) are usually easier to understand and faster to learn than high level programming languages like C++. One of the most popular scripting languages is [JavaScript](https://en.wikipedia.org/wiki/JavaScript), which runs in your browser while you are reading this. JavaScript made the development of modern websites possible and every popular website uses it today. JavaScript initially was designed for being used in websites but it quickly gained popularity in other fields of development due to the development of [NodeJS](https://nodejs.org/en/). NodeJS had a big impact on developers because it makes it possible to use JavaScript to write desktop applications! NodeJS runs on [Google's V8 engine](https://developers.google.com/v8/) which powers Google Chrome. Since [NodeJS](https://nodejs.org/en/) is integrated into Inexor we have the full power of Javascript available as well. For further informations you should read about [[Inexor-Flex]].
 
 ## How are scripts being used in games?
-The big part of the game logic in modern games - from simple player interactions (for example a button that opens a door) to complex systems (for example artificial intelligence controllers) - is scripted. The biggest benefit of this is that the **development of the game itself (the map and its logic)** can be **separated** from the **development of the game engine!** The game engine delivers the tools which content creators then use.
+The logic of every modern game is created with scripts. One benefit of this is that the development of the game is separated from the development of the game engine! The engine developers create tools for game developers (level designers, content creators...).
 
 ![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/a10c0c475f5b663e13fb39b5404ca174ad887b04/wiki/scripting_illustration.png)
 
 **Scripts are essential for a dynamic gameplay design!**
 
 ## What are the benefits?
+Here's a list of reasons why we use JavaScript with NodeJS in Inexor:
 
 #### simplicity
-* Scripting requires less knowledge about the technical backgrounds.
-* Javascript for example is easy to learn
-* The **scripting framework** gives you everything you need: events, functions, variables..
+* Scripting languages are easier to learn and to understand than high level programming languages like C++.
+* Writing scripts requires less technical knowledge.
+* Important functions, events and variables are already put together for you by game engine developers in a so called _framework_.
 
-#### development speed
-* You don't have to **recompile** your code into a new binary every time you've made a change.
-* You can test everything in **realtime**. You don't have to restart the game itself every time.
-* Modern scripting languages offer code execution with a speed that is similar to assembly code.
+#### productivity
+* You don't have to recompile your code into a new binary every time you've made a change.
+* You can test your scripts in realtime because you don't have to restart your runtime enviroment.
+
+#### speed
+* Modern interpreters feature high speed script execution which is close to compiled code.
 
 #### security
-* Javascript code runs in a **sandbox** which acts like a security layer between script and your computer. 
-* Executing someone elses script is less dangerous than compiling and executing C/C++ code someone else!
-* The chance of a game crash is reduced. At worst your script won't work.
+* JavaScript code runs in a [sandbox](https://en.wikipedia.org/wiki/Sandbox_(computer_security)) which shields off your operating system.
 
 #### portability
-* Scripts can be interpreted on every [platform](https://en.wikipedia.org/wiki/Computing_platform) (Windows, Linux, Mac..) where the required interpreter is available.
-* You can test your script on one platform and be assured that it will work on every other platforms as well.
-* Making sure your C/C++ source code works on other Platforms ("_porting_" the code) on the other hand is usually a (very) hard job.
+* Scripts run on every [platform](https://en.wikipedia.org/wiki/Computing_platform) (Windows, Linux, Mac..) on which the interpreter is available.
+* If you've tested your script on your platform you can rest assured that it will work on all other platforms as well.
+* There is no need to [port](https://en.wikipedia.org/wiki/Porting) your source code for a new platform.
 
 #### multithreading
-* Script tasks can be started in their own [thread](https://en.wikipedia.org/wiki/Thread_(computing)) which helps to distribute processor usage.
+* Scripts can be started in separate [threads](https://en.wikipedia.org/wiki/Thread_(computing)) which helps to distribute processor and memory usage.
 
 ## Example scripts
 Imagine you would like to add a button to your map that opens door 1 and plays a sound as soon as a player presses it. This could be done with the following script:
@@ -67,6 +68,8 @@ callback OnPlayerPressButton(player, button)
     CreateExplosion();
 }
 ```
+
+# Visual Scripting
 
 ## What is visual scripting?
 Visual scripting takes all this to the next level. Every script code can be expressed as a [graph](https://en.wikipedia.org/wiki/Graph_theory)!
