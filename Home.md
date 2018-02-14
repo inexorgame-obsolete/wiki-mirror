@@ -36,27 +36,27 @@ _**Most widely effecting parts on the bottom, most visible parts at the top**_
 
 <img src="https://raw.githubusercontent.com/inexorgame/visualisations/master/wiki/Inexor-structure.svg?sanitize=true" />
 
-Those bottom systems are giving the major direction, while the higher parts have to act in the frame of the lower choices.
+Those bottom systems determine the major direction, while the higher parts have to act in the frame of the lower choices.
 
-On the other hand, the parts on the top are the ones which really impact the end-product, the ones the normal player will remember.
+Otherwise the upper parts are those which predominantly influence the finished game and which the normal player will remember.
 
 We have the advantage that some systems do not necessarily need to be renewed for our plans to be fulfilled sufficiently.  
-And we have the time to iteratively create systems, and the freedom to improve their maintainability and usability until they are considered done.
+And we have the time to iteratively create systems, and the freedom to improve their maintainability and usability until they are considered to be done.
 
-Generally speaking we want to create and renew stuff in bottom-up order, as those low-level changes have the most impact over the whole system.
+Generally speaking we want to create and renew stuff in ascending order, as those low-level changes have the most impact over the whole system.
 
 ---
 
 Developing software always includes thinking about the level of abstraction you want to keep in each layer.  
-So how do we define seams? How to cut the system into logical chunks?
+So how do we define the cuts? How to cut the system into logical chunks?
 
 In our [[Overall Architecture]] page we give a clear rule for the first selection:  
 * Is it performance-critical or not?
 
-If not it should be moved to the [[Inexor Flex]]\(NodeJS\) part.  
-If it is it can remain in the [[Inexor Core]]\(C++\) side.
+If so it can remain in the [[Inexor Core]]\(C++\) side.
+Otherwise it should be moved to the [[Inexor Flex]]\(NodeJS\) part.  
 
-Furthermore aiming for our goal of having a flexible sourcebase, we refactor and renew it following our [[Coding Standards]].
+Furthermore aiming for a flexible source code, we refactor and renew it by following our [[Coding Standards]].
 
 However, we do not want to remain in the state of creating an engine, without providing the Sauerbraten people with something they can play.  
 Hence it's an iterative process to get the fundamental back-end _ready enough_ and providing features at the front-end (e.g. showcasing that new back-end functionality).
