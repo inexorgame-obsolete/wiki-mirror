@@ -4,14 +4,15 @@
 
 ## The Vision
 
-There are possibilities only an open-source game can offer.  
-There are ways only those can walk, who are not afraid of their ideas being stolen.
+There are opportunities only an open-source game can offer.  
+There are paths only those can walk who do not fear theft of their work.  
 
 We want to create a game which allows people to create the game.  
-To make it their own.  
 To have fun learning continuously more stuff as they dig deeper into making it their own.  
-And also: to develop the right mindset to attack challenging opportunities.
-This includes doing stuff cooperatively.  
+To develop the right mindset to attack challenging problems.  
+To work and create cooperatively in a team rather than on your own.
+
+Those who see it as enhancement when someone else starts working with their creation will find their place in this project.  
 Inexor will always try to bring people together.
 
 _See also:_
