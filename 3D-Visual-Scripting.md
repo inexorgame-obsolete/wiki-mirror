@@ -5,8 +5,8 @@ Branches | Issues | Main developers
 # Introduction
 This article was written for readers without any technical knowledge of scripting. It's objective is to introduce some important ideas behind scripting languages. This lays the foundation for the understanding of Inexor's 3D visual scripting system.
 
-## What's a script?
-Scripts allow you to write or change your program without having to recompile the source code into a new executable file (like an .exe file). As instead, scripts are run by an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)). The executable file which contains this interpreter to make the script work is often referred as [runtime enviroment](https://en.wikipedia.org/wiki/Runtime_system). Once your runtime enviroment is set up and running you usually focus on writing scripts. Script code can be changed after the program in which the interpreter is embedded has been compiled. Script code can even be changed while the program is running. Changing the source code of your runtime enviroment and recompiling it should only be done when neccesary. The development of the scripting language and it's interpreter is usually not your job and is carried out by professionaly for you.
+## What is a script?
+Scripts allow you to write or change your program without having to re[compile](https://en.wikipedia.org/wiki/Compiler) the source code into a new executable file (like an .exe file). As instead, scripts are run by an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)). The executable file which contains this interpreter to make the script work is often referred as [runtime enviroment](https://en.wikipedia.org/wiki/Runtime_system). Once your runtime enviroment is set up and running you usually focus on writing scripts. Script code can be changed after the program in which the interpreter is embedded has been compiled. Script code can even be changed while the program is running. Changing the source code of your runtime enviroment and recompiling it should only be done when neccesary. The development of the scripting language and it's interpreter is usually not your job and is carried out by professionaly for you.
 
 [Scripting languages](https://en.wikipedia.org/wiki/Scripting_language) are usually easier to understand and faster to learn than high level programming languages like C++. One of the most popular scripting languages is [JavaScript](https://en.wikipedia.org/wiki/JavaScript), which runs in your browser while you are reading this. It was JavaScript which made the development of modern websites possible and every popular website uses it today. JavaScript quickly gained popularity for other uses due to the development of [NodeJS](https://nodejs.org/en/). NodeJS had a big impact on developers because it makes it possible to use JavaScript to write desktop applications! NodeJS runs on [Google's V8 engine](https://developers.google.com/v8/) which powers Google Chrome. Since [NodeJS](https://nodejs.org/en/) is integrated into Inexor we have the full power of Javascript available for us. For further information read about [[Inexor-Flex]].
 
@@ -15,8 +15,9 @@ The big part of every modern game is created with scripts nowadays. **One of man
 
 ![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/a10c0c475f5b663e13fb39b5404ca174ad887b04/wiki/scripting_illustration.png)
 
-The first thing which pops into your mind when thinking of scripts in games is probably the logic of the scene. Questions like: _What is supposed to happen if the player hits this red button?_  
+Professional game developers of today would never [hardcode](https://en.wikipedia.org/wiki/Hard_coding) anything. This makes it difficult to make changes in the source code afterwards because you would have to reconsider your code and the way it is structured. The first thing which pops into your mind when thinking of scripts in games is probably the logic of the scene. [Use cases](https://en.wikipedia.org/wiki/Use_case) like: _What is supposed to happen if the player hits this red button?_  
 But it is not just the gameplay logic which is determined by scripts. Surprisingly many components of modern games are being developed with scripts: physics, networking, user interfaces, pickups, artificial intelligence and many more.   
+
 **Scripts are essential for dynamic gameplay designs of today!**
 
 ## What are the benefits?
@@ -25,11 +26,12 @@ As already mentioned Inexor uses JavaScript as scripting language by embedding N
 #### simplicity
 * Scripting languages are easier to learn and to understand than high level programming languages like C++.
 * Writing scripts requires less technical knowledge about software engineering.
-* Important functions, events and variables are already put together for you by game engine developers in a so called _framework_. Those are the puzzle pieces you can put together to create your game.
 
 #### productivity
 * You don't have to recompile your code into a new binary every time you've made a change.
 * You can test your scripts in realtime because you don't have to restart your runtime enviroment.
+* Important functions, events and variables are already put together for you by game engine developers in a so called **framework**. Those are the puzzle pieces you can put together to create your game.
+* Since everything you need is in the **framework** you don't have to worry about [dependency management](https://en.wikipedia.org/wiki/Package_manager).
 
 #### speed
 * Modern interpreters feature high speed script execution which is close to compiled code.
@@ -45,7 +47,7 @@ As already mentioned Inexor uses JavaScript as scripting language by embedding N
 #### multithreading
 * Scripts can be started in separate [threads](https://en.wikipedia.org/wiki/Thread_(computing)) which helps to distribute processor and memory usage.
 
-## Example scripts
+## Some JavaScript examples
 Imagine you would like to add a button to your map that opens door 1 and plays a sound as soon as a player presses it. This could be done with the following script:
 
 ```
@@ -71,21 +73,25 @@ callback OnPlayerPressButton(player, button)
 }
 ```
 
-# Visual Scripting
+## Before we continue
+You are now familiar with some basic concepts of scripting. All those concepts apply to the following passages as well. You should think of your own game scenarios which you would like to implement with scripting now. Please watch some videos about JavaScript to get a better idea of what all this is about:
 
-## What is visual scripting?
+[![error: image not found](https://img.youtube.com/vi/vEROU2XtPR8/0.jpg)](https://www.youtube.com/watch?v=vEROU2XtPR8)
+
+# Visual Scripting
 Visual scripting takes all this to the next level. Every script code can be expressed as a [graph](https://en.wikipedia.org/wiki/Graph_theory)!
 Instead of writing your script code in a text editor, you just playfully put together specific **relations** between certain **nodes** to a **graph**.
 
 **It is the types of nodes and their relations with each others that represent a script code.**
 
-To illustrate this, the first code example from above has been "rewritten" into the following corresponding **visual script**:
+This may sound complicated to you but it's really nothing but putting together stuff with arrows. To illustrate this, the first code example from above can be rewritten as the following corresponding **visual script**:
 
 ![error: image not found!](https://raw.githubusercontent.com/inexorgame/visualisations/aa4aa88812784dbb473c2e16c75a4e3d39c187ec/wiki/vs_graph_example_1.png)
 
 What you may noticed already:
 * An event node (here OnPlayerPressButton) starts code execution.
-* The direction of execution is indicated by the arrows (= **relations**) which are green, the red arrows show parameter references.
+* The direction of execution is indicated by the arrows (= **relations**) which are green.
+* The red arrows show which parameters are used.
 
 Here is the visual script for the second example:
 
@@ -94,19 +100,18 @@ Here is the visual script for the second example:
 Two event emitter nodes will cause the same function call. This visual script represents the idea that both shooting the barrel and pressing the button will cause the explosion.
 
 ## What are the benefits of visual scripting?
-**Please remember that it's just another way of illustrating code! A visual scripting system is as powerful as script code in text form.**
-
-> It is possible to transform the data from visual scripts to script code in text form. This means that we could transform our input data to javascript.
+Please remember that it's just another way of _illustrating_ code! Here's a list of advantages:
 
 #### even more simplicity
+* **You don't have to learn a programming language anymore!**  
 * You primarily work with your mouse to connect nodes.
 * You don't have to type that much on your keyboard anymore.
 * Visual scripting is fun!
 
 #### visually appearing work enviroment
 * It's much easier to look at a big visual script than to look a long lines of code.
-* Nodes can be grouped just like code can be split up into different files.
-* It' much easier to illustrate code execution in a visual script. We will come back to **visual debugging** later on.
+* Graphs can be grouped just like code can be split up into different files.
+* It' much easier to illustrate code execution in a visual scripting system (TODO: **visual debugging** link).
 
 #### No syntax errors possible!
 The visual scripting system exactly controls how nodes are linked together. [Syntax errors](https://en.wikipedia.org/wiki/Syntax_error) like in the following example are not possible in a graph representation of script code:
