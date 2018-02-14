@@ -1,9 +1,13 @@
 ### General
 [[Home]]  
 [Run Inexor](https://github.com/inexorgame/code/wiki/Run-Inexor)  
-[[Contact]]  
 [Website](https://inexor.org)  
-[[Frequently Asked Questions]]  
+[[Frequently Asked Questions]]
+
+### Communication
+
+[[Contact]]
+[Meetings](https://hackmd.io/CYFhFYCYCMGYEYC0A2e9yJAYwKYENE4AOWRPHCABiz2AE5hLIg==?both)
 
 ### Development
 
