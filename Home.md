@@ -53,7 +53,7 @@ So how do we define the cuts? How to cut the system into logical chunks?
 In our [[Overall Architecture]] page we give a clear rule for the first selection:  
 * Is it performance-critical or not?
 
-If so it can remain in the [[Inexor Core]]\(C++\) side.
+If so it can remain in the [[Inexor Core]]\(C++\) side.  
 Otherwise it should be moved to the [[Inexor Flex]]\(NodeJS\) part.  
 
 Furthermore aiming for a flexible source code, we refactor and renew it by following our [[Coding Standards]].
