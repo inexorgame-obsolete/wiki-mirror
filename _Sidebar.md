@@ -6,7 +6,7 @@
 
 ### Communication
 
-[[Contact]]
+[[Contact]]  
 [Meetings](https://hackmd.io/CYFhFYCYCMGYEYC0A2e9yJAYwKYENE4AOWRPHCABiz2AE5hLIg==?both)
 
 ### Development
