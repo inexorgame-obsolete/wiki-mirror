@@ -21,13 +21,11 @@ _See also:_
 
 ## The Background
 
-We do not start from scratch. We derived from the famous open-source game [Cube2: Sauerbraten](http://sauerbraten.org/), which already went this walk a good distance.
-Including an ingame map creator, a unique and fun gameplay and a friendly community, it gives us a head-start.
+We did not start from scratch. We derived from the famous open-source game [Cube2: Sauerbraten](http://sauerbraten.org/), which itself is a great open source project.
+It's unique gameplay, friendly and creative community, elaborated engine features, ingame map editor and much more gave us a great head-start. One advantage is that we always have something to play with, even in times we consider ourselves unfinished.  
 
-The obvious advantage is that we always have something playable, even in times we consider ourselves not-yet-arrived.
-
-We forked off from Sauerbraten when its development died. We find the ideas of Sauerbraten worthy enough to sustain in a new game.
-The code-base has aged of course, but as we continue renewing it towards being easier to work with, we will be able to implement a lot of modern ideas and unique solutions.
+We forked off from Sauerbraten as its development has met the end. We find the ideas of Sauerbraten worthy enough to be sustained in a new game. Everyone who really cared about the game knew that something had to follow it up.
+The code-base has aged of course, but as we continue renewing it we will be able to implement a lot of modern ideas and unique solutions. Refactoring the code so it becomes easier to work with is one of our major tasks in this project.
 
 ## The Connection
 
