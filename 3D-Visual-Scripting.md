@@ -100,20 +100,18 @@ Here is the visual script for the second example:
 Two event emitter nodes will cause the same function call. This visual script represents the idea that both shooting the barrel and pressing the button will cause the explosion.
 
 ## What are the benefits of visual scripting?
-Please remember that it's just another way of _illustrating_ code! Here's a list of advantages:
 
-#### even more simplicity
-* **You don't have to learn a programming language anymore!**  
-* You primarily work with your mouse to connect nodes.
-* You don't have to type that much on your keyboard anymore.
-* Visual scripting is fun!
+#### It makes everything even more simple
+* **You don't have to learn a programming language anymore to create game logic!**
+* Big chunks of script code can be visualized clearly.
+* Visual scripts can be converted into script files. This is much more difficult to do the other way!
+* Interpreting visual scripts is much easier since it's a representation of the interpreter's data model.
+* Complex code components can be illustrated easily.
+* Since you connect nodes with your mouse there is less typing required.
+* Sorting and grouping nodes helps illustrating code parts.
+* Complex code parts which are not relevant for you are hidden.
 
-#### visually appearing work enviroment
-* It's much easier to look at a big visual script than to look a long lines of code.
-* Graphs can be grouped just like code can be split up into different files.
-* It' much easier to illustrate code execution in a visual scripting system (TODO: **visual debugging** link).
-
-#### No syntax errors possible!
+#### Syntax error prevention
 The visual scripting system exactly controls how nodes are linked together. [Syntax errors](https://en.wikipedia.org/wiki/Syntax_error) like in the following example are not possible in a graph representation of script code:
 
 ```
@@ -124,17 +122,16 @@ callback OnPlayerPressButton player) // syntax error: forgot (
 }
 ```
 
-> **Logic errors** however are still possible. Neither a compiler nor an interpreter can discuss the logic of your code. If your intention is to kill the player as soon as he hits the button although you programmed it to heal him that's an example for a logic mistake!
+> **Logic errors** however are still possible. Neither a compiler nor an interpreter can discuss the logic of your code. If your intention is to kill the player as soon as he hits the button although you intended to heal him that's an example of a logic mistake!
 
-## How important is visual scripting for modern game engines?
+## Do other game engines use visual scripting?
 
 Every modern game engine has a visual scripting enviroment. 
 * [Unreal Engine 4 ](https://www.unrealengine.com/en-US/blog) for example has a system called [Blueprint](https://docs.unrealengine.com/latest/INT/Engine/Blueprints/) (formerly called Kismet).
 * [CryEngine](http://crytek.com/) has a visual scripting enviroment called [Flowgraph](https://www.cryengine.com/features/sandbox-tools#features/flowgraph).
 * [Blender](https://www.blender.org/) has a built in visual scripting enviroment called Blender Game Engine.
 * [Unity](https://unity3d.com/de/) has a visual scripting editor available in the assets store.
-
-> Visual scripting can also be used to create **GPU shaders** like vertex or pixel shaders!
+* [Godot Engine](https://godotengine.org)
 
 # Visual Scripting in 3D!
 Now that we have discussed visual scripting in 2 dimensions, lets go one step further. All those programming concepts can be applied in 3 dimensions as well! 
