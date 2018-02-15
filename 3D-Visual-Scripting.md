@@ -147,6 +147,6 @@ In the following youtube video you can see a spheric area. A console message wil
 
 Before the new system will be implemented everything should be _planned_ here in the wiki first!
 
-## Inexor's 3D visual scripting system: AGENDA
+## Inexor's 3D visual scripting system: Inexor INTENT
 
-go to the main page: [[AGENDA 3D Visual Scripting System]]
+see: [[INTENT 3D Visual Scripting System]]
