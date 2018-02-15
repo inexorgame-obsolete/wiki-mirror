@@ -5,10 +5,10 @@ Intent is a 3D visual scripting engine created for Inexor.
 
 TODO:
 
-[[Intent's architecture]]
-[[Intent's use case examples]]
-[[Intent's code execution layers]]
-[[Intent's code execution strategy]]
-[[Intent's JavaScript export strategy]]
-[[Intent's graph rendering]]
-[[Intent's security]]
+[[Intent's architecture]]  
+[[Intent's use case examples]]  
+[[Intent's code execution layers]]  
+[[Intent's code execution strategy]]  
+[[Intent's JavaScript export strategy]]  
+[[Intent's graph rendering]]  
+[[Intent's security]]  
