@@ -147,7 +147,7 @@ In the following youtube video you can see a spheric area. A console message wil
 
 Before the new system will be implemented everything should be _planned_ here in the wiki first!
 
-## Inexor's 3D visual scripting system: Inexor INTENT
+## Implementing a 3D visual scripting enviroment
 
 ![error: image not found!](https://raw.githubusercontent.com/inexorgame/artwork/master/intent/Intent_rendered_512px.png)
 
