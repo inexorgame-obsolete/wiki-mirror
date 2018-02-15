@@ -149,4 +149,5 @@ Before the new system will be implemented everything should be _planned_ here in
 
 ## Inexor's 3D visual scripting system: Inexor INTENT
 
+![error: image not found!](https://raw.githubusercontent.com/inexorgame/artwork/master/intent/Intent_rendered_512px.png)
 see: [[INTENT 3D Visual Scripting System]]
