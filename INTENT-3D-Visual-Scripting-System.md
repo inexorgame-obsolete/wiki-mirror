@@ -12,8 +12,9 @@ As you should know Inexor forked off from [Cube2: Sauerbraten](http://sauerbrate
 The popular gamemode "racing" for example is build on top of _coop edit_ mode. In race mode the server will send the next map to everyone before the round starts. Then racing starts and you have to find your way through the map in order to find the goal. Another example is the "rugby" mode which is build on _capture the flag_. Teammates can pass the flag by shooting each other. Also fun is the "zombie" mode which is build on Sauer's _efficiency team_ mode. One player starts as zombie and has to infect others. Those who are infected change the effic team and hunt on.
 
 ## The limits of Cube2's modified gamemodes
-It is not possible to change the client's behaviour in any way since this would require your players to download a modified version of Cube2.
+It is not possible to change the client's behaviour in any way since this would require your players to download a modified version of Cube2. Although there have been many attempts to establish modified clients no one really was abled to push through.
 
+## What more do you want?
 TODO
 
 # Demand analysis
