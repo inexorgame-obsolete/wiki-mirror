@@ -1,8 +1,4 @@
-# Introduction
-
-Welcome to Inexor Intent!  
-Intent is the code name for Inexor's implementation of a 3D visual scripting engine.
-
+# Logo
 ![error: image not found!](https://raw.githubusercontent.com/inexorgame/artwork/master/intent/Intent_rendered_512px.png)
 
 # Motivation
