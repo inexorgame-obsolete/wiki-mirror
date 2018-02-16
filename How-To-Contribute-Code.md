@@ -15,7 +15,7 @@ Presteps:
 * Always helpful: [Speak with the other Inexor people](Contact) about your feature idea.
 
 * Take some time to document a roadmap for yourself. Which features would you like to work on or help implementing them? 
-  * Pick up an issue. We have **_good first bug_** (meaning small Inexor related preknowledge is required) issues to help you getting started:
+  * Pick up an issue. We have **_[good first bug](https://github.com/inexorgame/inexor-core/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)_** (meaning small Inexor related preknowledge is required) issues to help you getting started:
     * [difficulty beginner](https://github.com/inexorgame/code/issues?q=label%3A%22good+first+bug%22+label%3Adiff%3Abeginner+is%3Aopen); Task which doesn't require you to have any previous experiences with the used language/the used technologies.
     * [difficulty intermediate](https://github.com/inexorgame/code/issues?q=label%3A%22good+first+bug%22+label%3Adiff%3Aintermediate+is%3Aopen); You already made first touch with the used language and are ready for more.
     * [difficulty advanced](https://github.com/inexorgame/code/issues?q=label%3A%22good+first+bug%22+label%3Adiff%3Aadvanced+is%3Aopen); Trickier tasks which also requires you to have some experience with the language and in approaching tasks.
