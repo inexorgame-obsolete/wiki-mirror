@@ -20,6 +20,9 @@ The greatest thing about introducing a new technology to Inexor is that you ofte
 # Demand analysis
 TODO
 
+# Proof of concept
+TODO
+
 # Objective
 TODO
 
