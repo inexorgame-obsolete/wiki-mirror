@@ -3,7 +3,7 @@ Branches | Issues | Main developers
 [hanni/3DVisualScripting](/inexorgame/code/tree/hanni/3DVisualScripting) |  [#99](/inexorgame/code/issues/99), [#111](/inexorgame/code/issues/111) | [@IAmNotHanni](/IAmNotHanni)
 
 # Introduction
-This article was written for readers without any technical knowledge of scripting. It's objective is to introduce some important ideas behind scripting languages. This lays the foundation for the understanding of Inexor's 3D visual scripting system.
+This article was written for readers without any previous knowledge. It's objective is to introduce you to some important concepts of scripting languages and visual scripting. This lays the foundation for the understanding of Inexor's [3D visual scripting engine](https://github.com/inexorgame/inexor-core/wiki/INTENT-3D-Visual-Scripting-System).
 
 ## What is a script?
 Scripts allow you to write or change your program without having to re[compile](https://en.wikipedia.org/wiki/Compiler) the source code into a new executable file (like an .exe file). As instead, scripts are run by an [interpreter](https://en.wikipedia.org/wiki/Interpreter_(computing)). The executable file which contains this interpreter to make the script work is often referred as [runtime enviroment](https://en.wikipedia.org/wiki/Runtime_system). Once your runtime enviroment is set up and running you usually focus on writing scripts. Script code can be changed after the program in which the interpreter is embedded has been compiled. Script code can even be changed while the program is running. Changing the source code of your runtime enviroment and recompiling it should only be done when neccesary. The development of the scripting language and it's interpreter is usually not your job and is carried out by professionaly for you.
@@ -139,13 +139,6 @@ In most visual scripting systems the **graph** is edited in a planar 2D window t
 * Inexor disagrees with this concept and lets you place you nodes directly into the map!
 * It is intuitive to place script code (= **nodes** and **relations**) at the place where it affects the game world!
 * **The map itself is our visual scripting enviroment!**
-
-## Proof of concept
-In the following youtube video you can see a spheric area. A console message will appear once you enter or leave the area. Please note that this very basic implementation in 3D may looks different than the 2D graph examples from above but in essence this does represent a visual script!
-
-[![error: image not found](https://img.youtube.com/vi/VC2eyxCNVfw/0.jpg)](https://www.youtube.com/watch?v=VC2eyxCNVfw)
-
-Before the new system will be implemented everything should be _planned_ here in the wiki first!
 
 ## Implementing a 3D visual scripting enviroment
 
