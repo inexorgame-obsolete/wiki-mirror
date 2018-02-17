@@ -16,7 +16,14 @@ It is not possible to change the client's behaviour in any way since this would 
 The greatest thing about introducing a new technology to Inexor is that you often can't forsee all the great things people will come up with when they use new features. In Cube2 we've seen people create remarkable gameplay by making the most of the technology that was available. But the creative mind of those people is far greater than the boundaries of technology which sets limits to them.
 
 # Inspiration
-TODO
+* [DOOM](https://doom.com/de-de/) has an integrated map editor called [Snapmap](https://www.youtube.com/watch?v=_BxlmaQtd7g) which has an integrated visual scripting enviroment.
+* John Gebhardt gave an [interesing talk](https://www.youtube.com/watch?v=WjJdaDXN5Vs) about the use of visual scripting enviroments in the future.
+* [Unity](https://unity3d.com/) has a visual scripting plugin called [Bolt](https://www.youtube.com/watch?v=4eZuZhcRxoU).
+* [Unreal Engine 4](https://www.youtube.com/watch?v=EFXMW_UEDco) has a great visual scripting enviroment called [Blueprint](https://docs.unrealengine.com/latest/INT/Engine/Blueprints/). In Unreal Engine 3 this was called [Kismet](https://docs.unrealengine.com/udk/Three/KismetHome.html).
+* [Godot Engine](https://godotengine.org/) is an open source engine which supports visual scripting since version 3.
+* [CRYENGINE](https://www.cryengine.com/) has a visual scripting tool called [Flowgraph](https://www.cryengine.com/features/sandbox-tools#features/flowgraph)
+* [Glitchspace](https://www.youtube.com/watch?v=Jw3Uf7vOeVE) is a game which incorporates visual scripting as part of the game. You have to solve scripting problems to navigate through the game world.
+* [ICanScript](http://www.icanscript.com/11-learn) is another plugin for Unity engine.
 
 # Proof of concept
 
