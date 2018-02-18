@@ -13,7 +13,7 @@ You will need to obtain them in some form (see the specific [Windows](#windows) 
 
 * git
   * a version control system
-* [CMake >= v3.4.0](https://www.cmake.org/download/)
+* [CMake >= v3.9.2](https://www.cmake.org/download/)
   * Generates our platform specific build code from cross platform scripts
 * A Compiler
   * Translates the human-readable source code to executable binary code
@@ -112,7 +112,7 @@ The first step of building this project is rather obvious, but for sake of compl
 
 The next step is to get all the required dependencies to compile. You'll need an environment that can build C++ programs such as Eclipse, CLion, NetBeans.
 
-Specifically, on Linux you will need CMake >= 3.4, Conan, make and GCC >= 5.4 or Clang >= 3.9 as your compiler. The version numbers are minimum: They might work with older versions (but it's not official supported) and newer versions are better!
+Specifically, on Linux you will need CMake >= 3.9.2, Conan, make and GCC >= 5.4 or Clang >= 3.9 as your compiler. The version numbers are minimum: They might work with older versions (but it's not official supported) and newer versions are better!
 Also install your distribution's development packages of Mesa
 
 OS  | What to do
@@ -139,7 +139,7 @@ Afterwards run CMake, which generates project files for your favourite IDE or to
 If you have CMake in your path you can run `(mkdir build && cmake ..)`, you probably will need to add a `-G "<generator>"` flag to make it generate a project file for your precious IDE (you do not need this for makefiles on linux).  
 Alternatively use the example lines below.
 
-The most commonly used generators will probably include `Visual Studio`, `CodeBlocks`, `MinGW Makefiles`, `Unix Makefiles` and `Xcode`. There are also makefiles for Eclipse, Sublime Text and a lot others. The complete list can be found [here](https://www.cmake.org/cmake/help/v3.9/manual/cmake-generators.7.html).
+The most commonly used generators will probably include `Visual Studio`, `CodeBlocks`, `MinGW Makefiles`, `Unix Makefiles` and `Xcode`. There are also makefiles for Eclipse, Sublime Text and a lot others. The complete list can be found [here](https://cmake.org/cmake/help/git-master/manual/cmake-generators.7.html).
 
 ### Parallel builds
 
