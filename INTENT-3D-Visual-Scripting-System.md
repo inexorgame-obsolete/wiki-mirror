@@ -1,7 +1,8 @@
 ![error: image not found!](https://raw.githubusercontent.com/inexorgame/artwork/master/intent/Intent_rendered_512px.png)
 
-TODO: roadmap image here!  
-TODO: ticket table here!  
+Branches | Issues | Main developers
+--- | --- | --- 
+[hanni/3DVisualScripting](/inexorgame/code/tree/hanni/3DVisualScripting) |  [#99](/inexorgame/code/issues/99), [#111](/inexorgame/code/issues/111) | [@IAmNotHanni](/IAmNotHanni)
 
 # Motivation
 As you should know Inexor forked off from [Cube2: Sauerbraten](http://sauerbraten.org/). If you take a closer look at Sauer's community you will notice that people have figured out many ways to bring the [Cube Engine](http://cubeengine.com/) to it's limits. Since there is no scripting interface for Cube2's multiplayer it is neccesary to modify the server software to create new gamemodes. By combining modded servers with the available standard gamemodes people created all interesting stuff. **You can't modify the client's software with scripts in Cube2's multiplayer!**
@@ -36,6 +37,9 @@ TODO
 TODO
 
 # Objective
+TODO
+
+## Roadmap
 TODO
 
 # Implementation
