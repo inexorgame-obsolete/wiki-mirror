@@ -9,10 +9,17 @@ The popular gamemode "racing" for example is build on top of coop edit mode. In 
 ### The limits of Cube2's modified gamemodes
 It is not possible to change the client's behaviour in any way since this would require your players to download a modified version of Cube2. Although there have been many attempts to establish modified clients no one really was abled to push through. Since Inexor is not just a modification of Cube2: Sauerbraten but a new game it offers the perfect opportunity for the implementation of a both server- and client-sided visual scripting system.
 
+### Why is there no scripting in multiplayer in Cube2 by default ?
+It's not clear why this feature has not been striven for. Maybe it would have been too much work.
+
 ### What more do you want?
 The greatest thing about introducing a new technology to Inexor is that you often can't forsee all the great things people will come up with when they use new features. In Cube2 we've seen people create remarkable gameplay by making the most of the technology that was available. But the creative mind of those people is far greater than the boundaries of technology which sets limits to them.
 
+### What do other games achieve by using visual scripting
+TODO
+
 ### What will be possible with this?
+There is no limitation to what could be done with this. Everything we want to be possible will be possible.
 
 # Inspiration
 * [DOOM](https://doom.com/de-de/) has an integrated map editor called [Snapmap](https://www.youtube.com/watch?v=_BxlmaQtd7g) which has an integrated visual scripting enviroment.
