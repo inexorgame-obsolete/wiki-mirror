@@ -15,9 +15,6 @@ It's not clear why this feature has not been striven for. Maybe it would have be
 ### What more do you want?
 The greatest thing about introducing a new technology to Inexor is that you often can't forsee all the great things people will come up with when they use new features. In Cube2 we've seen people create remarkable gameplay by making the most of the technology that was available. But the creative mind of those people is far greater than the boundaries of technology which sets limits to them.
 
-### What do other games achieve by using visual scripting
-TODO
-
 ### What will be possible with this?
 There is no limitation to what could be done with this. Everything we want to be possible will be possible.
 
