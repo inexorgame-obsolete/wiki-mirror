@@ -1,7 +1,7 @@
 ![error: image not found!](https://raw.githubusercontent.com/inexorgame/artwork/master/intent/Intent_rendered_512px.png)
 
-TODO: roadmap image here!
-TODO: ticket table here!
+TODO: roadmap image here!  
+TODO: ticket table here!  
 
 # Motivation
 As you should know Inexor forked off from [Cube2: Sauerbraten](http://sauerbraten.org/). If you take a closer look at Sauer's community you will notice that people have figured out many ways to bring the [Cube Engine](http://cubeengine.com/) to it's limits. Since there is no scripting interface for Cube2's multiplayer it is neccesary to modify the server software to create new gamemodes. By combining modded servers with the available standard gamemodes people created all interesting stuff. **You can't modify the client's software with scripts in Cube2's multiplayer!**
@@ -24,6 +24,9 @@ The greatest thing about introducing a new technology to Inexor is that you ofte
 * [CRYENGINE](https://www.cryengine.com/) has a visual scripting tool called [Flowgraph](https://www.cryengine.com/features/sandbox-tools#features/flowgraph)
 * [Glitchspace](https://www.youtube.com/watch?v=Jw3Uf7vOeVE) is a game which incorporates visual scripting as part of the game. You have to solve scripting problems to navigate through the game world.
 * [ICanScript](http://www.icanscript.com/11-learn) is another plugin for Unity engine.
+
+# Philosophy
+TODO
 
 # Proof of concept
 
