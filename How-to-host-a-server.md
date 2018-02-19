@@ -38,3 +38,13 @@ This page shows how to create environment for running multiple servers.
 ## Stop the server
 
     kill `ps ax|grep [name]|grep server|cut -f1 -d" "
+
+# Starting a server in Inexor flex
+To start a server in Inexor flex, go to "instances" and click "start":
+
+![error: could not find image!](https://raw.githubusercontent.com/inexorgame/visualisations/e475eb76f10a16a8d594ee5ad863bee335ac9ccc/wiki/Inexor_FLEX_start_default_production_server.jpg)
+
+Then click "connect":
+
+![error: could not find image!](https://raw.githubusercontent.com/inexorgame/visualisations/e475eb76f10a16a8d594ee5ad863bee335ac9ccc/wiki/Inexor_FLEX_connect_to_default_production_server.jpg)
+
