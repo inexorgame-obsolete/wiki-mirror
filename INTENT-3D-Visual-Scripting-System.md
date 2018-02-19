@@ -1,9 +1,5 @@
 ![error: image not found!](https://raw.githubusercontent.com/inexorgame/artwork/master/intent/Intent_rendered_512px.png)
 
-Branches | Issues | Main developers
---- | --- | --- 
-[hanni/3DVisualScripting](/inexorgame/code/tree/hanni/3DVisualScripting) |  [#99](/inexorgame/code/issues/99), [#111](/inexorgame/code/issues/111) | [@IAmNotHanni](/IAmNotHanni)
-
 # Motivation
 As you should know Inexor forked off from [Cube2: Sauerbraten](http://sauerbraten.org/). If you take a closer look at Sauer's community you will notice that people have figured out many ways to bring the [Cube Engine](http://cubeengine.com/) to it's limits. Since there is no scripting interface for Cube2's multiplayer it is neccesary to modify the server software to create new gamemodes. By combining modded servers with the available standard gamemodes people created all interesting stuff. **You can't modify the client's software with scripts in Cube2's multiplayer!**
 
@@ -15,6 +11,8 @@ It is not possible to change the client's behaviour in any way since this would 
 
 ### What more do you want?
 The greatest thing about introducing a new technology to Inexor is that you often can't forsee all the great things people will come up with when they use new features. In Cube2 we've seen people create remarkable gameplay by making the most of the technology that was available. But the creative mind of those people is far greater than the boundaries of technology which sets limits to them.
+
+### What will be possible with this?
 
 # Inspiration
 * [DOOM](https://doom.com/de-de/) has an integrated map editor called [Snapmap](https://www.youtube.com/watch?v=_BxlmaQtd7g) which has an integrated visual scripting enviroment.
@@ -36,6 +34,9 @@ TODO
 # Demand analysis
 TODO
 
+## Use cases
+TODO
+
 # Objective
 TODO
 
@@ -43,5 +44,9 @@ TODO
 TODO
 
 # Implementation
-TODO
 
+Branches | Issues | Main developers
+--- | --- | --- 
+[hanni/3DVisualScripting](/inexorgame/code/tree/hanni/3DVisualScripting) |  [#99](/inexorgame/code/issues/99), [#111](/inexorgame/code/issues/111) | [@IAmNotHanni](/IAmNotHanni)
+
+TODO
