@@ -23,7 +23,7 @@ You will need to obtain them in some form (see the specific [Windows](#windows) 
 * [Conan](https://www.conan.io)
   * Our C++ package manager for our dependencies
     * don't forget to add our Conan repository: `conan remote add inexor https://api.bintray.com/conan/inexorgame/inexor-conan --insert`
-* [Node.js >= 8.2.1 + npm >= 3.0](https://nodejs.org)
+* [Node.js >= 8.9.0 + npm >= 3.0](https://nodejs.org)
   * This is the base for InexorFlex (our scripting environment)
   * npm (the node package manager) is usually included with node
 
@@ -51,7 +51,7 @@ This will give you a pretty good exemplary environment if you are on Windows.
    * `pip install conan`
    * `conan remote add inexor https://api.bintray.com/conan/inexorgame/inexor-conan --insert`
    * _Insert these commands into Windows Powershell or any other terminal you deem appropriate_
-* Download and install [Node.js >= 8.2.1 + npm >= 3](https://nodejs.org)
+* Download and install [Node.js >= 8.9.0 + npm >= 3](https://nodejs.org)
    * [**add it to your path**](https://github.com/inexorgame/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
 
 ## Fetching the Repository
@@ -127,7 +127,7 @@ Simply `pip install conan` should do it.
 Afterwards you need to add our Conan repository. Execute `conan remote add inexor https://api.bintray.com/conan/inexorgame/inexor-conan --insert`.
 
 ### Getting the latest Node.js
-For the application to run appropiately `Node.js >= 8.2.1` is required (it might work on lower versions, **it might**). 
+For the application to run appropiately `Node.js >= 8.9.0` is required (it might work on lower versions, **it might**). 
 Consider [their website](https://nodejs.org/en/) for install instructions.
 
 ## Running Conan & CMake
