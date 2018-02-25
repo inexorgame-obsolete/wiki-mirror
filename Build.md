@@ -51,8 +51,9 @@ This will give you a pretty good exemplary environment if you are on Windows.
    * `pip install conan`
    * `conan remote add inexor https://api.bintray.com/conan/inexorgame/inexor-conan --insert`
    * _Insert these commands into Windows Powershell or any other terminal you deem appropriate_
-* Download and install [Node.js >= 8.9.0 + npm >= 3](https://nodejs.org)
+* Download and install [Node.js >= 8.9.0](https://nodejs.org)
    * [**add it to your path**](https://github.com/inexorgame/code/wiki/%5BWindows%5D-add--windows_exe--to-PATH)
+* [Download and install Yarn >= 1.3.2](https://yarnpkg.com/en/docs/install)
 
 ## Fetching the Repository
 
