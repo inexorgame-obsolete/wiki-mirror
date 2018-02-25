@@ -1,4 +1,4 @@
-So you either built Inexor from source, installed it with `npm install @inexorgame/inexor-flex` or you used the windows installer.
+So you either built Inexor from source, installed it with `yarn add global @inexorgame/inexor-flex` or you used the windows installer.
 
 To make it run you simply execute `inexor-flex` on the command line (so in any cmd/powershell/terminal window).
 
@@ -9,11 +9,11 @@ However you may need to tell your OS where this mysterious `inexor-flex` command
 This is done by either:  
 
 **A) installing flex globally**
-   * `npm install --global @inexorgame/inexor-flex`
+   * `yarn add global @inexorgame/inexor-flex`
    * Note however that on Linux you will end up requiring `sudo` permissions to do that with the node.js solution provided by some distributions. **Don't do that!** Instead use [nvm](https://github.com/creationix/nvm#installation) to install node.js (or go for **B)**)
  
 **B) add flex to the PATH**
-   * After `npm install @inexorgame/inexor-flex` you have a subfolder `node_modules/.bin`.
+   * After `yarn install @inexorgame/inexor-flex` you have a subfolder `node_modules/.bin`.
    * Add that [directory to the PATH](https://www.google.de/search?q=add+folder+to+path) (that directory: the absolute path of that .bin folder)
  
 
