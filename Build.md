@@ -23,9 +23,9 @@ You will need to obtain them in some form (see the specific [Windows](#windows) 
 * [Conan](https://www.conan.io)
   * Our C++ package manager for our dependencies
     * don't forget to add our Conan repository: `conan remote add inexor https://api.bintray.com/conan/inexorgame/inexor-conan --insert`
-* [Node.js >= 8.9.0 + npm >= 3.0](https://nodejs.org)
+* [Node.js >= 8.9.0](https://nodejs.org)
   * This is the base for InexorFlex (our scripting environment)
-  * npm (the node package manager) is usually included with node
+* [Yarn >= 1.3.2](https://yarnpkg.com/en/docs/install)
 
 On Linux you will be able to download all these through your package manager.
 
