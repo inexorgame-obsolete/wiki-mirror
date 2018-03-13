@@ -31,5 +31,5 @@ It's possible to extend Inexor to provide own user interfaces. Here are some ide
 | --- | --- |
 | Server Admin Panel | A server owner can provide an additional user interface for the management of the server |
 | Clan/Community | The game client shows information about your mates |
-| Editing UI |  |
-| Map generation UI |  |
+| Editing UI | UI to navigate and manage the editing experience. Inspecting selected entities, textures, models, etc |
+| Map generation UI | Tools to aiding in map creation. Terrain, Blendmap and mapsettings helpers |
