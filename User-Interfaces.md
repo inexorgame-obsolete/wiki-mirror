@@ -12,11 +12,11 @@ Furthermore the `Inexor Core` game client can handle multiple user interfaces. E
 
 ### `Inexor Flex`
 
-Someone have to deliver the websites shown in the `Inexor Core` game client. The is handled by `Inexor Flex`. Flex is able to provide multiple user interfaces at the same time.
+Flex delivers the websites shown in the `Inexor Core` game client. Flex is able to provide multiple user interfaces at the same time.
 
-Furthermore Inexor Flex not only provides user interfaces shown in the `Inexor Core` game client. It provides also user interfaces for the `Inexor Core` game server or for managing Inexor Flex itself.
+Furthermore Inexor Flex also provides user interfaces for the `Inexor Core` game server or for managing Inexor Flex itself.
 
-The Inexor project provides the following user interfaces:
+Currently the following user interfaces are provided by default:
 
 | User Interface | Ingame | Description |
 | --- | --- | --- |
