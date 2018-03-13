@@ -1,3 +1,4 @@
+Main project page: https://github.com/inexorgame/inexor-core/wiki/User-Interfaces
 The main menu provides the means to navigate the core contents of the game.
 
 * Splash screen
