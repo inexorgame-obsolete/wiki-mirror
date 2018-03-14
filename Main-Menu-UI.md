@@ -40,7 +40,7 @@ Since this part of the game is accountable the first impression, it is very impo
 We want users to get into the game as quickly as possible, but still allow for elaborate user involvement.
 Users can establish their place with the community. Allowing for easily sharing their contents, arranging games (duels, clan-fights, etc) or getting in touch with other players.
 
-> Inexor will end up being kind of a sandbox, and in fact it is already. Users should be able to create their own themes and distribute them among their friends.
+> Inexor will end up being kind of a sandbox, and in fact it is already. Users should be able to create their own themes and distribute them among their friends.  
 > From [[The-Main-Theme]]
 
 It is important to recite this here, to discuss the implementation details. What points in the menu does the user have to interact with the community?
@@ -49,7 +49,7 @@ It would be great to have a similar experience as Steam has with its workshop - 
 
 ## Design
 
-> In order to be unique, another FPS in gray and black is not what we are aiming for. But the opposite: it should be colorful and weird.
+> In order to be unique, another FPS in gray and black is not what we are aiming for. But the opposite: it should be colorful and weird.  
 > From [[The-Main-Theme]]
 
 We need to find a mix of offering the colorful weird UI we are looking for, but still allow for easily navigating.
