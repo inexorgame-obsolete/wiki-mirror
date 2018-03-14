@@ -75,9 +75,9 @@ Can also contain a background video of the different mechanisms of the game to g
 We need to decide, whether or not we provide a main menu to navigate the other pages, or if the navigation is always visible. Different concepts are outlined below.
 
 The background can indicate different states during the game.
-**Outside of a server:** slightly blurry video of a camera pan on a map
-**On a server:** with faded out background, so you can still see what is happening in the background
-**Singleplayer:** Current map as background or something that indicates that the game is paused.
+**Outside of a server:** slightly blurry video of a camera pan on a map.  
+**On a server:** with faded out background, so you can still see what is happening in the background.  
+**Singleplayer:** Current map as background or something that indicates that the game is paused.  
 
 ### Server browser
 
