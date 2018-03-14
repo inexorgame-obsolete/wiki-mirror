@@ -151,5 +151,26 @@ I would simplify this a bit in terms of performance levels.
 There are still some settings that players have a personal taste for. E.g. Motion blur or fadetime of dead bodies.
 
 ### Profile/Account
+
+Users should be able to enjoy the contents of the game without needing an account. However, to better connect with the community, users can authenticate with Inexor or another Single Sign On Service of choice (Twitter, Github, Google).
+There is an issue about authentication here: https://github.com/inexorgame/inexor-core/issues/459
+
+*Subpages:*
+
+* Registration
+* Login
+* Profile (Settings and Display)
+  * Avatar
+  * Name
+  * Color (For Chat, Maptitle signature, etc)
+  * Linked accounts (google, twitter, github) or Password
+  * Communities (add clan tag to my name)
+  * Friends
+
 ### Community
+
+This is about exploring and creating communities (clans, groups) and contents of other people
+
 ### Own content (Recently created/worked on)
+
+Show history of maps recently worked on, recently played on server
