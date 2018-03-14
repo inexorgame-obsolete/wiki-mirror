@@ -54,12 +54,13 @@ It would be great to have a similar experience as Steam has with its workshop - 
 > In order to be unique, another FPS in gray and black is not what we are aiming for. But the opposite: it should be colorful and weird.  
 > From [[The-Main-Theme]]
 
-We need to find a mix of offering the colorful weird UI we are looking for, but still allow for easily navigating.
-A good next step is to compare to other splash screens/main menus of other games that offer a similar experience.
+We need to find a mix of offering the colorful weird UI we are looking for, but still allow for easy navigation.
+A good next step is to compare to other splash screens/main menus of other games that offer a similar experience what we aim for.
 
 ### Examples
 
-TBD
+
+
 
 ## Pages
 
@@ -72,12 +73,26 @@ Can also contain a background video of the different mechanisms of the game to g
 
 ### Main Menu/Navigation
 
-We need to decide, whether or not we provide a main menu to navigate the other pages, or if the navigation is always visible. Different concepts are outlined below.
+We need to decide, whether or not we provide a main menu to navigate the other pages, or if the navigation is always visible. Different layout concepts are outlined below.
 
 The background can indicate different states during the game.
 **Outside of a server:** slightly blurry video of a camera pan on a map.  
 **On a server:** with faded out background, so you can still see what is happening in the background.  
 **Singleplayer:** Current map as background or something that indicates that the game is paused.  
+
+#### Dedicated
+
+Similar to Assassins Creed, menu items are layed out to be reachable via arrow keys/joystick (up/down/left/right) and each page has its own dedicated screen, removing all the other navigation items.
+![](https://i.imgur.com/mQqPYVr.jpg)
+See Video: https://www.youtube.com/watch?v=iacnap9ph9g
+
+This makes a great navigation for games that rely on other input methods than keyboard and mouse. E.g. Gamepad.
+For a limited set of options, this may make sense.
+
+#### Website-like
+
+Having the different tabs/pages always visible for navigation, can help in finding relevant menus quicker.
+
 
 ### Server browser
 
