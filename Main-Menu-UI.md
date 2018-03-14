@@ -28,26 +28,8 @@ The main menu provides the means to navigate the core contents of the game.
 
 ## Further planning
 
-* [ ] Define what pages/menus we need
-* [ ] Define how navigation around the menus works
-  * [ ] Is there one main menu where you can get to the other pages, or is it always visible?
-* [ ] Define design (look and feel)
-  * [ ] How components (buttons, switches, sliders) look like
-  * [ ] How interaction with the menu works (mouse? keyboard?)
-  * [ ] How menus blend from one into another (motion design)
-  * [ ] Which layouts do we use?
-* [ ] Guided onboarding experience (first time visiting)
-  * [ ] Get started quickly with the way users interact with the game
-  * [ ] Empty states with actionable navigation (no profile created - create one now)
-* [ ] Define how users can interact with other users outside servers and outside the game
-  * [ ] What pages do they have?
-  * [ ] How do they interact with others if they have no account/profile?
-  * [ ] In what parts of the game do they access these pages?
-  * [ ] What are the workflows to publish/download/share?
-* [ ] User Profile
-  * [ ] How do they create their own profile? (What is the minimum information required for authentication)
-    * [ ] What other services do we integrate with for single sign on? Google? Twitter? Github?
-  * [ ] What information can they provide?
+See issue: https://github.com/inexorgame/inexor-core/issues/586  
+Contains a roadmap and current tasks to push this project further.
 
 ## Key indicators
 
