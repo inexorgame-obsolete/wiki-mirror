@@ -27,8 +27,6 @@ While this sound pretty concrete it is not really. But we try to follow the them
 * being surreal
 * being colorful
 
-Search with your favorite search engine for "underwater world" or "LSD" images and you will get tons of reference material.
-
 ### When being distractive, don't be counterintuitive
 
 Although the theme should bring color into the game and maybe bend the users head sometimes, it should always be obvious what the player actually needs to do.
@@ -39,4 +37,25 @@ The theme should not make it hard to see the goal, it should make it hard to rea
 Inexor's gameplay is fast. Really fast.
 Sauerbraten's match was heavy metal music.
 
-Inexor's main soundtrack will probably contain really progressive trance or psytrance.
+Inexor's main soundtrack will probably contain really progressive trance or psytrance. But nothing is set in stone, not here and never actually.
+
+
+## Inspirational material
+
+#### Colors
+
+[[https://wallup.net/wp-content/uploads/2016/07/20/30478-mineral-colorful-blue-yellow-orange-748x561.jpg]]
+
+[Similar images to that one (Google Image Search)](https://www.google.de/search?&tbs=simg:CAEStgIJX93Aau_1yeHMaqgILEKjU2AQaAggVDAsQsIynCBpiCmAIAxIovh79H8AegxeAF6YXmxHGHvwfyx6UKdsk8CHfKJ8pmjXgKJ4pkyn5NxowNywvsqxAcZIZlPJAHwbazwxcHj2HmgblqquQpyPvu8OyJgeghU3mJzhKYPyg4jALIAQMCxCOrv4IGgoKCAgBEgQTPyUWDAsQne3BCRqXAQoiCg9wc3ljaGVkZWxpYyBhcnTapYj2AwsKCS9tLzA0ZGJfegodCgtmcmFjdGFsIGFydNqliPYDCgoIL20vMGN4d3QKGQoHcGF0dGVybtqliPYDCgoIL20vMGh3a3kKHQoLdmlzdWFsIGFydHPapYj2AwoKCC9tLzBwOXh4ChgKBm9yYW5nZdqliPYDCgoIL20vMGpjX3AM&q=mineral+wallpaper+hd&tbm=isch&sa=X&ved=0ahUKEwjI-LTS8-vZAhVMjCwKHXQfDnkQsw4IPQ&biw=1440&bih=771)
+
+Search with your favorite search engine/image board for "underwater world" or "LSD" images and you will get tons of reference material.
+
+#### Animations
+
+The feeling that one should not be too sure about the stuff one sees could become a key element of the theme.
+Movement of formerly static components like textures, background image could add to that.
+Even the animated transition between two different map models could be aimed at.
+
+* [The Inexor logo with a glitch filter applied](http://sythys.de/inexor/Inexorloadingiconwithglitch.html)
+* [Merging between different objects](https://68.media.tumblr.com/0696f6095bf1380b5717d466ca19c262/tumblr_om608p0Y3C1r55ed0o1_500.gif)
+   * Example from TV series "Rick and Morty"
