@@ -32,4 +32,5 @@ The style of the components should align with the design defined in [[Main-Menu-
 
 ## Further planning
 
-https://github.com/inexorgame/inexor-core/issues/299
+https://github.com/inexorgame/inexor-core/issues/299  
+https://github.com/inexorgame/inexor-core/issues/587  
