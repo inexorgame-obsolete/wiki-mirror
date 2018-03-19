@@ -8,6 +8,7 @@
 
 [[Contact]]  
 [Meetings](https://hackmd.io/CYFhFYCYCMGYEYC0A2e9yJAYwKYENE4AOWRPHCABiz2AE5hLIg==?both)
+[[Recruiting]]  
 
 ### Development
 
@@ -15,7 +16,6 @@
 [[Platform Support]]  
 [Milestones](https://github.com/inexorgame/code/milestones) / [Changelog](https://github.com/inexorgame/code/blob/master/changelog.md)  
 [[How to Contribute Code]]  
-[[Recruiting]]  
 [[Coding Standards]]  
 [Generating API Documentation](Documentation)  
 [[How To Debug]]  
