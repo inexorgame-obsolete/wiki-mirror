@@ -39,6 +39,7 @@
 [Command Line](https://github.com/inexorgame/inexor-core/wiki/Command-Line-Options-And-Commands)  
 [[Standard Paths]]  
 [[Sauerbraten Features]]  
+[[Game-Community]]  
 
 [[*Add a new feature*](https://github.com/inexorgame/inexor-core/wiki/Template-Feature)]  
 
