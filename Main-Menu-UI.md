@@ -39,15 +39,9 @@ Since this part of the game is accountable the first impression, it is very impo
 
 ### Involving users
 
-We want users to get into the game as quickly as possible, but still allow for elaborate user involvement.
-Users can establish their place with the community. Allowing for easily sharing their contents, arranging games (duels, clan-fights, etc) or getting in touch with other players.
-
-> Inexor will end up being kind of a sandbox, and in fact it is already. Users should be able to create their own themes and distribute them among their friends.  
-> From [[The-Main-Theme]]
-
-It is important to recite this here, to discuss the implementation details. What points in the menu does the user have to interact with the community?
-
-It would be great to have a similar experience as Steam has with its workshop - where users can publish their own content, download others. This could work ingame as also as a website to see the content. This would allow us to offer something as [Quadropolis](http://quadropolis.us/) (which was the community hub of Sauerbraten) as our own service to our users.
+The ingame community plays a central role, when it comes to collaboration.
+Community features are documented here: [[Game-Community]]
+Further implementation details how this is reflected in the menus, can be found further down in [[Main-Menu-UI#community]]
 
 ## Design
 
