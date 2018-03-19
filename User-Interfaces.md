@@ -16,20 +16,25 @@ Flex delivers the websites shown in the `Inexor Core` game client. Flex is able 
 
 Furthermore Inexor Flex also provides user interfaces for the `Inexor Core` game server or for managing Inexor Flex itself.
 
-Currently the following user interfaces are provided by default:
+Ingame, UIs are applied as layers. E.g. HUD, Console and Menus.
+Standalone means, that the UI can also be served as a webpage outside the game.
 
-| User Interface | Ingame | Description |
-| --- | --- | --- |
-| [ui-flex](/inexorgame/ui-flex) | <ul><li>[ ] Ingame</li><li>[x] Standalone</li></ul> | Management of instances, media repositories, user interfaces, logging and updating Inexor |
-| [ui-client-hud](/inexorgame/ui-client-hud) | <ul><li>[x] Ingame</li><li>[ ] Standalone</li></ul> | Ingame HUD |
-| [ui-client-interface](/inexorgame/ui-client-interface) | <ul><li>[x] Ingame</li><li>[ ] Standalone</li></ul> | Ingame dialogs like settings |
-| [ui-console](/inexorgame/ui-console) | <ul><li>[x] Ingame</li><li>[x] Standalone</li></ul> | The console prints text messages (chat or command output) and allows to input commands. The console is used in the game client but also in a web browser for managing game servers |
- 
-It's possible to extend Inexor to provide own user interfaces. Here are some ideas:
+UIs like the HUD are not receptive to mouse or keyboard inputs, to make the main game still interactive.
+
+Currently the following user interfaces are in development and are going to be provided by default:
+
+| User Interface | Project | Ingame | Standalone | Description |
+| --- | --- | --- | --- | --- |
+| Flex | [ui-flex](/inexorgame/ui-flex) | <ul><li>[ ] </li></ul> | <ul><li>[x] </li></ul> | Management of instances, media repositories, user interfaces, logging and updating Inexor |
+| HUD | [ui-client-hud](/inexorgame/ui-client-hud) | <ul><li>[x] </li></ul> | <ul><li>[ ] </li></ul> | Heads up display - providing context-relative information without mouse/keyboard input |
+| Main Menus | [ui-client-interface](/inexorgame/ui-client-interface) | <ul><li>[x] </li></ul> | <ul><li>[ ] </li></ul> | Ingame dialogs like settings, profile, community, server browser. See [[Main-Menu-UI]] |
+| Console | [ui-console](/inexorgame/ui-console) | <ul><li>[x] </li></ul> | <ul><li>[x] </li></ul> | The console prints text messages (chat or command output) and allows to input commands. The console is used in the game client but also in a web browser for managing game servers |
+| Editing UI | | <ul><li>[x] </li></ul> | <ul><li>[ ] </li></ul> | UI to navigate and manage the editing experience. Inspecting selected entities, textures, models, etc. See [[Edit-Menu-UIs]] |
+
+It's possible to extend Inexor to provide user interfaces as plugin. Here are some ideas:
 
 | User Interface | Description |
 | --- | --- |
 | Server Admin Panel | A server owner can provide an additional user interface for the management of the server |
 | Clan/Community | The game client shows information about your mates |
-| Editing UI | UI to navigate and manage the editing experience. Inspecting selected entities, textures, models, etc |
-| Map generation UI | Tools to aiding in map creation. Terrain, Blendmap and mapsettings helpers |
+| Map generation UI | Tools to aid in map creation. Terrain, Blendmap and mapsettings helpers |
