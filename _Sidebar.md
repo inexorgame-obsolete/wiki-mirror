@@ -7,7 +7,7 @@
 ### Communication
 
 [[Contact]]  
-[Meetings](https://hackmd.io/CYFhFYCYCMGYEYC0A2e9yJAYwKYENE4AOWRPHCABiz2AE5hLIg==?both)
+[Meetings](https://hackmd.io/CYFhFYCYCMGYEYC0A2e9yJAYwKYENE4AOWRPHCABiz2AE5hLIg==?both)  
 [[Recruiting]]  
 
 ### Development
