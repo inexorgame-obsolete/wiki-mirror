@@ -40,7 +40,7 @@
 [[Standard Paths]]  
 [[Sauerbraten Features]]  
 
-[[*Wikipage-Template-for-Features*](https://github.com/inexorgame/inexor-core/wiki/Template-Feature)]  
+[[*Add a new feature*](https://github.com/inexorgame/inexor-core/wiki/Template-Feature)]  
 
 ### Tools
 
