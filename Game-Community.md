@@ -19,3 +19,9 @@ Every user can start out without an account. If you want to share or even maybe 
 ## Clans
 
 ## Notifications
+
+## Personal Scoreboard
+
+## Content Browser
+
+A Quadropolis clone that can be browsed ingame or exposed to a website. With the difference, that ingame you can almost immediately start exploring the map - without any messy installation instructions and moving folders. Inexor Flex makes sharing media already possible. This mechanism can be used to download game content provided by other users.
