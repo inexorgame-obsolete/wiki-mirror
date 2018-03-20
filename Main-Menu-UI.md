@@ -74,13 +74,14 @@ We need to decide, whether or not we provide a main menu to navigate the other p
 To reflect the requirements outlined in [#520](https://github.com/inexorgame/inexor-core/issues/520), the main menu should be aware of the players context. This can be expressed in various ways.
 
 The background can indicate different states during the game.
+
 **Gamestart and outside server:** slightly blurry video of a camera pan on a map.  
 **On a server:** with faded out background, so you can still see what is happening in the background.  
 **Singleplayer:** Current map as background or something that indicates that the game is paused.  
 
 While during gamestart, we could only show the main menu items, during gameplay, we could display gamemode-related content.
-**Editing:** Show buttons to the different map settings UIs
 
+**Editing:** Show buttons to the different map settings UIs  
 
 #### Dedicated
 
