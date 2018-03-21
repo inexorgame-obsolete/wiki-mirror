@@ -53,9 +53,6 @@ A good next step is to compare to other splash screens/main menus of other games
 
 ### Examples
 
-
-
-
 ## Pages
 
 This section defines what content is found on the individual pages and what its purpose is. We also define how they are interlinked with each other.
@@ -65,9 +62,20 @@ This section defines what content is found on the individual pages and what its 
 A short animation to introduce game logo, name, maybe even running version.
 Can also contain a background video of the different mechanisms of the game to give a better insight what the player is getting into.
 
+![](https://i.imgur.com/BxgKaEW.png)
+
+The splash screen doesn't necessarily need a play button and could seamlessly fade into the main menu.
+
 ### Main Menu/Navigation
 
-We need to decide, whether or not we provide a main menu to navigate the other pages, or if the navigation is always visible. Different layout concepts are outlined below.
+The main menu should offer a meaningful navigation towards the most relevant content for the user. While Content can be ordered by priority, most games fall into a cliche when it comes to organizing menu items:
+
+* singleplayer
+* multiplayer
+* settings
+* exit
+
+But we have a lot more items to fit and to prioritize.
 
 #### Context awareness
 
@@ -83,7 +91,10 @@ While during gamestart, we could only show the main menu items, during gameplay,
 
 **Editing:** Show buttons to the different map settings UIs  
 
-#### Dedicated
+
+We need to decide, whether or not we provide a main menu to navigate the other pages, or if the navigation is always visible. Different layout concepts are outlined below.
+
+#### Dedicated Areas
 
 Similar to Assassins Creed, menu items are layed out to be reachable via arrow keys/joystick (up/down/left/right) and each page has its own dedicated screen, removing all the other navigation items.
 ![](https://i.imgur.com/mQqPYVr.jpg)
@@ -92,10 +103,32 @@ See Video: https://www.youtube.com/watch?v=iacnap9ph9g
 This makes a great navigation for games that rely on other input methods than keyboard and mouse. E.g. Gamepad.
 For a limited set of options, this may make sense.
 
+In the sketch below, every section gets its preview of subsections.  
+E.g. recently played servers in Multiplayer, or if not yet played, a few recommendations.  
+Or recently created Community content and a button to explore more.  
+Or for singleplayer, the latest savegame or next mission/tutorial to play.  
+
+![](https://i.imgur.com/iSMrVnD.png)
+
+This also has a few disadvantages. Users do not know whether or not they can click on the heading of each card, or if this is everything, this might be counter-intuitive especially for the settings section. Which multiplayer for instance includes a "browse all servers" button.
+
 #### Website-like
 
 Having the different tabs/pages always visible for navigation, can help in finding relevant menus quicker.
 
+#### Context awareness
+
+To reflect the requirements outlined in [#520](https://github.com/inexorgame/inexor-core/issues/520), the main menu should be aware of the players context. This can be expressed in various ways.
+
+The background can indicate different states during the game.
+
+**Gamestart and outside server:** slightly blurry video of a camera pan on a map.  
+**On a server:** with faded out background, so you can still see what is happening in the background.  
+**Singleplayer:** Current map as background or something that indicates that the game is paused.  
+
+While during gamestart, we could only show the main menu items, during gameplay, we could display gamemode-related content.
+
+**Editing:** Show buttons to the different map settings UIs  
 
 ### Server browser
 
