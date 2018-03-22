@@ -143,8 +143,20 @@ We need to prioritize which server properties to display:
 * Current Map
 * Mode (In Sauerbraten, there is public, protected, private and auth)
 * N Friends playing here
+* Is clan server
+* Is favorite
+* List Players
 
-Other features: Mark server as favorite, list favorites
+These are all properties that can be used together with filters, sorting options or even a full-text search.  
+There are many ways to interact with a server:
+
+* Join server
+* List players
+* Mark server as favorite
+
+Below is an early draft of how the server browser may look like.
+
+![](https://i.imgur.com/UPEs6v0.png)
 
 ### Settings
 
