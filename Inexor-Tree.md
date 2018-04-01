@@ -37,56 +37,8 @@
 In **Inexor** everything is stored in the InexorTree. One would attach in InexorFlex a listener on the /game/is_intermission variable which gets executed as soon as that variable changed. No waiting time for the script in InexorCore hence.
 
 ## Accessing the Inexor Tree
-
 ### C++
-
-We use an in-house code generator for building the synchronization code for all SharedVars.
-It gets executed whenever the build folder was deleted or when explicitly triggered by building the target `regenerate_gluecode_inexor` or `regenerate_gluecode_server`.
-This is necessary when you added, removed or modified SharedVars.
-
-Declaring variables as shared across the components:
-
-```cpp
-namespace inexor {
-namespace rendering {
-    // This declares the variable under the path inexor/rendering/maxfps.
-    // It gets initialized with the value 200 and has the SharedOptions Range() and Persistent().
-    // More on SharedOptions (aka attributes for SharedDeclarations) see below.
-    SharedVar<int> maxfps(200, Range(0, 1000)|Persistent());
-
-    // We can also use classes as namespacing: we declare the variable inexor/rendering/screen/width here.
-    // It also calls a function every time it gets touched.
-    // Preprocessor logic gets handled, any other logic is forbidden in SharedOptions argument lists (see Range(...)).
-    #define MIN_SCREEN_W 768
-    class screen 
-    {
-      public:
-        SharedVar<int> width(1024, Range(MIN_SCREEN_W, 10000)|Function({log::get("global")->debug() << "changed width!"});
-    };
-} } // ns inexor::rendering
-```
-
-### Rules
-* Do not use any logic as arguments for SharedOptions
-    * e.g. `Range(1024, std::min(1200, 1440))` will definitely not work!
-    * Preprocessor logic is not forbidden though: defines will be correctly replaced before parsing the SharedVar.
-* Only public class members will be found
-    * private ones will be silently skipped
-* Currently usable types are:
-    * `char *`
-    * `int`
-    * `float`
-
-
-You can treat the variable as if it is a normal primitive.  
-Just remember there is some hidden overhead when setting the variable.
-```cpp
-    // It acts like a normal var.
-    int current_maxfps_plus_20 = inexor::rendering::maxfps + 20;
-
-    // However this will be synced to any other component which has the tree:
-    inexor::rendering::maxfps = 300;
-```
+[[Inexor Tree C++-API]]
 
 ### NodeJS
 
