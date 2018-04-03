@@ -1,58 +1,56 @@
 # C++ API for creating the Inexor Tree
 
-Actually in Inexor Core, the treelike structure is mainly implicitly given. The only difference between a normal variable and a variable shared in the tree is, that upon change, the change gets distributed to flex.  
-The path of the variable in flex arrives from the namespace and the name of the class instance you place a variable in. Exemplary the path `rendering/screen/width` comes from `::rendering::screen.width`, where `rendering` is a namespace in which a variable of a struct-type called `screen` is placed, which contains a variable `width`.
+The Inexor Tree in Inexor Core is actually just a number of exposed variables.  
+The only difference between a normal variable and a variable shared in the tree is, that upon change, the change gets distributed to all other components which have the same Tree.  
 
 The Tree contains no functions, only data.
 
 ## Generate the invisible code
 
 We use an in-house code generator for building the synchronization code for all *SharedVars*.
-It gets executed whenever the build folder was deleted or when explicitly triggered by building the target `gen_bindings_client` or `gen_bindings_server` (i.e. `make gen_bindings_client` when using make).
+We must do this, since C++ has very poor support of [code reflection](
+
+The "InexorGlueGen" code generator gets executed whenever the build folder was deleted or when explicitly triggered by building the target `gen_bindings_client` or `gen_bindings_server` (i.e. `make gen_bindings_client` when using make).
 This is necessary when you added, removed or modified *SharedVars*.
 
 ## SharedVars
 Declaring SharedVars is possible for various types of variables:
 
 * The primitive types `char *`, `float`, `int`
-* A list, array, queue or map
+* A std::list, std::array, std::deque or std::map
+     * or any other which can be dropped in for these (e.g. a std::unordered_map)
 * A class or struct
 * A pointer to any of the above
 
+All SharedVars must be in **global scope**.
 
-#### Declaring SharedVars -- Primitive Example
+#### The Path in the Tree
+
+When declaring a SharedVar it's path in the Tree is implicitly given following the *namespace* and the *class variables* in which it is contained.
+
+Exemplary the variable `::rendering::screen.width` (where `rendering` is a namespace in which a variable of a struct-type called `screen` is placed, which contains a variable `width`) results in the path `rendering/screen/width`.
+
+**Note:**
+The namespace `inexor` – which is used in C++ as the uppermost namespace for all (non-legacy) code – gets ignored when creating the Tree path.
+I.e. the variable `::inexor::rendering::screen.width` will be placed in the Tree as `rendering/screen/width`.
+
+### Primitives
 
 The code
 ```cpp
 namespace rendering {
-    SHAREDVAR(int, maxfps, 200, Range(0, 1000)|Persistent());
+    SHAREDVAR(int, maxfps, Default(200)|Range(0, 1000)|Persistent());
 }
 ```
-creates a SharedVar of type `int` named `maxfps`. It gets initialized with the value `200`.
-The last argument of the macro is a list of [SharedVarAttributes](#SharedVar-Attributes).
+creates a SharedVar of type `int` named `maxfps`.
+It gets initialized with the value `200`, each time the variable is set, it is clamped to the range of 0 to 1000, see [SharedVarAttributes](#SharedVar-Attributes).
 The resulting path of the variable in the Inexor Tree is `rendering/maxfps`.
 
--------
-
-**Note:**
-The namespace `inexor`, which is used in C++ as the uppermost namespace for all (non-legacy) code, gets ignored when creating the Tree Path.
-I.e. the code 
-
-```cpp
-
-namespace inexor {
-namespace rendering {
-    SHAREDVAR(int, maxfps, 200, Range(0, 1000)|Persistent());
-}
-}
-```
-results in the same variable `rendering/maxfps` in Inexor Flex.
-
-#### Declaring SharedVars -- Classes example
+### Classes SharedVars
 
 Often a good design tries to encapsulate connected variables in a class or struct.
 
-In the nature of C++ it is clear, that it is only possible to synchronize `public` SharedVars. Hence all entries must be public or get ignored.
+In the nature of C++ it is clear, that only `public` class elements can be synchronized. All *SharedVar*-elements must be public or get ignored.
 
 ```cpp
 namespace inexor {
@@ -60,19 +58,19 @@ namespace rendering {
     class screen_t
     {
       public:
-        SHAREDVAR(int, width, 1024, Range(0, 10000));
-
-        screen(SomeWeirdType *t) {}
+        SHAREDVAR(int, width, Default(1024)|Range(0, 10000));
     };
     SHAREDVAR(screen_t, screen, Persistent());
 } } // ns inexor::rendering
 ```
 
-#### Declaring SharedVars -- Lists example
+### Lists of SharedVars
 
-#### Declaring SharedVars -- Pointer example
+### Pointer to SharedVars
 
-#### Using SharedVars
+
+
+### Using SharedVars
 
 You can treat the variable as if it is a normal primitive.  
 For example a SharedVar `maxfps` could be used just like a normal variable
@@ -90,10 +88,15 @@ With *SharedVar-Attributes* one can attach logic to the variables with minimal e
 Each *SharedVar-Attribute* is actually a class definition, hence they get syntax-highlighted correctly in most IDEs.
 Using the Operator `|` one can attach more than just a single *SharedVar-Attribute* to a *SharedVar*.
 
-Although it is easily possible to create SharedVar-Attributes oneself, there are currently two SharedVar-Attributes usable by default
+Although it is easily possible to create SharedVar-Attributes oneself, there are currently four SharedVar-Attributes usable by default.
 
+* Default(value)
+  * set the default value of the variable (if no such SharedVar-Attribute is given, the default value is `0` or `""`)
 * Range(minimal, maximal)
 * Persistent()
+  * remember the value of the variable after shutdown
+* OnChange(functor)
+  * execute a given code as soon as the variable changes (
 
 
 **Do not use logic as arguments for SharedVar-Attributes**!
