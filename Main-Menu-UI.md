@@ -1,21 +1,31 @@
-Main project page: https://github.com/inexorgame/inexor-core/wiki/User-Interfaces
+Main project page: https://github.com/inexorgame/inexor-core/wiki/User-Interfaces  
 The main menu provides the means to navigate the core contents of the game.
 
-  - [Main pages](#main-pages)
-  - [Further planning](#further-planning)
-  - [Key indicators](#key-indicators)
+<!-- TOC -->
+
+- [Main pages](#main-pages)
+- [Content components](#content-components)
+- [Further planning](#further-planning)
+- [Key indicators](#key-indicators)
     - [First impression](#first-impression)
     - [Involving users](#involving-users)
-  - [Design](#design)
+- [Design](#design)
     - [Examples](#examples)
-  - [Pages](#pages)
+- [Pages](#pages)
     - [Splash screen](#splash-screen)
     - [Main Menu/Navigation](#main-menunavigation)
+        - [Context awareness](#context-awareness)
+        - [Dedicated Areas](#dedicated-areas)
+        - [Website-like](#website-like)
+        - [Context awareness](#context-awareness-1)
     - [Server browser](#server-browser)
     - [Settings](#settings)
+        - [Video](#video)
     - [Profile/Account](#profileaccount)
     - [Community](#community)
     - [Own content (Recently created/worked on)](#own-content-recently-createdworked-on)
+
+<!-- /TOC -->
 
 ## Main pages
 
@@ -25,6 +35,17 @@ The main menu provides the means to navigate the core contents of the game.
 * Profile/Account
 * Community
 * Own content (Recently created/worked on)
+
+## Content components
+
+Contents can be re-used across all menus. The display of a map can be used when managing published contents, but also when displaying a server browser.
+
+All content types (or components) have different views depending on the context.
+In a context menu or dropdown, you may only need the map name, and not the entire picture, description, author etc.
+
+![](https://i.imgur.com/0ygVlGR.png)
+
+Below is a list of content types and their properties and how they are linked together.
 
 ## Further planning
 
