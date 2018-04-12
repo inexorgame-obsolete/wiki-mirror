@@ -117,8 +117,9 @@ Specifically, on Linux you will need CMake >= 3.9.2, Conan, make and GCC >= 5.4 
 Also install your distribution's development packages of Mesa
 
 OS  | What to do
---- | ---
+--- | ---------------------------------------------------------------------------------------------------
 Debian/Debian-derived/Ubuntu | `sudo apt-get install git cmake build-essential nodejs python-pip` <br> CEF dependencies: `sudo apt-get install libpangocairo-1.0-0 libxcomposite1 libxrandr2 libxcursor1 libatk1.0-0 libcups2 libnss3 libgconf-2-4 libxss1 libasound2 libxtst6`
+Fedora   | `sudo dnf install git cmake`
 OpenSUSE | `zypper in -t pattern devel_C_C++` then run `zypper install mesa-libgl-devel node cmake git`
 ArchLinux | Run `sudo pacman -S --needed git cmake mesa mesa-libgl conan`. <br> CEF dependencies: `sudo pacman -S --needed pango cairo libxi libxcomposite alsa-lib libxtst gconf libxrandr`
 
