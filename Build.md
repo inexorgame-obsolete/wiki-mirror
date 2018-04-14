@@ -128,6 +128,11 @@ Conan.io is usually to be installed using the python package manager `pip`
 Simply `pip install conan` should do it.
 Afterwards you need to add our Conan repository. Execute `conan remote add inexor https://api.bintray.com/conan/inexorgame/inexor-conan --insert`.
 
+Afterwards you need to change the compiler version in `~/.conan/profiles/default` to
+```
+compiler.libcxx=libstdc++11
+```
+
 ### Getting the latest Node.js
 For the application to run appropiately `Node.js >= 8.9.0` is required (it might work on lower versions, **it might**). 
 Consider [their website](https://nodejs.org/en/) for install instructions.
