@@ -1,21 +1,32 @@
 So you either built Inexor from source, installed it with `yarn add global @inexorgame/inexor-flex` or you used the windows installer.
 
-To make it run you simply execute `inexor-flex` on the command line (so in any cmd/powershell/terminal window).
+To make it run you simply execute `inexor-flex client start 31417` on the command line (so in any cmd/powershell/terminal window).
 
-*{**Alternatively** you go into the installation directory of inexor-flex (usually somewhere in a `<installpath>/node_modules/@inexorgame/inexor-flex` folder) and run `npm start` to start the client profile.}*
+*{**Attention: Currently you need to do this differently:** go into the installation directory of inexor-flex (usually somewhere in a `<installpath>/node_modules/@inexorgame/inexor-flex` folder) and run `yarn start`.}*
 
-However you may need to tell your OS where this mysterious `inexor-flex` command is located.  
+~~However you may need to tell your OS where this mysterious `inexor-flex` command is located.  
 **Note:** No need for users of the windows installer.  
-This is done by either:  
+This is done by either:~~  
 
-**A) installing flex globally**
-   * `yarn add global @inexorgame/inexor-flex`
-   * Note however that on Linux you will end up requiring `sudo` permissions to do that with the node.js solution provided by some distributions. **Don't do that!** Instead use [nvm](https://github.com/creationix/nvm#installation) to install node.js (or go for **B)**)
+**~~A) installing flex globally~~**
+   * ~~`yarn add global @inexorgame/inexor-flex`~~
+   * ~~Note however that on Linux you will end up requiring `sudo` permissions to do that with the node.js solution provided by some distributions. **Don't do that!** Instead use [nvm](https://github.com/creationix/nvm#installation) to install node.js (or go for **B)**)~~
  
 **B) add flex to the PATH**
    * After `yarn install @inexorgame/inexor-flex` you have a subfolder `node_modules/.bin`.
    * Add that [directory to the PATH](https://www.google.de/search?q=add+folder+to+path) (that directory: the absolute path of that .bin folder)
- 
+
+## Troubleshooting
+
+#### Media folders corrupted
+
+If you see an error like
+```
+May 27 17:38:52 flex.media.repository.GitRepositoryManager[18154] ERROR: [additional] Failed to get current branch: reference 'refs/heads/master' not found. The repository additional seems to be corrupt
+May 27 17:38:52 flex.media.repository.GitRepositoryManager[18154] ERROR: [essential] Failed to get current branch: reference 'refs/heads/master' not found. The repository essential seems to be corrupt
+```
+you need to delete those folders, so it restarts cloning the media repositories. This is on our bug-list.
+If you do not know where those media folders are located, open the Flex-UI (http://localhost:31416) and in the tab `Information` you have it listed. Just delete all subfolders of Inexor's media path.
 
 ## Manual build - How do I run it?
 
