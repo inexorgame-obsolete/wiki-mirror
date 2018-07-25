@@ -1,7 +1,5 @@
 ## Top-level overview (keep it short and simple)
 
-  * [ci-docker](https://github.com/inexorgame/ci-docker) - Docker images
-    * Linux: build by [Travis](http://travis-ci.org/inexorgame/ci-docker/) and published to [DockerHub](https://hub.docker.com/r/inexorgame/ci-docker/)
   * [inexor-core](https://github.com/inexorgame/inexor-core)
     * Linux: [Travis](http://travis-ci.org/inexorgame/inexor-core/) downloads our Docker images and builds and tests inexor-core within them; publishes build packages to [GitHub releases](https://github.com/inexorgame/inexor-core/releases)
     * Windows: [AppVeyor](https://ci.appveyor.com/project/inexorgame/code) builds and tests; publishes build packages to [GitHub releases](https://github.com/inexorgame/inexor-core/releases)
