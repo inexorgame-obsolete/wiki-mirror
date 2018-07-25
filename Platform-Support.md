@@ -15,8 +15,8 @@ This page **DOES _NOT_** tell you on which operating systems, compilers, compile
 
 ## Official support for operating system 
  * Windows 7 and newer (32/64bit)
- * Ubuntu 16.04 (always the latest stable LTS)
- * Fedora 26 and newer (64bit)
+ * Ubuntu 18.04 (always the latest stable LTS)
+ * Fedora 28 and newer (64bit)
  * Arch Linux (64bit)
 
 
@@ -36,7 +36,7 @@ This page **DOES _NOT_** tell you on which operating systems, compilers, compile
 <tr><td></td><td>8.1 64bit</td><td> <a href="https://github.com/a-teammate">a_teammate</a> </td></tr>
 <tr><td></td><td>7 64bit</td><td> <b>Nobody at the moment?</b> </td></tr>
 <tr><td>Ubuntu </td><td>16.04 64bit</td><td> <a href="https://github.com/Fohlen">Fohlen</a>, <a href="http://github.com/aschaeffer">Hanack</a> </td> </td></tr>
-<tr><td>Fedora </td><td>26 64bit</td><td> <a href="https://github.com/Croydon">Croydon (Nooby)</a> </td></tr>
+<tr><td>Fedora </td><td>28 64bit</td><td> <a href="https://github.com/Croydon">Croydon (Nooby)</a> </td></tr>
 <tr><td>Arch Linux </td><td>64bit</td><td> <a href="https://github.com/terencode">terencode</a> </td></tr>
 
 </table>
