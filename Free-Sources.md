@@ -18,6 +18,7 @@ Free resources
 * [Google Fonts](http://www.google.com/fonts) - Fonts
 * [Jamendo](https://jamendo.com) - Music
 * [Nieb's Models](https://github.com/inexorgame/tesseract/tree/master/media/model/mapmodel/nieb) - Map models
+* [Even more Nieb's Stuff](https://github.com/red-eclipse/nieb)
 * [Blend Swap](http://www.blendswap.com) - Models
 * Argofox on [SoundCloud](https://soundcloud.com/argofox) or [YouTube](https://www.youtube.com/user/MMMontageMusic) - Music
 * [Reddit Gameassets](https://www.reddit.com/r/gameassets) - All kind
