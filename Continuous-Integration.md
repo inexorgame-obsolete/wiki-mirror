@@ -12,8 +12,14 @@
      * Windows: [AppVeyor](https://ci.appveyor.com/project/inexorgame/inexor-flex) builds and test
 
 
+## How to add new third-party Conan recipes 
+Add the reference to the `dependencies.py` file, then
+  * test it locally by adding the remote to your Conan repositories if not already done 
+  * if it works locally then you will need to ask one of the Inexor admins to link in the package to our Bintray repository
+    * this can be done by going to the package overview and using the "Link" button
+
 ## More details
-Generally speaken, we are trying to build and test our applications on all [platforms (operating systems, compilers..) we support](https://github.com/inexorgame/inexor-core/wiki/Platform-Support).
+Generally speaking, we are trying to build and test our applications on all [platforms (operating systems, compilers..) we support](https://github.com/inexorgame/inexor-core/wiki/Platform-Support).
 
 ## References
 [[Conan best practices]]
