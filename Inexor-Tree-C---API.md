@@ -17,10 +17,11 @@ This is necessary when you added, removed or modified *SharedVars*.
 Declaring SharedVars is possible for various types of variables:
 
 * The primitive types `char *`, `float`, `int`
-* A std::list, std::array, std::deque or std::map
-     * or any other which can be dropped in for these (e.g. a std::unordered_map)
+* A std::vector
+     * *Later: std::array, std::deque or std::map*
+       * or any other which can be dropped in for these (e.g. a std::unordered_map)
 * A class or struct
-* A pointer to any of the above
+* *Later: A pointer to any of the above*
 
 All SharedVars must be in **global scope**.
 
@@ -91,10 +92,12 @@ Using the Operator `|` one can attach more than just a single *SharedVar-Attribu
 Although it is easily possible to create SharedVar-Attributes oneself, there are currently four SharedVar-Attributes usable by default.
 
 * Default(value)
-  * set the default value of the variable (if no such SharedVar-Attribute is given, the default value is `0` or `""`)
+  * set the default value of the primitive SharedVar
+  * if no such "Default"-Attribute is given, the default value is `0`, `0.0` or `""`)
 * Range(minimal, maximal)
+  * clamps the values of the numerical SharedVar (int or float) to the respective range.
 * Persistent()
-  * remember the value of the variable after shutdown
+  * remember the value of the variable after shutdown of Inexor
 * OnChange(functor)
   * execute a given code as soon as the variable changes (
 
