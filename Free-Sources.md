@@ -4,6 +4,7 @@ Free resources
 ==============
 
 * [Inexor/Hanni's Audioaugust](https://github.com/inexorgame/audioaugust) - Sounds
+* [Minecraft's Sound Atrributions - Open Source licensed sounds in Minecraft](https://minecraft.net/en-us/attribution/sound/)
 * [Freesound.org](http://freesound.org) - Sounds
 * [Blender Cloud Textures](https://cloud.blender.org/p/textures/about)
 * [Freezurbern.com](http://www.freezurbern.com/#skybox) - Skyboxes
